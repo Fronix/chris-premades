@@ -5,14 +5,14 @@ async function rageContinue({workflow}) {
     if (!combatData.inCombat) return;
     const rageEffect = actorUtils.getEffectByIdentifier(workflow.actor, 'rage');
     if (!rageEffect) return;
-    await keepRageLegacy.utils.setTurn(combatData, rageEffect, workflow.token.id);
+    await keepRageLegacy.utils.setTurn(combatData, rageEffect);
 }
 async function attackSave({document: rageEffect, workflow}) {
     const combatData = tokenUtils.getCombatData(workflow.token);
     if (!combatData.inCombat) return;
     if (!workflow.targets.size || (workflow.activity.actionType !== 'save' && !workflowUtils.isAttackType(workflow, 'attack'))) return;
-    if (workflow.targets.some(t => t.document.disposition === workflow.token.document.disposition)) return;
-    await keepRageLegacy.utils.setTurn(combatData, rageEffect, workflow.token.id);
+    if (!workflow.targets.some(t => t.document.disposition !== workflow.token.document.disposition)) return;
+    await keepRageLegacy.utils.setTurn(combatData, rageEffect);
 }
 export const extendRage = {
     name: 'Rage',

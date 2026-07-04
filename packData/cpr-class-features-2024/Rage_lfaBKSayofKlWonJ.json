@@ -445,7 +445,7 @@
           }
         },
         "dae": {
-          "enableCondition": "!statuses.incapacitated && attributes.ac.equippedArmor?.system.type.value !== 'heavy'",
+          "enableCondition": "",
           "disableCondition": "",
           "stackable": "none",
           "expiryMode": "default",
@@ -488,7 +488,12 @@
                 "identifier": "keepRage"
               }
             ]
-          }
+          },
+          "specialDuration": [
+            "incapacitated",
+            "heavy"
+          ],
+          "identifier": "rage"
         }
       },
       "_key": "!items.effects!lfaBKSayofKlWonJ.sL6Qn1ntvxrhFaYD"

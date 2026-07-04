@@ -1,4 +1,4 @@
-import {actorUtils, animationUtils, automationUtils, documentUtils, effectUtils, genericUtils, Logging, workflowUtils} from '../../../../proxy.mjs';
+import {actorUtils, animationUtils, automationUtils, dataUtils, documentUtils, effectUtils, genericUtils, Logging, workflowUtils} from '../../../../proxy.mjs';
 async function preChecks({workflow}) {
     if (workflow.actor.system.attributes.ac.equippedArmor?.system.type.value === 'heavy' && !automationUtils.getConfigValue(workflow.item, 'allowHeavyArmor')) {
         genericUtils.notify('CHRISPREMADES.Macros.All.Rage.HeavyArmor', {type: 'warn'});
@@ -16,14 +16,20 @@ function rageEffect({effect, options, updates}) {
     if (!activity) return;
     const configs = {};
     const rules = documentUtils.getRules(activity.item) || '2014';
-    genericUtils.setProperty(configs, 'flags.cat.identifier', 'rage');
-    genericUtils.setProperty(configs, 'flags.cat.automation.rules', rules);
-    genericUtils.setProperty(configs, 'flags.cat.rage.bonus', automationUtils.getConfigValue(activity.item, 'rageBonus'));
-    genericUtils.setProperty(configs, 'flags.cat.rage.allowConcentration', automationUtils.getConfigValue(activity.item, 'allowConcentration'));
-    genericUtils.setProperty(configs, 'flags.cat.rage.allowSpellcasting', automationUtils.getConfigValue(activity.item, 'allowSpellcasting'));
-    if (automationUtils.getConfigValue(activity.item, 'allowHeavyArmor')) {
-        const expr = rules === '2024' ? '!statuses.incapacitated' : '!statuses.unconscious';
-        genericUtils.setProperty(configs, 'flags.dae.enableCondition', expr);
+    dataUtils.setRules(configs, rules);
+    genericUtils.setProperty(configs, 'flags.chris-premades.rage.bonus', automationUtils.getConfigValue(activity.item, 'rageBonus'));
+    genericUtils.setProperty(configs, 'flags.chris-premades.rage.allowConcentration', automationUtils.getConfigValue(activity.item, 'allowConcentration'));
+    genericUtils.setProperty(configs, 'flags.chris-premades.rage.allowSpellcasting', automationUtils.getConfigValue(activity.item, 'allowSpellcasting'));
+    if (automationUtils.getConfigValue(activity.item, 'allowHeavyArmor'))
+        genericUtils.setProperty(configs, 'flags.cat.specialDuration', (effect.flags.cat?.specialDuration ?? []).filter(d => d !== 'heavy'));
+    const secondActivity = activity.item.system.activities.getByType('utility').find(a => a.id !== activity.id);
+    if (secondActivity) {
+        genericUtils.setProperty(configs, 'flags.cat.vae.buttons', [{
+            type: 'use',
+            name: secondActivity.name,
+            itemIdentifier: activity.item.system.identifier,
+            activityIdentifier: secondActivity.identifier
+        }]);
     }
     effect.updateSource(configs);
     automationUtils.calledEventSync('preCreateRageEffect', activity.actor, {
@@ -64,15 +70,15 @@ async function spellcasting({document: effect, workflow}) {
         genericUtils.notify('CHRISPREMADES.Macros.All.Rage.' + reason, {type: 'warn'});
         workflow.aborted = true;
     };
-    if (workflow.activity.duration.concentration && !effect.flags.cat?.rage?.allowConcentration) return exit('Concentration');
-    if (!effect.flags.cat?.rage?.allowSpellcasting) return exit('Spellcasting');
+    if (workflow.activity.duration.concentration && !effect.flags['chris-premades']?.rage?.allowConcentration) return exit('Concentration');
+    if (!effect.flags['chris-premades']?.rage?.allowSpellcasting) return exit('Spellcasting');
 }
 async function rageDamage({document: effect, workflow}) {
     if (!workflow.hitTargets.size) return;
     if (workflow.activity.ability !== 'str') return;
     const allowedAttack = documentUtils.getRules(effect) === '2024' ? 'attack' : 'meleeWeaponAttack';
     if (!workflowUtils.isAttackType(workflow, allowedAttack)) return;
-    const formula = effect.flags.cat?.rage?.bonus;
+    const formula = effect.flags['chris-premades']?.rage?.bonus;
     if (!formula) return Logging.addMacroWarning('chris-premades', 'rage', 'Rage damage bonus formula not found!');
     await workflowUtils.bonusDamage(workflow, formula);
 }

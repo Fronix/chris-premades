@@ -1,8 +1,6 @@
 import {actorUtils, combatUtils, dialogUtils, documentUtils, genericUtils, queryUtils, tokenUtils, workflowUtils} from '../../../../proxy.mjs';
-async function setTurn(combatData, rageEffect, tokenId) {
-    let turnStamps = genericUtils.getProperty(rageEffect, 'flags.cat.rage.turn') ?? [];
-    turnStamps = combatUtils.addTurnStamp(turnStamps, tokenId, combatData);
-    await documentUtils.update(rageEffect, {'flags.cat.rage.turn': turnStamps});
+async function setTurn(combatData, rageEffect) {
+    await documentUtils.update(rageEffect, {'flags.chris-premades.rage.turn': combatData});
 }
 async function rageEnd({workflow}) {
     const rageEffect = actorUtils.getEffectByIdentifier(workflow.actor, 'rage');
@@ -12,21 +10,20 @@ async function attack({document: rageEffect, workflow}) {
     const combatData = tokenUtils.getCombatData(workflow.token);
     if (!combatData.inCombat) return;
     if (!workflow.targets.size || !workflowUtils.isAttackType(workflow, 'attack')) return;
-    if (workflow.targets.some(t => t.document.disposition === workflow.token.document.disposition)) return;
-    await setTurn(combatData, rageEffect, workflow.token.id);
+    if (!workflow.targets.some(t => t.document.disposition !== workflow.token.document.disposition)) return;
+    await setTurn(combatData, rageEffect);
 }
 async function isDamaged({ditem, document: rageEffect, targetToken}) {
     if (!ditem.isHit) return;
     const combatData = tokenUtils.getCombatData(targetToken);
     if (!combatData.inCombat) return;
     if (ditem.newHP >= ditem.oldHP) return;
-    await setTurn(combatData, rageEffect, targetToken.id);
+    await setTurn(combatData, rageEffect);
 }
 async function turnEnd({combatant, document: rageEffect, round, turn}) {
-    const turnStamp = genericUtils.getProperty(rageEffect, 'flags.cat.rage.turn')?.find(pt => pt.id === combatant.tokenId);
-    if (!turnStamp) return await setTurn(tokenUtils.getCombatData(combatant.token), rageEffect, combatant.tokenId);
-    if (turn === 0) turnStamp.round++;
-    if (round - turnStamp.round < 1) return;
+    const turnStamp = genericUtils.getProperty(rageEffect, 'flags.chris-premades.rage.turn');
+    if (!turnStamp) return await setTurn(tokenUtils.getCombatData(combatant.token), rageEffect);
+    if (round - turnStamp.currentRound < 1) return;
     const rules = documentUtils.getRules(rageEffect) === '2014' ? 'Legacy' : 'Modern';
     const selection = await dialogUtils.confirm(rageEffect.name, _loc(`CHRISPREMADES.Macros.${rules}.Rage.EndEarly`, {actorName: combatant.actor.name}), {userId: queryUtils.gmID()});
     if (!selection) return;
