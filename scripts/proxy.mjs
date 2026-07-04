@@ -80,3 +80,5 @@ export const summonUtils = createProxy(['utils', 'summonUtils']);
 export const compendiumUtils = createProxy(['utils', 'compendiumUtils']);
 /** @type {typeof import('cat/scripts/utilities/folderUtils.mjs').default} */
 export const folderUtils = createProxy(['utils', 'folderUtils']);
+/** @type {typeof import('cat/scripts/utilities/dataUtils.mjs').default} */
+export const dataUtils = createProxy(['utils', 'dataUtils']);

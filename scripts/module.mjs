@@ -17,7 +17,7 @@ Hooks.once('catInit', () => {
 
 });
 const validKeys = ['rules', 'aura', 'check', 'combat', 'effect', 'move', 'region', 'rest', 'save', 'skill', 'time', 'tool', 'roll', 'summon', 'generic', 'genericConfig', 'documents'];
-const packIds = ['chris-premades.CPRClassFeatures', 'chris-premades.CPRClassFeatures2024', 'world.cpr-class-features-modern'];
+const packIds = ['chris-premades.CPRClassFeatures', 'chris-premades.CPRClassFeatures2024'];
 //const packIds = [];
 Hooks.once('catReady', () => {
     Object.entries(animations).forEach(([identifier, value]) => api.registerAnimation({
