@@ -214,7 +214,8 @@
                   "identifier": "endRage"
                 }
               ]
-            }
+            },
+            "hidden": true
           }
         },
         "range": {

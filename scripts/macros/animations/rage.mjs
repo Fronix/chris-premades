@@ -228,10 +228,14 @@ function saiyan(document, sourceToken) {
 
         .play();
 }
+async function end(document, sourceToken) {
+    await Sequencer.EffectManager.endEffects({name: 'Rage', object: sourceToken});
+}
 export const rageDefault = {
     name: 'CHRISPREMADES.Animations.Default',
     macros: {
-        play: rage
+        create: rage,
+        delete: end
     },
     inputs: ['document', 'sourceToken'],
     requirements: ['jb2a_patreon'],
@@ -243,7 +247,8 @@ export const rageDefault = {
 export const rageLightning = {
     name: 'CHRISPREMADES.Animations.Rage.Lightning',
     macros: {
-        play: lightning
+        create: lightning,
+        delete: end
     },
     inputs: ['document', 'sourceToken'],
     requirements: ['jb2a_patreon'],
@@ -255,7 +260,8 @@ export const rageLightning = {
 export const rageSaiyan = {
     name: 'CHRISPREMADES.Animations.Rage.Saiyan',
     macros: {
-        play: saiyan
+        create: saiyan,
+        delete: end
     },
     inputs: ['document', 'sourceToken'],
     requirements: ['jb2a_patreon'],

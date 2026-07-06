@@ -1,4 +1,4 @@
-import {actorUtils, animationUtils, automationUtils, dataUtils, documentUtils, effectUtils, genericUtils, Logging, workflowUtils} from '../../../../proxy.mjs';
+import {actorUtils, automationUtils, dataUtils, documentUtils, effectUtils, genericUtils, Logging, workflowUtils} from '../../../../proxy.mjs';
 async function preChecks({workflow}) {
     if (workflow.actor.system.attributes.ac.equippedArmor?.system.type.value === 'heavy' && !automationUtils.getConfigValue(workflow.item, 'allowHeavyArmor')) {
         genericUtils.notify('CHRISPREMADES.Macros.All.Rage.HeavyArmor', {type: 'warn'});
@@ -22,8 +22,11 @@ function rageEffect({effect, options, updates}) {
     genericUtils.setProperty(configs, 'flags.chris-premades.rage.allowSpellcasting', automationUtils.getConfigValue(activity.item, 'allowSpellcasting'));
     if (automationUtils.getConfigValue(activity.item, 'allowHeavyArmor'))
         genericUtils.setProperty(configs, 'flags.cat.specialDuration', (effect.flags.cat?.specialDuration ?? []).filter(d => d !== 'heavy'));
+    const animationSetting = automationUtils.getConfigValue(activity.item, 'animation');
+    if (animationSetting) genericUtils.setProperty(configs, 'flags.cat.animation', {create: animationSetting, delete: animationSetting});
     const secondActivity = activity.item.system.activities.getByType('utility').find(a => a.id !== activity.id);
     if (secondActivity) {
+        genericUtils.setProperty(configs, 'flags.cat.unhideActivities', [secondActivity.identifier]);
         genericUtils.setProperty(configs, 'flags.cat.vae.buttons', [{
             type: 'use',
             name: secondActivity.name,
@@ -44,7 +47,7 @@ function rageEffect({effect, options, updates}) {
         }}
     );
 }
-async function animate({effect}) {
+async function rageBegin({effect}) {
     if (!effect) return;
     const activity = await effectUtils.getOriginActivity(effect);
     if (!activity) return;
@@ -58,11 +61,6 @@ async function animate({effect}) {
             token
         }
     });
-    const animationSetting = automationUtils.getConfigValue(activity.item, 'animation');
-    if (!animationSetting) return;
-    const animation = animationUtils.getAnimation(animationSetting);
-    if (!animation) return;
-    animation.macros.play(effect, token);
 }
 async function spellcasting({document: effect, workflow}) {
     if (workflow.item.type !== 'spell') return;
@@ -166,7 +164,7 @@ export const raging = {
         },
         {
             pass: 'created',
-            macro: animate,
+            macro: rageBegin,
             priority: 100
         }
     ],

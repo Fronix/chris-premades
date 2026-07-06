@@ -214,7 +214,8 @@
                   "identifier": "extendRage"
                 }
               ]
-            }
+            },
+            "hidden": true
           }
         },
         "range": {
