@@ -36,7 +36,7 @@ export const primalKnowledge = {
             default: [],
             type: 'select-many',
             options: () => CONFIG.statusEffects.map(status => ({value: status.id, label: status.name})),
-            label: 'CHRISPREMADES.Config.BlockingStatuses',
+            label: 'CHRISPREMADES.Config.BlockingConditions',
             category: 'tuning'
         },
         replacementAbility: {

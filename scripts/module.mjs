@@ -17,7 +17,7 @@ Hooks.once('catInit', () => {
 
 });
 const validKeys = ['rules', 'aura', 'check', 'combat', 'effect', 'item', 'move', 'region', 'rest', 'save', 'skill', 'time', 'tool', 'roll', 'summon', 'generic', 'genericConfig', 'documents'];
-const packIds = ['chris-premades.CPRClassFeaturesAll','chris-premades.CPRClassFeatures2014', 'chris-premades.CPRClassFeatures2024'];
+const ignoredPackIds = [];
 Hooks.once('catReady', () => {
     Object.entries(animations).forEach(([identifier, value]) => api.registerAnimation({
         ...value,
@@ -77,8 +77,5 @@ Hooks.once('catReady', () => {
         if (value.version) versions2014[identifier] = value.version;
         if (value.scales) scales2014[identifier] = value.scales.map(i => ({source: 'chris-premades', identifier: i.identifier, classIdentifier: i.classIdentifier, rules: '2014'}));
     });
-    const packs = packIds.map(i => game.packs.get(i));
-    packs.forEach(pack => {
-        api.registerAutomationCompendium(pack, {configsAll, notesAll, versionsAll, scalesAll, configs2024, notes2024, versions2024, scales2024, configs2014, notes2014, versions2014, scales2014, source: 'chris-premades'});
-    });
+    api.registerAutomationModule('chris-premades', {ignoredPackIds, configs2014, configs2024, configsAll, versions2014, versions2024, versionsAll, notes2014, notes2024, notesAll, scales2014, scales2024, scalesAll});
 });

@@ -56,7 +56,7 @@
                 "Simple": "Simple"
             },
             "AttackActivity": "Attack Activity",
-            "BlockingStatuses": "Blocking Statuses:",
+            "BlockingConditions": "Blocking Conditions",
             "ClassIdentifier": "Class Identifier",
             "Colors": {
                 "Blue": "Blue",
@@ -93,7 +93,7 @@
             "ReactionEffectIdentifiers": "Reaction Effect Identifiers",
             "ReactionItemIdentifiers": "Reaction Item Identifiers",
             "RecallActivity": "Recall Activity",
-            "SaveAbilities": "Save Abilities:",
+            "SaveAbilities": "Save Abilities",
             "SkipDeadAndUnconscious": "Skip Dead And Unconscious",
             "Skills": "Skills:",
             "SpawnActivity": "Spawn Activity",
@@ -107,9 +107,9 @@
         "Macros": {
             "All": {
                 "Rage": {
-                    "AllowConcentration": "Allow Concentration:",
-                    "AllowHeavyArmor": "Allow Heavy Armor:",
-                    "AllowSpellcasting": "Allow Spellcasting:",
+                    "AllowConcentration": "Allow Concentration",
+                    "AllowHeavyArmor": "Allow Heavy Armor",
+                    "AllowSpellcasting": "Allow Spellcasting",
                     "Concentration": "You can't concentrate while raging!",
                     "HeavyArmor": "You are wearing heavy armor and cannot rage!",
                     "Spellcasting": "You can't spellcast while raging!"
@@ -133,9 +133,7 @@
                 }
             },
             "Legacy": {
-                "DangerSense": {
-                    "CanSee": "This save is from an effect you can see."
-                },
+                "DangerSense": "This save is from an effect you can see.",
                 "Rage": {
                     "EndEarly": "{actorName} has not attacked an enemy or taken damage since their last turn. Remove Rage?"
                 }

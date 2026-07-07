@@ -1,6 +1,6 @@
 // Barbarian
-export {extendRage, keepRage} from './modern/classFeatures/barbarian/rage.mjs';
 export {dangerSense as 'danger-sense'} from './modern/classFeatures/barbarian/dangerSense.mjs';
+export {extendRage, keepRage} from './modern/classFeatures/barbarian/rage.mjs';
 export {fastMovement as 'fast-movement'} from './modern/classFeatures/barbarian/fastMovement.mjs';
 export {feralInstinct as 'feral-instinct'} from './modern/classFeatures/barbarian/feralInstinct.mjs';
 export {indomitableMight as 'indomitable-might'} from './modern/classFeatures/barbarian/indomitableMight.mjs';
