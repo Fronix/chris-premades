@@ -88,12 +88,16 @@ Counts from `upstream/v13` `scripts/macros/`:
 
 ## CAT dependency notes
 
-Some ported features require CAT fixes carried on the local `~/git/cat` branch
-`fix/latent-bugs` (upstream PR candidates):
-- Danger Sense: save event passes must receive `options`/`saveId`.
+The CAT dev checkout lives at `~/git/covens-automation-toolkit` (with `~/git/cat`
+symlinked to it so the `jsconfig.json` `cat/*` path mapping resolves). Some ported
+features require CAT fixes carried on its `fix/latent-bugs` branch (upstream PR
+candidates):
 - Fast Movement: `item` fn-macro type support (equipped/unequipped passes).
 - Indomitable Might / Stroke of Luck: bonus passes must honor a returned
   replacement Roll; `rollUtils.replaceD20` helper.
+- (Danger Sense's save `options`/`saveId` requirement was fixed upstream in
+  CAT commit `cb3e2d3`, which also delivers `checkId`/`saveId`/`skillId` and
+  `options` to roll-event macros.)
 
 ## V13 → V14 data conversion rules (learned during porting)
 

@@ -1,11 +1,11 @@
 import {automationUtils} from '../../../../proxy.mjs';
-async function save({actor, config, document: item}) {
-    if (config.advantage) return;
+async function save({actor, config, options, saveId, document: item}) {
+    if (options.advantage || config.advantage) return;
     const saves = automationUtils.getConfigValue(item, 'saves');
-    if (!saves?.includes(config.ability)) return;
+    if (!saves?.includes(saveId)) return;
     const blockingConditions = automationUtils.getConfigValue(item, 'blockingConditions');
     if (blockingConditions?.some(status => actor.statuses.has(status))) return;
-    config.advantage = true;
+    options.advantage = true;
 }
 export const dangerSense = {
     name: 'Danger Sense',

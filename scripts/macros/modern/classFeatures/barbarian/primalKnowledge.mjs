@@ -1,12 +1,12 @@
 import {actorUtils, automationUtils, workflowUtils} from '../../../../proxy.mjs';
-async function skill({actor, config, document: item}) {
+async function skill({actor, config, skillId, document: item}) {
     if (!actorUtils.getEffectByIdentifier(actor, 'rage')) return;
     const skills = automationUtils.getConfigValue(item, 'skills');
-    if (!skills?.includes(config.skill)) return;
+    if (!skills?.includes(skillId)) return;
     const blockingConditions = automationUtils.getConfigValue(item, 'blockingConditions');
     if (blockingConditions?.some(status => actor.statuses.has(status))) return;
     const replacementAbility = automationUtils.getConfigValue(item, 'replacementAbility');
-    const defaultAbility = config.ability ?? CONFIG.DND5E.skills[config.skill].ability;
+    const defaultAbility = config.ability ?? CONFIG.DND5E.skills[skillId].ability;
     if (replacementAbility === defaultAbility) return;
     const abilities = actor.system.abilities;
     if ((abilities[defaultAbility].mod + abilities[defaultAbility].checkBonus) >= (abilities[replacementAbility].mod + abilities[replacementAbility].checkBonus)) return;

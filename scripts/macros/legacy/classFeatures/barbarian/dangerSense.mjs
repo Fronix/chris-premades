@@ -1,5 +1,5 @@
-async function save({actor, config}) {
-    if (config.ability !== 'dex') return;
+async function save({actor, saveId}) {
+    if (saveId !== 'dex') return;
     if (['blinded', 'deafened', 'incapacitated'].some(status => actor.statuses.has(status))) return;
     return {label: 'CHRISPREMADES.Macros.Legacy.DangerSense.CanSee', type: 'advantage'};
 }

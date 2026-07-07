@@ -1,7 +1,7 @@
 import {automationUtils, rollUtils} from '../../../../proxy.mjs';
-async function ability({actor, config, document: item, roll}) {
+async function ability({actor, checkId, saveId, document: item, roll}) {
     const configuredAbility = automationUtils.getConfigValue(item, 'ability');
-    const testAbility = roll.data.abilityId ?? config.ability ?? (config.skill ? CONFIG.DND5E.skills[config.skill].ability : undefined);
+    const testAbility = roll.data.abilityId ?? checkId ?? saveId;
     if (testAbility !== configuredAbility) return;
     const score = actor.system.abilities[configuredAbility].value;
     if (roll.total >= score) return;
