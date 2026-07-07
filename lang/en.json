@@ -55,6 +55,7 @@
                 "Simple": "Simple"
             },
             "AttackActivity": "Attack Activity",
+            "BlockingStatuses": "Blocking Statuses:",
             "ClassIdentifier": "Class Identifier",
             "Colors": {
                 "Blue": "Blue",
@@ -90,6 +91,7 @@
             "ReactionEffectIdentifiers": "Reaction Effect Identifiers",
             "ReactionItemIdentifiers": "Reaction Item Identifiers",
             "RecallActivity": "Recall Activity",
+            "SaveAbilities": "Save Abilities:",
             "SkipDeadAndUnconscious": "Skip Dead And Unconscious",
             "SpawnActivity": "Spawn Activity",
             "Summons": "Summons",
@@ -124,6 +126,9 @@
                 }
             },
             "Legacy": {
+                "DangerSense": {
+                    "CanSee": "This save is from an effect you can see."
+                },
                 "Rage": {
                     "EndEarly": "{actorName} has not attacked an enemy or taken damage since their last turn. Remove Rage?"
                 }
