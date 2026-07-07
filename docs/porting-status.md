@@ -19,12 +19,12 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Reckless Attack | ➖ | ✅ `modern` | item-data only; V14 native duration expiry (turnStart) |
 | Fast Movement | ➖ | ✅ `modern` | uses new `item` fn-macro type (needs CAT fix branch) |
 | Feral Instinct | ➖ | ✅ `modern` | item-data only (initiativeAdv flag) |
-| Instinctive Pounce | ⬜ | ⬜ | shares 103-line legacy impl |
-| Brutal Strike / Improved Brutal Strike | ➖ | ⬜ | 2024 only |
-| Primal Knowledge | ➖ | ⬜ | 2024 only |
-| Relentless Rage | ⬜ | ⬜ | v13 had 2024 only |
-| Persistent Rage | ⬜ | ✅ `modern` | 1/LR activity restores Rage uses |
-| Indomitable Might | ➖ | ⬜ | 2024 only |
+| Instinctive Pounce | ⬜ | ⬜ | deferred: heavy Sequencer animation; rebuild on `generic/movementAnimation` + `animations/selectLocations` primitives |
+| Brutal Strike / Improved Brutal Strike | ➖ | ⬜ | 2024 only; couples to upstream's WIP sneak-attack/cunning-strike architecture |
+| Primal Knowledge | ➖ | ✅ `modern` | swaps skill ability while raging; tuning configs |
+| Relentless Rage | ➖ | ✅ `modern` | save-DC escalation + rest reset; ditem mutation on targetDamageComplete |
+| Persistent Rage | ✅ `legacy` | ✅ `modern` | 2014 metadata-only; 2024 1/LR activity restores Rage uses |
+| Indomitable Might | ➖ | ✅ `modern` | needs CAT bonus-pass roll replacement (fix branch) |
 
 ### Barbarian subclasses
 
@@ -48,13 +48,13 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Cunning Action | ⬜ | 🚧 `modern` | macro file exists but is empty (upstream WIP) |
 | Cunning Strike / Improved Cunning Strike | ➖ | ⬜ | 2024 only |
 | Devious Strikes | ➖ | ⬜ | 2024 only |
-| Steady Aim | ➖ | ⬜ | needs movement pass + effect application |
+| Steady Aim | ➖ | ✅ `modern` | activity + move pass spends use on own-turn movement |
 | Uncanny Dodge | ➖ | ✅ `modern` | item-data only (reaction activity + midi flag) |
 | Evasion | ⬜ | ⬜ | check v13 (may be dnd5e-native) |
 | Reliable Talent | ➖ | ✅ `modern` | item-data only (dnd5e reliableTalent flag) |
 | Elusive | ➖ | ✅ `modern` | item-data only (grants.noAdvantage flag) |
 | Slippery Mind | ➖ | ✅ `modern` | item-data only (wis/cha save proficiency) |
-| Stroke of Luck | ➖ | ⬜ | 2024 only in v13 |
+| Stroke of Luck | ➖ | ✅ `modern` | needs CAT bonus-pass roll replacement (fix branch) |
 
 ### Rogue subclasses
 
@@ -85,6 +85,15 @@ Counts from `upstream/v13` `scripts/macros/`:
 
 ✱ Counted per-directory when each category becomes the active milestone
 (`git ls-tree -r upstream/v13 --name-only scripts/macros/<rules>/<category> | wc -l`).
+
+## CAT dependency notes
+
+Some ported features require CAT fixes carried on the local `~/git/cat` branch
+`fix/latent-bugs` (upstream PR candidates):
+- Danger Sense: save event passes must receive `options`/`saveId`.
+- Fast Movement: `item` fn-macro type support (equipped/unequipped passes).
+- Indomitable Might / Stroke of Luck: bonus passes must honor a returned
+  replacement Roll; `rollUtils.replaceD20` helper.
 
 ## V13 → V14 data conversion rules (learned during porting)
 
