@@ -1,0 +1,138 @@
+{
+  "name": "Medical Intuition",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "book": "Eberron: Rising from the Last War",
+      "page": "",
+      "license": "",
+      "custom": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "",
+    "properties": [],
+    "prerequisites": {
+      "level": null
+    },
+    "activities": {},
+    "identifier": "medical-intuition",
+    "enchant": {}
+  },
+  "flags": {
+    "midi-qol": {
+      "removeAttackDamageButtons": "default",
+      "rollAttackPerTarget": "default",
+      "effectActivation": false,
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": "",
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default"
+    },
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    },
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Medical Intuition",
+      "img": "icons/containers/bags/pouch-gold-green.webp",
+      "origin": "Compendium.world.cpr-race-features.Item.T4SxBIZHrS9xTRDS",
+      "transfer": true,
+      "_id": "CiAWTMjJ59lTexy0",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.med.bonuses.check",
+            "type": "add",
+            "value": "1d4",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.tools.herb.bonuses.check",
+            "type": "add",
+            "value": "1d4",
+            "phase": "final",
+            "priority": 20
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_key": "!items.effects!jddXnhWx3rwQv9RH.CiAWTMjJ59lTexy0"
+    }
+  ],
+  "img": "icons/containers/bags/pouch-gold-green.webp",
+  "folder": "w8Y01T1Uad2yNpEb",
+  "_id": "jddXnhWx3rwQv9RH",
+  "_key": "!items!jddXnhWx3rwQv9RH"
+}

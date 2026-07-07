@@ -1,0 +1,132 @@
+{
+  "name": "Avatar of Battle",
+  "type": "feat",
+  "effects": [
+    {
+      "name": "Avatar of Battle",
+      "img": "icons/equipment/shield/kite-wooden-oak-glow.webp",
+      "origin": null,
+      "transfer": true,
+      "_id": "mPsYo9tPxgn0NJEP",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "bludgeoning",
+            "phase": "final",
+            "priority": 1
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "piercing",
+            "phase": "final",
+            "priority": 1
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "slashing",
+            "phase": "final",
+            "priority": 1
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "transfer": true,
+          "stackable": "noneNameOnly"
+        },
+        "ddbimporter": {
+          "disabled": false,
+          "passive": true,
+          "itemId": 10292440,
+          "itemEntityTypeId": 12168134
+        },
+        "midi-qol": {
+          "forceCEOff": true
+        },
+        "core": {}
+      },
+      "_key": "!items.effects!xo3uw5c1TXSk6JHK.mPsYo9tPxgn0NJEP"
+    }
+  ],
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": [],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "avatar-of-battle",
+    "source": {
+      "book": "PHB 2024",
+      "page": "",
+      "license": "",
+      "custom": "",
+      "rules": "2024",
+      "revision": 1
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": 17,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "flags": {
+    "dae": {
+      "alwaysActive": false,
+      "activeEquipped": false
+    },
+    "midi-qol": {
+      "removeAttackDamageButtons": "default",
+      "forceCEOff": true
+    },
+    "midiProperties": {
+      "confirmTargets": "default"
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      },
+      "advancementOrigin": "PXdBnjKTNidcQebA"
+    },
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      }
+    }
+  },
+  "img": "icons/equipment/shield/kite-wooden-oak-glow.webp",
+  "folder": "6C8M8N375dC16ja5",
+  "_id": "xo3uw5c1TXSk6JHK",
+  "_key": "!items!xo3uw5c1TXSk6JHK"
+}

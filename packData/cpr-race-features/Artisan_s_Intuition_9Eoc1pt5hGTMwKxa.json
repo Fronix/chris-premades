@@ -1,0 +1,132 @@
+{
+  "name": "Artisan's Intuition",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Eberron: Rising from the Last War",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "",
+    "properties": [],
+    "prerequisites": {
+      "level": null
+    },
+    "activities": {},
+    "identifier": "artisans-intuition",
+    "enchant": {}
+  },
+  "flags": {
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    },
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Artisan's Intuition",
+      "img": "icons/tools/hand/hammer-and-nail.webp",
+      "origin": "Compendium.world.cpr-race-features.Item.PFps4HYyiTrnpVav",
+      "transfer": true,
+      "_id": "FuaHgyI3N2qJ3bXz",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.arc.bonuses.check",
+            "type": "add",
+            "value": "1d4",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.tools.art.bonuses.check",
+            "type": "add",
+            "value": "1d4",
+            "phase": "final",
+            "priority": 20
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_key": "!items.effects!9Eoc1pt5hGTMwKxa.FuaHgyI3N2qJ3bXz"
+    }
+  ],
+  "img": "icons/tools/hand/hammer-and-nail.webp",
+  "folder": "Ykr1ykVDNkhDALu8",
+  "_id": "9Eoc1pt5hGTMwKxa",
+  "_key": "!items!9Eoc1pt5hGTMwKxa"
+}

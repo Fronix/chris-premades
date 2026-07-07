@@ -1,0 +1,140 @@
+{
+  "name": "Natural Resilience",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Spelljammer: Adventures in Space pg 14",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "requirements": "",
+    "properties": [],
+    "prerequisites": {
+      "level": null
+    },
+    "activities": {},
+    "identifier": "natural-resilience",
+    "enchant": {}
+  },
+  "flags": {
+    "core": {},
+    "midiProperties": {
+      "confirmTargets": "default",
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    },
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Natural Resilience",
+      "img": "icons/consumables/potions/vial-cork-green.webp",
+      "origin": "Compendium.world.cpr-race-features.Item.UDsvEV9HVbc7dpBE",
+      "transfer": true,
+      "_id": "dNbjZP7wRcVOHIdt",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "flags.chris-premades.CR.poisoned",
+            "type": "override",
+            "value": 1,
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "acid",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "poison",
+            "phase": "final",
+            "priority": 20
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dnd5e": {},
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_key": "!items.effects!4uiVJjJm0pymLDB5.dNbjZP7wRcVOHIdt"
+    }
+  ],
+  "img": "icons/consumables/potions/vial-cork-green.webp",
+  "folder": "svfLxIXE2V467sON",
+  "_id": "4uiVJjJm0pymLDB5",
+  "_key": "!items!4uiVJjJm0pymLDB5"
+}

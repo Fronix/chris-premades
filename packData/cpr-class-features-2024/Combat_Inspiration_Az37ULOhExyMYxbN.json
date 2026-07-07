@@ -1,0 +1,163 @@
+{
+  "_id": "Az37ULOhExyMYxbN",
+  "name": "Combat Inspiration",
+  "type": "feat",
+  "effects": [
+    {
+      "name": "Combat Inspiration",
+      "img": "icons/magic/control/buff-flight-wings-runes-red-yellow.webp",
+      "origin": null,
+      "transfer": false,
+      "_id": "n07KtWUMtZuIIvNu",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "flags.midi-qol.optional.combatinspiration.label",
+            "type": "custom",
+            "value": "",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.combatinspiration.damage.msak",
+            "type": "custom",
+            "value": "",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.combatinspiration.damage.mwak",
+            "type": "custom",
+            "value": "",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.combatinspiration.damage.rsak",
+            "type": "custom",
+            "value": "",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.combatinspiration.damage.rwak",
+            "type": "custom",
+            "value": "",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.combatinspiration.label",
+            "type": "custom",
+            "value": "",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.combatinspiration.ac",
+            "type": "add",
+            "value": "",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.combatinspiration.count",
+            "type": "custom",
+            "value": 1,
+            "phase": "initial",
+            "priority": 20
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": true,
+          "stackable": "multi",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_key": "!items.effects!Az37ULOhExyMYxbN.n07KtWUMtZuIIvNu"
+    }
+  ],
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "combat-inspiration",
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "custom": "PHB 2024",
+      "rules": "2024",
+      "revision": 1
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "flags": {
+    "dnd5e": {
+      "advancementOrigin": "eEDieBJzOwPke9Pk",
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      }
+    }
+  },
+  "img": "icons/magic/control/buff-flight-wings-runes-red-yellow.webp",
+  "folder": "edygeg10l4CVm7uh",
+  "_key": "!items!Az37ULOhExyMYxbN"
+}

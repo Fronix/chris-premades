@@ -1,0 +1,161 @@
+{
+  "name": "Mechanical Nature",
+  "type": "feat",
+  "effects": [
+    {
+      "name": "Mechanical Nature",
+      "img": "icons/tools/fasteners/bolt-steel-blue.webp",
+      "origin": "Item.iBvwRkSTPMG0WFXK",
+      "transfer": true,
+      "_id": "gqYsuoV9txPJkaSL",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "poison",
+            "phase": "final",
+            "priority": 1
+          },
+          {
+            "key": "system.traits.ci.value",
+            "type": "add",
+            "value": "diseased",
+            "phase": "final",
+            "priority": 1
+          },
+          {
+            "key": "flags.chris-premades.CR.paralyzed",
+            "type": "override",
+            "value": 1,
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.chris-premades.CR.poisoned",
+            "type": "override",
+            "value": 1,
+            "phase": "initial",
+            "priority": 20
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "showIcon": false,
+          "transfer": true,
+          "stackable": "noneNameOnly",
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ddbimporter": {
+          "disabled": false,
+          "passive": true,
+          "itemId": 9151713,
+          "itemEntityTypeId": 1960452172
+        },
+        "midi-qol": {
+          "forceCEOff": true
+        },
+        "core": {
+          "overlay": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_key": "!items.effects!vXzudKbP1HrIAJis.gqYsuoV9txPJkaSL"
+    }
+  ],
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "mechanical-nature",
+    "source": {
+      "book": "SAiS",
+      "page": "",
+      "license": "",
+      "custom": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    }
+  },
+  "flags": {
+    "species": {
+      "fullRaceName": "Autognome",
+      "baseRaceName": "Autognome",
+      "groupName": "Gnome",
+      "isLineage": false
+    },
+    "dae": {
+      "alwaysActive": false,
+      "activeEquipped": false
+    },
+    "midi-qol": {
+      "removeAttackDamageButtons": "default",
+      "forceCEOff": true
+    },
+    "midiProperties": {
+      "confirmTargets": "default"
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      },
+      "advancementOrigin": "63eLrL6CC0RQjuTE"
+    },
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      }
+    }
+  },
+  "img": "icons/tools/fasteners/bolt-steel-blue.webp",
+  "folder": "XvrVvi09wLcuh1B6",
+  "_id": "vXzudKbP1HrIAJis",
+  "_key": "!items!vXzudKbP1HrIAJis"
+}

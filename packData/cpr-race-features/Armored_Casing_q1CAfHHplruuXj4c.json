@@ -1,0 +1,147 @@
+{
+  "name": "Armored Casing",
+  "type": "feat",
+  "effects": [
+    {
+      "name": "Armored Casing",
+      "img": "icons/creatures/magical/construct-stone-earth-gray.webp",
+      "origin": "Item.7HGuQcK6kkuT9s1K",
+      "transfer": true,
+      "_id": "JPOcXBaPKRD0aIJS",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.ac.formula",
+            "type": "override",
+            "value": "13 + @abilities.dex.mod",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.attributes.ac.calc",
+            "type": "override",
+            "value": "custom",
+            "phase": "final",
+            "priority": 10
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dae": {
+          "showIcon": false,
+          "transfer": true,
+          "stackable": "noneNameOnly",
+          "disableCondition": "!!attributes.ac.equippedArmor",
+          "disableIncapacitated": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "ddbimporter": {
+          "disabled": false,
+          "passive": true,
+          "itemId": 9151710,
+          "itemEntityTypeId": 1960452172
+        },
+        "midi-qol": {
+          "forceCEOff": true
+        },
+        "core": {
+          "overlay": false
+        },
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_key": "!items.effects!q1CAfHHplruuXj4c.JPOcXBaPKRD0aIJS"
+    }
+  ],
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "armored-casing",
+    "source": {
+      "book": "SAiS",
+      "page": "",
+      "license": "",
+      "custom": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    }
+  },
+  "flags": {
+    "species": {
+      "fullRaceName": "Autognome",
+      "baseRaceName": "Autognome",
+      "groupName": "Gnome",
+      "isLineage": false
+    },
+    "midi-qol": {
+      "removeAttackDamageButtons": "default",
+      "forceCEOff": true
+    },
+    "midiProperties": {
+      "confirmTargets": "default"
+    },
+    "dae": {
+      "alwaysActive": false,
+      "activeEquipped": false
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      },
+      "advancementOrigin": "63eLrL6CC0RQjuTE"
+    },
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      }
+    }
+  },
+  "img": "icons/creatures/magical/construct-stone-earth-gray.webp",
+  "folder": "XvrVvi09wLcuh1B6",
+  "_id": "q1CAfHHplruuXj4c",
+  "_key": "!items!q1CAfHHplruuXj4c"
+}

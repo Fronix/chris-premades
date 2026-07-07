@@ -17,7 +17,8 @@ Hooks.once('catInit', () => {
 
 });
 const validKeys = ['rules', 'aura', 'check', 'combat', 'effect', 'item', 'move', 'region', 'rest', 'save', 'skill', 'time', 'tool', 'roll', 'summon', 'generic', 'genericConfig', 'documents'];
-const ignoredPackIds = [];
+// Support packs: sub-documents granted by other automations, not applyable automations themselves
+const ignoredPackIds = ['chris-premades.CPRSummonFeatures', 'chris-premades.CPRSummonFeatures2024', 'chris-premades.CPRSpellFeatures', 'chris-premades.CPRClassFeatureItems', 'chris-premades.CPRItemFeatures'];
 Hooks.once('catReady', () => {
     Object.entries(animations).forEach(([identifier, value]) => api.registerAnimation({
         ...value,
