@@ -1,0 +1,99 @@
+# v13 → V14/CAT Porting Status
+
+Tracks the port of content from the `v13` branch into the CAT-based V14 architecture.
+Porting is a per-feature rewrite against CAT's declarative macro API (see
+`scripts/macros/all/classFeatures/barbarian/rage.mjs` as the reference implementation),
+plus pack item JSON under `packData/`.
+
+Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable (no automation needed / superseded)
+
+## Milestone 1 — Barbarian & Rogue (all subclasses, both rulesets)
+
+### Barbarian (base class)
+
+| Feature | 2014 | 2024 | Notes |
+| --- | --- | --- | --- |
+| Rage | ✅ `legacy` | ✅ `modern` | shared logic in `all/classFeatures/barbarian/rage.mjs` |
+| Unarmored Defense | ✅ `all` | ✅ `all` | rules-agnostic |
+| Danger Sense | ⬜ | ⬜ | |
+| Reckless Attack | ⬜ | ⬜ | v13 had 2024 only; 2014 needs assessment |
+| Fast Movement | ⬜ | ⬜ | v13 had 2024 only |
+| Feral Instinct | ⬜ | ⬜ | v13 had 2024 only |
+| Instinctive Pounce | ⬜ | ⬜ | |
+| Brutal Strike / Improved Brutal Strike | ➖ | ⬜ | 2024 only |
+| Primal Knowledge | ➖ | ⬜ | 2024 only |
+| Relentless Rage | ⬜ | ⬜ | v13 had 2024 only |
+| Persistent Rage | ⬜ | ⬜ | |
+| Indomitable Might | ➖ | ⬜ | 2024 only |
+
+### Barbarian subclasses
+
+| Subclass | Features (v13) | 2014 | 2024 |
+| --- | --- | --- | --- |
+| Ancestral Guardian | ancestralProtectors, spiritShield, vengefulAncestors | ⬜ | ➖ |
+| Beast | bestialSoul, callTheHunt, formOfTheBeast, infectiousFury | ⬜ | ➖ |
+| Berserker | frenzy, intimidatingPresence, mindlessRage, retaliation | ⬜ | ⬜ |
+| Giant | crushingThrow, demiurgicColossus, elementalCleaver, giantStature, mightyImpel | ⬜ | ➖ |
+| Totem Warrior / Wild Heart | totemSpirit (2014); aspect/power/rageOfTheWilds (2024) | ⬜ | ⬜ |
+| Wild Magic | bolsteringMagic, controlledSurge, unstableBacklash, wildSurge | ⬜ | ➖ |
+| World Tree | batteringRoots, branchesOfTheTree, travelAlongTheTree, vitalityOfTheTree | ➖ | ⬜ |
+| Zealot | divineFury, zealousPresence (+ fanaticalFocus, rageOfTheGods, warriorOfTheGods 2024) | ⬜ | ⬜ |
+| Muscle Wizard (homebrew) | cantrips, spells, unarguableWizardry | ➖ | ⬜ |
+
+### Rogue (base class)
+
+| Feature | 2014 | 2024 | Notes |
+| --- | --- | --- | --- |
+| Sneak Attack | ⬜ | ✅ `modern` | 2014 variant still to port |
+| Cunning Action | ⬜ | ✅ `modern` | 2014 variant still to port |
+| Cunning Strike / Improved Cunning Strike | ➖ | ⬜ | 2024 only |
+| Devious Strikes | ➖ | ⬜ | 2024 only |
+| Steady Aim | ⬜ | ⬜ | v13 had 2024 only |
+| Uncanny Dodge | ⬜ | ⬜ | v13 had 2024 only |
+| Evasion | ⬜ | ⬜ | check v13 (may be dnd5e-native) |
+| Reliable Talent | ➖ | ⬜ | 2024 only in v13 |
+| Elusive | ➖ | ⬜ | 2024 only in v13 |
+| Slippery Mind | ➖ | ⬜ | 2024 only in v13 |
+| Stroke of Luck | ➖ | ⬜ | 2024 only in v13 |
+
+### Rogue subclasses
+
+| Subclass | Features (v13) | 2014 | 2024 |
+| --- | --- | --- | --- |
+| Arcane Trickster | mageHandLegerdemain, magicalAmbush, spellThief, versatileTrickster | ⬜ | ⬜ |
+| Assassin | assassinate, deathStrike, envenomWeapons, infiltrationExpertise | ⬜ | ⬜ |
+| Inquisitive | eyeForWeakness, insightfulFighting | ⬜ | ➖ |
+| Mastermind | insightfulManipulator, masterOfTactics, misdirection, soulOfDeceit | ⬜ | ➖ |
+| Phantom | deathsFriend, ghostWalk, tokensOfTheDeparted, wailsFromTheGrave, whispersOfTheDead | ⬜ | ➖ |
+| Soulknife | psionicEnergy/psionicPower, psychicBlades, rendMind, homingStrikes, soulBlades, psychicVeil | ⬜ | ⬜ |
+| Swashbuckler | rakishAudacity | ⬜ | ➖ |
+| Thief | fastHands, secondStoryWork, supremeSneak, useMagicDevice | ➖ | ⬜ |
+
+## Remaining v13 categories (post-milestone backlog)
+
+Counts from `upstream/v13` `scripts/macros/`:
+
+| Category | 2014 files | 2024 files |
+| --- | --- | --- |
+| spells | ~large (biggest category) | ~large |
+| classFeatures (other classes) | rest of 709 total | rest of 470 total |
+| feats | ✱ | ✱ |
+| items | ✱ | ✱ |
+| monsterFeatures | ✱ | ✱ |
+| raceFeatures | ✱ | ✱ |
+| actions / mechanics / homebrew / piety | ✱ | ✱ |
+
+✱ Counted per-directory when each category becomes the active milestone
+(`git ls-tree -r upstream/v13 --name-only scripts/macros/<rules>/<category> | wc -l`).
+
+## Porting checklist (per feature)
+
+1. Read the v13 implementation: `git show upstream/v13:scripts/macros/<rules>/<path>.js`
+2. Rewrite as a CAT macro descriptor in `scripts/macros/{all|legacy|modern|generic}/...`
+   (`{name, version, rules, <pass hooks>, config, scales, notes}`); prefer a shared
+   `all` implementation when 2014/2024 behavior matches.
+3. Export via the barrel files (`scripts/macros.mjs`, `scripts/macros/animations.mjs`).
+4. Add/refresh pack item JSON in `packData/<pack>/` and rebuild (`npm run buildCompendiums`).
+5. V14 rules: areas of effect via CAT `regionUtils`/`Crosshairs` (no MeasuredTemplates),
+   ActiveEffect changes use string `type`, i18n via `localize` only.
+6. Verify: eslint clean, contract check resolves all proxied members, in-game smoke test.
