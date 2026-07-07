@@ -1,0 +1,362 @@
+{
+ "name": "Steady Aim",
+ "type": "feat",
+ "effects": [
+  {
+   "name": "Steady Aim: Bonus",
+   "img": "icons/skills/ranged/target-bullseye-arrow-green.webp",
+   "origin": null,
+   "transfer": false,
+   "_id": "vXeuSlq8fMWyQXOW",
+   "type": "base",
+   "system": {
+    "changes": [
+     {
+      "key": "flags.midi-qol.advantage.attack.all",
+      "type": "custom",
+      "value": true,
+      "phase": "initial",
+      "priority": null
+     }
+    ]
+   },
+   "disabled": false,
+   "start": null,
+   "duration": {
+    "value": 1,
+    "units": "turns",
+    "expiry": "turnEnd",
+    "expired": false
+   },
+   "description": "",
+   "tint": "#ffffff",
+   "statuses": [],
+   "showIcon": 1,
+   "folder": null,
+   "sort": 0,
+   "flags": {
+    "dnd5e": {
+     "riders": {
+      "statuses": []
+     }
+    },
+    "dae": {
+     "enableCondition": "",
+     "disableCondition": "",
+     "stackable": "noneName",
+     "expiryMode": "default",
+     "durationExpression": "",
+     "macroRepeat": "none",
+     "disableIncapacitated": false,
+     "selfTarget": false,
+     "selfTargetAlways": false,
+     "dontApply": false,
+     "specialDuration": [
+      "1Attack"
+     ]
+    },
+    "core": {
+     "overlay": false
+    },
+    "cat": {
+     "identifier": "steady-aim-bonus"
+    }
+   },
+   "_key": "!items.effects!aHwHT0z87D0oPwA2.vXeuSlq8fMWyQXOW"
+  },
+  {
+   "name": "Steady Aim: Speed Reduction",
+   "img": "icons/skills/ranged/target-bullseye-arrow-green.webp",
+   "origin": null,
+   "transfer": false,
+   "_id": "1pzvzOFfNJ98iJOx",
+   "type": "base",
+   "system": {
+    "changes": [
+     {
+      "key": "system.attributes.movement.all",
+      "type": "custom",
+      "value": 0,
+      "phase": "final",
+      "priority": null
+     }
+    ]
+   },
+   "disabled": false,
+   "start": null,
+   "duration": {
+    "value": 1,
+    "units": "turns",
+    "expiry": "turnEnd",
+    "expired": false
+   },
+   "description": "",
+   "tint": "#ffffff",
+   "statuses": [],
+   "showIcon": 1,
+   "folder": null,
+   "sort": 0,
+   "flags": {
+    "dnd5e": {
+     "riders": {
+      "statuses": []
+     }
+    },
+    "dae": {
+     "enableCondition": "",
+     "disableCondition": "",
+     "stackable": "noneName",
+     "expiryMode": "default",
+     "durationExpression": "",
+     "macroRepeat": "none",
+     "disableIncapacitated": false,
+     "selfTarget": false,
+     "selfTargetAlways": false,
+     "dontApply": false,
+     "specialDuration": []
+    },
+    "core": {
+     "overlay": false
+    },
+    "cat": {
+     "identifier": "steady-aim-movement"
+    }
+   },
+   "_key": "!items.effects!aHwHT0z87D0oPwA2.1pzvzOFfNJ98iJOx"
+  }
+ ],
+ "system": {
+  "activities": {
+   "HVFIoStv41JaHtx6": {
+    "type": "utility",
+    "_id": "HVFIoStv41JaHtx6",
+    "img": "",
+    "sort": 0,
+    "activation": {
+     "type": "bonus",
+     "override": false,
+     "condition": ""
+    },
+    "consumption": {
+     "scaling": {
+      "allowed": false
+     },
+     "spellSlot": true,
+     "targets": [
+      {
+       "type": "itemUses",
+       "value": "1",
+       "target": "",
+       "scaling": {}
+      }
+     ]
+    },
+    "description": {
+     "chatFlavor": ""
+    },
+    "duration": {
+     "units": "inst",
+     "concentration": false,
+     "override": false,
+     "value": ""
+    },
+    "effects": [
+     {
+      "_id": "vXeuSlq8fMWyQXOW",
+      "level": {
+       "min": null,
+       "max": null
+      }
+     }
+    ],
+    "flags": {
+     "cat": {
+      "macros": {
+       "roll": [
+        {
+         "source": "chris-premades",
+         "rules": "2024",
+         "identifier": "steady-aim"
+        }
+       ]
+      }
+     }
+    },
+    "range": {
+     "units": "self",
+     "override": false,
+     "special": ""
+    },
+    "target": {
+     "template": {
+      "contiguous": false,
+      "stationary": false,
+      "units": "ft",
+      "type": ""
+     },
+     "affects": {
+      "choice": false,
+      "type": "self",
+      "special": ""
+     },
+     "override": false,
+     "prompt": true
+    },
+    "uses": {
+     "spent": 0,
+     "recovery": [],
+     "max": ""
+    },
+    "visibility": {
+     "level": {
+      "min": null,
+      "max": null
+     },
+     "requireAttunement": false,
+     "requireIdentification": false,
+     "requireMagic": false,
+     "identifier": ""
+    },
+    "roll": {
+     "prompt": false,
+     "visible": false,
+     "name": "",
+     "formula": ""
+    },
+    "useConditionText": "",
+    "useConditionReason": "",
+    "effectConditionText": "",
+    "macroData": {
+     "name": "",
+     "command": ""
+    },
+    "ignoreTraits": {
+     "idi": false,
+     "idr": false,
+     "idv": false,
+     "ida": false,
+     "idm": false
+    },
+    "midiProperties": {
+     "ignoreTraits": [],
+     "triggeredActivityId": "none",
+     "triggeredActivityConditionText": "",
+     "triggeredActivityTargets": "targets",
+     "triggeredActivityRollAs": "self",
+     "triggeredActivityConsume": true,
+     "triggeredActivityConfigure": true,
+     "autoConsume": false,
+     "forceConsumeDialog": "default",
+     "forceRollDialog": "default",
+     "forceDamageDialog": "default",
+     "confirmTargets": "default",
+     "autoTargetType": "any",
+     "autoTargetAction": "default",
+     "automationOnly": false,
+     "otherActivityCompatible": false,
+     "otherActivityAsParentType": true,
+     "identifier": "",
+     "displayActivityName": false,
+     "rollMode": "default",
+     "chooseEffects": false,
+     "toggleEffect": false,
+     "ignoreFullCover": false,
+     "removeChatButtons": "default",
+     "magicEffect": false,
+     "magicDamage": false,
+     "noConcentrationCheck": false,
+     "skipConcentrationCheck": false,
+     "autoCEEffects": "default"
+    },
+    "isOverTimeFlag": false,
+    "overTimeProperties": {
+     "saveRemoves": true,
+     "rollAs": "target",
+     "preRemoveConditionText": "",
+     "postRemoveConditionText": ""
+    },
+    "regionBehavior": {
+     "enabled": false,
+     "dispositionFilter": -1,
+     "excludeSource": true,
+     "oncePerTurn": true,
+     "wallRestriction": "none",
+     "regionVisibility": 2,
+     "attachToken": "default",
+     "rules": []
+    },
+    "regionLight": {
+     "enabled": false,
+     "dim": 0,
+     "bright": 0,
+     "color": null,
+     "alpha": 0.5,
+     "luminosity": 0.5,
+     "animationType": "",
+     "animationSpeed": 5,
+     "animationIntensity": 5
+    },
+    "otherActivityId": "none",
+    "otherActivityAsParentType": true,
+    "name": "Steady Aim"
+   }
+  },
+  "uses": {
+   "spent": 0,
+   "recovery": [
+    {
+     "period": "turnStart",
+     "type": "recoverAll"
+    }
+   ],
+   "max": "1"
+  },
+  "advancement": {},
+  "description": {
+   "value": ""
+  },
+  "identifier": "steady-aim",
+  "source": {
+   "book": "",
+   "page": "",
+   "license": "",
+   "custom": "",
+   "rules": "2024",
+   "revision": 1
+  },
+  "crewed": false,
+  "enchant": {},
+  "prerequisites": {
+   "items": [],
+   "level": 3,
+   "repeatable": false
+  },
+  "properties": [],
+  "requirements": "",
+  "type": {
+   "value": "class",
+   "subtype": ""
+  }
+ },
+ "flags": {
+  "dnd5e": {},
+  "cat": {
+   "automation": {
+    "version": "2.0.0"
+   },
+   "macros": {
+    "move": [
+     {
+      "source": "chris-premades",
+      "rules": "2024",
+      "identifier": "steady-aim"
+     }
+    ]
+   }
+  }
+ },
+ "img": "icons/skills/ranged/target-bullseye-arrow-green.webp",
+ "folder": "3kmnX4F7nVFhCJrq",
+ "_id": "aHwHT0z87D0oPwA2",
+ "_key": "!items!aHwHT0z87D0oPwA2"
+}

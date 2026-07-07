@@ -1,0 +1,60 @@
+{
+ "name": "Primal Knowledge",
+ "type": "feat",
+ "effects": [],
+ "system": {
+  "activities": {},
+  "uses": {
+   "spent": 0,
+   "recovery": [],
+   "max": ""
+  },
+  "advancement": {},
+  "description": {
+   "value": ""
+  },
+  "identifier": "primal-knowledge",
+  "source": {
+   "book": "",
+   "page": "",
+   "license": "",
+   "custom": "",
+   "rules": "2024",
+   "revision": 1
+  },
+  "crewed": false,
+  "enchant": {},
+  "prerequisites": {
+   "items": [],
+   "level": 3,
+   "repeatable": false
+  },
+  "properties": [],
+  "requirements": "",
+  "type": {
+   "value": "class",
+   "subtype": ""
+  }
+ },
+ "flags": {
+  "dnd5e": {},
+  "cat": {
+   "automation": {
+    "version": "2.0.0"
+   },
+   "macros": {
+    "skill": [
+     {
+      "source": "chris-premades",
+      "rules": "2024",
+      "identifier": "primal-knowledge"
+     }
+    ]
+   }
+  }
+ },
+ "img": "icons/magic/light/beam-strike-orange-gold.webp",
+ "folder": "4PGqzrAwrWeQeINX",
+ "_id": "iKOWXPkzDiuOzeqI",
+ "_key": "!items!iKOWXPkzDiuOzeqI"
+}

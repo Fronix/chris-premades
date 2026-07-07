@@ -48,6 +48,7 @@
             "WaterSummon": "Water Summon"
         },
         "Config": {
+            "Ability": "Ability:",
             "Activity": "Activity",
             "Animation": "Animation",
             "Animations": {
@@ -87,15 +88,21 @@
                 "Weapon": "Weapon"
             },
             "Identifiers": "Identifiers",
+            "NoDCPrompt": "Prompt on no DC:",
             "PlaceActivity": "Place Activity",
             "ReactionEffectIdentifiers": "Reaction Effect Identifiers",
             "ReactionItemIdentifiers": "Reaction Item Identifiers",
             "RecallActivity": "Recall Activity",
             "SaveAbilities": "Save Abilities:",
             "SkipDeadAndUnconscious": "Skip Dead And Unconscious",
+            "Skills": "Skills:",
             "SpawnActivity": "Spawn Activity",
             "Summons": "Summons",
             "UtilityRollAsDamage": "Utility Roll As Damage"
+        },
+        "Dialog": {
+            "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
+            "UseRollTotal": "Use {itemName}? (Roll Total: {rollTotal})"
         },
         "Macros": {
             "All": {
@@ -134,6 +141,9 @@
                 }
             },
             "Modern": {
+                "PrimalKnowledge": {
+                    "ReplacementAbility": "Replacement Ability:"
+                },
                 "Rage": {
                     "EndEarly": "{actorName} has not attacked an enemy, forced an enemy to make a save, or continued their rage since their last turn. Remove Rage?"
                 },
