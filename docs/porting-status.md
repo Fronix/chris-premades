@@ -69,22 +69,41 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Swashbuckler | rakishAudacity | ⬜ | ➖ |
 | Thief | fastHands, secondStoryWork, supremeSneak, useMagicDevice | ➖ | ⬜ |
 
-## Remaining v13 categories (post-milestone backlog)
+## Roadmap: class-by-class, 2024 first
 
-Counts from `upstream/v13` `scripts/macros/`:
+The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
+data-only and have been batch-converted by `tools/convertV13.mjs`) is tracked
+item-by-item in **[porting-inventory.md](porting-inventory.md)** (auto-generated —
+regenerate rather than hand-editing its tables).
 
-| Category | 2014 files | 2024 files |
-| --- | --- | --- |
-| spells | ~large (biggest category) | ~large |
-| classFeatures (other classes) | rest of 709 total | rest of 470 total |
-| feats | ✱ | ✱ |
-| items | ✱ | ✱ |
-| monsterFeatures | ✱ | ✱ |
-| raceFeatures | ✱ | ✱ |
-| actions / mechanics / homebrew / piety | ✱ | ✱ |
+Working order (per user priority; each slice = features + subclasses + that class's
+staple spells, committed and releasable on its own):
 
-✱ Counted per-directory when each category becomes the active milestone
-(`git ls-tree -r upstream/v13 --name-only scripts/macros/<rules>/<category> | wc -l`).
+1. **Paladin** ← current slice
+2. Fighter
+3. Cleric
+4. Monk
+5. Druid
+6. Wizard
+7. Sorcerer
+8. Warlock
+9. Bard
+10. Ranger
+11. Barbarian + Rogue subclass completion
+12. Artificer / 3rd-party
+13. Remaining categories: spell long tail, feats, species features, actions,
+    magic items, monster features, misc; then 2014 variants
+
+**Per-slice process**: list the class's ⬜ rows in porting-inventory.md → convert
+pack items (`node tools/convertV13.mjs --src <v13 pack> --out packData/<pack> --only "<names>" --force`)
+→ hand-port each listed macro to a CAT descriptor in `scripts/macros/modern/...` →
+export via barrels → verify (eslint, contract check, buildCompendiums, build) →
+regenerate inventory → commit.
+
+v13 macros bind by explicit `flags.chris-premades.macros` **and** implicitly via
+`info.identifier` matching a registered macro export. `tools/v13-behavior-identifiers.json`
+lists every v13 export with behavior triggers; the converter and inventory generator
+both consult it, so "data-only" is trustworthy.
 
 ## CAT dependency notes
 

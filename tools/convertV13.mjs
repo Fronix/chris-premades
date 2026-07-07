@@ -136,9 +136,18 @@ function convertActor(actor, {rules}, report) {
     report.notes.push(...notes);
     return converted;
 }
+// v13 macros bind two ways: explicit flags.chris-premades.macros, or implicitly by
+// info.identifier matching a registered macro. tools/v13-behavior-identifiers.json lists
+// every v13 macro export whose file declares behavior triggers (regenerate from the v13
+// branch if upstream v13 ever changes).
+const behaviorIdentifiers = new Set(JSON.parse(fs.readFileSync(new URL('./v13-behavior-identifiers.json', import.meta.url), 'utf8')));
 function hasMacros(doc) {
-    const own = doc.flags?.['chris-premades']?.macros;
-    const effects = (doc.effects ?? []).some(effect => effect.flags?.['chris-premades']?.macros);
+    const cpr = doc.flags?.['chris-premades'];
+    const own = cpr?.macros || behaviorIdentifiers.has(cpr?.info?.identifier);
+    const effects = (doc.effects ?? []).some(effect => {
+        const flags = effect.flags?.['chris-premades'];
+        return flags?.macros || behaviorIdentifiers.has(flags?.info?.identifier);
+    });
     const embedded = (doc.items ?? []).some(item => hasMacros(item));
     return !!own || effects || embedded;
 }
