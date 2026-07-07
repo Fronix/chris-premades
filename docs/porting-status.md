@@ -15,15 +15,15 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | --- | --- | --- | --- |
 | Rage | ✅ `legacy` | ✅ `modern` | shared logic in `all/classFeatures/barbarian/rage.mjs` |
 | Unarmored Defense | ✅ `all` | ✅ `all` | rules-agnostic |
-| Danger Sense | ⬜ | ⬜ | |
-| Reckless Attack | ⬜ | ⬜ | v13 had 2024 only; 2014 needs assessment |
-| Fast Movement | ⬜ | ⬜ | v13 had 2024 only |
-| Feral Instinct | ⬜ | ⬜ | v13 had 2024 only |
-| Instinctive Pounce | ⬜ | ⬜ | |
+| Danger Sense | ✅ `legacy` | ✅ `modern` | 2014 context dialog; 2024 auto-advantage with tuning configs |
+| Reckless Attack | ➖ | ✅ `modern` | item-data only; V14 native duration expiry (turnStart) |
+| Fast Movement | ➖ | ✅ `modern` | uses new `item` fn-macro type (needs CAT fix branch) |
+| Feral Instinct | ➖ | ✅ `modern` | item-data only (initiativeAdv flag) |
+| Instinctive Pounce | ⬜ | ⬜ | shares 103-line legacy impl |
 | Brutal Strike / Improved Brutal Strike | ➖ | ⬜ | 2024 only |
 | Primal Knowledge | ➖ | ⬜ | 2024 only |
 | Relentless Rage | ⬜ | ⬜ | v13 had 2024 only |
-| Persistent Rage | ⬜ | ⬜ | |
+| Persistent Rage | ⬜ | ✅ `modern` | 1/LR activity restores Rage uses |
 | Indomitable Might | ➖ | ⬜ | 2024 only |
 
 ### Barbarian subclasses
@@ -45,15 +45,15 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Feature | 2014 | 2024 | Notes |
 | --- | --- | --- | --- |
 | Sneak Attack | ⬜ | ✅ `modern` | 2014 variant still to port |
-| Cunning Action | ⬜ | ✅ `modern` | 2014 variant still to port |
+| Cunning Action | ⬜ | 🚧 `modern` | macro file exists but is empty (upstream WIP) |
 | Cunning Strike / Improved Cunning Strike | ➖ | ⬜ | 2024 only |
 | Devious Strikes | ➖ | ⬜ | 2024 only |
-| Steady Aim | ⬜ | ⬜ | v13 had 2024 only |
-| Uncanny Dodge | ⬜ | ⬜ | v13 had 2024 only |
+| Steady Aim | ➖ | ⬜ | needs movement pass + effect application |
+| Uncanny Dodge | ➖ | ✅ `modern` | item-data only (reaction activity + midi flag) |
 | Evasion | ⬜ | ⬜ | check v13 (may be dnd5e-native) |
-| Reliable Talent | ➖ | ⬜ | 2024 only in v13 |
-| Elusive | ➖ | ⬜ | 2024 only in v13 |
-| Slippery Mind | ➖ | ⬜ | 2024 only in v13 |
+| Reliable Talent | ➖ | ✅ `modern` | item-data only (dnd5e reliableTalent flag) |
+| Elusive | ➖ | ✅ `modern` | item-data only (grants.noAdvantage flag) |
+| Slippery Mind | ➖ | ✅ `modern` | item-data only (wis/cha save proficiency) |
 | Stroke of Luck | ➖ | ⬜ | 2024 only in v13 |
 
 ### Rogue subclasses
@@ -85,6 +85,26 @@ Counts from `upstream/v13` `scripts/macros/`:
 
 ✱ Counted per-directory when each category becomes the active milestone
 (`git ls-tree -r upstream/v13 --name-only scripts/macros/<rules>/<category> | wc -l`).
+
+## V13 → V14 data conversion rules (learned during porting)
+
+- Effects use the **V14 ActiveEffect v2 schema**: changes live under `system.changes`
+  as `{key, type, value, phase, priority}`. Mode mapping: 0→`custom`, 1→`multiply`,
+  2→`add`, 3→`downgrade`, 4→`upgrade`, 5→`override`. Phase: `initial` for `flags.*`
+  changes, `final` for `system.*` changes. Boolean-ish `"1"` values become `true`.
+- Turn-based expiry is core now: `duration: {value: 1, units: 'rounds', expiry: 'turnStart'}`
+  replaces DAE `turnStartSource`. DAE flags block is still kept (defaults) and DAE
+  specialDurations like `1Reaction` still work.
+- `flags.chris-premades.info.identifier` → `flags.cat.identifier` (effects) and
+  `flags.cat.automation.version` (items). Macro references live in
+  `flags.cat.macros.<type>: [{source, rules, identifier}]` on items/activities/effects.
+- Trigger pass names are prefixed by scope: an item macro on the actor fires with
+  `actor` prefix (`actorContext`, `actorEquipped`); activity-attached macros with
+  `activity` prefix (`activityRollFinished`).
+- Macros receive the trigger object: `{document, actor, token, item, config, dialog,
+  message, roll, options?, ...}` — check the relevant CAT event's `appendData`.
+- Generate items with the scratchpad generator pattern (copy Rage exemplar's activity
+  and effect blocks; see git history for gen-items scripts).
 
 ## Porting checklist (per feature)
 
