@@ -500,13 +500,14 @@
       "_key": "!items.effects!lfaBKSayofKlWonJ.sL6Qn1ntvxrhFaYD"
     }
   ],
-  "folder": null,
+  "folder": "4PGqzrAwrWeQeINX",
   "flags": {
     "cat": {
       "automation": {
         "version": "2.0.2"
       }
-    }
+    },
+    "dnd5e": {}
   },
   "_id": "lfaBKSayofKlWonJ",
   "_key": "!items!lfaBKSayofKlWonJ"
