@@ -1,5 +1,18 @@
 # Readme
 
+> [!IMPORTANT]
+> ## Foundry VTT V14 Fork
+> This is a fork of [chrisk123999/chris-premades](https://github.com/chrisk123999/chris-premades) targeting **Foundry VTT V14** and **D&D 5e 5.3.x**, based on upstream's in-progress V14 rewrite with additional ported features and fixes.
+>
+> The module is built on **CAT (Coven's Automation Toolkit)**, which does all the heavy lifting. This fork depends on fixes that are not yet in the upstream CAT release, so **you must install CAT manually from [my CAT fork](https://github.com/Fronix/covens-automation-toolkit)** — do not use the upstream CAT.
+>
+> ### Installation
+> Install both modules in Foundry via **Install Module → Manifest URL** (install CAT first):
+> 1. **CAT**: `https://github.com/Fronix/covens-automation-toolkit/releases/latest/download/module.json`
+> 2. **Cauldron of Plentiful Resources**: `https://github.com/Fronix/chris-premades/releases/latest/download/module.json`
+>
+> Ported automation status is tracked in [docs/porting-status.md](docs/porting-status.md).
+
 A collection of automated items including spells, class features, monster features, etc., mechanics to make those possible, and quality-of-life based extensions for a high-automation Midi-QOL based D&D5e environment. Compendiums included in this module do not include item's descriptions. While this module has several module dependencies by different authors, do not pester tposney, Wasp, or any other module authors with bugs or issues related to this module. Bug reports and large module implementation requests may be made on the GitHub. Faster support and feature requests can be accessed on the [Discord server](https://discord.gg/BumxBcQDrT).
 
 Find detailed information in [our wiki](https://github.com/chrisk123999/chris-premades/wiki).
@@ -16,14 +29,14 @@ Find detailed information in [our wiki](https://github.com/chrisk123999/chris-pr
 [<img src="images/chris-kofi.svg" width=237px />](https://ko-fi.com/O5O5G582S) <br>
 [<img src="images/michael-kofi.svg" width=253px />](https://ko-fi.com/T6T8XKCII)
   
-# Required Modules  :
-| Module | Minimum Version |  
-| --- | --- | 
-| D&D 5e System | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2Fchrisk123999%2Fchris-premades%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.relationships.systems%5B%3A1%5D.compatibility.minimum&label=%20&color=orange) | 
-| Midi-Qol | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2Fchrisk123999%2Fchris-premades%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.relationships.requires%5B0%5D.compatibility.minimum&label=%20&color=green) |  
-| Dynamic Active Effects | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2Fchrisk123999%2Fchris-premades%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.relationships.requires%5B2%5D.compatibility.minimum&label=%20&color=green) |
-| Socket Lib | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2Fchrisk123999%2Fchris-premades%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.relationships.requires%5B1%5D.compatibility.minimum&label=%20&color=green) |  
-| Time's Up | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2Fchrisk123999%2Fchris-premades%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.relationships.requires%5B3%5D.compatibility.minimum&label=%20&color=green) |
+# Requirements:
+| Requirement | Minimum Version |
+| --- | --- |
+| Foundry VTT | V14 |
+| D&D 5e System | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FFronix%2Fchris-premades%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.relationships.systems%5B%3A1%5D.compatibility.minimum&label=%20&color=orange) |
+| Midi-Qol | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FFronix%2Fchris-premades%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.relationships.requires%5B0%5D.compatibility.minimum&label=%20&color=green) |
+| Dynamic Active Effects | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FFronix%2Fchris-premades%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.relationships.requires%5B1%5D.compatibility.minimum&label=%20&color=green) |
+| [Coven's Automation Toolkit (my fork)](https://github.com/Fronix/covens-automation-toolkit) | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2FFronix%2Fchris-premades%2Freleases%2Flatest%2Fdownload%2Fmodule.json&query=%24.relationships.requires%5B2%5D.compatibility.minimum&label=%20&color=green) |
 
 # Modules Required for Animations:
 - Sequencer 3.6.0+
