@@ -605,7 +605,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Alter Self | alterSelf | ✅ ported |
 | Animal Friendship | animalFriendship | ✅ ported |
 | Animal Messenger | animalMessenger | ✅ ported |
-| Animate Dead | animateDead | ⬜ |
+| Animate Dead | animateDead | ✅ ported |
 | Animate Objects | animateObjects | ⬜ |
 | Antilife Shell | antilifeShell | ✅ ported |
 | Arcane Vigor | arcaneVigor | ✅ ported |
@@ -730,7 +730,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Toll the Dead | tollTheDead | ✅ ported |
 | True Strike | trueStrike | ✅ ported |
 | Vampiric Touch | vampiricTouch | ✅ ported |
-| Vitriolic Sphere | vitriolicSphere | ⬜ |
+| Vitriolic Sphere | vitriolicSphere | ✅ ported |
 | Wall of Fire | wallOfFire | ⬜ |
 | Warding Bond | wardingBond | ✅ ported |
 | Wish | wish, wishImmunity, wishStress | ⬜ |

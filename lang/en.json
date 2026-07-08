@@ -440,6 +440,10 @@
             },
             "TimeStop": {
                 "Affect": "Did this action affect another creature or its gear? (Ends Time Stop)"
+            },
+            "AnimateDead": {
+                "ZombieName": "Zombie Actor Name:",
+                "SkeletonName": "Skeleton Actor Name:"
             }
         },
         "Auras": {
@@ -502,7 +506,8 @@
                 "FiendishSpiritDemon": "Fiendish Spirit (Demon)",
                 "FiendishSpiritDevil": "Fiendish Spirit (Devil)",
                 "FiendishSpiritYugoloth": "Fiendish Spirit (Yugoloth)"
-            }
+            },
+            "SelectSummons": "Select what to summon (up to {totalSummons}):"
         },
         "Alignment": {
             "Good": "Good",
@@ -526,6 +531,9 @@
         },
         "Distance": {
             "DistanceFeet": "{distance} ft."
+        },
+        "Error": {
+            "ActorNotFound": "Required actor not found in the world!"
         }
     }
 }

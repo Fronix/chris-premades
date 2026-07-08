@@ -119,6 +119,7 @@ export {beaconOfHope as 'beacon-of-hope', beaconOfHopeHopeful as 'beacon-of-hope
 export {deathWard as 'death-ward', deathWardWarded as 'death-ward-warded'} from './modern/spells/deathWard.mjs';
 export {guardianOfFaith as 'guardian-of-faith', guardianOfFaithDamage as 'guardian-of-faith-damage'} from './modern/spells/guardianOfFaith.mjs';
 export {alterSelf as 'alter-self'} from './modern/spells/alterSelf.mjs';
+export {animateDead as 'animate-dead', vitriolicSphere as 'vitriolic-sphere'} from './modern/spells/animateDead.mjs';
 export {animalFriendship as 'animal-friendship', animalMessenger as 'animal-messenger', armsOfHadar as 'arms-of-hadar'} from './modern/spells/spellBatch4.mjs';
 export {antilifeShell as 'antilife-shell', antilifeShellMove as 'antilife-shell-move'} from './modern/spells/antilifeShell.mjs';
 export {armorOfAgathys as 'armor-of-agathys', armorOfAgathysArmor as 'armor-of-agathys-armor'} from './modern/spells/armorOfAgathys.mjs';
