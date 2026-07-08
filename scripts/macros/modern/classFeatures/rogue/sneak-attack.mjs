@@ -80,6 +80,10 @@ async function damage({document, workflow}) {
     }
     await workflowUtils.bonusDamage(workflow, formula);
     await workflowUtils.completeItemUse(document, workflow.targets, {fast: true, consumeResources: inCombat, consumeUsage: inCombat});
+    // The utility activity has no consumption target for the feature's own uses, so consumeUsage
+    // above doesn't spend the once-per-turn use. Decrement it explicitly (in combat only — out of
+    // combat there is no turn to recover on, so it intentionally isn't spent).
+    if (inCombat) await documentUtils.update(document, {'system.uses.spent': (document.system.uses.spent ?? 0) + 1});
     const rendMind = actorUtils.getItemByIdentifier(workflow.actor, 'rend-mind');
     if (rendMind && identifier === 'psychic-blades') {
         const psionicPower = actorUtils.getItemByIdentifier(workflow.actor, 'psionic-power');
