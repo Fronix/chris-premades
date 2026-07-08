@@ -130,6 +130,7 @@ export {bestowCurse as 'bestow-curse', bestowCurseAttackEffect as 'bestow-curse-
 export {blight, calmEmotions as 'calm-emotions'} from './modern/spells/spellBatch3.mjs';
 export {blink, blinkBlinking as 'blink-blinking', blinkBlinkedAway as 'blink-blinked-away'} from './modern/spells/blink.mjs';
 export {burningHands as 'burning-hands', chillTouch as 'chill-touch', chromaticOrb as 'chromatic-orb'} from './modern/spells/chromaticOrb.mjs';
+export {cacophonicShield as 'cacophonic-shield', cacophonicShieldSourceEffect as 'cacophonic-shield-source-effect'} from './modern/spells/cacophonicShield.mjs';
 export {chainLightning as 'chain-lightning'} from './modern/spells/chainLightning.mjs';
 export {circleOfPower as 'circle-of-power', circleOfPowerActive as 'circle-of-power-active'} from './modern/spells/circleOfPower.mjs';
 export {deathArmor as 'death-armor', deathArmorEffect as 'death-armor-effect'} from './modern/spells/deathArmor.mjs';

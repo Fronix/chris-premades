@@ -628,7 +628,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Blink | blink | ✅ ported |
 | Blur | blur | ✅ ported |
 | Burning Hands | burningHands | ✅ ported |
-| Cacophonic Shield | cacophonicShield, cacophonicShieldSourceEffect | ⬜ |
+| Cacophonic Shield | cacophonicShield, cacophonicShieldSourceEffect | ✅ ported |
 | Call Lightning | callLightning | ⬜ |
 | Calm Emotions | calmEmotions | ✅ ported |
 | Chain Lightning | chainLightning | ✅ ported |
