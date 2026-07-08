@@ -118,7 +118,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Circle of the Land Spells *(Circle of Land)* | circleOfTheLandSpells | ⬜ |
 | Cosmic Omen *(Circle of Stars)* | cosmicOmen | ⬜ |
 | Elemental Fury: Potent Spellcasting | elementalFuryPotentSpellcasting | ✅ ported |
-| Elemental Fury: Primal Strike | elementalFuryPrimalStrike | ⬜ |
+| Elemental Fury: Primal Strike | elementalFuryPrimalStrike | ✅ ported |
 | Full of Stars *(Circle of Stars)* | — | ✅ converted |
 | Improved Circle Forms *(Circle of Moon)* | — | ✅ converted |
 | Land's Aid *(Circle of Land)* | landsAid | ⬜ |

@@ -28,6 +28,7 @@ export {potentSpellcasting as 'blessed-strikes-potent-spellcasting'} from './mod
 export {archdruid} from './modern/classFeatures/druid/archdruid.mjs';
 export {circleForms as 'circle-forms', lunarForm as 'lunar-form'} from './modern/classFeatures/druid/circleForms.mjs';
 export {elementalFuryPotentSpellcasting as 'elemental-fury-potent-spellcasting'} from './modern/classFeatures/druid/elementalFury.mjs';
+export {elementalFuryPrimalStrike as 'elemental-fury-primal-strike'} from './modern/classFeatures/druid/primalStrike.mjs';
 export {moonlightStep as 'moonlight-step'} from './modern/classFeatures/druid/moonlightStep.mjs';
 export {wildCompanion as 'wild-companion'} from './modern/classFeatures/druid/wildCompanion.mjs';
 export {wildResurgence as 'wild-resurgence'} from './modern/classFeatures/druid/wildResurgence.mjs';

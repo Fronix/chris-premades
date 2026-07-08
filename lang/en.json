@@ -117,7 +117,8 @@
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
-            "UseRollTotal": "Use {itemName}? (Roll Total: {rollTotal})"
+            "UseRollTotal": "Use {itemName}? (Roll Total: {rollTotal})",
+            "UseWeaponDamageExtra": "Use {itemName} for an extra {bonusFormula}?"
         },
         "Macros": {
             "All": {
