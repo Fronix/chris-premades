@@ -122,7 +122,8 @@
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
             "UseRollTotal": "Use {itemName}? (Roll Total: {rollTotal})",
-            "UseWeaponDamageExtra": "Use {itemName} for an extra {bonusFormula}?"
+            "UseWeaponDamageExtra": "Use {itemName} for an extra {bonusFormula}?",
+            "UseAttack": "Use {itemName}? (Attack Total: {attackTotal})"
         },
         "Macros": {
             "All": {
@@ -300,6 +301,9 @@
             },
             "WordsOfCreation": {
                 "Target": "Select an additional target:"
+            },
+            "DazzlingFootwork": {
+                "AgileStrikes": "Make an Agile Strike against a nearby enemy?"
             }
         },
         "Auras": {
