@@ -8,6 +8,7 @@ export {persistentRage as 'persistent-rage'} from './modern/classFeatures/barbar
 export {primalKnowledge as 'primal-knowledge'} from './modern/classFeatures/barbarian/primalKnowledge.mjs';
 export {recklessAttack as 'reckless-attack'} from './modern/classFeatures/barbarian/recklessAttack.mjs';
 export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbarian/relentlessRage.mjs';
+export {unarmoredDefenseBarbarian as 'unarmored-defense-barbarian'} from './modern/classFeatures/barbarian/unarmoredDefense.mjs';
 // Bard
 export {bardicInspiration as 'bardic-inspiration', bardicInspirationEffect as 'bardic-inspiration-effect'} from './modern/classFeatures/bard/bardicInspiration.mjs';
 export {combatInspiration as 'combat-inspiration', dazzlingFootwork as 'dazzling-footwork', leadingEvasion as 'leading-evasion'} from './modern/classFeatures/bard/danceFeatures.mjs';
@@ -77,6 +78,8 @@ export {exceptionalTraining as 'exceptional-training', naturesVeil as 'natures-v
 export {favoredEnemy as 'favored-enemy', foeSlayer as 'foe-slayer', relentlessHunter as 'relentless-hunter', tireless} from './modern/classFeatures/ranger/coreFeatures.mjs';
 export {primalCompanion as 'primal-companion', primalCompanionStrike as 'primal-companion-strike'} from './modern/classFeatures/ranger/primalCompanion.mjs';
 // Rogue
+export {cunningAction as 'cunning-action'} from './modern/classFeatures/rogue/cunningAction.mjs';
+export {cunningStrike as 'cunning-strike'} from './modern/classFeatures/rogue/cunningStrike.mjs';
 export {elusive} from './modern/classFeatures/rogue/elusive.mjs';
 export {reliableTalent as 'reliable-talent'} from './modern/classFeatures/rogue/reliableTalent.mjs';
 export {slipperyMind as 'slippery-mind'} from './modern/classFeatures/rogue/slipperyMind.mjs';

@@ -53,7 +53,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Relentless Rage | relentlessRage | ✅ ported |
 | Retaliation *(Path of the Berserker)* | retaliation | ⬜ |
 | Travel along the Tree *(Path of the World Tree)* | travelAlongTheTree | ⬜ |
-| Unarmored Defense (Barbarian) | unarmoredDefenseBarbarian | ⬜ |
+| Unarmored Defense (Barbarian) | unarmoredDefenseBarbarian | ✅ ported |
 | Vitality of the Tree *(Path of the World Tree)* | vitalityOfTheTree | ⬜ |
 | Warrior of the Gods *(Path of the Zealot)* | warriorOfTheGods | ⬜ |
 | Zealous Presence *(Path of the Zealot)* | zealousPresence | ⬜ |
@@ -214,8 +214,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Assassinate *(Assassin)* | assassinate | ⬜ |
-| Cunning Action | cunningAction, hideEffect | ⬜ |
-| Cunning Strike | cunningStrike | ⬜ |
+| Cunning Action | cunningAction, hideEffect | ✅ ported |
+| Cunning Strike | cunningStrike | ✅ ported |
 | Death Strike *(Assassin)* | deathStrike | ⬜ |
 | Devious Strikes | deviousStrikes | ⬜ |
 | Elusive | — | ✅ converted |

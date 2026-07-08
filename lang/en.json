@@ -124,7 +124,8 @@
             "UseRollTotal": "Use {itemName}? (Roll Total: {rollTotal})",
             "UseWeaponDamageExtra": "Use {itemName} for an extra {bonusFormula}?",
             "UseAttack": "Use {itemName}? (Attack Total: {attackTotal})",
-            "DamageType": "Which damage type?"
+            "DamageType": "Which damage type?",
+            "Use": "Use {itemName}?"
         },
         "Macros": {
             "All": {
