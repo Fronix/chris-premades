@@ -406,6 +406,9 @@
             "CalmEmotions": {
                 "ConditionImmunity": "Suppress charm/fear",
                 "Indifference": "Indifference"
+            },
+            "ChainLightning": {
+                "Select": "Select up to {maxTargets} leap targets:"
             }
         },
         "Auras": {

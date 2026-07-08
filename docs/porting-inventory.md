@@ -631,7 +631,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Cacophonic Shield | cacophonicShield, cacophonicShieldSourceEffect | ⬜ |
 | Call Lightning | callLightning | ⬜ |
 | Calm Emotions | calmEmotions | ✅ ported |
-| Chain Lightning | chainLightning | ⬜ |
+| Chain Lightning | chainLightning | ✅ ported |
 | Charm Monster | charmMonster | ✅ ported |
 | Charm Person | charmPerson | ✅ ported |
 | Chill Touch | chillTouch | ✅ ported |
