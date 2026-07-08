@@ -1,0 +1,82 @@
+{
+  "folder": "gG5aEjJIwdsH0isv",
+  "name": "Thrown Weapon Fighting",
+  "type": "feat",
+  "_id": "mYLFzbLkASJu8N6e",
+  "img": "icons/skills/ranged/daggers-thrown-salvo-orange.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "thrown-weapon-fighting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "PHB 2024",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    },
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      },
+      "macros": {
+        "roll": [
+          {
+            "source": "chris-premades",
+            "rules": "2024",
+            "identifier": "thrown-weapon-fighting"
+          }
+        ]
+      }
+    }
+  },
+  "_key": "!items!mYLFzbLkASJu8N6e"
+}

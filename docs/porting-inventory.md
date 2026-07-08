@@ -912,7 +912,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Elemental Adept (Lightning) | elementalAdeptL | ⬜ |
 | Elemental Adept (Thunder) | elementalAdeptT | ⬜ |
 | Grappler | grappler | ⬜ |
-| Great Weapon Fighting | greatWeaponFighting | ⬜ |
+| Great Weapon Fighting | greatWeaponFighting | ✅ ported |
 | Healer | healer | ⬜ |
 | Heavy Armor Master | — | ✅ converted |
 | Interception | interception | ⬜ |
@@ -927,7 +927,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Tavern Brawler: Constitution Score | tavernBrawler | ⬜ |
 | Tavern Brawler: Strength Score | tavernBrawler | ⬜ |
 | Telekinetic: Shove | telekineticShove | ⬜ |
-| Thrown Weapon Fighting | thrownWeaponFighting | ⬜ |
+| Thrown Weapon Fighting | thrownWeaponFighting | ✅ ported |
 | Unarmed Fighting | unarmedFighting | ⬜ |
 | Vampire's Plaything | vampiresPlaything | ⬜ |
 

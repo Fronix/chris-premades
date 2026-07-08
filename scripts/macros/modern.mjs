@@ -111,7 +111,7 @@ export {thoughtShield as 'thought-shield'} from './modern/classFeatures/warlock/
 export {arcaneRecovery as 'arcane-recovery'} from './modern/classFeatures/wizard/arcaneRecovery.mjs';
 export {memorizeSpell as 'memorize-spell'} from './modern/classFeatures/wizard/memorizeSpell.mjs';
 // Feats
-export {alert, archery, defense, dueling, heavyArmorMaster as 'heavy-armor-master', sharpshooter, speedy} from './modern/feats/featBatch1.mjs';
+export {alert, archery, defense, dueling, greatWeaponFighting as 'great-weapon-fighting', heavyArmorMaster as 'heavy-armor-master', sharpshooter, speedy, thrownWeaponFighting as 'thrown-weapon-fighting'} from './modern/feats/featBatch1.mjs';
 // Spells
 export {aid} from './modern/spells/aid.mjs';
 export {auraOfVitality as 'aura-of-vitality', auraOfVitalityEffect as 'aura-of-vitality-effect'} from './modern/spells/auraOfVitality.mjs';
