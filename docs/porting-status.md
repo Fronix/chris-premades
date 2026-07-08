@@ -301,6 +301,20 @@ Remaining work requires new machinery or is long-tail:
 - 3rd-party content and the 2014 legacy tree
 - Animation passes (Sequencer/JB2A flows)
 
+## Milestone 19 — 3rd-party 2024 complete + heavy spells + all class deferrals closed
+
+Wish, Teleport, Animate Objects, Empowered Spell (Metamagic now 100%),
+Darkness/Wall of Fire/Spike Growth region cores, Nature's Sanctuary,
+War God's Blessing, Invoke Duplicity trio, Warrior of the Elements.
+3rd-party 2024: full Pugilist class + Muscle Wizard, Fate Gambler,
+the I Survived trio, Sangromantic Initiate, Force Gauntlet, Mask of
+Monstrous Forms, Blood Sacrifice, Forest Guard, Sprout Foliage,
+Summer Winds, Wilting Smite, Spellfire Flare/Spark, Purple Dragon
+Rook, Eldritch Eddy. Radiance of the Dawn dispels Darkness regions.
+
+The ENTIRE 2024 tree (core + 3rd-party) is ported. Remaining frontiers:
+the 2014 legacy tree and animation passes.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were

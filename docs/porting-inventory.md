@@ -742,36 +742,36 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Absorb Elements | — | ✅ converted |
-| Animate Dead | animateDead | ⬜ |
-| Animate Objects | animateObjects | ⬜ |
+| Animate Dead | animateDead | ✅ ported |
+| Animate Objects | animateObjects | ✅ ported |
 | Antagonize | antagonize | ⬜ |
-| Armor of Agathys | armorOfAgathys | ⬜ |
-| Arms of Hadar | armsOfHadar | ⬜ |
-| Aura of Life | auraOfLife | ⬜ |
-| Aura of Purity | auraOfPurity | ⬜ |
-| Aura of Vitality | auraOfVitality | ⬜ |
-| Banishment | banishment | ⬜ |
-| Beacon of Hope | beaconOfHope | ⬜ |
-| Bestow Curse | bestowCurse | ⬜ |
+| Armor of Agathys | armorOfAgathys | ✅ ported |
+| Arms of Hadar | armsOfHadar | ✅ ported |
+| Aura of Life | auraOfLife | ✅ ported |
+| Aura of Purity | auraOfPurity | ✅ ported |
+| Aura of Vitality | auraOfVitality | ✅ ported |
+| Banishment | banishment | ✅ ported |
+| Beacon of Hope | beaconOfHope | ✅ ported |
+| Bestow Curse | bestowCurse | ✅ ported |
 | Bigby's Hand | bigbysHand | ⬜ |
 | Blade Ward | — | ✅ converted |
 | Bless | bless | ⬜ |
-| Blight | blight | ⬜ |
-| Blinding Smite | blindingSmite | ⬜ |
-| Blink | blink | ⬜ |
+| Blight | blight | ✅ ported |
+| Blinding Smite | blindingSmite | ✅ ported |
+| Blink | blink | ✅ ported |
 | Booming Blade | boomingBlade | ⬜ |
 | Borrowed Knowledge | borrowedKnowledge | ⬜ |
 | Branding Smite | brandingSmite | ⬜ |
 | Burning Hands | burningHands | ⬜ |
 | Call Lightning | callLightning | ⬜ |
-| Chain Lightning | chainLightning | ⬜ |
+| Chain Lightning | chainLightning | ✅ ported |
 | Chaos Bolt | chaosBolt | ⬜ |
-| Charm Person | charmPerson | ⬜ |
+| Charm Person | charmPerson | ✅ ported |
 | Chill Touch | chillTouch | ⬜ |
-| Chromatic Orb | chromaticOrb | ⬜ |
-| Circle of Power | circleOfPower | ⬜ |
-| Cloudkill | cloudkill | ⬜ |
-| Compelled Duel | compelledDuel | ⬜ |
+| Chromatic Orb | chromaticOrb | ✅ ported |
+| Circle of Power | circleOfPower | ✅ ported |
+| Cloudkill | cloudkill | ✅ ported |
+| Compelled Duel | compelledDuel | ✅ ported |
 | Conjure Animals | conjureAnimals | ⬜ |
 | Conjure Celestial | conjureCelestial | ⬜ |
 | Conjure Elemental | conjureElemental | ⬜ |
@@ -782,17 +782,17 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Crown of Stars | crownOfStars | ⬜ |
 | Crusader's Mantle | crusadersMantle | ⬜ |
 | Danse Macabre | danseMacabre | ⬜ |
-| Darkness | darkness | ⬜ |
+| Darkness | darkness | ✅ ported |
 | Dawn | dawn | ⬜ |
-| Death Ward | deathWard | ⬜ |
-| Destructive Wave | destructiveWave | ⬜ |
+| Death Ward | deathWard | ✅ ported |
+| Destructive Wave | destructiveWave | ✅ ported |
 | Detect Magic | detectMagic | ⬜ |
 | Detect Thoughts | detectThoughts | ⬜ |
 | Disintegrate | disintegrate | ⬜ |
-| Dragon's Breath | dragonsBreath | ⬜ |
+| Dragon's Breath | dragonsBreath | ✅ ported |
 | Dust Devil | dustDevil | ⬜ |
 | Earth Tremor | earthTremor | ⬜ |
-| Eldritch Blast | eldritchBlast | ⬜ |
+| Eldritch Blast | eldritchBlast | ✅ ported |
 | Elemental Weapon | elementalWeapon | ⬜ |
 | Enlarge/Reduce | enlargeReduce | ⬜ |
 | Faerie Fire | faerieFire | ⬜ |
@@ -812,7 +812,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Globe of Invulnerability | globeOfInvulnerability | ⬜ |
 | Grease | grease | ⬜ |
 | Green-Flame Blade | greenFlameBlade | ⬜ |
-| Guardian of Faith | guardianOfFaith | ⬜ |
+| Guardian of Faith | guardianOfFaith | ✅ ported |
 | Guardian of Nature | guardianOfNature | ⬜ |
 | Guiding Bolt | — | ✅ converted |
 | Gust of Wind | gustOfWind | ⬜ |
@@ -820,11 +820,11 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Healing Spirit | healingSpirit | ⬜ |
 | Heat Metal | heatMetal | ⬜ |
 | Heroism | heroism | ⬜ |
-| Hex | hex | ⬜ |
+| Hex | hex | ✅ ported |
 | Hold Person | holdPerson | ⬜ |
 | Holy Weapon | holyWeapon | ⬜ |
 | Hunger of Hadar | hungerOfHadar | ⬜ |
-| Hunter's Mark | huntersMark | ⬜ |
+| Hunter's Mark | huntersMark | ✅ ported |
 | Hypnotic Pattern | hypnoticPattern | ⬜ |
 | Ice Storm | iceStorm | ⬜ |
 | Insect Plague | insectPlague | ⬜ |
@@ -840,17 +840,17 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Melf's Acid Arrow | acidArrow | ⬜ |
 | Mind Sliver | — | ✅ converted |
 | Mirror Image | mirrorImage | ⬜ |
-| Misty Step | mistyStep | ⬜ |
+| Misty Step | mistyStep | ✅ ported |
 | Moonbeam | moonbeam | ⬜ |
-| Pass without Trace | passWithoutTrace | ⬜ |
+| Pass without Trace | passWithoutTrace | ✅ ported |
 | Protection from Evil and Good | protectionFromEvilAndGood | ⬜ |
 | Raulothim's Psychic Lance | — | ✅ converted |
 | Ray of Enfeeblement | rayOfEnfeeblement | ⬜ |
 | Rime's Binding Ice | rimesBindingIce | ⬜ |
-| Sanctuary | sanctuary | ⬜ |
+| Sanctuary | sanctuary | ✅ ported |
 | Sapping Sting | sappingSting | ⬜ |
-| Scorching Ray | scorchingRay | ⬜ |
-| Searing Smite | searingSmite | ⬜ |
+| Scorching Ray | scorchingRay | ✅ ported |
+| Searing Smite | searingSmite | ✅ ported |
 | Shadow Blade | shadowBlade | ⬜ |
 | Shadow of Moil | shadowOfMoil | ⬜ |
 | Shield | — | ✅ converted |
@@ -858,44 +858,44 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Shocking Grasp | shockingGrasp | ⬜ |
 | Sickening Radiance | sickeningRadiance | ⬜ |
 | Skill Empowerment | skillEmpowerment | ⬜ |
-| Sleet Storm | sleetStorm | ⬜ |
-| Spike Growth | spikeGrowth | ⬜ |
-| Spirit Guardians | spiritGuardians | ⬜ |
+| Sleet Storm | sleetStorm | ✅ ported |
+| Spike Growth | spikeGrowth | ✅ ported |
+| Spirit Guardians | spiritGuardians | ✅ ported |
 | Spirit Shroud | spiritShroud | ⬜ |
 | Spirit of Death | spiritOfDeath | ⬜ |
-| Spiritual Weapon | spiritualWeapon | ⬜ |
+| Spiritual Weapon | spiritualWeapon | ✅ ported |
 | Spray of Cards | sprayOfCards | ⬜ |
-| Staggering Smite | staggeringSmite | ⬜ |
+| Staggering Smite | staggeringSmite | ✅ ported |
 | Storm Sphere | stormSphere | ⬜ |
-| Summon Aberration | summonAberration | ⬜ |
-| Summon Beast | summonBeast | ⬜ |
-| Summon Celestial | summonCelestial | ⬜ |
-| Summon Construct | summonConstruct | ⬜ |
+| Summon Aberration | summonAberration | ✅ ported |
+| Summon Beast | summonBeast | ✅ ported |
+| Summon Celestial | summonCelestial | ✅ ported |
+| Summon Construct | summonConstruct | ✅ ported |
 | Summon Draconic Spirit | summonDraconicSpirit | ⬜ |
-| Summon Elemental | summonElemental | ⬜ |
-| Summon Fey | summonFey | ⬜ |
-| Summon Fiend | summonFiend | ⬜ |
+| Summon Elemental | summonElemental | ✅ ported |
+| Summon Fey | summonFey | ✅ ported |
+| Summon Fiend | summonFiend | ✅ ported |
 | Summon Lesser Demons | summonLesserDemons | ⬜ |
 | Summon Shadowspawn | summonShadowspawn | ⬜ |
-| Summon Undead | summonUndead | ⬜ |
+| Summon Undead | summonUndead | ✅ ported |
 | Synaptic Static | synapticStatic | ⬜ |
 | Tasha's Caustic Brew | tashasCausticBrew | ⬜ |
 | Tasha's Otherworldly Guise | tashasOtherworldlyGuise | ⬜ |
-| Teleport | teleport | ⬜ |
-| Thorn Whip | thornWhip | ⬜ |
+| Teleport | teleport | ✅ ported |
+| Thorn Whip | thornWhip | ✅ ported |
 | Thunder Step | thunderStep | ⬜ |
-| Thunderous Smite | thunderousSmite | ⬜ |
-| Thunderwave | thunderwave | ⬜ |
+| Thunderous Smite | thunderousSmite | ✅ ported |
+| Thunderwave | thunderwave | ✅ ported |
 | Tidal Wave | tidalWave | ⬜ |
-| Toll the Dead | tollTheDead | ⬜ |
-| Vampiric Touch | vampiricTouch | ⬜ |
+| Toll the Dead | tollTheDead | ✅ ported |
+| Vampiric Touch | vampiricTouch | ✅ ported |
 | Vitriolic Sphere | vitriolicSphere | ⬜ |
 | Vortex Warp | vortexWarp | ⬜ |
-| Wall of Fire | wallOfFire | ⬜ |
-| Warding Bond | wardingBond | ⬜ |
+| Wall of Fire | wallOfFire | ✅ ported |
+| Warding Bond | wardingBond | ✅ ported |
 | Wither and Bloom | witherAndBloom | ⬜ |
-| Wrathful Smite | wrathfulSmite | ⬜ |
-| Zone of Truth | zoneOfTruth | ⬜ |
+| Wrathful Smite | wrathfulSmite | ✅ ported |
+| Zone of Truth | zoneOfTruth | ✅ ported |
 
 ## Feats — 2024 — 29 items
 
