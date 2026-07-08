@@ -10,8 +10,12 @@ async function damage({document, workflow}) {
     if (rollType === 'advantage') doSneak = true;
     const targetToken = workflow.targets.first().document;
     if (!doSneak && rollType != 'disadvantage') {
-        const nearbyTokens = tokenUtils.findNearby(targetToken, 5, {disposition: 'enemy'}).filter(token => token != workflow.token.document);
-        if (nearbyTokens.length) doSneak = true;
+        // An ally of the attacker adjacent to the target (and not incapacitated) enables Sneak
+        // Attack. findNearby's 'enemy'/'ally' are resolved against the *reference* token, so asking
+        // it for enemies of the target would return the target's hostiles, not the rogue's allies.
+        // Pull all nearby tokens and match the attacker's disposition explicitly instead.
+        const nearbyAllies = tokenUtils.findNearby(targetToken, 5, {includeIncapacitated: false}).filter(token => token.id !== workflow.token.id && token.id !== targetToken.id && token.disposition === workflow.token.document.disposition);
+        if (nearbyAllies.length) doSneak = true;
     }
     doSneak ||= await automationUtils.calledEvent('sneakAttackDoSneak', workflow.actor, {data: {workflow}});
     if (!doSneak) {
