@@ -361,7 +361,17 @@
                 "AllowSpellcasting": "Allow Spellcasting:",
                 "HeavyArmor": "You are wearing heavy armor and can not rage!"
             },
-            "RageOfTheGods": "Use {item} to keep {token} conscious?"
+            "RageOfTheGods": "Use {item} to keep {token} conscious?",
+            "VitalityOfTheTree": "Grant Life-Giving Force healing to which ally?",
+            "BranchesOfTheTree": {
+                "Rage": "You must be raging to use this!"
+            },
+            "TravelAlongTheTree": {
+                "WillingCreatures": "Select up to 6 willing creatures to bring along:"
+            },
+            "BatteringRoots": {
+                "Mastery": "Apply which weapon mastery?"
+            }
         },
         "Auras": {
             "Source": "{auraName}: Source"
@@ -397,6 +407,14 @@
         "Alignment": {
             "Good": "Good",
             "Evil": "Evil"
+        },
+        "Mastery": {
+            "Push": {
+                "Name": "Push"
+            },
+            "Topple": {
+                "Name": "Topple"
+            }
         }
     }
 }

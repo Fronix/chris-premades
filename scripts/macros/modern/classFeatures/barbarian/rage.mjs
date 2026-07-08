@@ -76,6 +76,14 @@ async function use({workflow}) {
         }
         if (selection) await workflowUtils.completeItemUse(powerOfTheWilds);
     }
+    // Path of the World Tree
+    const vitalityOfTheTree = actorUtils.getItemByIdentifier(workflow.actor, 'vitality-of-the-tree');
+    if (vitalityOfTheTree) {
+        macros.push({type: 'combat', macros: [{source: 'chris-premades', rules: '2024', identifier: 'life-giving-force'}]});
+        const range = Number(automationUtils.getConfigValue(vitalityOfTheTree, 'range')) || 10;
+        foundry.utils.setProperty(effectData, 'flags.chris-premades.vitalityOfTheTree.range', range);
+        await workflowUtils.completeItemUse(vitalityOfTheTree);
+    }
     if (effectData.system) effectData.system.changes = changes;
     else effectData.changes = changes;
     const options = {

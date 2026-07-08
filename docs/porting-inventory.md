@@ -29,8 +29,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Aspect of the Wilds *(Path of the Wild Heart)* | aspectOfTheWilds | ⬜ |
-| Battering Roots *(Path of the World Tree)* | batteringRoots | ⬜ |
-| Branches of the Tree *(Path of the World Tree)* | branchesOfTheTree | ⬜ |
+| Battering Roots *(Path of the World Tree)* | batteringRoots | ✅ ported |
+| Branches of the Tree *(Path of the World Tree)* | branchesOfTheTree | ✅ ported |
 | Brutal Strike | brutalStrike, sunderingBlow | ✅ ported |
 | Danger Sense | dangerSense | ✅ ported |
 | Divine Fury *(Path of the Zealot)* | divineFury | ✅ ported |
@@ -52,9 +52,9 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Reckless Attack | — | ✅ converted |
 | Relentless Rage | relentlessRage | ✅ ported |
 | Retaliation *(Path of the Berserker)* | retaliation | ⬜ |
-| Travel along the Tree *(Path of the World Tree)* | travelAlongTheTree | ⬜ |
+| Travel along the Tree *(Path of the World Tree)* | travelAlongTheTree | ✅ ported |
 | Unarmored Defense (Barbarian) | unarmoredDefenseBarbarian | ✅ ported |
-| Vitality of the Tree *(Path of the World Tree)* | vitalityOfTheTree | ⬜ |
+| Vitality of the Tree *(Path of the World Tree)* | vitalityOfTheTree | ✅ ported |
 | Warrior of the Gods *(Path of the Zealot)* | warriorOfTheGods | ✅ ported |
 | Zealous Presence *(Path of the Zealot)* | zealousPresence | ⬜ |
 

@@ -14,6 +14,7 @@ export {rageOfTheGods as 'rage-of-the-gods', rageOfTheGodsEffect as 'rage-of-the
 export {powerOfTheWilds as 'power-of-the-wilds', powerOfTheWildsLion as 'power-of-the-wilds-lion', powerOfTheWildsRam as 'power-of-the-wilds-ram'} from './modern/classFeatures/barbarian/wildHeart.mjs';
 export {unarmoredDefenseBarbarian as 'unarmored-defense-barbarian'} from './modern/classFeatures/barbarian/unarmoredDefense.mjs';
 export {warriorOfTheGods as 'warrior-of-the-gods'} from './modern/classFeatures/barbarian/warriorOfTheGods.mjs';
+export {batteringRoots as 'battering-roots', branchesOfTheTree as 'branches-of-the-tree', lifeGivingForce as 'life-giving-force', travelAlongTheTree as 'travel-along-the-tree', vitalityOfTheTree as 'vitality-of-the-tree'} from './modern/classFeatures/barbarian/worldTree.mjs';
 // Bard
 export {bardicInspiration as 'bardic-inspiration', bardicInspirationEffect as 'bardic-inspiration-effect'} from './modern/classFeatures/bard/bardicInspiration.mjs';
 export {combatInspiration as 'combat-inspiration', dazzlingFootwork as 'dazzling-footwork', leadingEvasion as 'leading-evasion'} from './modern/classFeatures/bard/danceFeatures.mjs';
