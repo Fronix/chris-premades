@@ -22,9 +22,13 @@ export {strokeOfLuck as 'stroke-of-luck'} from './modern/classFeatures/rogue/str
 export {uncannyDodge as 'uncanny-dodge'} from './modern/classFeatures/rogue/uncannyDodge.mjs';
 // Spells
 export {aid} from './modern/spells/aid.mjs';
+export {auraOfVitality as 'aura-of-vitality', auraOfVitalityEffect as 'aura-of-vitality-effect'} from './modern/spells/auraOfVitality.mjs';
 export {banishingSmite as 'banishing-smite'} from './modern/spells/banishingSmite.mjs';
 export {blindingSmite as 'blinding-smite'} from './modern/spells/blindingSmite.mjs';
 export {bless} from './modern/spells/bless.mjs';
+export {command, commandTurnStart as 'command-turn-start', commandGrovel as 'command-grovel'} from './modern/spells/command.mjs';
+export {compelledDuel as 'compelled-duel', compelledDuelSource as 'compelled-duel-source', compelledDuelTarget as 'compelled-duel-target'} from './modern/spells/compelledDuel.mjs';
+export {protectionFromEvilAndGood as 'protection-from-evil-and-good'} from './modern/spells/protectionFromEvilAndGood.mjs';
 export {divineSmite as 'divine-smite'} from './modern/spells/divineSmite.mjs';
 export {searingSmite as 'searing-smite'} from './modern/spells/searingSmite.mjs';
 export {staggeringSmite as 'staggering-smite'} from './modern/spells/staggeringSmite.mjs';

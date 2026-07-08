@@ -69,7 +69,7 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Swashbuckler | rakishAudacity | ⬜ | ➖ |
 | Thief | fastHands, secondStoryWork, supremeSneak, useMagicDevice | ➖ | ⬜ |
 
-## Milestone 2 — Paladin (2024) — in progress
+## Milestone 2 — Paladin (2024) — complete (Nature's Wrath blocked on upstream)
 
 | Item | Status | Notes |
 | --- | --- | --- |
@@ -91,10 +91,10 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Blinding Smite | ✅ | blinded + save-to-end OverTime, configurable ability |
 | Staggering Smite | ✅ | hub binding + item effect data |
 | Banishing Smite | ✅ | tracker effect at damage; banish activity fires at ≤ configured HP |
-| Compelled Duel | ⬜ | next batch — multi-effect source/target tracking |
-| Command | ⬜ | next batch — 5 effect macros |
-| Protection from Evil and Good | ⬜ | next batch — effect macro |
-| Aura of Vitality | ⬜ | next batch |
+| Compelled Duel | ✅ | source/target effects; disadvantage vs others, break on attack/attacked/turn-end distance (v13 willing-move teleport-back not ported) |
+| Command | ✅ | upcast +1 target; per-command turn-start reminder, Grovel applies prone |
+| Protection from Evil and Good | ✅ | save-context advantage on the applied effect |
+| Aura of Vitality | ✅ | caster effect + turn-start ally heal via healing activity |
 
 Runtime caveats to verify at the table: upcast target selection reads `workflow.castData.castLevel`
 (midi-qol), aura value staleness is resolved on the next aura update after a CHA change.

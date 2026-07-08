@@ -613,7 +613,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Arms of Hadar | armsOfHadar | ⬜ |
 | Aura of Life | auraOfLife | ⬜ |
 | Aura of Purity | auraOfPurity | ⬜ |
-| Aura of Vitality | auraOfVitality | ⬜ |
+| Aura of Vitality | auraOfVitality | ✅ ported |
 | Bane | bane | ⬜ |
 | Banishing Smite | banishingSmite | ✅ ported |
 | Banishment | banishment | ⬜ |
@@ -639,8 +639,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Circle of Death | — | ✅ converted |
 | Circle of Power | circleOfPower | ⬜ |
 | Cloudkill | cloudkill | ⬜ |
-| Command | command, commandGrovel, commandTurnStart | ⬜ |
-| Compelled Duel | compelledDuel | ⬜ |
+| Command | command, commandGrovel, commandTurnStart | ✅ ported |
+| Compelled Duel | compelledDuel | ✅ ported |
 | Conjure Animals | conjureAnimals | ⬜ |
 | Conjure Celestial | conjureCelestial | ⬜ |
 | Conjure Fey | conjureFey | ⬜ |
@@ -696,7 +696,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Pass without Trace | passWithoutTrace | ⬜ |
 | Power Word Heal | powerWordHeal | ⬜ |
 | Power Word Kill | powerWordKill | ⬜ |
-| Protection from Evil and Good | protectionFromEvilAndGood | ⬜ |
+| Protection from Evil and Good | protectionFromEvilAndGood | ✅ ported |
 | Resistance | resistance, resistanceEffect | ⬜ |
 | Sanctuary | sanctuary | ⬜ |
 | Scorching Ray | scorchingRay | ⬜ |

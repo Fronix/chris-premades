@@ -168,6 +168,25 @@
             },
             "BanishingSmite": {
                 "Hp": "Required HP:"
+            },
+            "AuraOfVitality": {
+                "Select": "Choose who to heal."
+            },
+            "ProtectionFromEvilAndGood": {
+                "Save": "This save is from an effect from an aberration, celestial, elemental, fey, fiends, or undead that has charmed, frightened, or possessed you."
+            },
+            "Command": {
+                "Approach": "Approach",
+                "Drop": "Drop",
+                "Flee": "Flee",
+                "Grovel": "Grovel",
+                "Halt": "Halt",
+                "YouMust": "You must: "
+            },
+            "CompelledDuel": {
+                "Source": "Compelled Duel: Source",
+                "Target": "Compelled Duel: Target",
+                "EndEffect": "Caster has ended their turn more than 30 feet away from their target. Remove effect?"
             }
         },
         "Auras": {
