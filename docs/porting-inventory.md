@@ -1194,7 +1194,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Celestial Resistance | — | ✅ converted |
-| Celestial Revelation | celestialRevelation, celestialRevelationHeavenlyWings, celestialRevelationInnerRadiance, celestialRevelationNecroticShroud | ⬜ |
+| Celestial Revelation | celestialRevelation, celestialRevelationHeavenlyWings, celestialRevelationInnerRadiance, celestialRevelationNecroticShroud | ✅ ported |
 | Healing Hands | — | ✅ converted |
 | Relentless Endurance | relentlessEndurance | ⬜ |
 

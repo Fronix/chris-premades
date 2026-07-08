@@ -115,6 +115,8 @@ export {alert, archery, defense, dueling, greatWeaponFighting as 'great-weapon-f
 export {grappler, interception} from './modern/feats/featBatch2.mjs';
 export {healer, protection} from './modern/feats/featBatch4.mjs';
 export {savageAttacker as 'savage-attacker', tavernBrawler as 'tavern-brawler'} from './modern/feats/featBatch3.mjs';
+// Species Features
+export {celestialResistance as 'celestial-resistance', celestialRevelation as 'celestial-revelation', celestialRevelationActive as 'celestial-revelation-active', healingHands as 'healing-hands'} from './modern/speciesFeatures/aasimar.mjs';
 // Spells
 export {aid} from './modern/spells/aid.mjs';
 export {auraOfVitality as 'aura-of-vitality', auraOfVitalityEffect as 'aura-of-vitality-effect'} from './modern/spells/auraOfVitality.mjs';

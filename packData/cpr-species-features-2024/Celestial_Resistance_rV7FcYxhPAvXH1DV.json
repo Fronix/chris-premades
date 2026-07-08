@@ -120,7 +120,8 @@
     "cat": {
       "automation": {
         "version": "2.0.0"
-      }
+      },
+      "macros": {}
     }
   },
   "img": "icons/skills/wounds/blood-cells-disease-green.webp",

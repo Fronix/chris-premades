@@ -196,7 +196,8 @@
     "cat": {
       "automation": {
         "version": "2.0.0"
-      }
+      },
+      "macros": {}
     }
   },
   "img": "icons/magic/water/water-hand.webp",
