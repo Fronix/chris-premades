@@ -699,7 +699,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Protection from Evil and Good | protectionFromEvilAndGood | ✅ ported |
 | Resistance | resistance, resistanceEffect | ✅ ported |
 | Sanctuary | sanctuary | ✅ ported |
-| Scorching Ray | scorchingRay | ⬜ |
+| Scorching Ray | scorchingRay | ✅ ported |
 | Searing Smite | searingSmite | ✅ ported |
 | Shield | — | ✅ converted |
 | Shield of Faith | — | ✅ converted |

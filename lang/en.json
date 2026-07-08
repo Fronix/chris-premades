@@ -434,6 +434,9 @@
             },
             "VampiricTouch": {
                 "HealingModifier": "Healing Modifier:"
+            },
+            "ScorchingRay": {
+                "Select": "Distribute the rays ({maxRays} remaining):"
             }
         },
         "Auras": {

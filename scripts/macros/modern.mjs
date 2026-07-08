@@ -149,6 +149,7 @@ export {sanctuary, sanctuarySafe as 'sanctuary-safe'} from './modern/spells/sanc
 export {divineSmite as 'divine-smite'} from './modern/spells/divineSmite.mjs';
 export {powerWordHeal as 'power-word-heal', powerWordKill as 'power-word-kill'} from './modern/spells/powerWords.mjs';
 export {resistance, resistanceEffect as 'resistance-effect', synapticStatic as 'synaptic-static', thornWhip as 'thorn-whip'} from './modern/spells/resistance.mjs';
+export {scorchingRay as 'scorching-ray'} from './modern/spells/scorchingRay.mjs';
 export {searingSmite as 'searing-smite'} from './modern/spells/searingSmite.mjs';
 export {spiritGuardians as 'spirit-guardians', spiritGuardiansDamage as 'spirit-guardians-damage'} from './modern/spells/spiritGuardians.mjs';
 export {spiritualWeapon as 'spiritual-weapon'} from './modern/spells/spiritualWeapon.mjs';
