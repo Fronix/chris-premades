@@ -36,6 +36,7 @@ export {moonlightStep as 'moonlight-step'} from './modern/classFeatures/druid/mo
 export {starryForm as 'starry-form', starryFormActive as 'starry-form-active'} from './modern/classFeatures/druid/starryForm.mjs';
 export {wildCompanion as 'wild-companion'} from './modern/classFeatures/druid/wildCompanion.mjs';
 export {wildResurgence as 'wild-resurgence'} from './modern/classFeatures/druid/wildResurgence.mjs';
+export {wildShape as 'wild-shape', wildShapeActive as 'wild-shape-active'} from './modern/classFeatures/druid/wildShape.mjs';
 export {wrathOfTheSea as 'wrath-of-the-sea', wrathOfTheSeaOngoing as 'wrath-of-the-sea-ongoing'} from './modern/classFeatures/druid/wrathOfTheSea.mjs';
 // Fighter
 export {groupRecovery as 'group-recovery'} from './modern/classFeatures/fighter/groupRecovery.mjs';

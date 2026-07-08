@@ -261,6 +261,9 @@
             "StarryForm": {
                 "Change": "Change starry form?",
                 "Heal": "Choose who to heal:"
+            },
+            "WildShape": {
+                "Equipment": "Select equipment to keep wearing (unselected items merge into the form):"
             }
         },
         "Auras": {

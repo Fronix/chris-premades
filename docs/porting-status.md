@@ -140,13 +140,15 @@ Data-only: Deflect Energy, Stride of the Elements. Deferred: Warrior of the
 Elements subclass (Elemental Attunement/Burst/Epitome — 571 lines, subclass sweep),
 Step of the Wind animation flow (native activities work; animation pass later).
 
-## Milestone 6 — Druid (2024) — in progress
+## Milestone 6 — Druid (2024) — complete (Nature's Sanctuary on regions batch)
 
-Ported: Elemental Fury (Potent Spellcasting + Primal Strike with scale), Circle
-Forms, Lunar Form, Archdruid, Wild Companion, Wild Resurgence, Moonlight Step,
-Circle of the Land Spells (registry-driven land lists + Nature's Ward retarget).
-Remaining: Wild Shape, Cosmic Omen, Land's Aid, Wrath of the Sea, Starry Form;
-Nature's Sanctuary deferred to regions batch.
+Ported: Wild Shape (transform activity + equipment merge/wear, Beast Spells,
+Improved Circle Forms radiant + con save, Lunar Form bonus damage, revert item
+and auto-revert at 0 HP), Elemental Fury (both), Circle Forms, Lunar Form,
+Archdruid, Wild Companion, Wild Resurgence, Moonlight Step, Circle of the Land
+Spells, Cosmic Omen, Land's Aid, Wrath of the Sea (+ CPR Feature Items (2024)
+support pack), Starry Form (+ Twinkling swap, Chalice heals). Nature's
+Sanctuary deferred to regions batch. Milestone complete otherwise.
 
 ## Roadmap: class-by-class, 2024 first
 

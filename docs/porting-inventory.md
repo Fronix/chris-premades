@@ -132,7 +132,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Twinkling Constellations *(Circle of Stars)* | — | ✅ converted |
 | Wild Companion | wildCompanion | ✅ ported |
 | Wild Resurgence | wildResurgence | ✅ ported |
-| Wild Shape | wildShape | ⬜ |
+| Wild Shape | wildShape | ✅ ported |
 | Wrath of the Sea *(Circle of Sea)* | wrathOfTheSea | ✅ ported |
 
 ### Fighter
