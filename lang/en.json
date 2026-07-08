@@ -437,6 +437,9 @@
             },
             "ScorchingRay": {
                 "Select": "Distribute the rays ({maxRays} remaining):"
+            },
+            "TimeStop": {
+                "Affect": "Did this action affect another creature or its gear? (Ends Time Stop)"
             }
         },
         "Auras": {

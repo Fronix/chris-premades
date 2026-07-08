@@ -726,7 +726,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Thorn Whip | thornWhip | ✅ ported |
 | Thunderous Smite | proneOnFail, thunderousSmite | ✅ ported |
 | Thunderwave | thunderwave | ✅ ported |
-| Time Stop | timeStop, timeStopEffect | ⬜ |
+| Time Stop | timeStop, timeStopEffect | ✅ ported |
 | Toll the Dead | tollTheDead | ✅ ported |
 | True Strike | trueStrike | ✅ ported |
 | Vampiric Touch | vampiricTouch | ✅ ported |

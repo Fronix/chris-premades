@@ -159,6 +159,7 @@ export {staggeringSmite as 'staggering-smite'} from './modern/spells/staggeringS
 export {thunderousSmite as 'thunderous-smite'} from './modern/spells/thunderousSmite.mjs';
 export {summonAberration as 'summon-aberration', summonBeast as 'summon-beast', summonCelestial as 'summon-celestial', summonConstruct as 'summon-construct', summonDragon as 'summon-dragon', summonElemental as 'summon-elemental', summonFiend as 'summon-fiend', summonFey as 'summon-fey', summonUndead as 'summon-undead'} from './modern/spells/summonSpells.mjs';
 export {thunderwave, vampiricTouch as 'vampiric-touch'} from './modern/spells/thunderwave.mjs';
+export {timeStop as 'time-stop', timeStopEffect as 'time-stop-effect'} from './modern/spells/timeStop.mjs';
 export {trueStrike as 'true-strike', shockingGrasp as 'shocking-grasp'} from './modern/spells/trueStrike.mjs';
 export {wardingBond as 'warding-bond', wardingBondSource as 'warding-bond-source', wardingBondTarget as 'warding-bond-target'} from './modern/spells/wardingBond.mjs';
 export {wrathfulSmite as 'wrathful-smite'} from './modern/spells/wrathfulSmite.mjs';
