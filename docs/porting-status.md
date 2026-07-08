@@ -230,6 +230,17 @@ Deferred: region/template spells (Darkness, Cloudkill, Sleet Storm, Spike
 Growth, Wall of Fire, Zone of Truth), Teleport, Time Stop, Wish, Steel Wind
 Strike, Vitriolic Sphere, Animate Dead/Objects, plus legacy re-reads.
 
+## Milestone 14 — Feats (2024) — core complete
+
+Ported: Alert (initiative swap), Archery, Defense, Dueling, Great Weapon
+Fighting (min3), Thrown Weapon Fighting, Interception, Grappler, Savage
+Attacker, Tavern Brawler (+Str/Con pack variants), Healer (Battle Medic hit-die
+heal + reroll 1s), Protection. Metadata: Heavy Armor Master, Sharpshooter,
+Speedy. Deferred: legacy re-exports (Crusher, Piercer, Slasher, Telekinetic,
+Unarmed Fighting, Elemental Adept — legacy pass) and 3rd-party feats (Fate
+Gambler, Purple Dragon Rook, Sangromantic Initiate, Spellfire Spark, the
+"I Survived" trio).
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
