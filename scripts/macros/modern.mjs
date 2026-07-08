@@ -124,6 +124,7 @@ export {crusher, piercer, slasher} from './modern/feats/weaponMasteryFeats.mjs';
 export {healer, protection} from './modern/feats/featBatch4.mjs';
 export {savageAttacker as 'savage-attacker', tavernBrawler as 'tavern-brawler'} from './modern/feats/featBatch3.mjs';
 // Species Features
+export {dreadfulStrikes as 'dreadful-strikes', relentlessEndurance as 'relentless-endurance'} from './modern/speciesFeatures/orc.mjs';
 export {celestialResistance as 'celestial-resistance', celestialRevelation as 'celestial-revelation', celestialRevelationActive as 'celestial-revelation-active', healingHands as 'healing-hands'} from './modern/speciesFeatures/aasimar.mjs';
 // Spells
 export {aid} from './modern/spells/aid.mjs';

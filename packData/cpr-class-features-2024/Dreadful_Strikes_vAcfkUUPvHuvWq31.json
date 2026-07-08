@@ -1,0 +1,174 @@
+{
+  "name": "Dreadful Strikes",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "source": {
+      "custom": "PHB 2024",
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "",
+    "properties": [],
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "activities": {},
+    "identifier": "dreadful-strikes",
+    "enchant": {},
+    "advancement": [],
+    "crewed": false
+  },
+  "flags": {
+    "core": {},
+    "midi-qol": {
+      "effectActivation": false,
+      "onUseMacroName": "",
+      "rollAttackPerTarget": "default",
+      "itemCondition": "",
+      "effectCondition": "",
+      "AoETargetType": "any",
+      "AoETargetTypeIncludeSelf": true,
+      "autoTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "reactionCondition": "",
+      "otherCondition": ""
+    },
+    "midiProperties": {
+      "nodam": false,
+      "fulldam": false,
+      "halfdam": false,
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "rollOther": false,
+      "critOther": false,
+      "offHandWeapon": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "concentration": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false,
+      "confirmTargets": "default",
+      "noConcentrationCheck": false,
+      "idr": false,
+      "idi": false,
+      "idv": false,
+      "ida": false
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    },
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      },
+      "macros": {}
+    }
+  },
+  "img": "icons/creatures/claws/claw-curved-poison-purple.webp",
+  "effects": [
+    {
+      "name": "Dreadful Strikes",
+      "img": "icons/creatures/claws/claw-curved-poison-purple.webp",
+      "origin": "Compendium.chris-premades.CPRClassFeatures2024.Item.vAcfkUUPvHuvWq31",
+      "transfer": true,
+      "_id": "qJM52MMdfw1EtwIX",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "flags.midi-qol.optional.DreadfulStrikes.damage.rwak",
+            "type": "override",
+            "value": "@scale.fey-wanderer.dreadful-strikes[psychic]",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.DreadfulStrikes.damage.mwak",
+            "type": "override",
+            "value": "@scale.fey-wanderer.dreadful-strikes[psychic]",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.DreadfulStrikes.criticalDamage",
+            "type": "override",
+            "value": true,
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.DreadfulStrikes.label",
+            "type": "override",
+            "value": "Dreadful Strikes",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "flags.midi-qol.optional.DreadfulStrikes.count",
+            "type": "override",
+            "value": "turn",
+            "phase": "initial",
+            "priority": 20
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "disableIncapacitated": false,
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_key": "!items.effects!vAcfkUUPvHuvWq31.qJM52MMdfw1EtwIX"
+    }
+  ],
+  "folder": "HrrCWx81ACzaenJw",
+  "_id": "vAcfkUUPvHuvWq31",
+  "_key": "!items!vAcfkUUPvHuvWq31"
+}

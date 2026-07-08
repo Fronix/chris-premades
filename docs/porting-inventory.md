@@ -192,7 +192,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Beguiling Twist *(Fey Wanderer)* | beguilingTwist | ⬜ |
 | Bestial Fury *(Beast Master)* | bestialFury | ⬜ |
 | Dread Ambusher *(Gloom Stalker)* | dreadAmbusher | ✅ ported |
-| Dreadful Strikes *(Fey Wanderer)* | dreadfulStrikes | ⬜ |
+| Dreadful Strikes *(Fey Wanderer)* | dreadfulStrikes | ✅ ported |
 | Exceptional Training *(Beast Master)* | — | ✅ converted |
 | Favored Enemy | favoredEnemy | ✅ ported |
 | Fey Reinforcements *(Fey Wanderer)* | feyReinforcements | ⬜ |
@@ -1196,7 +1196,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Celestial Resistance | — | ✅ converted |
 | Celestial Revelation | celestialRevelation, celestialRevelationHeavenlyWings, celestialRevelationInnerRadiance, celestialRevelationNecroticShroud | ✅ ported |
 | Healing Hands | — | ✅ converted |
-| Relentless Endurance | relentlessEndurance | ⬜ |
+| Relentless Endurance | relentlessEndurance | ✅ ported |
 
 ## Race features — 2014 — 88 items
 
