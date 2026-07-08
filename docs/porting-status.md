@@ -164,8 +164,8 @@ staple spells, committed and releasable on its own):
 2. ~~Fighter~~ ✅
 3. ~~Cleric~~ ✅ (core)
 4. ~~Monk~~ ✅ (core)
-5. **Druid** ← current slice
-6. Wizard
+5. ~~Druid~~ ✅
+6. **Wizard** ← current slice
 7. Sorcerer
 8. Warlock
 9. Bard
