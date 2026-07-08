@@ -609,7 +609,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Animate Objects | animateObjects | ⬜ |
 | Antilife Shell | antilifeShell | ⬜ |
 | Arcane Vigor | arcaneVigor | ⬜ |
-| Armor of Agathys | armorOfAgathys | ⬜ |
+| Armor of Agathys | armorOfAgathys | ✅ ported |
 | Arms of Hadar | armsOfHadar | ⬜ |
 | Aura of Life | auraOfLife | ⬜ |
 | Aura of Purity | auraOfPurity | ⬜ |
