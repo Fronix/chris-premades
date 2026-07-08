@@ -167,7 +167,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Stunning Strike | stunningStrike | ✅ ported |
 | Superior Defense | superiorDefense | ✅ ported |
 | Unarmored Defense (Monk) | unarmoredDefenseMonk | ✅ ported |
-| Unarmored Movement | unarmoredMovement | ⬜ |
+| Unarmored Movement | unarmoredMovement | ✅ ported |
 | Uncanny Metabolism | uncannyMetabolism | ✅ ported |
 
 ### Multiple
