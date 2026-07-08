@@ -651,7 +651,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Darkness | darkness | ⬜ |
 | Death Armor | deathArmor | ✅ ported |
 | Death Ward | deathWard | ✅ ported |
-| Destructive Wave | destructiveWave | ⬜ |
+| Destructive Wave | destructiveWave | ✅ ported |
 | Detect Magic | detectMagic | ⬜ |
 | Disintegrate | disintegrate | ⬜ |
 | Divine Smite | divineSmite | ✅ ported |
