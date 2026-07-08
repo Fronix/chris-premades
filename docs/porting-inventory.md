@@ -648,7 +648,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Conjure Woodland Beings | conjureWoodlandBeings | ⬜ |
 | Crown of Madness | — | ✅ converted |
 | Crusader's Mantle | crusadersMantle | ✅ ported |
-| Darkness | darkness | ⬜ |
+| Darkness | darkness | ✅ ported |
 | Death Armor | deathArmor | ✅ ported |
 | Death Ward | deathWard | ✅ ported |
 | Destructive Wave | destructiveWave | ✅ ported |

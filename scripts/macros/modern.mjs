@@ -155,6 +155,7 @@ export {cacophonicShield as 'cacophonic-shield', cacophonicShieldSourceEffect as
 export {chainLightning as 'chain-lightning'} from './modern/spells/chainLightning.mjs';
 export {circleOfPower as 'circle-of-power', circleOfPowerActive as 'circle-of-power-active'} from './modern/spells/circleOfPower.mjs';
 export {cloudkill, cloudkillCloud as 'cloudkill-cloud', cloudkillSource as 'cloudkill-source'} from './modern/spells/cloudkill.mjs';
+export {darkness} from './modern/spells/darkness.mjs';
 export {deathArmor as 'death-armor', deathArmorEffect as 'death-armor-effect'} from './modern/spells/deathArmor.mjs';
 export {destructiveWave as 'destructive-wave'} from './modern/spells/destructiveWave.mjs';
 export {dragonsBreath as 'dragons-breath'} from './modern/spells/dragonsBreath.mjs';
