@@ -13,6 +13,18 @@
 >
 > Ported automation status is tracked in [docs/porting-status.md](docs/porting-status.md).
 
+> [!WARNING]
+> ## AI-Ported Automations
+> The V14 automation port in this fork was done **entirely with AI** (Claude, via Claude Code). Every ported macro was migrated from the V13 Midi-QOL implementation to CAT's trigger system by AI, verified with automated checks (lint, compendium build, bundle build, and a CAT API contract check) — but **not every automation has been play-tested at a real table yet**. Expect rough edges: if an automation misbehaves, please [open an issue](https://github.com/Fronix/chris-premades/issues) with the item name and what happened.
+
+## Port Status
+
+The entire **2024 (modern) rules tree is ported** — all eleven classes and their subclasses, the spell compendium (including the Summon X family, region spells like Cloudkill/Sleet Storm/Zone of Truth, and heavy-dialog spells like Wish, Teleport and Animate Objects), the complete Metamagic set, feats, species features, actions, items, monster features, and all 3rd-party 2024 content (full Pugilist class, Muscle Wizard, Spellfire, and more).
+
+The **2014 (legacy) rules tree is in progress**: spells and features whose mechanics are shared with 2024 (smites, auras, summons, Hex, Hunter's Mark, Eldritch Blast, the SCAG blade cantrips, …) are already available; the remaining legacy-only automations are being ported in waves. Animation passes (Sequencer/JB2A visuals) are largely still pending.
+
+See [docs/porting-status.md](docs/porting-status.md) for the milestone-by-milestone breakdown.
+
 A collection of automated items including spells, class features, monster features, etc., mechanics to make those possible, and quality-of-life based extensions for a high-automation Midi-QOL based D&D5e environment. Compendiums included in this module do not include item's descriptions. While this module has several module dependencies by different authors, do not pester tposney, Wasp, or any other module authors with bugs or issues related to this module. Bug reports and large module implementation requests may be made on the GitHub. Faster support and feature requests can be accessed on the [Discord server](https://discord.gg/BumxBcQDrT).
 
 Find detailed information in [our wiki](https://github.com/chrisk123999/chris-premades/wiki).
