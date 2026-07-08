@@ -69,14 +69,14 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Cutting Words *(College of Lore)* | cuttingWords | ✅ ported |
 | Dazzling Footwork *(College of Dance)* | dazzlingFootwork | ✅ ported |
 | Font of Inspiration | fontOfInspiration | ✅ ported |
-| Inspiring Movement *(College of Dance)* | inspiringMovement | ⬜ |
+| Inspiring Movement *(College of Dance)* | inspiringMovement | ✅ ported |
 | Jack of All Trades | — | ✅ converted |
 | Leading Evasion *(College of Dance)* | leadingEvasion | ✅ ported |
 | Mantle of Inspiration *(College of Glamour)* | mantleOfInspiration | ⬜ |
 | Mantle of Majesty *(College of Glamour)* | mantleOfMajesty | ⬜ |
 | Peerless Skill *(College of Lore)* | peerlessSkill | ✅ ported |
 | Superior Inspiration | superiorInspiration | ✅ ported |
-| Tandem Footwork *(College of Dance)* | tandemFootwork | ⬜ |
+| Tandem Footwork *(College of Dance)* | tandemFootwork | ✅ ported |
 | Unbreakable Majesty *(College of Glamour)* | unbreakableMajesty | ⬜ |
 
 ### Cleric
