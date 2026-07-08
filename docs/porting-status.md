@@ -121,11 +121,12 @@ Priest, Warding Flare (+ Improved), Radiance of the Dawn (save disadvantage vs C
 magical-darkness template dispel deferred to region work), Corona of Light, Blessing of
 the Trickster. Data-only: Avatar of Battle, Divine Order: Thaumaturge, Sear Undead.
 
-Deferred: War God's Blessing (casts Shield of Faith/Spiritual Weapon — needs those
-spell ports), Invoke Duplicity + Improved Duplicity + Trickster's Transposition
-(summon system work), Channel Divinity (Cleric) item + cleric staple spells (next
-batch: Guidance, Bane, Beacon of Hope, Death Ward, Spirit Guardians, Spiritual
-Weapon, Toll the Dead, Sanctuary, Guardian of Faith).
+Also ported: Channel Divinity (Cleric) with Divine Spark/Turn Undead + scale,
+Guidance, Bane, Toll the Dead, Death Ward, Beacon of Hope, Sanctuary.
+
+Deferred to the summons/regions batch: Spirit Guardians, Spiritual Weapon,
+Guardian of Faith, War God's Blessing, Invoke Duplicity, Improved Duplicity,
+Trickster's Transposition.
 
 ## Roadmap: class-by-class, 2024 first
 
