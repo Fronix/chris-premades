@@ -517,6 +517,12 @@
                 "OffTarget": "Off Target",
                 "SimilarArea": "Similar Area",
                 "OffTargetString": "The group arrives {distance} {units} {direction} of the destination."
+            },
+            "FateGambler": {
+                "SkillOrAbility": "Gain Heroic Inspiration and bet big?"
+            },
+            "IPiercedTheIllusion": {
+                "Insight": "I Pierced the Illusion"
             }
         },
         "Auras": {

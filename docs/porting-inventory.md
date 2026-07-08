@@ -1829,10 +1829,10 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Fate Gambler | fateGambler | ⬜ |
-| I Fought, I Lived | iFoughtILived | ⬜ |
-| I Pierced the Illusion | iPiercedTheIllusion | ⬜ |
-| I Survived to Tell the Tale | iSurvivedToTellTheTale | ⬜ |
+| Fate Gambler | fateGambler | ✅ ported |
+| I Fought, I Lived | iFoughtILived | ✅ ported |
+| I Pierced the Illusion | iPiercedTheIllusion | ✅ ported |
+| I Survived to Tell the Tale | iSurvivedToTellTheTale | ✅ ported |
 | Sangromantic Initiate | — | ✅ converted |
 
 ## 3rd party feats — 2014 — 3 items

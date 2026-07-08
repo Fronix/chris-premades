@@ -129,6 +129,7 @@ export {grappler, interception} from './modern/feats/featBatch2.mjs';
 export {crusher, piercer, slasher} from './modern/feats/weaponMasteryFeats.mjs';
 export {elementalAdeptA as 'elemental-adept-acid', elementalAdeptC as 'elemental-adept-cold', elementalAdeptF as 'elemental-adept-fire', elementalAdeptL as 'elemental-adept-lightning', elementalAdeptT as 'elemental-adept-thunder'} from './modern/feats/elementalAdept.mjs';
 export {healer, protection} from './modern/feats/featBatch4.mjs';
+export {fateGambler as 'fate-gambler', iFoughtILived as 'i-fought-i-lived', iPiercedTheIllusion as 'i-pierced-the-illusion', iSurvivedToTellTheTale as 'i-survived-to-tell-the-tale', sangromanticInitiate as 'sangromantic-initiate'} from './modern/feats/thirdPartyFeats.mjs';
 export {telekineticShove as 'telekinetic-shove', unarmedFighting as 'unarmed-fighting', unarmedFightingUnarmedStrike as 'unarmed-fighting-unarmed-strike'} from './modern/feats/telekineticUnarmed.mjs';
 export {savageAttacker as 'savage-attacker', tavernBrawler as 'tavern-brawler'} from './modern/feats/featBatch3.mjs';
 // Species Features
