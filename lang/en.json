@@ -117,7 +117,8 @@
             "EnablePrompt": "Enable Prompt:",
             "Max": "Max:",
             "SpellSchools": "Spell Schools:",
-            "WeaponTypes": "Weapon Types:"
+            "WeaponTypes": "Weapon Types:",
+            "IgnoredCreatureTypes": "Ignored Creature Types:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",

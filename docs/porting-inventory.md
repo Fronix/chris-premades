@@ -607,7 +607,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Animal Messenger | animalMessenger | ✅ ported |
 | Animate Dead | animateDead | ⬜ |
 | Animate Objects | animateObjects | ⬜ |
-| Antilife Shell | antilifeShell | ⬜ |
+| Antilife Shell | antilifeShell | ✅ ported |
 | Arcane Vigor | arcaneVigor | ✅ ported |
 | Armor of Agathys | armorOfAgathys | ✅ ported |
 | Arms of Hadar | armsOfHadar | ✅ ported |
