@@ -20,4 +20,28 @@ async function getClassSpells(classIdentifier, {maxLevel = 9} = {}) {
     const spells = await Promise.all(uuids.map(uuid => fromUuid(uuid)));
     return spells.filter(spell => spell && spell.system.level <= maxLevel);
 }
-export {getCastLevel, capTargets, upcastTargets, getClassSpells};
+function saveDisadvantageEffectData() {
+    return {
+        name: 'Disadvantage',
+        img: 'icons/svg/downgrade.svg',
+        type: 'base',
+        duration: {value: 1, units: 'turns'},
+        system: {
+            changes: [
+                {
+                    key: 'flags.midi-qol.disadvantage.save.all',
+                    type: 'override',
+                    value: 1,
+                    phase: 'initial',
+                    priority: 120
+                }
+            ]
+        },
+        flags: {
+            dae: {
+                specialDuration: ['isSave']
+            }
+        }
+    };
+}
+export {getCastLevel, capTargets, upcastTargets, getClassSpells, saveDisadvantageEffectData};

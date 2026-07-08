@@ -10,6 +10,10 @@ export {recklessAttack as 'reckless-attack'} from './modern/classFeatures/barbar
 export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbarian/relentlessRage.mjs';
 // Cleric
 export {blessedHealer as 'blessed-healer'} from './modern/classFeatures/cleric/blessedHealer.mjs';
+export {blessingOfTheTrickster as 'blessing-of-the-trickster'} from './modern/classFeatures/cleric/blessingOfTheTrickster.mjs';
+export {coronaOfLight as 'corona-of-light', coronaOfLightEffect as 'corona-of-light-effect'} from './modern/classFeatures/cleric/coronaOfLight.mjs';
+export {radianceOfTheDawn as 'radiance-of-the-dawn'} from './modern/classFeatures/cleric/radianceOfTheDawn.mjs';
+export {wardingFlare as 'warding-flare', improvedWardingFlare as 'improved-warding-flare'} from './modern/classFeatures/cleric/wardingFlare.mjs';
 export {discipleOfLife as 'disciple-of-life'} from './modern/classFeatures/cleric/discipleOfLife.mjs';
 export {divineIntervention as 'divine-intervention'} from './modern/classFeatures/cleric/divineIntervention.mjs';
 export {guidedStrike as 'guided-strike'} from './modern/classFeatures/cleric/guidedStrike.mjs';
