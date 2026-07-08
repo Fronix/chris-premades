@@ -116,7 +116,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Beast Spells | — | ✅ converted |
 | Circle Forms *(Circle of Moon)* | circleForms | ✅ ported |
 | Circle of the Land Spells *(Circle of Land)* | circleOfTheLandSpells | ✅ ported |
-| Cosmic Omen *(Circle of Stars)* | cosmicOmen | ⬜ |
+| Cosmic Omen *(Circle of Stars)* | cosmicOmen | ✅ ported |
 | Elemental Fury: Potent Spellcasting | elementalFuryPotentSpellcasting | ✅ ported |
 | Elemental Fury: Primal Strike | elementalFuryPrimalStrike | ✅ ported |
 | Full of Stars *(Circle of Stars)* | — | ✅ converted |

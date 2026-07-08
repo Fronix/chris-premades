@@ -113,7 +113,8 @@
             "CreatureTypes": "Creature Types:",
             "AutoApply": "Auto Apply:",
             "Conditions": "Conditions:",
-            "Attacks": "Attacks:"
+            "Attacks": "Attacks:",
+            "EnablePrompt": "Enable Prompt:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -241,6 +242,10 @@
                 "Polar": "Polar Land",
                 "Temperate": "Temperate Land",
                 "Tropical": "Tropical Land"
+            },
+            "CosmicOmen": {
+                "Weal": "Use {itemName} to help {tokenName}?",
+                "Woe": "Use {itemName} to hinder {tokenName}?"
             }
         },
         "Auras": {
