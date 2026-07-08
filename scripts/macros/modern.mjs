@@ -180,6 +180,7 @@ export {shiningSmite as 'shining-smite'} from './modern/spells/shiningSmite.mjs'
 export {staggeringSmite as 'staggering-smite'} from './modern/spells/staggeringSmite.mjs';
 export {thunderousSmite as 'thunderous-smite'} from './modern/spells/thunderousSmite.mjs';
 export {steelWindStrike as 'steel-wind-strike'} from './modern/spells/steelWindStrike.mjs';
+export {sleetStorm as 'sleet-storm', sleetStormArea as 'sleet-storm-area'} from './modern/spells/sleetStorm.mjs';
 export {summonAberration as 'summon-aberration', summonBeast as 'summon-beast', summonCelestial as 'summon-celestial', summonConstruct as 'summon-construct', summonDragon as 'summon-dragon', summonElemental as 'summon-elemental', summonFiend as 'summon-fiend', summonFey as 'summon-fey', summonUndead as 'summon-undead'} from './modern/spells/summonSpells.mjs';
 export {thunderwave, vampiricTouch as 'vampiric-touch'} from './modern/spells/thunderwave.mjs';
 export {timeStop as 'time-stop', timeStopEffect as 'time-stop-effect'} from './modern/spells/timeStop.mjs';
