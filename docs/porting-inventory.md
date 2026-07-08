@@ -906,11 +906,11 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Crusher | crusher | ✅ ported |
 | Defense | defense | ✅ ported |
 | Dueling | dueling | ✅ ported |
-| Elemental Adept (Acid) | elementalAdeptA | ⬜ |
-| Elemental Adept (Cold) | elementalAdeptC | ⬜ |
-| Elemental Adept (Fire) | elementalAdeptF | ⬜ |
-| Elemental Adept (Lightning) | elementalAdeptL | ⬜ |
-| Elemental Adept (Thunder) | elementalAdeptT | ⬜ |
+| Elemental Adept (Acid) | elementalAdeptA | ✅ ported |
+| Elemental Adept (Cold) | elementalAdeptC | ✅ ported |
+| Elemental Adept (Fire) | elementalAdeptF | ✅ ported |
+| Elemental Adept (Lightning) | elementalAdeptL | ✅ ported |
+| Elemental Adept (Thunder) | elementalAdeptT | ✅ ported |
 | Grappler | grappler | ✅ ported |
 | Great Weapon Fighting | greatWeaponFighting | ✅ ported |
 | Healer | healer | ✅ ported |

@@ -480,6 +480,11 @@
             },
             "BeguilingTwist": {
                 "Select": "Charm or frighten the target?"
+            },
+            "ElementalAdept": {
+                "Mode": "Resistance Handling:",
+                "IgnoreResistance": "Ignore Resistance",
+                "IgnoreResistanceImmunity": "Ignore Resistance and Immunity"
             }
         },
         "Auras": {
