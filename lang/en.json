@@ -577,7 +577,8 @@
                 "ElementalSpiritWater": "Elemental Spirit (Water)",
                 "FiendishSpiritDemon": "Fiendish Spirit (Demon)",
                 "FiendishSpiritDevil": "Fiendish Spirit (Devil)",
-                "FiendishSpiritYugoloth": "Fiendish Spirit (Yugoloth)"
+                "FiendishSpiritYugoloth": "Fiendish Spirit (Yugoloth)",
+                "AnimatedObject": "Animated Object"
             },
             "SelectSummons": "Select what to summon (up to {totalSummons}):"
         },
