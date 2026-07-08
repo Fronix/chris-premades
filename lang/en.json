@@ -421,6 +421,10 @@
                 "NoWeapons": "No valid equipped weapons found!",
                 "SelectWeapon": "Attack with which weapon?",
                 "ReplaceDamage": "Replace the weapon damage type with {type}?"
+            },
+            "WardingBond": {
+                "MaxDistance": "Max Distance:",
+                "Distance": "The bond has been stretched beyond its range. End the spell?"
             }
         },
         "Auras": {

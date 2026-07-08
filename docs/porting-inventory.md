@@ -732,7 +732,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Vampiric Touch | vampiricTouch | ⬜ |
 | Vitriolic Sphere | vitriolicSphere | ⬜ |
 | Wall of Fire | wallOfFire | ⬜ |
-| Warding Bond | wardingBond | ⬜ |
+| Warding Bond | wardingBond | ✅ ported |
 | Wish | wish, wishImmunity, wishStress | ⬜ |
 | Wrathful Smite | wrathfulSmite | ✅ ported |
 | Zone of Truth | zoneOfTruth | ⬜ |
