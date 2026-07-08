@@ -127,7 +127,8 @@
             "UseWeaponDamageExtra": "Use {itemName} for an extra {bonusFormula}?",
             "UseAttack": "Use {itemName}? (Attack Total: {attackTotal})",
             "DamageType": "Which damage type?",
-            "Use": "Use {itemName}?"
+            "Use": "Use {itemName}?",
+            "UseOn": "Use {itemName} on {tokenName}?"
         },
         "Macros": {
             "All": {

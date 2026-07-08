@@ -919,7 +919,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Piercer | piercer | ⬜ |
 | Protection | protection | ⬜ |
 | Purple Dragon Rook | purpleDragonRook | ⬜ |
-| Savage Attacker | savageAttacker | ⬜ |
+| Savage Attacker | savageAttacker | ✅ ported |
 | Sharpshooter | sharpshooter | ✅ ported |
 | Slasher | slasher | ⬜ |
 | Speedy | — | ✅ converted |
