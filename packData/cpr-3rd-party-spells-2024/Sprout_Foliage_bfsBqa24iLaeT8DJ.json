@@ -2,16 +2,16 @@
   "type": "spell",
   "system": {
     "activities": {
-      "attackDissolutio": {
+      "attackSprouFolia": {
         "type": "attack",
-        "_id": "attackDissolutio",
+        "_id": "attackSprouFolia",
         "sort": 0,
         "activation": {
           "type": "action",
           "override": false
         },
         "consumption": {
-          "spellSlot": true,
+          "spellSlot": false,
           "targets": [],
           "scaling": {
             "allowed": false,
@@ -22,29 +22,30 @@
           "chatFlavor": ""
         },
         "duration": {
-          "units": "round",
+          "units": "inst",
           "concentration": false,
-          "override": true,
-          "value": "2"
+          "override": true
         },
-        "effects": [
-          {
-            "_id": "MTnHJ19izCSUAWMd"
-          }
-        ],
+        "effects": [],
         "range": {
-          "units": "self",
-          "override": false
+          "units": "ft",
+          "override": true,
+          "special": "",
+          "value": "30"
         },
         "target": {
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "ft",
+            "type": ""
           },
           "affects": {
-            "choice": false
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
           },
-          "override": false,
+          "override": true,
           "prompt": true
         },
         "uses": {
@@ -70,20 +71,19 @@
           },
           "parts": [
             {
-              "number": 1,
-              "denomination": 8,
-              "bonus": "",
-              "types": [
-                "force"
-              ],
               "custom": {
                 "enabled": false,
                 "formula": ""
               },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "@mod",
+              "types": [
+                "bludgeoning"
+              ],
               "scaling": {
-                "mode": "whole",
-                "number": 1,
-                "formula": ""
+                "mode": "",
+                "number": 1
               }
             }
           ],
@@ -113,7 +113,7 @@
           "automationOnly": false,
           "identifier": "",
           "autoConsume": false,
-          "forceConsumeDialog": "default",
+          "forceConsumeDialog": "never",
           "forceRollDialog": "default",
           "forceDamageDialog": "default",
           "autoTargetType": "any",
@@ -129,7 +129,7 @@
           "magicEffect": false,
           "magicDamage": false,
           "noConcentrationCheck": false,
-          "autoCEEffects": "default"
+          "autoCEEffects": "none"
         },
         "isOverTimeFlag": false,
         "overTimeProperties": {
@@ -144,7 +144,115 @@
         "otherActivityUuid": "",
         "attackRollPerTarget": "default",
         "fumbleThreshold": 1,
-        "name": ""
+        "name": "",
+        "identifier": "attack"
+      },
+      "tpf54mrnViKMEAcT": {
+        "type": "utility",
+        "_id": "tpf54mrnViKMEAcT",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "i41kJfgjhHc6W6HQ"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false,
+          "idm": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "autoConsume": false,
+          "forceConsumeDialog": "default",
+          "forceRollDialog": "default",
+          "forceDamageDialog": "default",
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": false,
+          "otherActivityAsParentType": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false,
+          "removeChatButtons": "default",
+          "magicEffect": false,
+          "magicDamage": false,
+          "noConcentrationCheck": false,
+          "autoCEEffects": "none"
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none",
+        "otherActivityAsParentType": true,
+        "name": "",
+        "identifier": "use"
       }
     },
     "uses": {
@@ -156,9 +264,9 @@
       "value": "",
       "chat": ""
     },
-    "identifier": "dissolution",
+    "identifier": "sprout-foliage",
     "source": {
-      "book": "TCMP1",
+      "book": "OTTG",
       "page": "",
       "license": "",
       "custom": "",
@@ -171,10 +279,10 @@
       "condition": ""
     },
     "duration": {
-      "value": "0",
-      "units": "inst"
+      "value": "1",
+      "units": "hour"
     },
-    "level": 0,
+    "level": 1,
     "materials": {
       "value": "",
       "consumed": false,
@@ -182,20 +290,21 @@
       "supply": 0
     },
     "method": "spell",
-    "prepared": 2,
+    "prepared": 1,
     "properties": [
       "vocal",
-      "somatic"
+      "somatic",
+      "material"
     ],
     "range": {
-      "units": "touch"
+      "units": "self"
     },
-    "school": "trs",
+    "school": "con",
     "sourceClass": "",
     "target": {
       "affects": {
-        "count": "1",
-        "type": "creature",
+        "count": "",
+        "type": "self",
         "choice": false,
         "special": ""
       },
@@ -212,22 +321,14 @@
   },
   "effects": [
     {
-      "name": "Dissolution",
-      "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
-      "origin": "Actor.OLjMQ9anz9G199WK.Item.Dissolution1IIII",
+      "name": "Sprout Foliage",
+      "img": "icons/magic/nature/root-vines-face-glow-green.webp",
+      "origin": "Actor.gmhAWe483txQ4L3J.Item.SproutFoliage1II",
       "transfer": false,
-      "_id": "MTnHJ19izCSUAWMd",
+      "_id": "i41kJfgjhHc6W6HQ",
       "type": "base",
       "system": {
-        "changes": [
-          {
-            "key": "system.attributes.ac.bonus",
-            "type": "add",
-            "value": -1,
-            "phase": "final",
-            "priority": 20
-          }
-        ]
+        "changes": []
       },
       "disabled": false,
       "start": null,
@@ -246,12 +347,7 @@
         "dnd5e": {
           "riders": {
             "statuses": []
-          },
-          "dependents": [
-            {
-              "uuid": "Scene.L39dEBy0tiHToOQE.Token.KR64Ep3a8ZSmwlyL.Actor.4i1zH4NhFIiJdyVO.ActiveEffect.u1OTZR5LspDArh1v"
-            }
-          ]
+          }
         },
         "dae": {
           "enableCondition": "",
@@ -261,21 +357,19 @@
           "disableIncapacitated": false,
           "selfTarget": false,
           "selfTargetAlways": false,
-          "dontApply": false,
+          "dontApply": true,
           "durationExpression": "",
           "macroRepeat": "none",
-          "specialDuration": [
-            "turnEndSource"
-          ]
+          "specialDuration": []
         },
         "core": {
           "overlay": false
         }
       },
-      "_key": "!items.effects!juChJim7p0s512tL.MTnHJ19izCSUAWMd"
+      "_key": "!items.effects!bfsBqa24iLaeT8DJ.i41kJfgjhHc6W6HQ"
     }
   ],
-  "name": "Dissolution",
+  "name": "Sprout Foliage",
   "flags": {
     "midi-qol": {
       "removeAttackDamageButtons": "default"
@@ -287,12 +381,14 @@
     },
     "dnd5e": {
       "riders": {
-        "activity": []
+        "activity": [
+          "attackSprouFolia"
+        ]
       },
       "last": {
-        "attackDissolutio": {
+        "attackSprouFolia": {
           "damageType": {
-            "0": "force"
+            "0": "bludgeoning"
           }
         }
       }
@@ -301,11 +397,19 @@
       "automation": {
         "version": "2.0.0"
       },
-      "macros": {}
+      "macros": {
+        "roll": [
+          {
+            "source": "chris-premades",
+            "rules": "2024",
+            "identifier": "sprout-foliage"
+          }
+        ]
+      }
     }
   },
-  "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
+  "img": "icons/magic/nature/root-vines-face-glow-green.webp",
   "folder": null,
-  "_id": "juChJim7p0s512tL",
-  "_key": "!items!juChJim7p0s512tL"
+  "_id": "bfsBqa24iLaeT8DJ",
+  "_key": "!items!bfsBqa24iLaeT8DJ"
 }

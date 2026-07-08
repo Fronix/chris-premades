@@ -1811,12 +1811,12 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Blood Sacrifice | bloodSacrifice, bloodSacrificeEffect | ⬜ |
+| Blood Sacrifice | bloodSacrifice, bloodSacrificeEffect | ✅ ported |
 | Dissolution | — | ✅ converted |
-| Forest Guard | forestGuard | ⬜ |
-| Sprout Foliage | sproutFoliage | ⬜ |
-| Summer Winds | summerWinds | ⬜ |
-| Wilting Smite | wiltingSmite | ⬜ |
+| Forest Guard | forestGuard | ✅ ported |
+| Sprout Foliage | sproutFoliage | ✅ ported |
+| Summer Winds | summerWinds | ✅ ported |
+| Wilting Smite | wiltingSmite | ✅ ported |
 
 ## 3rd party spells — 2014 — 2 items
 

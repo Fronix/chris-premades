@@ -193,6 +193,7 @@ export {sleetStorm as 'sleet-storm', sleetStormArea as 'sleet-storm-area'} from 
 export {summonAberration as 'summon-aberration', summonBeast as 'summon-beast', summonCelestial as 'summon-celestial', summonConstruct as 'summon-construct', summonDragon as 'summon-dragon', summonElemental as 'summon-elemental', summonFiend as 'summon-fiend', summonFey as 'summon-fey', summonUndead as 'summon-undead'} from './modern/spells/summonSpells.mjs';
 export {teleport} from './modern/spells/teleport.mjs';
 export {thunderwave, vampiricTouch as 'vampiric-touch'} from './modern/spells/thunderwave.mjs';
+export {bloodSacrifice as 'blood-sacrifice', bloodSacrificeActive as 'blood-sacrifice-active', dissolution, sproutFoliage as 'sprout-foliage', summerWinds as 'summer-winds', wiltingSmite as 'wilting-smite', forestGuard as 'forest-guard'} from './modern/spells/thirdPartySpells.mjs';
 export {timeStop as 'time-stop', timeStopEffect as 'time-stop-effect'} from './modern/spells/timeStop.mjs';
 export {trueStrike as 'true-strike', shockingGrasp as 'shocking-grasp'} from './modern/spells/trueStrike.mjs';
 export {wish, wishStress as 'wish-stress', wishImmunity as 'wish-immunity'} from './modern/spells/wish.mjs';

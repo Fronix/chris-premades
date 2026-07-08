@@ -523,6 +523,12 @@
             },
             "IPiercedTheIllusion": {
                 "Insight": "I Pierced the Illusion"
+            },
+            "BloodSacrifice": {
+                "Apply": "{itemName}: Apply the bonus damage to which target?"
+            },
+            "ForestGuard": {
+                "NoShrub": "No shrub is within 10 feet of the target!"
             }
         },
         "Auras": {

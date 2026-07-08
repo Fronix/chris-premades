@@ -2,21 +2,20 @@
   "type": "spell",
   "system": {
     "activities": {
-      "attackDissolutio": {
-        "type": "attack",
-        "_id": "attackDissolutio",
+      "c9Dqzn86O6hYz8wU": {
+        "type": "utility",
+        "_id": "c9Dqzn86O6hYz8wU",
         "sort": 0,
         "activation": {
           "type": "action",
           "override": false
         },
         "consumption": {
-          "spellSlot": true,
-          "targets": [],
           "scaling": {
-            "allowed": false,
-            "max": ""
-          }
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
         },
         "description": {
           "chatFlavor": ""
@@ -29,22 +28,32 @@
         },
         "effects": [
           {
-            "_id": "MTnHJ19izCSUAWMd"
+            "_id": "ZRq0J4S0PcaF5KwG",
+            "level": {
+              "min": null,
+              "max": null
+            }
           }
         ],
+        "flags": {},
         "range": {
-          "units": "self",
-          "override": false
+          "units": "any",
+          "override": true,
+          "special": ""
         },
         "target": {
           "template": {
             "contiguous": false,
-            "units": "ft"
+            "units": "ft",
+            "type": ""
           },
           "affects": {
-            "choice": false
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
           },
-          "override": false,
+          "override": true,
           "prompt": true
         },
         "uses": {
@@ -52,42 +61,20 @@
           "recovery": [],
           "max": ""
         },
-        "attack": {
-          "ability": "spellcasting",
-          "bonus": "",
-          "critical": {
-            "threshold": null
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
           },
-          "flat": false,
-          "type": {
-            "value": "melee",
-            "classification": "spell"
-          }
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
         },
-        "damage": {
-          "critical": {
-            "bonus": ""
-          },
-          "parts": [
-            {
-              "number": 1,
-              "denomination": 8,
-              "bonus": "",
-              "types": [
-                "force"
-              ],
-              "custom": {
-                "enabled": false,
-                "formula": ""
-              },
-              "scaling": {
-                "mode": "whole",
-                "number": 1,
-                "formula": ""
-              }
-            }
-          ],
-          "includeBase": true
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
         },
         "useConditionText": "",
         "useConditionReason": "",
@@ -109,17 +96,17 @@
           "triggeredActivityConditionText": "",
           "triggeredActivityTargets": "targets",
           "triggeredActivityRollAs": "self",
-          "confirmTargets": "default",
-          "automationOnly": false,
-          "identifier": "",
           "autoConsume": false,
           "forceConsumeDialog": "default",
           "forceRollDialog": "default",
           "forceDamageDialog": "default",
+          "confirmTargets": "default",
           "autoTargetType": "any",
           "autoTargetAction": "default",
-          "otherActivityCompatible": true,
+          "automationOnly": false,
+          "otherActivityCompatible": false,
           "otherActivityAsParentType": true,
+          "identifier": "",
           "displayActivityName": false,
           "rollMode": "default",
           "chooseEffects": false,
@@ -129,21 +116,18 @@
           "magicEffect": false,
           "magicDamage": false,
           "noConcentrationCheck": false,
-          "autoCEEffects": "default"
+          "skipConcentrationCheck": false,
+          "autoCEEffects": "none"
         },
         "isOverTimeFlag": false,
         "overTimeProperties": {
           "saveRemoves": true,
+          "rollAs": "target",
           "preRemoveConditionText": "",
           "postRemoveConditionText": ""
         },
         "otherActivityId": "none",
         "otherActivityAsParentType": true,
-        "attackMode": "",
-        "ammunition": "",
-        "otherActivityUuid": "",
-        "attackRollPerTarget": "default",
-        "fumbleThreshold": 1,
         "name": ""
       }
     },
@@ -156,9 +140,9 @@
       "value": "",
       "chat": ""
     },
-    "identifier": "dissolution",
+    "identifier": "wilting-smite",
     "source": {
-      "book": "TCMP1",
+      "book": "GHPG",
       "page": "",
       "license": "",
       "custom": "",
@@ -166,15 +150,15 @@
       "revision": 1
     },
     "activation": {
-      "type": "action",
+      "type": "bonus",
       "value": 1,
-      "condition": ""
+      "condition": "which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike"
     },
     "duration": {
       "value": "0",
       "units": "inst"
     },
-    "level": 0,
+    "level": 2,
     "materials": {
       "value": "",
       "consumed": false,
@@ -182,19 +166,16 @@
       "supply": 0
     },
     "method": "spell",
-    "prepared": 2,
     "properties": [
-      "vocal",
-      "somatic"
+      "vocal"
     ],
     "range": {
-      "units": "touch"
+      "units": "self"
     },
     "school": "trs",
-    "sourceClass": "",
     "target": {
       "affects": {
-        "count": "1",
+        "count": "",
         "type": "creature",
         "choice": false,
         "special": ""
@@ -208,22 +189,108 @@
         "height": "",
         "units": "ft"
       }
-    }
+    },
+    "sourceClass": "",
+    "prepared": 1
   },
   "effects": [
     {
-      "name": "Dissolution",
-      "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
-      "origin": "Actor.OLjMQ9anz9G199WK.Item.Dissolution1IIII",
+      "name": "Wilting Smite",
+      "img": "icons/magic/nature/tree-spirit-black.webp",
+      "origin": "Actor.cX5MTZOkv7TfhIOO.Item.1PFGyQ02e4PS8BgF",
       "transfer": false,
-      "_id": "MTnHJ19izCSUAWMd",
+      "_id": "ZRq0J4S0PcaF5KwG",
       "type": "base",
       "system": {
         "changes": [
           {
-            "key": "system.attributes.ac.bonus",
+            "key": "system.traits.dr.value",
             "type": "add",
-            "value": -1,
+            "value": "-acid",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-bludgeoning",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-cold",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-fire",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-force",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-lightning",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-necrotic",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-piercing",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-poison",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-psychic",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-radiant",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-slashing",
+            "phase": "final",
+            "priority": 20
+          },
+          {
+            "key": "system.traits.dr.value",
+            "type": "add",
+            "value": "-thunder",
             "phase": "final",
             "priority": 20
           }
@@ -246,12 +313,7 @@
         "dnd5e": {
           "riders": {
             "statuses": []
-          },
-          "dependents": [
-            {
-              "uuid": "Scene.L39dEBy0tiHToOQE.Token.KR64Ep3a8ZSmwlyL.Actor.4i1zH4NhFIiJdyVO.ActiveEffect.u1OTZR5LspDArh1v"
-            }
-          ]
+          }
         },
         "dae": {
           "enableCondition": "",
@@ -265,17 +327,17 @@
           "durationExpression": "",
           "macroRepeat": "none",
           "specialDuration": [
-            "turnEndSource"
+            "turnStartSource"
           ]
         },
         "core": {
           "overlay": false
         }
       },
-      "_key": "!items.effects!juChJim7p0s512tL.MTnHJ19izCSUAWMd"
+      "_key": "!items.effects!IFEjs0FoNFS13Moh.ZRq0J4S0PcaF5KwG"
     }
   ],
-  "name": "Dissolution",
+  "name": "Wilting Smite",
   "flags": {
     "midi-qol": {
       "removeAttackDamageButtons": "default"
@@ -288,24 +350,25 @@
     "dnd5e": {
       "riders": {
         "activity": []
-      },
-      "last": {
-        "attackDissolutio": {
-          "damageType": {
-            "0": "force"
-          }
-        }
       }
     },
     "cat": {
       "automation": {
         "version": "2.0.0"
       },
-      "macros": {}
+      "macros": {
+        "roll": [
+          {
+            "source": "chris-premades",
+            "rules": "2024",
+            "identifier": "wilting-smite"
+          }
+        ]
+      }
     }
   },
-  "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
+  "img": "icons/magic/nature/tree-spirit-black.webp",
   "folder": null,
-  "_id": "juChJim7p0s512tL",
-  "_key": "!items!juChJim7p0s512tL"
+  "_id": "IFEjs0FoNFS13Moh",
+  "_key": "!items!IFEjs0FoNFS13Moh"
 }

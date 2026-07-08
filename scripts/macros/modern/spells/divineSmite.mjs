@@ -1,5 +1,5 @@
 import {actorUtils, automationUtils, dialogUtils, documentUtils, effectUtils, workflowUtils} from '../../../proxy.mjs';
-const smiteIdentifiers = ['divine-smite', 'searing-smite', 'thunderous-smite', 'wrathful-smite', 'shining-smite', 'blinding-smite', 'staggering-smite', 'banishing-smite'];
+const smiteIdentifiers = ['divine-smite', 'searing-smite', 'thunderous-smite', 'wrathful-smite', 'shining-smite', 'blinding-smite', 'staggering-smite', 'banishing-smite', 'wilting-smite'];
 async function hit({workflow}) {
     if (!workflow.hitTargets.size || workflowUtils.getActionType(workflow) !== 'mwak') return;
     if (game.combat && game.combat.combatant?.tokenId !== workflow.token?.id) return;
