@@ -655,7 +655,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Detect Magic | detectMagic | ⬜ |
 | Disintegrate | disintegrate | ⬜ |
 | Divine Smite | divineSmite | ✅ ported |
-| Dragon's Breath | dragonsBreath | ⬜ |
+| Dragon's Breath | dragonsBreath | ✅ ported |
 | Dream | — | ✅ converted |
 | Eldritch Blast | eldritchBlast | ✅ ported |
 | Elemental Weapon | elementalWeapon | ⬜ |

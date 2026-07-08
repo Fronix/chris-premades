@@ -124,6 +124,7 @@ export {banishment, banishmentBanished as 'banishment-banished', blur, blurEffec
 export {blight, calmEmotions as 'calm-emotions'} from './modern/spells/spellBatch3.mjs';
 export {blink, blinkBlinking as 'blink-blinking', blinkBlinkedAway as 'blink-blinked-away'} from './modern/spells/blink.mjs';
 export {burningHands as 'burning-hands', chillTouch as 'chill-touch', chromaticOrb as 'chromatic-orb'} from './modern/spells/chromaticOrb.mjs';
+export {dragonsBreath as 'dragons-breath'} from './modern/spells/dragonsBreath.mjs';
 export {eldritchBlast as 'eldritch-blast'} from './modern/spells/eldritchBlast.mjs';
 export {hex, hexAttack as 'hex-attack'} from './modern/spells/hex.mjs';
 export {mistyStep as 'misty-step', shield} from './modern/spells/mistyStep.mjs';
