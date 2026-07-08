@@ -156,15 +156,15 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Elemental Attunement *(Warrior of the Elements)* | elementalAttunement | ⬜ |
 | Elemental Burst *(Warrior of the Elements)* | elementalBurst | ⬜ |
 | Elemental Epitome *(Warrior of the Elements)* | elementalEpitome | ⬜ |
-| Empowered Strikes | empoweredStrikes | ⬜ |
+| Empowered Strikes | empoweredStrikes | ✅ ported |
 | Heightened Focus | — | ✅ converted |
 | Martial Arts | martialArts | ⬜ |
 | Monk's Focus | monksFocus | ⬜ |
 | Perfect Focus | perfectFocus | ✅ ported |
-| Self-Restoration | selfRestoration | ⬜ |
+| Self-Restoration | selfRestoration | ✅ ported |
 | Slow Fall | slowFall | ✅ ported |
 | Stride of the Elements *(Warrior of the Elements)* | — | ✅ converted |
-| Stunning Strike | stunningStrike | ⬜ |
+| Stunning Strike | stunningStrike | ✅ ported |
 | Superior Defense | superiorDefense | ✅ ported |
 | Unarmored Defense (Monk) | unarmoredDefenseMonk | ⬜ |
 | Unarmored Movement | unarmoredMovement | ⬜ |

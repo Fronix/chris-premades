@@ -110,7 +110,9 @@
             "BaseHealing": "Base Healing:",
             "AttackBonus": "Attack Bonus:",
             "PromptToUse": "Prompt to Use:",
-            "CreatureTypes": "Creature Types:"
+            "CreatureTypes": "Creature Types:",
+            "AutoApply": "Auto Apply:",
+            "Conditions": "Conditions:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -233,7 +235,8 @@
             "Never": "Never",
             "Prompt": "Prompt",
             "Automatic": "Automatic",
-            "SelectDamageType": "Select a Damage Type:"
+            "SelectDamageType": "Select a Damage Type:",
+            "SelectRemoveCondition": "Select a condition to remove:"
         },
         "Summons": {
             "CustomName": "Custom Name"

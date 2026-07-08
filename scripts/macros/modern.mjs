@@ -33,7 +33,10 @@ export {studiedAttacks as 'studied-attacks'} from './modern/classFeatures/fighte
 export {tacticalMind as 'tactical-mind'} from './modern/classFeatures/fighter/tacticalMind.mjs';
 // Monk
 export {heightenedFocus as 'heightened-focus', perfectFocus as 'perfect-focus', disciplinedSurvivor as 'disciplined-survivor', superiorDefense as 'superior-defense'} from './modern/classFeatures/monk/focusFeatures.mjs';
+export {empoweredStrikes as 'empowered-strikes'} from './modern/classFeatures/monk/empoweredStrikes.mjs';
+export {selfRestoration as 'self-restoration'} from './modern/classFeatures/monk/selfRestoration.mjs';
 export {slowFall as 'slow-fall'} from './modern/classFeatures/monk/slowFall.mjs';
+export {stunningStrike as 'stunning-strike'} from './modern/classFeatures/monk/stunningStrike.mjs';
 // Paladin
 export {auraOfCourage as 'aura-of-courage'} from './modern/classFeatures/paladin/auraOfCourage.mjs';
 export {auraOfProtection as 'aura-of-protection'} from './modern/classFeatures/paladin/auraOfProtection.mjs';
