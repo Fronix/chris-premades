@@ -1033,7 +1033,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | --- | --- | --- |
 | Deck of Illusions | deckOfIllusions | ⬜ |
 | Fork of Eddy Summoning | forkOfEddySummoning | ⬜ |
-| Healer's Kit | healersKit | ⬜ |
+| Healer's Kit | healersKit | ✅ ported |
 | Orb of Damara | orbOfDamara, orbOfDamaraEffect | ⬜ |
 | Unarmed Strike | unarmedStrike | ⬜ |
 | Unarmed Strike (Monk) | unarmedStrike | ⬜ |
