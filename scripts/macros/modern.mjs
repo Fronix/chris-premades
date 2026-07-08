@@ -74,6 +74,7 @@ export {agonizingBlast as 'eldritch-invocations-agonizing-blast'} from './modern
 export {awakenedMind as 'awakened-mind'} from './modern/classFeatures/warlock/awakenedMind.mjs';
 export {giftOfTheProtectors as 'eldritch-invocations-gift-of-the-protectors', giftOfTheProtectorsProtected as 'gift-of-the-protectors-protected'} from './modern/classFeatures/warlock/giftOfTheProtectors.mjs';
 export {pactOfTheChain as 'eldritch-invocations-pact-of-the-chain', magicalCunning as 'magical-cunning', oneWithShadows as 'eldritch-invocations-one-with-shadows'} from './modern/classFeatures/warlock/pactOfTheChain.mjs';
+export {pactOfTheBlade as 'eldritch-invocations-pact-of-the-blade', pactOfTheBladeAttack as 'pact-of-the-blade-attack'} from './modern/classFeatures/warlock/pactOfTheBlade.mjs';
 export {psychicSpells as 'psychic-spells'} from './modern/classFeatures/warlock/psychicSpells.mjs';
 export {stepsOfTheFey as 'steps-of-the-fey'} from './modern/classFeatures/warlock/stepsOfTheFey.mjs';
 export {thoughtShield as 'thought-shield'} from './modern/classFeatures/warlock/thoughtShield.mjs';

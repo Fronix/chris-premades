@@ -116,7 +116,8 @@
             "Attacks": "Attacks:",
             "EnablePrompt": "Enable Prompt:",
             "Max": "Max:",
-            "SpellSchools": "Spell Schools:"
+            "SpellSchools": "Spell Schools:",
+            "WeaponTypes": "Weapon Types:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -290,6 +291,12 @@
             },
             "AwakenedSpellbook": {
                 "Select": "Change damage type?"
+            },
+            "PactOfTheBlade": {
+                "SelectBond": "Bond with which weapon?",
+                "Conjure": "Conjure which weapon?",
+                "Name": "Pact Weapon",
+                "ReplaceDamage": "Replace the damage type?"
             }
         },
         "Auras": {

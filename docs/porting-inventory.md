@@ -253,7 +253,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Eldritch Invocations: Fiendish Vigor *(Invocations)* | — | ✅ converted |
 | Eldritch Invocations: Gift of the Protectors *(Invocations)* | giftOfTheProtectors | ✅ ported |
 | Eldritch Invocations: One with Shadows *(Invocations)* | oneWithShadows | ✅ ported |
-| Eldritch Invocations: Pact of the Blade *(Invocations)* | pactOfTheBlade, pactOfTheBladeAttack | ⬜ |
+| Eldritch Invocations: Pact of the Blade *(Invocations)* | pactOfTheBlade, pactOfTheBladeAttack | ✅ ported |
 | Eldritch Invocations: Pact of the Chain *(Invocations)* | pactOfTheChain | ✅ ported |
 | Psychic Spells *(Great Old One)* | psychicSpells | ✅ ported |
 | Steps of the Fey *(Archfey)* | stepsOfTheFey | ✅ ported |
