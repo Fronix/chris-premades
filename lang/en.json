@@ -121,7 +121,8 @@
             "IgnoredCreatureTypes": "Ignored Creature Types:",
             "HitPoints": "Hit Points:",
             "Remember": "Remember Selection",
-            "ScaleIdentifier": "Scale Identifier"
+            "ScaleIdentifier": "Scale Identifier",
+            "SimultaneousUses": "Simultaneous Cunning Strike Uses"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",

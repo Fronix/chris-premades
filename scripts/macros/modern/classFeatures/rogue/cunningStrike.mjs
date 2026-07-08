@@ -46,5 +46,13 @@ export const cunningStrike = {
             priority: 300,
             unique: 'cunningStrikeUse'
         }
-    ]
+    ],
+    config: {
+        uses: {
+            default: 1,
+            type: 'text',
+            label: 'CHRISPREMADES.Config.SimultaneousUses',
+            category: 'tuning'
+        }
+    }
 };

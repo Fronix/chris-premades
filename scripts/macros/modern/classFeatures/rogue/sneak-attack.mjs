@@ -36,9 +36,19 @@ async function damage({document, workflow}) {
             }
         }
     }
-    const data = await automationUtils.calledEvent('sneakAttackCunningStrike', workflow.actor, {multiResult: true, data: {workflow}});
-    const uses = data.reduce((total, value) => total + (value.uses ?? 0), 0);
-    const activities = data.flatMap(value => value.activities ?? []);
+    // Gather Cunning Strike options directly from the actor's features. (The upstream
+    // 'sneakAttackCunningStrike' called-event has no registered answerers, so nothing surfaced.)
+    let uses = 0;
+    const activities = [];
+    const cunningStrikeItem = actorUtils.getItemByIdentifier(workflow.actor, 'cunning-strike');
+    if (cunningStrikeItem) {
+        uses += Number(automationUtils.getConfigValue(cunningStrikeItem, 'uses')) || 1;
+        activities.push(...cunningStrikeItem.system.activities);
+        const improvedCunningStrike = actorUtils.getItemByIdentifier(workflow.actor, 'improved-cunning-strike');
+        if (improvedCunningStrike) uses += Number(automationUtils.getConfigValue(improvedCunningStrike, 'uses')) || 1;
+        const deviousStrikes = actorUtils.getItemByIdentifier(workflow.actor, 'devious-strikes');
+        if (deviousStrikes) activities.push(...deviousStrikes.system.activities);
+    }
     if (activities.length && uses) {
         const damageRoll = new Roll(formula);
         const dieData = damageRoll.terms.reduce((acc, term) => {
