@@ -379,6 +379,10 @@
                 "SelectAbility": "Which ability is hexed?",
                 "Hexed": "Hexed",
                 "Multiple": "Move the hex from which target?"
+            },
+            "HuntersMark": {
+                "Marked": "Marked",
+                "Select": "Move the mark from which target?"
             }
         },
         "Auras": {

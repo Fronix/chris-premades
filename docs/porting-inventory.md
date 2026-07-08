@@ -681,7 +681,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Hex | hex | ✅ ported |
 | Hold Person | holdPerson | ⬜ |
 | Hunger of Hadar | hungerOfHadar | ⬜ |
-| Hunter's Mark | huntersMark | ⬜ |
+| Hunter's Mark | huntersMark | ✅ ported |
 | Hypnotic Pattern | hypnoticPattern | ⬜ |
 | Ice Storm | iceStorm | ⬜ |
 | Insect Plague | insectPlague | ⬜ |
