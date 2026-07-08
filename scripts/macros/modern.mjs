@@ -125,6 +125,7 @@ export {armorOfAgathys as 'armor-of-agathys', armorOfAgathysArmor as 'armor-of-a
 export {auraOfLife as 'aura-of-life', auraOfLifeAura as 'aura-of-life-aura', auraOfPurity as 'aura-of-purity', auraOfPurityAura as 'aura-of-purity-aura'} from './modern/spells/auraSpells.mjs';
 export {arcaneVigor as 'arcane-vigor', blindnessDeafness as 'blindness-deafness', charmMonster as 'charm-monster', charmPerson as 'charm-person'} from './modern/spells/spellBatch1.mjs';
 export {banishment, banishmentBanished as 'banishment-banished', blur, blurEffect as 'blur-effect'} from './modern/spells/spellBatch2.mjs';
+export {bestowCurse as 'bestow-curse', bestowCurseAttackEffect as 'bestow-curse-attack-effect', bestowCurseDamageSource as 'bestow-curse-damage-source'} from './modern/spells/bestowCurse.mjs';
 export {blight, calmEmotions as 'calm-emotions'} from './modern/spells/spellBatch3.mjs';
 export {blink, blinkBlinking as 'blink-blinking', blinkBlinkedAway as 'blink-blinked-away'} from './modern/spells/blink.mjs';
 export {burningHands as 'burning-hands', chillTouch as 'chill-touch', chromaticOrb as 'chromatic-orb'} from './modern/spells/chromaticOrb.mjs';

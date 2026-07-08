@@ -409,6 +409,9 @@
             },
             "ChainLightning": {
                 "Select": "Select up to {maxTargets} leap targets:"
+            },
+            "BestowCurse": {
+                "AbilitySelect": "Curse which ability?"
             }
         },
         "Auras": {

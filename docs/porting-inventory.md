@@ -619,7 +619,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Banishment | banishment | ✅ ported |
 | Barkskin | — | ✅ converted |
 | Beacon of Hope | beaconOfHope | ✅ ported |
-| Bestow Curse | bestowCurse | ⬜ |
+| Bestow Curse | bestowCurse | ✅ ported |
 | Blade Ward | — | ✅ converted |
 | Bless | bless | ✅ ported |
 | Blight | blight | ✅ ported |
