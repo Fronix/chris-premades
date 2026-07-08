@@ -275,6 +275,17 @@ Outstanding (tracked for later passes):
 - Animation passes (JB2A/Sequencer flows dropped during porting)
 - 2014 variants (the legacy tree)
 
+## Milestone 17 — Deferred returns, wave 1 — complete
+
+Full Metamagic set finished (Extended, Heightened, Quickened, Seeking, Subtle,
+Transmuted, Twinned join Careful/Distant; Empowered still deferred on its
+dice-picker UI). Crusher, Piercer, Slasher ported with inline once-per-turn
+stamps. Relentless Endurance, Dreadful Strikes scale, Beguiling Twist ported.
+Still deferred: Umbral Sight (needs light-level/canSense utils in CAT),
+Elemental Adept (326-line legacy), Telekinetic, Unarmed Fighting, regions
+batch, Teleport/Wish/Animate Objects, 3rd-party content, animation passes,
+2014 variants.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
