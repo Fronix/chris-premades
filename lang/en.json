@@ -303,7 +303,8 @@
                 "Target": "Select an additional target:"
             },
             "DazzlingFootwork": {
-                "AgileStrikes": "Make an Agile Strike against a nearby enemy?"
+                "AgileStrikes": "Make an Agile Strike against a nearby enemy?",
+                "DanceVirtuoso": "Dance Virtuoso"
             }
         },
         "Auras": {

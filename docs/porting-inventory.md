@@ -67,11 +67,11 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Combat Inspiration *(College of Valor)* | — | ✅ converted |
 | Countercharm | countercharm | ⬜ |
 | Cutting Words *(College of Lore)* | cuttingWords | ⬜ |
-| Dazzling Footwork *(College of Dance)* | dazzlingFootwork | ⬜ |
+| Dazzling Footwork *(College of Dance)* | dazzlingFootwork | ✅ ported |
 | Font of Inspiration | fontOfInspiration | ✅ ported |
 | Inspiring Movement *(College of Dance)* | inspiringMovement | ⬜ |
 | Jack of All Trades | — | ✅ converted |
-| Leading Evasion *(College of Dance)* | leadingEvasion | ⬜ |
+| Leading Evasion *(College of Dance)* | leadingEvasion | ✅ ported |
 | Mantle of Inspiration *(College of Glamour)* | mantleOfInspiration | ⬜ |
 | Mantle of Majesty *(College of Glamour)* | mantleOfMajesty | ⬜ |
 | Peerless Skill *(College of Lore)* | peerlessSkill | ⬜ |
