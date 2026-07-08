@@ -984,22 +984,22 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Attack | attack | ⬜ |
+| Attack | attack | ✅ ported |
 | Check Cover | checkCover | ⬜ |
 | Circle Cast | circleCast, circleCastEffect | ⬜ |
 | Dash | dash | ⬜ |
 | Disengage | disengage | ⬜ |
 | Dodge | — | ✅ converted |
 | Fall | fall | ⬜ |
-| Help | help | ⬜ |
+| Help | help | ✅ ported |
 | Hide | hide, hideEffect | ⬜ |
 | Influence | influence | ⬜ |
 | Jump | jump | ⬜ |
-| Knock Out | knockOut, knockOutEffect | ⬜ |
+| Knock Out | knockOut, knockOutEffect | ✅ ported |
 | Magic | magic | ⬜ |
 | Mount | mount | ⬜ |
 | Ready | — | ✅ converted |
-| Search | search | ⬜ |
+| Search | search | ✅ ported |
 | Squeeze | — | ✅ converted |
 | Stabilize | stabilize | ⬜ |
 | Study | — | ✅ converted |

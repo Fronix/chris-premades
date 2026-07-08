@@ -459,6 +459,9 @@
             "Protection": {
                 "Protect": "Use your reaction to protect {tokenName}?",
                 "Protected": "Protected"
+            },
+            "Attack": {
+                "SelectWeapon": "Attack with which weapon?"
             }
         },
         "Auras": {
