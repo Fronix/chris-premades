@@ -246,7 +246,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | --- | --- | --- |
 | Awakened Mind *(Great Old One)* | awakenedMind | ✅ ported |
 | Clairvoyant Combatant *(Great Old One)* | — | ✅ converted |
-| Create Thrall *(Great Old One)* | createThrall | ⬜ |
+| Create Thrall *(Great Old One)* | createThrall | ✅ ported |
 | Eldritch Hex *(Great Old One)* | — | ✅ converted |
 | Eldritch Invocations: Agonizing Blast *(Invocations)* | agonizingBlast | ✅ ported |
 | Eldritch Invocations: Devil's Sight *(Invocations)* | — | ✅ converted |

@@ -72,6 +72,7 @@ export {uncannyDodge as 'uncanny-dodge'} from './modern/classFeatures/rogue/unca
 // Warlock
 export {agonizingBlast as 'eldritch-invocations-agonizing-blast'} from './modern/classFeatures/warlock/agonizingBlast.mjs';
 export {awakenedMind as 'awakened-mind'} from './modern/classFeatures/warlock/awakenedMind.mjs';
+export {createThrall as 'create-thrall', thrallBonus as 'thrall-bonus'} from './modern/classFeatures/warlock/createThrall.mjs';
 export {giftOfTheProtectors as 'eldritch-invocations-gift-of-the-protectors', giftOfTheProtectorsProtected as 'gift-of-the-protectors-protected'} from './modern/classFeatures/warlock/giftOfTheProtectors.mjs';
 export {pactOfTheChain as 'eldritch-invocations-pact-of-the-chain', magicalCunning as 'magical-cunning', oneWithShadows as 'eldritch-invocations-one-with-shadows'} from './modern/classFeatures/warlock/pactOfTheChain.mjs';
 export {pactOfTheBlade as 'eldritch-invocations-pact-of-the-blade', pactOfTheBladeAttack as 'pact-of-the-blade-attack'} from './modern/classFeatures/warlock/pactOfTheBlade.mjs';

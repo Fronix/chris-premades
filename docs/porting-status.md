@@ -166,6 +166,18 @@ remaining metamagics (Empowered, Extended, Heightened, Quickened, Seeking,
 Subtle, Transmuted, Twinned) queue with the legacy pass. Sorcery Points and
 Favored by the Gods were data-only conversions.
 
+## Milestone 9 — Warlock (2024) — complete
+
+Ported: Pact of the Blade (bond enchantment + conjure with best-ability attack
+and damage-type swap), Pact of the Chain (familiar reaction attack via CAT
+summons), Agonizing Blast (cantrip picker + bonus), Gift of the Protectors
+(death-prevention gift), Thought Shield (psychic reflection), Awakened Mind /
+Clairvoyant Combatant, Psychic Spells, Steps of the Fey, Create Thrall
+(non-concentration Summon Aberration + thrall hex bonus, addThrallBonuses
+exported for the Summon Aberration spell port), Magical Cunning and One with
+Shadows metadata. Data-only: Devil's Sight, Fiendish Vigor, Eldritch Hex,
+Sorcery-free invocations.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
@@ -183,8 +195,8 @@ staple spells, committed and releasable on its own):
 5. ~~Druid~~ ✅
 6. ~~Wizard~~ ✅
 7. ~~Sorcerer~~ (no 2024 content; legacy metamagic started)
-8. **Warlock** ← current slice
-9. Bard
+8. ~~Warlock~~ ✅
+9. **Bard** ← current slice
 10. Ranger
 11. Barbarian + Rogue subclass completion
 12. Artificer / 3rd-party
