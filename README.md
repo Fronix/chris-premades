@@ -1,10 +1,18 @@
 # Readme
 
+> [!NOTE]
+> I only did this so that I could update to V14 foundry, do not expect this to be maintained or updated as the original CPR is. It might look insane that AI just "did it" but it requires oversight and knowledge, if you can't code, don't even attempt this.
+> 
+> I won't provide support, you are welcome to create issues and PRs but it may take time before i get to it.
+>
+> Since I used AI myself, you can use it as well for PRs. But keep in mind that I spent quite a lot of time making it understand the repo so mindlessly letting AI loose in here will break things instead of fix them.
+
+
 > [!IMPORTANT]
 > ## Foundry VTT V14 Fork
 > This is a fork of [chrisk123999/chris-premades](https://github.com/chrisk123999/chris-premades) targeting **Foundry VTT V14** and **D&D 5e 5.3.x**, based on upstream's in-progress V14 rewrite with additional ported features and fixes.
 >
-> The module is built on **CAT (Coven's Automation Toolkit)**, which does all the heavy lifting. This fork depends on fixes that are not yet in the upstream CAT release, so **you must install CAT manually from [my CAT fork](https://github.com/Fronix/covens-automation-toolkit)** — do not use the upstream CAT.
+> The module is built on **CAT (Coven's Automation Toolkit)**, which does all the heavy lifting. This fork depends on fixes that are not yet in the upstream CAT release, so **you must install CAT manually from [my CAT fork](https://github.com/Fronix/covens-automation-toolkit)**, **do not use the upstream CAT**.
 >
 > ### Installation
 > Install both modules in Foundry via **Install Module → Manifest URL** (install CAT first):
@@ -15,7 +23,7 @@
 
 > [!WARNING]
 > ## AI-Ported Automations
-> The V14 automation port in this fork was done **entirely with AI** (Claude, via Claude Code). Every ported macro was migrated from the V13 Midi-QOL implementation to CAT's trigger system by AI, verified with automated checks (lint, compendium build, bundle build, and a CAT API contract check) — but **not every automation has been play-tested at a real table yet**. Expect rough edges: if an automation misbehaves, please [open an issue](https://github.com/Fronix/chris-premades/issues) with the item name and what happened.
+> The V14 automation port in this fork was done **entirely with AI** (Claude, via Claude Code). Every ported macro was migrated from the V13 Midi-QOL implementation to CAT's trigger system by AI, verified with automated checks (lint, compendium build, bundle build, and a CAT API contract check), but **not every automation has been play-tested at a real table yet**. Expect rough edges: if an automation misbehaves, please [open an issue](https://github.com/Fronix/chris-premades/issues) with the item name and what happened and I'll try to get it fixed.
 
 ## Port Status
 
@@ -24,6 +32,10 @@ The entire **2024 (modern) rules tree is ported** — all eleven classes and the
 The **2014 (legacy) rules tree is in progress**: spells and features whose mechanics are shared with 2024 (smites, auras, summons, Hex, Hunter's Mark, Eldritch Blast, the SCAG blade cantrips, …) are already available; the remaining legacy-only automations are being ported in waves. Animation passes (Sequencer/JB2A visuals) are largely still pending.
 
 See [docs/porting-status.md](docs/porting-status.md) for the milestone-by-milestone breakdown.
+
+---
+
+_Original README information_
 
 A collection of automated items including spells, class features, monster features, etc., mechanics to make those possible, and quality-of-life based extensions for a high-automation Midi-QOL based D&D5e environment. Compendiums included in this module do not include item's descriptions. While this module has several module dependencies by different authors, do not pester tposney, Wasp, or any other module authors with bugs or issues related to this module. Bug reports and large module implementation requests may be made on the GitHub. Faster support and feature requests can be accessed on the [Discord server](https://discord.gg/BumxBcQDrT).
 
