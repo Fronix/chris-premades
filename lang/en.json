@@ -221,6 +221,9 @@
             },
             "FanaticalFocus": {
                 "Use": "Use {item} to re-roll a failed saving throw of {total}?"
+            },
+            "MartialArts": {
+                "ValidateWeaponType": "Validate Weapon Type:"
             }
         },
         "Auras": {

@@ -158,7 +158,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Elemental Epitome *(Warrior of the Elements)* | elementalEpitome | ⬜ |
 | Empowered Strikes | empoweredStrikes | ✅ ported |
 | Heightened Focus | — | ✅ converted |
-| Martial Arts | martialArts | ⬜ |
+| Martial Arts | martialArts | ✅ ported |
 | Monk's Focus | monksFocus | ✅ ported |
 | Perfect Focus | perfectFocus | ✅ ported |
 | Self-Restoration | selfRestoration | ✅ ported |
