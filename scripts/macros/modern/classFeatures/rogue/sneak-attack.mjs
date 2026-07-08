@@ -50,7 +50,7 @@ async function damage({document, workflow}) {
         if (deviousStrikes) activities.push(...deviousStrikes.system.activities);
     }
     if (activities.length && uses) {
-        const damageRoll = new Roll(formula);
+        const damageRoll = new Roll(formula, workflow.actor.getRollData());
         const dieData = damageRoll.terms.reduce((acc, term) => {
             if (term.faces && term.number) {
                 acc.totals[term.faces] = (acc.totals[term.faces] ?? 0) + term.number;
