@@ -926,7 +926,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Spellfire Spark | — | ✅ converted |
 | Tavern Brawler: Constitution Score | tavernBrawler | ⬜ |
 | Tavern Brawler: Strength Score | tavernBrawler | ✅ ported |
-| Telekinetic: Shove | telekineticShove | ⬜ |
+| Telekinetic: Shove | telekineticShove | ✅ ported |
 | Thrown Weapon Fighting | thrownWeaponFighting | ✅ ported |
 | Unarmed Fighting | unarmedFighting | ⬜ |
 | Vampire's Plaything | vampiresPlaything | ⬜ |
