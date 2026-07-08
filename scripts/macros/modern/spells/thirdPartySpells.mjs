@@ -76,7 +76,7 @@ export const bloodSacrificeActive = {
 };
 export const dissolution = {
     name: 'Dissolution',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2024'
 };
 async function sproutFoliageUse({workflow}) {

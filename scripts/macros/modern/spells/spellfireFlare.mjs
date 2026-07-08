@@ -61,7 +61,7 @@ export const spellfireFlare = {
 };
 export const spellfireSpark = {
     name: 'Spellfire Spark',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2024'
 };
 export const purpleDragonRook = {
@@ -83,7 +83,7 @@ export const purpleDragonRook = {
 };
 export const arcaneBolt = {
     name: 'Arcane Bolt',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2024',
     monsters: ['Eldritch Eddy']
 };
@@ -95,7 +95,7 @@ export const eldritchOverload = {
 };
 export const searingSwipe = {
     name: 'Searing Swipe',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2024',
     monsters: ['Eldritch Eddy']
 };

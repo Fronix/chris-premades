@@ -250,6 +250,6 @@ export const elementalEpitomeStrikes = {
 };
 export const strideOfTheElements = {
     name: 'Stride of the Elements',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2024'
 };

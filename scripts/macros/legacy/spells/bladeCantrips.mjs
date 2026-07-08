@@ -141,11 +141,11 @@ export const boomingBladeEffect = {
 };
 export const absorbElements = {
     name: 'Absorb Elements',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2014'
 };
 export const bladeWard = {
     name: 'Blade Ward',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2014'
 };

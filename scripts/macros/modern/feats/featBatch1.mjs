@@ -105,7 +105,7 @@ export const defense = {
 };
 export const heavyArmorMaster = {
     name: 'Heavy Armor Master',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2024'
 };
 export const sharpshooter = {
@@ -115,7 +115,7 @@ export const sharpshooter = {
 };
 export const speedy = {
     name: 'Speedy',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2024'
 };
 async function gwfDamage({workflow}) {

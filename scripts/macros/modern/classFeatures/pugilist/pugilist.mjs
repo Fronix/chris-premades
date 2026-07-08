@@ -527,17 +527,17 @@ export const pugilistUnarmedStrike = {
 };
 export const ironChin = {
     name: 'Iron Chin',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2024'
 };
 export const herculean = {
     name: 'Herculean',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2024'
 };
 export const heavyweight = {
     name: 'Heavyweight',
-    version: '2.0.0',
+    version: '2.0.1',
     rules: '2024'
 };
 export const schoolOfHardKnocks = {
