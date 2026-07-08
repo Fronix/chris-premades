@@ -638,7 +638,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Chromatic Orb | chromaticOrb | ✅ ported |
 | Circle of Death | — | ✅ converted |
 | Circle of Power | circleOfPower | ✅ ported |
-| Cloudkill | cloudkill | ⬜ |
+| Cloudkill | cloudkill | ✅ ported |
 | Command | command, commandGrovel, commandTurnStart | ✅ ported |
 | Compelled Duel | compelledDuel | ✅ ported |
 | Conjure Animals | conjureAnimals | ⬜ |
