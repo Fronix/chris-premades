@@ -471,6 +471,12 @@
             },
             "VampireBite": {
                 "Invalid": "The target must be willing, grappled, incapacitated or restrained!"
+            },
+            "Crusher": {
+                "Move": "Move the target 5 feet?"
+            },
+            "Piercer": {
+                "Reroll": "Reroll the lowest damage die ({value})?"
             }
         },
         "Auras": {

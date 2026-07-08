@@ -903,7 +903,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | --- | --- | --- |
 | Alert | alert | ✅ ported |
 | Archery | archery | ✅ ported |
-| Crusher | crusher | ⬜ |
+| Crusher | crusher | ✅ ported |
 | Defense | defense | ✅ ported |
 | Dueling | dueling | ✅ ported |
 | Elemental Adept (Acid) | elementalAdeptA | ⬜ |
@@ -916,12 +916,12 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Healer | healer | ✅ ported |
 | Heavy Armor Master | — | ✅ converted |
 | Interception | interception | ✅ ported |
-| Piercer | piercer | ⬜ |
+| Piercer | piercer | ✅ ported |
 | Protection | protection | ✅ ported |
 | Purple Dragon Rook | purpleDragonRook | ⬜ |
 | Savage Attacker | savageAttacker | ✅ ported |
 | Sharpshooter | sharpshooter | ✅ ported |
-| Slasher | slasher | ⬜ |
+| Slasher | slasher | ✅ ported |
 | Speedy | — | ✅ converted |
 | Spellfire Spark | — | ✅ converted |
 | Tavern Brawler: Constitution Score | tavernBrawler | ⬜ |
