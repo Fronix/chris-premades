@@ -1,7 +1,9 @@
 {
-  "name": "Speedy",
+  "folder": "gG5aEjJIwdsH0isv",
+  "name": "Defense",
   "type": "feat",
-  "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+  "_id": "n3smBxro6hctDWNS",
+  "img": "icons/equipment/chest/breastplate-gorget-steel.webp",
   "system": {
     "activities": {},
     "uses": {
@@ -13,7 +15,7 @@
       "value": "",
       "chat": ""
     },
-    "identifier": "speedy",
+    "identifier": "defense",
     "source": {
       "revision": 1,
       "rules": "2024",
@@ -33,25 +35,25 @@
     "properties": [],
     "requirements": "",
     "type": {
-      "value": "",
-      "subtype": ""
+      "value": "feat",
+      "subtype": "fightingStyle"
     }
   },
   "effects": [
     {
-      "name": "Speedy",
-      "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
-      "origin": "Item.hZfwXA6embFhfCWE",
+      "name": "Defense",
+      "img": "icons/equipment/chest/breastplate-gorget-steel.webp",
+      "origin": "Compendium.chris-premades.CPRFeats2024.Item.n3smBxro6hctDWNS",
       "transfer": true,
-      "_id": "YaNTjPU4wRA8lqEw",
+      "_id": "WItcrowVnzXFsDqZ",
       "type": "base",
       "system": {
         "changes": [
           {
-            "key": "flags.gambits-premades.oaDisadvantage",
+            "key": "system.attributes.ac.bonus",
             "type": "add",
-            "value": "",
-            "phase": "initial",
+            "value": 1,
+            "phase": "final",
             "priority": 20
           }
         ]
@@ -86,12 +88,14 @@
         },
         "core": {
           "overlay": false
+        },
+        "cat": {
+          "identifier": "defense"
         }
       },
-      "_key": "!items.effects!UwvQou5h9CH1OtNs.YaNTjPU4wRA8lqEw"
+      "_key": "!items.effects!n3smBxro6hctDWNS.WItcrowVnzXFsDqZ"
     }
   ],
-  "folder": null,
   "flags": {
     "midi-qol": {
       "rollAttackPerTarget": "default",
@@ -119,9 +123,16 @@
       "automation": {
         "version": "2.0.0"
       },
-      "macros": {}
+      "macros": {
+        "item": [
+          {
+            "source": "chris-premades",
+            "rules": "2024",
+            "identifier": "defense"
+          }
+        ]
+      }
     }
   },
-  "_id": "UwvQou5h9CH1OtNs",
-  "_key": "!items!UwvQou5h9CH1OtNs"
+  "_key": "!items!n3smBxro6hctDWNS"
 }

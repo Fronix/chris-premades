@@ -901,11 +901,11 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Alert | alert | ⬜ |
-| Archery | archery | ⬜ |
+| Alert | alert | ✅ ported |
+| Archery | archery | ✅ ported |
 | Crusher | crusher | ⬜ |
-| Defense | defense | ⬜ |
-| Dueling | dueling | ⬜ |
+| Defense | defense | ✅ ported |
+| Dueling | dueling | ✅ ported |
 | Elemental Adept (Acid) | elementalAdeptA | ⬜ |
 | Elemental Adept (Cold) | elementalAdeptC | ⬜ |
 | Elemental Adept (Fire) | elementalAdeptF | ⬜ |
@@ -920,7 +920,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Protection | protection | ⬜ |
 | Purple Dragon Rook | purpleDragonRook | ⬜ |
 | Savage Attacker | savageAttacker | ⬜ |
-| Sharpshooter | sharpshooter | ⬜ |
+| Sharpshooter | sharpshooter | ✅ ported |
 | Slasher | slasher | ⬜ |
 | Speedy | — | ✅ converted |
 | Spellfire Spark | — | ✅ converted |

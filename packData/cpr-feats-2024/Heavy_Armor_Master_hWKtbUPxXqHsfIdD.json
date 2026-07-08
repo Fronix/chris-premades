@@ -75,7 +75,8 @@
     "cat": {
       "automation": {
         "version": "2.0.0"
-      }
+      },
+      "macros": {}
     }
   },
   "effects": [
