@@ -114,7 +114,7 @@
       "spent": 0,
       "recovery": [
         {
-          "period": "turn",
+          "period": "turnStart",
           "type": "recoverAll"
         }
       ],
