@@ -283,6 +283,9 @@
             },
             "AgonizingBlast": {
                 "Select": "Select which cantrips gain the damage bonus:"
+            },
+            "PactOfTheChain": {
+                "Attack": "Which attack?"
             }
         },
         "Auras": {
