@@ -731,7 +731,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | True Strike | trueStrike | ✅ ported |
 | Vampiric Touch | vampiricTouch | ✅ ported |
 | Vitriolic Sphere | vitriolicSphere | ✅ ported |
-| Wall of Fire | wallOfFire | ⬜ |
+| Wall of Fire | wallOfFire | ✅ ported |
 | Warding Bond | wardingBond | ✅ ported |
 | Wish | wish, wishImmunity, wishStress | ✅ ported |
 | Wrathful Smite | wrathfulSmite | ✅ ported |

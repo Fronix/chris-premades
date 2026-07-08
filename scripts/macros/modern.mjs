@@ -191,6 +191,7 @@ export {timeStop as 'time-stop', timeStopEffect as 'time-stop-effect'} from './m
 export {trueStrike as 'true-strike', shockingGrasp as 'shocking-grasp'} from './modern/spells/trueStrike.mjs';
 export {wish, wishStress as 'wish-stress', wishImmunity as 'wish-immunity'} from './modern/spells/wish.mjs';
 export {zoneOfTruth as 'zone-of-truth'} from './modern/spells/zoneOfTruth.mjs';
+export {wallOfFire as 'wall-of-fire', wallOfFireWall as 'wall-of-fire-wall'} from './modern/spells/wallOfFire.mjs';
 export {wardingBond as 'warding-bond', wardingBondSource as 'warding-bond-source', wardingBondTarget as 'warding-bond-target'} from './modern/spells/wardingBond.mjs';
 export {wrathfulSmite as 'wrathful-smite'} from './modern/spells/wrathfulSmite.mjs';
 export {crusadersMantle as 'crusaders-mantle', crusadersMantleAura as 'crusaders-mantle-aura'} from './modern/spells/crusadersMantle.mjs';
