@@ -140,6 +140,14 @@ Data-only: Deflect Energy, Stride of the Elements. Deferred: Warrior of the
 Elements subclass (Elemental Attunement/Burst/Epitome — 571 lines, subclass sweep),
 Step of the Wind animation flow (native activities work; animation pass later).
 
+## Milestone 6 — Druid (2024) — in progress
+
+Ported: Elemental Fury (Potent Spellcasting + Primal Strike with scale), Circle
+Forms, Lunar Form, Archdruid, Wild Companion, Wild Resurgence, Moonlight Step,
+Circle of the Land Spells (registry-driven land lists + Nature's Ward retarget).
+Remaining: Wild Shape, Cosmic Omen, Land's Aid, Wrath of the Sea, Starry Form;
+Nature's Sanctuary deferred to regions batch.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
