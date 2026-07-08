@@ -152,7 +152,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | --- | --- | --- |
 | Deflect Attacks | deflectAttacks | ⬜ |
 | Deflect Energy | — | ✅ converted |
-| Disciplined Survivor | disciplinedSurvivor | ⬜ |
+| Disciplined Survivor | disciplinedSurvivor | ✅ ported |
 | Elemental Attunement *(Warrior of the Elements)* | elementalAttunement | ⬜ |
 | Elemental Burst *(Warrior of the Elements)* | elementalBurst | ⬜ |
 | Elemental Epitome *(Warrior of the Elements)* | elementalEpitome | ⬜ |
@@ -160,12 +160,12 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Heightened Focus | — | ✅ converted |
 | Martial Arts | martialArts | ⬜ |
 | Monk's Focus | monksFocus | ⬜ |
-| Perfect Focus | perfectFocus | ⬜ |
+| Perfect Focus | perfectFocus | ✅ ported |
 | Self-Restoration | selfRestoration | ⬜ |
-| Slow Fall | slowFall | ⬜ |
+| Slow Fall | slowFall | ✅ ported |
 | Stride of the Elements *(Warrior of the Elements)* | — | ✅ converted |
 | Stunning Strike | stunningStrike | ⬜ |
-| Superior Defense | superiorDefense | ⬜ |
+| Superior Defense | superiorDefense | ✅ ported |
 | Unarmored Defense (Monk) | unarmoredDefenseMonk | ⬜ |
 | Unarmored Movement | unarmoredMovement | ⬜ |
 | Uncanny Metabolism | uncannyMetabolism | ⬜ |

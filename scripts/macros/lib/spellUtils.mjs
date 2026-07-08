@@ -1,4 +1,4 @@
-import {dialogUtils} from '../../proxy.mjs';
+import {actorUtils, dialogUtils, documentUtils} from '../../proxy.mjs';
 function getCastLevel(workflow) {
     return workflow.castData?.castLevel ?? workflow.spellLevel ?? workflow.item.system.level;
 }
@@ -44,4 +44,21 @@ function saveDisadvantageEffectData() {
         }
     };
 }
-export {getCastLevel, capTargets, upcastTargets, getClassSpells, saveDisadvantageEffectData};
+async function correctActivityItemConsumption(item, activityIdentifiers, targetIdentifier) {
+    const actor = item.actor;
+    if (!actor) return;
+    const target = actorUtils.getItemByIdentifier(actor, targetIdentifier);
+    if (!target) return;
+    const itemData = item.toObject();
+    const updates = {};
+    for (const identifier of activityIdentifiers) {
+        const activity = item.system.activities.find(a => a.identifier === identifier);
+        if (!activity) continue;
+        const targets = itemData.system.activities[activity.id]?.consumption?.targets;
+        if (!targets?.length || targets[0].target === target.id) continue;
+        targets[0].target = target.id;
+        updates['system.activities.' + activity.id + '.consumption.targets'] = targets;
+    }
+    if (Object.keys(updates).length) await documentUtils.update(item, updates);
+}
+export {getCastLevel, capTargets, upcastTargets, getClassSpells, saveDisadvantageEffectData, correctActivityItemConsumption};

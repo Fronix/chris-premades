@@ -31,6 +31,9 @@ export {knightlyEnvoy as 'knightly-envoy'} from './modern/classFeatures/fighter/
 export {secondWind as 'second-wind'} from './modern/classFeatures/fighter/secondWind.mjs';
 export {studiedAttacks as 'studied-attacks'} from './modern/classFeatures/fighter/studiedAttacks.mjs';
 export {tacticalMind as 'tactical-mind'} from './modern/classFeatures/fighter/tacticalMind.mjs';
+// Monk
+export {heightenedFocus as 'heightened-focus', perfectFocus as 'perfect-focus', disciplinedSurvivor as 'disciplined-survivor', superiorDefense as 'superior-defense'} from './modern/classFeatures/monk/focusFeatures.mjs';
+export {slowFall as 'slow-fall'} from './modern/classFeatures/monk/slowFall.mjs';
 // Paladin
 export {auraOfCourage as 'aura-of-courage'} from './modern/classFeatures/paladin/auraOfCourage.mjs';
 export {auraOfProtection as 'aura-of-protection'} from './modern/classFeatures/paladin/auraOfProtection.mjs';

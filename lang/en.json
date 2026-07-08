@@ -215,6 +215,9 @@
             },
             "SpiritGuardians": {
                 "Alignment": "What is your alignment?"
+            },
+            "FanaticalFocus": {
+                "Use": "Use {item} to re-roll a failed saving throw of {total}?"
             }
         },
         "Auras": {
