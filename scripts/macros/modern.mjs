@@ -8,6 +8,10 @@ export {persistentRage as 'persistent-rage'} from './modern/classFeatures/barbar
 export {primalKnowledge as 'primal-knowledge'} from './modern/classFeatures/barbarian/primalKnowledge.mjs';
 export {recklessAttack as 'reckless-attack'} from './modern/classFeatures/barbarian/recklessAttack.mjs';
 export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbarian/relentlessRage.mjs';
+// Paladin
+export {auraOfCourage as 'aura-of-courage'} from './modern/classFeatures/paladin/auraOfCourage.mjs';
+export {auraOfProtection as 'aura-of-protection'} from './modern/classFeatures/paladin/auraOfProtection.mjs';
+export {layOnHands as 'lay-on-hands'} from './modern/classFeatures/paladin/layOnHands.mjs';
 // Rogue
 export {elusive} from './modern/classFeatures/rogue/elusive.mjs';
 export {reliableTalent as 'reliable-talent'} from './modern/classFeatures/rogue/reliableTalent.mjs';
@@ -16,3 +20,8 @@ export {sneakAttack as 'sneak-attack'} from './modern/classFeatures/rogue/sneak-
 export {steadyAim as 'steady-aim'} from './modern/classFeatures/rogue/steadyAim.mjs';
 export {strokeOfLuck as 'stroke-of-luck'} from './modern/classFeatures/rogue/strokeOfLuck.mjs';
 export {uncannyDodge as 'uncanny-dodge'} from './modern/classFeatures/rogue/uncannyDodge.mjs';
+// Spells
+export {aid} from './modern/spells/aid.mjs';
+export {bless} from './modern/spells/bless.mjs';
+export {crusadersMantle as 'crusaders-mantle', crusadersMantleAura as 'crusaders-mantle-aura'} from './modern/spells/crusadersMantle.mjs';
+export {heroism, heroismHeroic as 'heroism-heroic'} from './modern/spells/heroism.mjs';

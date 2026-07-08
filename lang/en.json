@@ -98,7 +98,8 @@
             "Skills": "Skills:",
             "SpawnActivity": "Spawn Activity",
             "Summons": "Summons",
-            "UtilityRollAsDamage": "Utility Roll As Damage"
+            "UtilityRollAsDamage": "Utility Roll As Damage",
+            "Radius": "Radius (Feet)"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -153,7 +154,13 @@
                     "UseAnotherCunningStrike": "Use another cunning strike?",
                     "UseCunningStrike": "Use cunning strike?"
                 }
+            },
+            "UpcastTargets": {
+                "Select": "Too many targets selected! Please select up to {maxTargets} targets."
             }
+        },
+        "Auras": {
+            "Source": "{auraName}: Source"
         }
     }
 }

@@ -69,6 +69,30 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Swashbuckler | rakishAudacity | ⬜ | ➖ |
 | Thief | fastHands, secondStoryWork, supremeSneak, useMagicDevice | ➖ | ⬜ |
 
+## Milestone 2 — Paladin (2024) — in progress
+
+| Item | Status | Notes |
+| --- | --- | --- |
+| Lay On Hands | ✅ | `activityRollFinished` on the `poison` activity cures the poisoned condition |
+| Channel Divinity (Paladin) | ✅ | data-only (v13 macro was config/ddbi metadata only) |
+| Paladin's Smite | ✅ | data-only |
+| Aura of Protection | ✅ | new work — CAT `aura`/`update` pass, save bonus baked from source CHA (min 1), configurable radius |
+| Aura of Courage | ✅ | new work — CAT aura pass, frightened immunity, configurable radius |
+| Bless | ✅ | upcast target selection + effect application with concentration dependency |
+| Heroism | ✅ | per-target effect with baked spell mod; `turnStart` temp HP via effect combat macro |
+| Aid | ✅ | `activityDamageRollComplete` temp max HP by cast level |
+| Crusader's Mantle | ✅ | caster source effect + runtime-bound aura macro (30 ft, allies, 1d4 radiant) |
+| Shield of Faith | ✅ | data-only (converted in Phase 1 batch) |
+| Nature's Wrath (Ancients) | ⬜ | v13 2024 macro file is empty (upstream WIP) |
+| Divine Smite + Searing/Thunderous/Wrathful/Blinding/Staggering/Banishing Smite | ⬜ | next batch — actor-pass reaction machinery |
+| Compelled Duel | ⬜ | next batch — multi-effect source/target tracking |
+| Command | ⬜ | next batch — 5 effect macros |
+| Protection from Evil and Good | ⬜ | next batch — effect macro |
+| Aura of Vitality | ⬜ | next batch |
+
+Runtime caveats to verify at the table: upcast target selection reads `workflow.castData.castLevel`
+(midi-qol), aura value staleness is resolved on the next aura update after a CHA change.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were

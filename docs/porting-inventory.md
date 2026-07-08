@@ -36,7 +36,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Divine Fury *(Path of the Zealot)* | divineFury | ⬜ |
 | Fanatical Focus *(Path of the Zealot)* | fanaticalFocus | ⬜ |
 | Fast Movement | fastMovement | ✅ ported |
-| Feral Instinct | — | ✅ ported |
+| Feral Instinct | — | ✅ converted |
 | Frenzy *(Path of the Berserker)* | frenzy | ⬜ |
 | Improved Brutal Strike | — | ✅ converted |
 | Indomitable Might | indomitableMight | ✅ ported |
@@ -49,7 +49,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Rage | rage | ✅ ported |
 | Rage of the Gods *(Path of the Zealot)* | rageOfTheGods, rageOfTheGodsEffect | ⬜ |
 | Rage of the Wilds *(Path of the Wild Heart)* | rageOfTheWilds | ⬜ |
-| Reckless Attack | — | ✅ ported |
+| Reckless Attack | — | ✅ converted |
 | Relentless Rage | relentlessRage | ✅ ported |
 | Retaliation *(Path of the Berserker)* | retaliation | ⬜ |
 | Travel along the Tree *(Path of the World Tree)* | travelAlongTheTree | ⬜ |
@@ -181,7 +181,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Channel Divinity (Paladin) | — | ✅ converted |
-| Lay On Hands | layOnHands | ⬜ |
+| Lay On Hands | layOnHands | ✅ ported |
 | Nature's Wrath *(Oath of the Ancients)* | naturesWrath | ⬜ |
 | Paladin's Smite | — | ✅ converted |
 
@@ -218,7 +218,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Cunning Strike | cunningStrike | ⬜ |
 | Death Strike *(Assassin)* | deathStrike | ⬜ |
 | Devious Strikes | deviousStrikes | ⬜ |
-| Elusive | — | ✅ ported |
+| Elusive | — | ✅ converted |
 | Envenom Weapons *(Assassin)* | envenomPoison, envenomWeapons | ⬜ |
 | Fast Hands *(Thief)* | fastHands | ⬜ |
 | Improved Cunning Strike | — | ✅ converted |
@@ -228,16 +228,16 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Psionic Power *(Soulknife)* | psionicPower | ⬜ |
 | Psychic Blades *(Soulknife)* | psychicBlades | ⬜ |
 | Psychic Veil *(Soulknife)* | psychicVeil | ⬜ |
-| Reliable Talent | — | ✅ ported |
+| Reliable Talent | — | ✅ converted |
 | Rend Mind *(Soulknife)* | rendMind | ⬜ |
 | Second-Story Work *(Thief)* | — | ✅ converted |
-| Slippery Mind | — | ✅ ported |
+| Slippery Mind | — | ✅ converted |
 | Sneak Attack | sneakAttack | ⬜ |
 | Soul Blades *(Soulknife)* | soulBlades | ⬜ |
 | Spell Thief *(Arcane Trickster)* | spellThief | ⬜ |
 | Steady Aim | steadyAim | ✅ ported |
 | Stroke of Luck | strokeOfLuck | ✅ ported |
-| Uncanny Dodge | — | ✅ ported |
+| Uncanny Dodge | — | ✅ converted |
 | Versatile Trickster *(Arcane Trickster)* | — | ✅ converted |
 
 ### Warlock
@@ -433,7 +433,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Augment Breath *(Way of the Ascendant Dragon)* | — | ✅ converted |
 | Breath of the Dragon *(Way of the Ascendant Dragon)* | breathOfTheDragon | ⬜ |
 | Draconic Strike *(Way of the Ascendant Dragon)* | draconicStrike | ⬜ |
-| Evasion | — | ✅ ported |
+| Evasion | — | ✅ converted |
 | Focused Aim | focusedAim | ⬜ |
 | Ki Points | ki | ⬜ |
 | Martial Arts | martialArts | ⬜ |
@@ -601,7 +601,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Acid Splash | — | ✅ converted |
-| Aid | aid | ⬜ |
+| Aid | aid | ✅ ported |
 | Alter Self | alterSelf | ⬜ |
 | Animal Friendship | animalFriendship | ⬜ |
 | Animal Messenger | animalMessenger | ⬜ |
@@ -621,7 +621,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Beacon of Hope | beaconOfHope | ⬜ |
 | Bestow Curse | bestowCurse | ⬜ |
 | Blade Ward | — | ✅ converted |
-| Bless | bless | ⬜ |
+| Bless | bless | ✅ ported |
 | Blight | blight | ⬜ |
 | Blinding Smite | blindingSmite | ⬜ |
 | Blindness/Deafness | blindnessDeafness | ⬜ |
@@ -647,7 +647,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Conjure Minor Elementals | conjureMinorElementals | ⬜ |
 | Conjure Woodland Beings | conjureWoodlandBeings | ⬜ |
 | Crown of Madness | — | ✅ converted |
-| Crusader's Mantle | crusadersMantle | ⬜ |
+| Crusader's Mantle | crusadersMantle | ✅ ported |
 | Darkness | darkness | ⬜ |
 | Death Armor | deathArmor | ⬜ |
 | Death Ward | deathWard | ⬜ |
@@ -677,7 +677,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Guiding Bolt | — | ✅ converted |
 | Gust of Wind | gustOfWind | ⬜ |
 | Heat Metal | heatMetal | ⬜ |
-| Heroism | heroism | ⬜ |
+| Heroism | heroism | ✅ ported |
 | Hex | hex | ⬜ |
 | Hold Person | holdPerson | ⬜ |
 | Hunger of Hadar | hungerOfHadar | ⬜ |
@@ -1250,7 +1250,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Ever Hospitable | — | ✅ converted |
 | Fanged Bite | vampiricBite | ⬜ |
 | Fey Ancestry | — | ✅ converted |
-| Fey Ancestry | — | ✅ ported |
+| Fey Ancestry | — | ✅ converted |
 | Fey Step | eladrinFeyStep | ⬜ |
 | Fire Breath Weapon | — | ✅ converted |
 | Flight | fairyFlight | ⬜ |
@@ -1342,7 +1342,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Rotting Claw (Putrid Only) | summonUndeadPutrid | ⬜ |
 | Rotting Claw (Putrid Only): Paralyze | — | ✅ converted |
 | Shared Resistances | — | ✅ converted |
-| Slam (Animated Object) | — | ✅ ported |
+| Slam (Animated Object) | — | ✅ converted |
 | Slam (Construct Spirit) | — | ✅ converted |
 | Slam (Elemental Spirit) | — | ✅ converted |
 | Stone Lethargy (Stone Only) | summonConstructStone | ⬜ |
@@ -1443,7 +1443,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Shared Resistances | — | ✅ converted |
 | Shortsword (Fey Spirit) | — | ✅ converted |
 | Shred | — | ✅ converted |
-| Slam (Animated Object) | — | ✅ ported |
+| Slam (Animated Object) | — | ✅ converted |
 | Slam (Construct Spirit) | — | ✅ converted |
 | Slam (Elemental Spirit) | — | ✅ converted |
 | Stone Lethargy (Stone Only) | summonConstructStone | ⬜ |
@@ -1542,7 +1542,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Infiltrator Armor: Lightning Launcher | infiltratorArmorLightningLauncher | ⬜ |
 | Magnificent Feast | magnificentFeastMeal | ⬜ |
 | Mind Sharpener | — | ✅ converted |
-| Mote of Potential Attack | — | ✅ ported |
+| Mote of Potential Attack | — | ✅ converted |
 | Mote of Potential Heal | — | ✅ converted |
 | Mutagencraft: Flush Mutagens | actionDismissal | ⬜ |
 | Predatory Strike | — | ✅ converted |
@@ -1582,7 +1582,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Crimson Mist | crimsonMist | ⬜ |
-| Gems | — | ✅ ported |
+| Gems | — | ✅ converted |
 | Gemstone | — | ✅ converted |
 | Iron Door | — | ✅ converted |
 | Jewlery | — | ✅ converted |
@@ -1704,7 +1704,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Bullying Shot | bullyingShot | ⬜ |
 | Channel Divinity: Magnificent Feast | magnificentFeast | ⬜ |
 | Chronal Shift | chronalShift | ⬜ |
-| Combat Mastery: Bravado | — | ✅ ported |
+| Combat Mastery: Bravado | — | ✅ converted |
 | Combat Mastery: Brutal | combatMasteryBrutal | ✅ ported |
 | Combat Mastery: Inexorable | combatMasteryInexorable | ✅ ported |
 | Combat Mastery: Lies | combatMasteryLies | ✅ ported |
