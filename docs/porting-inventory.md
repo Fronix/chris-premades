@@ -33,11 +33,11 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Branches of the Tree *(Path of the World Tree)* | branchesOfTheTree | ⬜ |
 | Brutal Strike | brutalStrike, sunderingBlow | ✅ ported |
 | Danger Sense | dangerSense | ✅ ported |
-| Divine Fury *(Path of the Zealot)* | divineFury | ⬜ |
-| Fanatical Focus *(Path of the Zealot)* | fanaticalFocus | ⬜ |
+| Divine Fury *(Path of the Zealot)* | divineFury | ✅ ported |
+| Fanatical Focus *(Path of the Zealot)* | fanaticalFocus | ✅ ported |
 | Fast Movement | fastMovement | ✅ ported |
 | Feral Instinct | — | ✅ converted |
-| Frenzy *(Path of the Berserker)* | frenzy | ⬜ |
+| Frenzy *(Path of the Berserker)* | frenzy | ✅ ported |
 | Improved Brutal Strike | — | ✅ converted |
 | Indomitable Might | indomitableMight | ✅ ported |
 | Instinctive Pounce | instinctivePounce | ⬜ |

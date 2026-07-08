@@ -228,7 +228,7 @@
                 "Alignment": "What is your alignment?"
             },
             "FanaticalFocus": {
-                "Use": "Use {item} to re-roll a failed saving throw of {total}?"
+                "Use": "You failed a save ({total}). Use {item} to reroll?"
             },
             "MartialArts": {
                 "ValidateWeaponType": "Validate Weapon Type:"

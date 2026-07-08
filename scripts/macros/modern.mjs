@@ -1,6 +1,7 @@
 // Barbarian
 export {brutalStrike as 'brutal-strike', sunderingBlow as 'sundering-blow'} from './modern/classFeatures/barbarian/brutalStrike.mjs';
 export {dangerSense as 'danger-sense'} from './modern/classFeatures/barbarian/dangerSense.mjs';
+export {divineFury as 'divine-fury', divineFuryAttack as 'divine-fury-attack', fanaticalFocus as 'fanatical-focus', frenzy} from './modern/classFeatures/barbarian/subclassFeatures.mjs';
 export {extendRage, keepRage} from './modern/classFeatures/barbarian/rage.mjs';
 export {fastMovement as 'fast-movement'} from './modern/classFeatures/barbarian/fastMovement.mjs';
 export {feralInstinct as 'feral-instinct'} from './modern/classFeatures/barbarian/feralInstinct.mjs';
