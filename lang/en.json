@@ -394,7 +394,9 @@
             "ConsumeSpellSlotToUse": "Out of uses! Consume a spell slot (level 3+) instead?",
             "AutoFail": "Auto Fail",
             "Target": "Target:",
-            "Select": "Select:"
+            "Select": "Select:",
+            "Used": "Used",
+            "Disabled": "Disabled"
         },
         "Summons": {
             "CustomName": "Custom Name",

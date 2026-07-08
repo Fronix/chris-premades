@@ -227,14 +227,14 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Magical Ambush *(Arcane Trickster)* | magicalAmbush | ✅ ported |
 | Psionic Power *(Soulknife)* | psionicPower | ⬜ |
 | Psychic Blades *(Soulknife)* | psychicBlades | ⬜ |
-| Psychic Veil *(Soulknife)* | psychicVeil | ⬜ |
+| Psychic Veil *(Soulknife)* | psychicVeil | ✅ ported |
 | Reliable Talent | — | ✅ converted |
-| Rend Mind *(Soulknife)* | rendMind | ⬜ |
+| Rend Mind *(Soulknife)* | rendMind | ✅ ported |
 | Second-Story Work *(Thief)* | — | ✅ converted |
 | Slippery Mind | — | ✅ converted |
 | Sneak Attack | sneakAttack | ⬜ |
-| Soul Blades *(Soulknife)* | soulBlades | ⬜ |
-| Spell Thief *(Arcane Trickster)* | spellThief | ⬜ |
+| Soul Blades *(Soulknife)* | soulBlades | ✅ ported |
+| Spell Thief *(Arcane Trickster)* | spellThief | ✅ ported |
 | Steady Aim | steadyAim | ✅ ported |
 | Stroke of Luck | strokeOfLuck | ✅ ported |
 | Uncanny Dodge | — | ✅ converted |
