@@ -10,6 +10,7 @@ export {persistentRage as 'persistent-rage'} from './modern/classFeatures/barbar
 export {primalKnowledge as 'primal-knowledge'} from './modern/classFeatures/barbarian/primalKnowledge.mjs';
 export {recklessAttack as 'reckless-attack'} from './modern/classFeatures/barbarian/recklessAttack.mjs';
 export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbarian/relentlessRage.mjs';
+export {rageOfTheGods as 'rage-of-the-gods', rageOfTheGodsEffect as 'rage-of-the-gods-effect'} from './modern/classFeatures/barbarian/rageOfTheGods.mjs';
 export {powerOfTheWilds as 'power-of-the-wilds', powerOfTheWildsLion as 'power-of-the-wilds-lion', powerOfTheWildsRam as 'power-of-the-wilds-ram'} from './modern/classFeatures/barbarian/wildHeart.mjs';
 export {unarmoredDefenseBarbarian as 'unarmored-defense-barbarian'} from './modern/classFeatures/barbarian/unarmoredDefense.mjs';
 export {warriorOfTheGods as 'warrior-of-the-gods'} from './modern/classFeatures/barbarian/warriorOfTheGods.mjs';
@@ -85,6 +86,7 @@ export {primalCompanion as 'primal-companion', primalCompanionStrike as 'primal-
 export {cunningAction as 'cunning-action'} from './modern/classFeatures/rogue/cunningAction.mjs';
 export {cunningStrike as 'cunning-strike'} from './modern/classFeatures/rogue/cunningStrike.mjs';
 export {elusive} from './modern/classFeatures/rogue/elusive.mjs';
+export {envenomWeapons as 'envenom-weapons', envenomPoison as 'envenom-poison', magicalAmbush as 'magical-ambush'} from './modern/classFeatures/rogue/subclassFeatures.mjs';
 export {reliableTalent as 'reliable-talent'} from './modern/classFeatures/rogue/reliableTalent.mjs';
 export {slipperyMind as 'slippery-mind'} from './modern/classFeatures/rogue/slipperyMind.mjs';
 export {sneakAttack as 'sneak-attack'} from './modern/classFeatures/rogue/sneak-attack.mjs';

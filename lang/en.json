@@ -360,7 +360,8 @@
                 "AllowHeavyArmor": "Allow Heavy Armor:",
                 "AllowSpellcasting": "Allow Spellcasting:",
                 "HeavyArmor": "You are wearing heavy armor and can not rage!"
-            }
+            },
+            "RageOfTheGods": "Use {item} to keep {token} conscious?"
         },
         "Auras": {
             "Source": "{auraName}: Source"

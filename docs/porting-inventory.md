@@ -47,7 +47,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Power of the Wilds *(Path of the Wild Heart)* | powerOfTheWilds | ✅ ported |
 | Primal Knowledge | primalKnowledge | ✅ ported |
 | Rage | rage | ✅ ported |
-| Rage of the Gods *(Path of the Zealot)* | rageOfTheGods, rageOfTheGodsEffect | ⬜ |
+| Rage of the Gods *(Path of the Zealot)* | rageOfTheGods, rageOfTheGodsEffect | ✅ ported |
 | Rage of the Wilds *(Path of the Wild Heart)* | rageOfTheWilds | ⬜ |
 | Reckless Attack | — | ✅ converted |
 | Relentless Rage | relentlessRage | ✅ ported |
@@ -219,12 +219,12 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Death Strike *(Assassin)* | deathStrike | ⬜ |
 | Devious Strikes | deviousStrikes | ⬜ |
 | Elusive | — | ✅ converted |
-| Envenom Weapons *(Assassin)* | envenomPoison, envenomWeapons | ⬜ |
+| Envenom Weapons *(Assassin)* | envenomPoison, envenomWeapons | ✅ ported |
 | Fast Hands *(Thief)* | fastHands | ⬜ |
 | Improved Cunning Strike | — | ✅ converted |
 | Infiltration Expertise *(Assassin)* | — | ✅ converted |
 | Mage Hand Legerdemain *(Arcane Trickster)* | mageHandLegerdemain | ⬜ |
-| Magical Ambush *(Arcane Trickster)* | magicalAmbush | ⬜ |
+| Magical Ambush *(Arcane Trickster)* | magicalAmbush | ✅ ported |
 | Psionic Power *(Soulknife)* | psionicPower | ⬜ |
 | Psychic Blades *(Soulknife)* | psychicBlades | ⬜ |
 | Psychic Veil *(Soulknife)* | psychicVeil | ⬜ |
