@@ -1666,26 +1666,26 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Bloodied But Unbowed | bloodiedButUnbowed | ⬜ |
-| Clean Finish | cleanFinish | ⬜ |
-| Dig Deep | digDeep | ⬜ |
-| Down But Not Out | downButNotOut | ⬜ |
-| Feline Form | felineForm | ⬜ |
-| Fisticuffs | fisticuffs | ⬜ |
-| Groundwork | groundwork | ⬜ |
-| Haymaker | haymaker | ⬜ |
-| Heavy Hitter | heavyHitter | ⬜ |
+| Bloodied But Unbowed | bloodiedButUnbowed | ✅ ported |
+| Clean Finish | cleanFinish | ✅ ported |
+| Dig Deep | digDeep | ✅ ported |
+| Down But Not Out | downButNotOut | ✅ ported |
+| Feline Form | felineForm | ✅ ported |
+| Fisticuffs | fisticuffs | ✅ ported |
+| Groundwork | groundwork | ✅ ported |
+| Haymaker | haymaker | ✅ ported |
+| Heavy Hitter | heavyHitter | ✅ ported |
 | Heavyweight | — | ✅ converted |
 | Herculean | — | ✅ converted |
 | Iron Chin | — | ✅ converted |
-| Meat Shield | meatShield | ⬜ |
-| Moxie | moxie | ⬜ |
-| Moxie-Fueled Fists | moxieFueledFists | ⬜ |
-| School of Hard Knocks | schoolOfHardKnocks | ⬜ |
-| Shake It Off | shakeItOff | ⬜ |
-| Swagger Streak | swaggerStreak | ⬜ |
-| Unarguable Wizardry | unarguableWizardry | ⬜ |
-| “Cantrips” | cantrips | ⬜ |
+| Meat Shield | meatShield | ✅ ported |
+| Moxie | moxie | ✅ ported |
+| Moxie-Fueled Fists | moxieFueledFists | ✅ ported |
+| School of Hard Knocks | schoolOfHardKnocks | ✅ ported |
+| Shake It Off | shakeItOff | ✅ ported |
+| Swagger Streak | swaggerStreak | ✅ ported |
+| Unarguable Wizardry | unarguableWizardry | ✅ ported |
+| “Cantrips” | cantrips | ✅ ported |
 
 ## 3rd party class features — 2014 — 115 items
 

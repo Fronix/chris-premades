@@ -120,7 +120,8 @@
             "WeaponTypes": "Weapon Types:",
             "IgnoredCreatureTypes": "Ignored Creature Types:",
             "HitPoints": "Hit Points:",
-            "Remember": "Remember Selection"
+            "Remember": "Remember Selection",
+            "ScaleIdentifier": "Scale Identifier"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",

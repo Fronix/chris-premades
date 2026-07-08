@@ -108,7 +108,8 @@
     "cat": {
       "automation": {
         "version": "2.0.0"
-      }
+      },
+      "macros": {}
     }
   },
   "_id": "pH0t1AK6XuQO7XAU",

@@ -83,6 +83,8 @@ export {selfRestoration as 'self-restoration'} from './modern/classFeatures/monk
 export {slowFall as 'slow-fall'} from './modern/classFeatures/monk/slowFall.mjs';
 export {stunningStrike as 'stunning-strike'} from './modern/classFeatures/monk/stunningStrike.mjs';
 export {elementalAttunement as 'elemental-attunement', elementalAttunementStrikes as 'elemental-attunement-strikes', elementalBurst as 'elemental-burst', elementalEpitome as 'elemental-epitome', elementalEpitomeStrikes as 'elemental-epitome-strikes', strideOfTheElements as 'stride-of-the-elements'} from './modern/classFeatures/monk/warriorOfTheElements.mjs';
+// Pugilist
+export {fisticuffs, moxie, moxieFueledFists as 'moxie-fueled-fists', haymaker, downButNotOut as 'down-but-not-out', downButNotOutActive as 'down-but-not-out-active', digDeep as 'dig-deep', shakeItOff as 'shake-it-off', bloodiedButUnbowed as 'bloodied-but-unbowed', heavyHitter as 'heavy-hitter', pugilistUnarmedStrike as 'pugilist-unarmed-strike', ironChin as 'iron-chin', herculean, heavyweight, schoolOfHardKnocks as 'school-of-hard-knocks', swaggerStreak as 'swagger-streak', cleanFinish as 'clean-finish', groundwork, meatShield as 'meat-shield', felineForm as 'feline-form'} from './modern/classFeatures/pugilist/pugilist.mjs';
 export {unarmoredDefenseMonk as 'unarmored-defense-monk'} from './modern/classFeatures/monk/unarmoredDefense.mjs';
 export {unarmoredMovement as 'unarmored-movement'} from './modern/classFeatures/monk/unarmoredMovement.mjs';
 export {uncannyMetabolism as 'uncanny-metabolism'} from './modern/classFeatures/monk/uncannyMetabolism.mjs';
