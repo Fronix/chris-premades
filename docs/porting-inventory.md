@@ -153,9 +153,9 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Deflect Attacks | deflectAttacks | ✅ ported |
 | Deflect Energy | — | ✅ converted |
 | Disciplined Survivor | disciplinedSurvivor | ✅ ported |
-| Elemental Attunement *(Warrior of the Elements)* | elementalAttunement | ⬜ |
-| Elemental Burst *(Warrior of the Elements)* | elementalBurst | ⬜ |
-| Elemental Epitome *(Warrior of the Elements)* | elementalEpitome | ⬜ |
+| Elemental Attunement *(Warrior of the Elements)* | elementalAttunement | ✅ ported |
+| Elemental Burst *(Warrior of the Elements)* | elementalBurst | ✅ ported |
+| Elemental Epitome *(Warrior of the Elements)* | elementalEpitome | ✅ ported |
 | Empowered Strikes | empoweredStrikes | ✅ ported |
 | Heightened Focus | — | ✅ converted |
 | Martial Arts | martialArts | ✅ ported |

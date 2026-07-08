@@ -119,7 +119,8 @@
             "SpellSchools": "Spell Schools:",
             "WeaponTypes": "Weapon Types:",
             "IgnoredCreatureTypes": "Ignored Creature Types:",
-            "HitPoints": "Hit Points:"
+            "HitPoints": "Hit Points:",
+            "Remember": "Remember Selection"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -604,7 +605,9 @@
             }
         },
         "Distance": {
-            "DistanceFeet": "{distance} ft."
+            "DistanceFeet": "{distance} ft.",
+            "5": "5 ft.",
+            "10": "10 ft."
         },
         "Error": {
             "ActorNotFound": "Required actor not found in the world!"
