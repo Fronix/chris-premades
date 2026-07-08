@@ -707,7 +707,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Shocking Grasp | shockingGrasp | ✅ ported |
 | Sleet Storm | sleetStorm | ✅ ported |
 | Spellfire Flare | spellfireFlare | ⬜ |
-| Spike Growth | spikeGrowth | ⬜ |
+| Spike Growth | spikeGrowth | ✅ ported |
 | Spirit Guardians | spiritGuardians | ✅ ported |
 | Spiritual Weapon | spiritualWeapon | ✅ ported |
 | Staggering Smite | staggeringSmite | ✅ ported |
