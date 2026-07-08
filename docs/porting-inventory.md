@@ -133,7 +133,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Wild Companion | wildCompanion | ✅ ported |
 | Wild Resurgence | wildResurgence | ✅ ported |
 | Wild Shape | wildShape | ⬜ |
-| Wrath of the Sea *(Circle of Sea)* | wrathOfTheSea | ⬜ |
+| Wrath of the Sea *(Circle of Sea)* | wrathOfTheSea | ✅ ported |
 
 ### Fighter
 
@@ -1572,10 +1572,10 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Feline Form: Revert | felineFormActive | ⬜ |
-| Magic Item Plan | magicItemPlan | ⬜ |
-| Wild Shape: Revert | wildShapeActive | ⬜ |
-| Wrath of the Sea: Ongoing | wrathOfTheSeaOngoing | ⬜ |
+| Feline Form: Revert | felineFormActive | ✅ ported |
+| Magic Item Plan | magicItemPlan | ✅ ported |
+| Wild Shape: Revert | wildShapeActive | ✅ ported |
+| Wrath of the Sea: Ongoing | wrathOfTheSeaOngoing | ✅ ported |
 
 ## Item features — 2014 — 14 items
 

@@ -249,6 +249,14 @@
             },
             "LandsAid": {
                 "Select": "Select an ally to heal:"
+            },
+            "WrathOfTheSea": {
+                "Self": "Yourself",
+                "Ally": "An Ally",
+                "Both": "Both (Costs 1 {itemName} Use)",
+                "Choose": "Who gains the emanation?",
+                "Target": "Select a target for the initial burst:",
+                "Ongoing": "Wrath of the Sea: Ongoing"
             }
         },
         "Auras": {

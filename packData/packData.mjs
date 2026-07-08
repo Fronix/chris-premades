@@ -12,6 +12,7 @@ let packs = [
     'cpr-class-features-all',
     'cpr-class-features-2014',
     'cpr-class-features-2024',
+    'cpr-feature-items-2024',
     'cpr-feats',
     'cpr-feats-2024',
     'cpr-item-features',

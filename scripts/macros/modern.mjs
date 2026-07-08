@@ -35,6 +35,7 @@ export {elementalFuryPrimalStrike as 'elemental-fury-primal-strike'} from './mod
 export {moonlightStep as 'moonlight-step'} from './modern/classFeatures/druid/moonlightStep.mjs';
 export {wildCompanion as 'wild-companion'} from './modern/classFeatures/druid/wildCompanion.mjs';
 export {wildResurgence as 'wild-resurgence'} from './modern/classFeatures/druid/wildResurgence.mjs';
+export {wrathOfTheSea as 'wrath-of-the-sea', wrathOfTheSeaOngoing as 'wrath-of-the-sea-ongoing'} from './modern/classFeatures/druid/wrathOfTheSea.mjs';
 // Fighter
 export {groupRecovery as 'group-recovery'} from './modern/classFeatures/fighter/groupRecovery.mjs';
 export {heroicWarrior as 'heroic-warrior'} from './modern/classFeatures/fighter/heroicWarrior.mjs';
