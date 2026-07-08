@@ -939,7 +939,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Agent of Order: Stasis Strike | stasisStrike | ⬜ |
 | Baleful Scion: Grasp of Avarice | graspOfAvarice | ⬜ |
 | Cartomancer: Hidden Ace - Imbue Card | imbueCard | ⬜ |
-| Crusher | crusher | ⬜ |
+| Crusher | crusher | ✅ ported |
 | Dual Wielder | dualWielder | ⬜ |
 | Elemental Adept (Acid) | elementalAdeptA | ⬜ |
 | Elemental Adept (Cold) | elementalAdeptC | ⬜ |
@@ -950,24 +950,24 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Fury of the Frost Giant: Frigid Retaliation | — | ✅ converted |
 | Gift of the Chromatic Dragon: Chromatic Infusion | chromaticInfusion | ⬜ |
 | Gift of the Chromatic Dragon: Reactive Resistance | reactiveResistance | ⬜ |
-| Grappler | grappler | ⬜ |
+| Grappler | grappler | ✅ ported |
 | Guile of the Cloud Giant: Cloudy Escape | cloudyEscape | ⬜ |
 | Heavy Armor Master | — | ✅ converted |
 | Keenness of the Stone Giant: Stone Throw | — | ✅ converted |
 | Martial Adept | martialAdept | ⬜ |
 | Orcish Fury: Extra Damage | orcishFury | ⬜ |
-| Piercer | piercer | ⬜ |
+| Piercer | piercer | ✅ ported |
 | Planar Wanderer: Planar Adaptation | planarAdaptation | ⬜ |
 | Planar Wanderer: Portal Cracker | portalCracker | ⬜ |
 | Righteous Heritor: Soothe Pain | soothePain | ⬜ |
-| Savage Attacker | savageAttacker | ⬜ |
+| Savage Attacker | savageAttacker | ✅ ported |
 | Scion of the Outer Planes (Chaotic Outer Plane) | — | ✅ converted |
 | Scion of the Outer Planes (Evil Outer Plane) | — | ✅ converted |
 | Scion of the Outer Planes (Good Outer Plane) | — | ✅ converted |
 | Scion of the Outer Planes (Lawful Outer Plane) | — | ✅ converted |
 | Scion of the Outer Planes (The Outlands) | — | ✅ converted |
 | Sharpshooter | sharpshooter | ⬜ |
-| Slasher | slasher | ⬜ |
+| Slasher | slasher | ✅ ported |
 | Soul of the Storm Giant: Maelstrom Aura | maelstromAura | ⬜ |
 | Strike of the Giants: Cloud Strike | cloudStrike, strikeOfTheGiants | ⬜ |
 | Strike of the Giants: Fire Strike | fireStrike, strikeOfTheGiants | ⬜ |
@@ -975,9 +975,9 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Strike of the Giants: Hill Strike | hillStrike, strikeOfTheGiants | ⬜ |
 | Strike of the Giants: Stone Strike | stoneStrike, strikeOfTheGiants | ⬜ |
 | Strike of the Giants: Storm Strike | stormStrike, strikeOfTheGiants | ⬜ |
-| Tavern Brawler: Constitution Score | tavernBrawler | ⬜ |
-| Tavern Brawler: Strength Score | tavernBrawler | ⬜ |
-| Telekinetic: Shove | telekineticShove | ⬜ |
+| Tavern Brawler: Constitution Score | tavernBrawler | ✅ ported |
+| Tavern Brawler: Strength Score | tavernBrawler | ✅ ported |
+| Telekinetic: Shove | telekineticShove | ✅ ported |
 | Vigor of the Hill Giant: Bulwark | bulwark | ⬜ |
 
 ## Actions — 2024 — 21 items
@@ -1018,7 +1018,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Grapple | grapple | ⬜ |
 | Healing Surge | healingSurge | ⬜ |
 | Help | help | ⬜ |
-| Hide | hide, hideEffect | ⬜ |
+| Hide | hide, hideEffect | ✅ ported |
 | Ready Action | — | ✅ converted |
 | Ready Spell | — | ✅ converted |
 | Search | search | ⬜ |
@@ -1170,10 +1170,10 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Gore | minotaurGore | ⬜ |
 | Leadership | leadership | ⬜ |
 | Leadership | leadership | ⬜ |
-| Martial Advantage | martialAdvantage | ⬜ |
-| Martial Advantage | martialAdvantage | ⬜ |
-| Martial Advantage | martialAdvantage | ⬜ |
-| Parry | parry | ⬜ |
+| Martial Advantage | martialAdvantage | ✅ ported |
+| Martial Advantage | martialAdvantage | ✅ ported |
+| Martial Advantage | martialAdvantage | ✅ ported |
+| Parry | parry | ✅ ported |
 | Pseudopod | hoardMimicPseudopod | ⬜ |
 | Pseudopod | mimicPseudopod | ⬜ |
 | Pseudopod | mimicPseudopod | ⬜ |
@@ -1279,7 +1279,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Natural Resilience | — | ✅ converted |
 | Poison Breath Weapon | — | ✅ converted |
 | Poisonous Skin | poisonousSkin | ⬜ |
-| Relentless Endurance | relentlessEndurance | ⬜ |
+| Relentless Endurance | relentlessEndurance | ✅ ported |
 | Savage Attacks | — | ✅ converted |
 | Shifting: Beasthide | shiftBeasthide | ⬜ |
 | Shifting: Wildhunt | shiftWildhunt | ⬜ |
@@ -1357,29 +1357,29 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Amorphous Form (Air, Fire, and Water Only) | — | ✅ converted |
 | Amphibious | — | ✅ converted |
 | Berserk Lashing (Clay Only) | — | ✅ converted |
-| Binding Strike | primalCompanionSea | ⬜ |
+| Binding Strike | primalCompanionSea | ✅ ported |
 | Bite (Demon Only) | — | ✅ converted |
 | Bite (Drake Companion) | — | ✅ converted |
-| Breath Weapon | summonDraconicSpiritBreathWeapon | ⬜ |
+| Breath Weapon | summonDraconicSpiritBreathWeapon | ✅ ported |
 | Channel Magic | — | ✅ converted |
-| Charge | proneOnFail | ⬜ |
+| Charge | proneOnFail | ✅ ported |
 | Chilling Rend | — | ✅ converted |
 | Claws (Slaad Only) | — | ✅ converted |
-| Claws (Yugoloth Only) | summonFiendClaws | ⬜ |
-| Clenched Fist | bigbysHandItems | ⬜ |
+| Claws (Yugoloth Only) | summonFiendClaws | ✅ ported |
+| Clenched Fist | bigbysHandItems | ✅ ported |
 | Death Throes (Demon Only) | — | ✅ converted |
 | Deathly Touch (Ghostly Only) | — | ✅ converted |
-| Deflect Attack | steelDefenderDeflectAttack | ⬜ |
+| Deflect Attack | steelDefenderDeflectAttack | ✅ ported |
 | Devil's Sight (Devil Only) | — | ✅ converted |
 | Draconic Essence | — | ✅ converted |
 | Dreadful Scream | — | ✅ converted |
-| Dust Devil: Contact | dustDevilEndTurn | ⬜ |
+| Dust Devil: Contact | dustDevilEndTurn | ✅ ported |
 | Evasion | — | ✅ converted |
-| Explosive Cannon | eldritchCannonExplosiveCannon | ⬜ |
+| Explosive Cannon | eldritchCannonExplosiveCannon | ✅ ported |
 | Eye Ray (Beholderkin Only) | — | ✅ converted |
-| Festering Aura (Putrid Only) | summonUndeadPutrid | ⬜ |
-| Fey Step (Fey Spirit) | summonFeyFeyStep | ⬜ |
-| Fiery Teleportation | summonWildfireSpiritTeleport | ⬜ |
+| Festering Aura (Putrid Only) | summonUndeadPutrid | ✅ ported |
+| Fey Step (Fey Spirit) | summonFeyFeyStep | ✅ ported |
+| Fiery Teleportation | summonWildfireSpiritTeleport | ✅ ported |
 | Fiery Teleportation: Damage | — | ✅ converted |
 | Flame Seed | — | ✅ converted |
 | Flamethrower | — | ✅ converted |
@@ -1387,28 +1387,28 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Flaming Sphere: Ram | flamingSphereRam | ⬜ |
 | Flyby | — | ✅ converted |
 | Flyby (Air Only) | — | ✅ converted |
-| Force Ballista | eldritchCannonForceBallista | ⬜ |
+| Force Ballista | eldritchCannonForceBallista | ✅ ported |
 | Force Strike | — | ✅ converted |
 | Force-Empowered Rend | — | ✅ converted |
 | Force-Empowered Slam | — | ✅ converted |
-| Forceful Hand | bigbysHandItems | ⬜ |
-| Fortified Position | eldritchCannonFortifiedPosition | ⬜ |
+| Forceful Hand | bigbysHandItems | ✅ ported |
+| Fortified Position | eldritchCannonFortifiedPosition | ✅ ported |
 | Fuming | — | ✅ converted |
-| Grasping Hand | bigbysHandItems | ⬜ |
+| Grasping Hand | bigbysHandItems | ✅ ported |
 | Grave Bolt (Skeletal Only) | — | ✅ converted |
 | Guardian of Faith: Damage | — | ✅ converted |
-| Haunt Creature (Reaper Spirit) | spiritOfDeathHauntCreature | ⬜ |
-| Healing Spirit: Heal | healingSpiritHeal | ⬜ |
+| Haunt Creature (Reaper Spirit) | spiritOfDeathHauntCreature | ✅ ported |
+| Healing Spirit: Heal | healingSpiritHeal | ✅ ported |
 | Healing Touch (Celestial Spirit) | — | ✅ converted |
-| Heated Body (Metal Only) | heatedBody | ⬜ |
+| Heated Body (Metal Only) | heatedBody | ✅ ported |
 | Hurl Flame (Devil Only) | — | ✅ converted |
 | Immutable Form | — | ✅ converted |
 | Incorporeal Movement (Reaper Spirit) | — | ✅ converted |
 | Incorporeal Passage (Ghostly Only) | — | ✅ converted |
-| Infused Strikes | summonDrakeCompanionInfuse | ⬜ |
-| Interposing Hand | bigbysHandItems | ⬜ |
-| Investment of the Chain Master: Familiar Resistance | investmentOfTheChainMasterActive | ⬜ |
-| Irrepressible Dance | animatingPerformanceDance | ⬜ |
+| Infused Strikes | summonDrakeCompanionInfuse | ✅ ported |
+| Interposing Hand | bigbysHandItems | ✅ ported |
+| Investment of the Chain Master: Familiar Resistance | investmentOfTheChainMasterActive | ✅ ported |
+| Irrepressible Dance | animatingPerformanceDance | ✅ ported |
 | Magic Resistance (Fiendish Spirit) | — | ✅ converted |
 | Maul | — | ✅ converted |
 | Maul (Bestial Spirit) | — | ✅ converted |
@@ -1432,12 +1432,12 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Protector | — | ✅ converted |
 | Psychic Slam (Star Spawn Only) | — | ✅ converted |
 | Radiant Bow (Avenger Only) | — | ✅ converted |
-| Radiant Mace (Defender Only) | summonCelestialMace | ⬜ |
-| Reaping Scythe (Reaper Spirit) | spiritOfDeathReapingScythe | ⬜ |
-| Regeneration (Slaad Only) | regeneration | ⬜ |
+| Radiant Mace (Defender Only) | summonCelestialMace | ✅ ported |
+| Reaping Scythe (Reaper Spirit) | spiritOfDeathReapingScythe | ✅ ported |
+| Regeneration (Slaad Only) | regeneration | ✅ ported |
 | Rend (Draconic Spirit) | — | ✅ converted |
-| Repair | steelDefenderRepair | ⬜ |
-| Rotting Claw (Putrid Only) | summonUndeadPutrid | ⬜ |
+| Repair | steelDefenderRepair | ✅ ported |
+| Rotting Claw (Putrid Only) | summonUndeadPutrid | ✅ ported |
 | Rotting Claw (Putrid Only): Paralyze | — | ✅ converted |
 | Shadow Stealth (Fear Only) | — | ✅ converted |
 | Shared Resistances | — | ✅ converted |
@@ -1446,13 +1446,13 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Slam (Animated Object) | — | ✅ converted |
 | Slam (Construct Spirit) | — | ✅ converted |
 | Slam (Elemental Spirit) | — | ✅ converted |
-| Stone Lethargy (Stone Only) | summonConstructStone | ⬜ |
+| Stone Lethargy (Stone Only) | summonConstructStone | ✅ ported |
 | Terror Frenzy (Fury Only) | — | ✅ converted |
 | Tricksy | — | ✅ converted |
 | Vigilant | — | ✅ converted |
 | Water Breathing (Water Only) | — | ✅ converted |
-| Weight of Sorrow (Despair Only) | summonShadowspawnDespair | ⬜ |
-| Whispering Aura (Star Spawn Only) | summonAberrationWhisperingAura | ⬜ |
+| Weight of Sorrow (Despair Only) | summonShadowspawnDespair | ✅ ported |
+| Whispering Aura (Star Spawn Only) | summonAberrationWhisperingAura | ✅ ported |
 
 ## Summons — 2024 — 16 items
 
@@ -1526,33 +1526,33 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Arcane Propulsion Gauntlet | — | ✅ converted |
-| Armor of Magical Strength: Resist Prone | infuseItemArmorStrength | ⬜ |
-| Boots of the Winding Path | infuseItemBootsWinding | ⬜ |
-| Experimental Elixir: Boldness | experimentalElixirConsumable | ⬜ |
-| Experimental Elixir: Flight | experimentalElixirConsumable | ⬜ |
-| Experimental Elixir: Healing | experimentalElixirConsumable | ⬜ |
-| Experimental Elixir: Resilience | experimentalElixirConsumable | ⬜ |
-| Experimental Elixir: Swiftness | experimentalElixirConsumable | ⬜ |
-| Experimental Elixir: Transformation | experimentalElixirConsumable | ⬜ |
-| Guardian Armor: Thunder Gauntlets | guardianArmorThunderGauntlets | ⬜ |
+| Armor of Magical Strength: Resist Prone | infuseItemArmorStrength | ✅ ported |
+| Boots of the Winding Path | infuseItemBootsWinding | ✅ ported |
+| Experimental Elixir: Boldness | experimentalElixirConsumable | ✅ ported |
+| Experimental Elixir: Flight | experimentalElixirConsumable | ✅ ported |
+| Experimental Elixir: Healing | experimentalElixirConsumable | ✅ ported |
+| Experimental Elixir: Resilience | experimentalElixirConsumable | ✅ ported |
+| Experimental Elixir: Swiftness | experimentalElixirConsumable | ✅ ported |
+| Experimental Elixir: Transformation | experimentalElixirConsumable | ✅ ported |
+| Guardian Armor: Thunder Gauntlets | guardianArmorThunderGauntlets | ✅ ported |
 | Heart of Homunculus Servant | — | ✅ converted |
 | Helm of Awareness | — | ✅ converted |
-| Homunculus Servant: Channel Magic | infuseItemHomunculusTouch | ⬜ |
+| Homunculus Servant: Channel Magic | infuseItemHomunculusTouch | ✅ ported |
 | Homunculus Servant: Command | — | ✅ converted |
-| Infiltrator Armor: Lightning Launcher | infiltratorArmorLightningLauncher | ⬜ |
+| Infiltrator Armor: Lightning Launcher | infiltratorArmorLightningLauncher | ✅ ported |
 | Magnificent Feast | magnificentFeastMeal | ⬜ |
 | Mind Sharpener | — | ✅ converted |
 | Mote of Potential Attack | — | ✅ converted |
 | Mote of Potential Heal | — | ✅ converted |
-| Mutagencraft: Flush Mutagens | actionDismissal | ⬜ |
+| Mutagencraft: Flush Mutagens | actionDismissal | ✅ ported |
 | Predatory Strike | — | ✅ converted |
 | Protective Bond: Damage | — | ✅ converted |
 | Radiant Weapon: Blind | — | ✅ converted |
 | Radiant Weapon: Light | — | ✅ converted |
-| Repulsion Shield: Push | infuseItemRepulsionShield | ⬜ |
-| Spell-Refueling Ring | infuseItemSpellRing | ⬜ |
+| Repulsion Shield: Push | infuseItemRepulsionShield | ✅ ported |
+| Spell-Refueling Ring | infuseItemSpellRing | ✅ ported |
 | Summon Wildfire Spirit: Damage | — | ✅ converted |
-| Wild Shape: Revert | wildShapeActive | ⬜ |
+| Wild Shape: Revert | wildShapeActive | ✅ ported |
 | Wild Surge: Intangible Spirit Explode | — | ✅ converted |
 
 ## Feat features — 2024 — 2 items
@@ -1589,7 +1589,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Miscellany Card | miscellanyCard | ⬜ |
 | Patch | robeOfUsefulItemsPatch | ✅ ported |
 | Pit | — | ✅ converted |
-| Potion of Fire Breath Attack | potionOfFireBreathAttack | ⬜ |
+| Potion of Fire Breath Attack | potionOfFireBreathAttack | ✅ ported |
 | Rowboat | — | ✅ converted |
 | Silver Coffer | — | ✅ converted |
 | Spell Scroll | — | ✅ converted |
@@ -1626,8 +1626,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Double Damage | doubleDamage | ⬜ |
-| GMF - Bite | activityOnRest, reduceMaxHP | ⬜ |
-| GMF - Chaos Claw | rollForActivity | ⬜ |
+| GMF - Bite | activityOnRest, reduceMaxHP | ✅ ported |
+| GMF - Chaos Claw | rollForActivity | ✅ ported |
 | Generic Actions (2014) | genericActions | ⬜ |
 | Generic Actions (2024) | genericActions | ⬜ |
 | Maximize Damage | maxDamage | ⬜ |
@@ -1641,16 +1641,16 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Brace (Ranged) | braceRanged | ⬜ |
 | Cleave | cleave | ⬜ |
 | Concussive Smash | concussiveSmash | ⬜ |
-| DMG Cleave | setAttackRoll, setDamageRoll | ⬜ |
+| DMG Cleave | setAttackRoll, setDamageRoll | ✅ ported |
 | Disarming Strike | disarmingStrike | ⬜ |
 | Firearm | firearm | ⬜ |
 | Flourish | flourish | ⬜ |
-| Grapple: Escape | grappleEscape | ⬜ |
+| Grapple: Escape | grappleEscape | ✅ ported |
 | Hamstring Shot | hamstringShot | ⬜ |
 | Heartstopper | heartstopper | ⬜ |
 | Lacerate | lacerate | ⬜ |
 | Maiming Strike | maimingStrike | ⬜ |
-| Mastery: Topple | proneOnFail | ⬜ |
+| Mastery: Topple | proneOnFail | ✅ ported |
 | Mobile Shot | mobileShot | ⬜ |
 | Piercing Shot | piercingShot | ⬜ |
 | Piercing Strike | piercingStrike | ⬜ |
