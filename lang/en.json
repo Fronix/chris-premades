@@ -462,6 +462,9 @@
             },
             "Attack": {
                 "SelectWeapon": "Attack with which weapon?"
+            },
+            "SupremeSneak": {
+                "TurnEnd": "Did you end your turn behind cover (staying hidden)?"
             }
         },
         "Auras": {

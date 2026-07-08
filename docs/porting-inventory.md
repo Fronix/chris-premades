@@ -992,7 +992,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Dodge | — | ✅ converted |
 | Fall | fall | ⬜ |
 | Help | help | ✅ ported |
-| Hide | hide, hideEffect | ⬜ |
+| Hide | hide, hideEffect | ✅ ported |
 | Influence | influence | ⬜ |
 | Jump | jump | ⬜ |
 | Knock Out | knockOut, knockOutEffect | ✅ ported |
