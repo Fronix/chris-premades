@@ -13,7 +13,7 @@ function languageOptions() {
     return options;
 }
 async function use({workflow}) {
-    const existing = actorUtils.getEffectByIdentifier(workflow.actor, 'knightly-envoy');
+    const existing = actorUtils.getEffectByIdentifier(workflow.actor, 'polyglot-effect');
     const knownLanguages = Array.from(workflow.actor.system.traits.languages.value);
     const options = languageOptions().filter(option => !knownLanguages.includes(option.value));
     const selection = await dialogUtils.buttonDialog(workflow.item.name, _loc('CHRISPREMADES.Generic.SelectALanguage'), options.map(option => [option.label, option.value]));
