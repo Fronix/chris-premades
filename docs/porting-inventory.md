@@ -697,7 +697,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Power Word Heal | powerWordHeal | ✅ ported |
 | Power Word Kill | powerWordKill | ✅ ported |
 | Protection from Evil and Good | protectionFromEvilAndGood | ✅ ported |
-| Resistance | resistance, resistanceEffect | ⬜ |
+| Resistance | resistance, resistanceEffect | ✅ ported |
 | Sanctuary | sanctuary | ✅ ported |
 | Scorching Ray | scorchingRay | ⬜ |
 | Searing Smite | searingSmite | ✅ ported |
@@ -721,9 +721,9 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Summon Fey | summonFey | ⬜ |
 | Summon Fiend | summonFiend | ⬜ |
 | Summon Undead | summonUndead | ⬜ |
-| Synaptic Static | synapticStatic | ⬜ |
+| Synaptic Static | synapticStatic | ✅ ported |
 | Teleport | teleport | ⬜ |
-| Thorn Whip | thornWhip | ⬜ |
+| Thorn Whip | thornWhip | ✅ ported |
 | Thunderous Smite | proneOnFail, thunderousSmite | ✅ ported |
 | Thunderwave | thunderwave | ⬜ |
 | Time Stop | timeStop, timeStopEffect | ⬜ |

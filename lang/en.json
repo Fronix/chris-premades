@@ -425,6 +425,12 @@
             "WardingBond": {
                 "MaxDistance": "Max Distance:",
                 "Distance": "The bond has been stretched beyond its range. End the spell?"
+            },
+            "Resistance": {
+                "Name": "Resistance"
+            },
+            "ThornWhip": {
+                "Pull": "Pull the target how far?"
             }
         },
         "Auras": {
@@ -482,6 +488,9 @@
                 "Fangs": "Fangs (Piercing)",
                 "Hooves": "Hooves (Bludgeoning)"
             }
+        },
+        "Distance": {
+            "DistanceFeet": "{distance} ft."
         }
     }
 }
