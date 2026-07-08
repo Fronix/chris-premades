@@ -501,6 +501,21 @@
                 "ChanceFormula": "Never-Again Chance Formula:",
                 "ChanceNumber": "Never-Again Threshold:",
                 "MaxLevel": "Max Duplicated Spell Level:"
+            },
+            "Teleport": {
+                "Select": "Bring up to 8 willing creatures:",
+                "Familiarity": "How familiar is the destination?",
+                "PermanentCircle": "Permanent Circle",
+                "LinkedObject": "Linked Object",
+                "VeryFamiliar": "Very Familiar",
+                "SeenCasually": "Seen Casually",
+                "ViewedOnceDescribed": "Viewed Once / Described",
+                "FalseDestination": "False Destination",
+                "Mishap": "Mishap!",
+                "OnTarget": "On Target",
+                "OffTarget": "Off Target",
+                "SimilarArea": "Similar Area",
+                "OffTargetString": "The group arrives {distance} {units} {direction} of the destination."
             }
         },
         "Auras": {
@@ -594,7 +609,18 @@
         },
         "Direction": {
             "Towards": "Towards you",
-            "Away": "Away from you"
+            "Away": "Away from you",
+            "East": "East",
+            "Southeast": "Southeast",
+            "South": "South",
+            "Southwest": "Southwest",
+            "West": "West",
+            "Northwest": "Northwest",
+            "North": "North",
+            "Northeast": "Northeast"
+        },
+        "Units": {
+            "Miles": "Miles"
         }
     }
 }

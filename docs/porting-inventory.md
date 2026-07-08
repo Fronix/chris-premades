@@ -722,7 +722,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Summon Fiend | summonFiend | ✅ ported |
 | Summon Undead | summonUndead | ✅ ported |
 | Synaptic Static | synapticStatic | ✅ ported |
-| Teleport | teleport | ⬜ |
+| Teleport | teleport | ✅ ported |
 | Thorn Whip | thornWhip | ✅ ported |
 | Thunderous Smite | proneOnFail, thunderousSmite | ✅ ported |
 | Thunderwave | thunderwave | ✅ ported |
