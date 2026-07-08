@@ -1,5 +1,12 @@
-import {actorUtils, effectUtils, tokenUtils} from '../../../../proxy.mjs';
+import {actorUtils, documentUtils, effectUtils, tokenUtils} from '../../../../proxy.mjs';
 import {saveDisadvantageEffectData} from '../../../lib/spellUtils.mjs';
+async function use({workflow}) {
+    if (!workflow.template) return;
+    const darknessRegions = workflow.template.parent.regions.filter(region => region.flags.cat?.identifier === 'darkness');
+    for (const region of darknessRegions) {
+        await documentUtils.deleteDocument(region);
+    }
+}
 async function early({workflow}) {
     if (!workflow.token) return;
     if (!actorUtils.getEffectByIdentifier(workflow.actor, 'corona-of-light-effect')) return;
@@ -17,6 +24,11 @@ export const radianceOfTheDawn = {
             pass: 'itemPreambleComplete',
             macro: early,
             priority: 100
+        },
+        {
+            pass: 'itemRollFinished',
+            macro: use,
+            priority: 50
         }
     ]
 };
