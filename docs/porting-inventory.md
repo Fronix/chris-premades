@@ -248,7 +248,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Clairvoyant Combatant *(Great Old One)* | — | ✅ converted |
 | Create Thrall *(Great Old One)* | createThrall | ⬜ |
 | Eldritch Hex *(Great Old One)* | — | ✅ converted |
-| Eldritch Invocations: Agonizing Blast *(Invocations)* | agonizingBlast | ⬜ |
+| Eldritch Invocations: Agonizing Blast *(Invocations)* | agonizingBlast | ✅ ported |
 | Eldritch Invocations: Devil's Sight *(Invocations)* | — | ✅ converted |
 | Eldritch Invocations: Fiendish Vigor *(Invocations)* | — | ✅ converted |
 | Eldritch Invocations: Gift of the Protectors *(Invocations)* | giftOfTheProtectors | ⬜ |
@@ -257,7 +257,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Eldritch Invocations: Pact of the Chain *(Invocations)* | pactOfTheChain | ⬜ |
 | Psychic Spells *(Great Old One)* | psychicSpells | ⬜ |
 | Steps of the Fey *(Archfey)* | stepsOfTheFey | ⬜ |
-| Thought Shield *(Great Old One)* | thoughtShield | ⬜ |
+| Thought Shield *(Great Old One)* | thoughtShield | ✅ ported |
 
 ### Wizard
 

@@ -114,7 +114,8 @@
             "AutoApply": "Auto Apply:",
             "Conditions": "Conditions:",
             "Attacks": "Attacks:",
-            "EnablePrompt": "Enable Prompt:"
+            "EnablePrompt": "Enable Prompt:",
+            "Max": "Max:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -279,6 +280,9 @@
                 "Which": "Spend {cost} Sorcery Point{plural} and cast which spell?",
                 "CarefulWhich": "Which targets automatically save? (Max {max})",
                 "AllowEnemies": "Allow Enemies:"
+            },
+            "AgonizingBlast": {
+                "Select": "Select which cantrips gain the damage bonus:"
             }
         },
         "Auras": {
