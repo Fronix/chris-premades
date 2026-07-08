@@ -33,6 +33,7 @@ export {studiedAttacks as 'studied-attacks'} from './modern/classFeatures/fighte
 export {tacticalMind as 'tactical-mind'} from './modern/classFeatures/fighter/tacticalMind.mjs';
 // Monk
 export {heightenedFocus as 'heightened-focus', perfectFocus as 'perfect-focus', disciplinedSurvivor as 'disciplined-survivor', superiorDefense as 'superior-defense'} from './modern/classFeatures/monk/focusFeatures.mjs';
+export {deflectAttacks as 'deflect-attacks'} from './modern/classFeatures/monk/deflectAttacks.mjs';
 export {empoweredStrikes as 'empowered-strikes'} from './modern/classFeatures/monk/empoweredStrikes.mjs';
 export {martialArts as 'martial-arts'} from './modern/classFeatures/monk/martialArts.mjs';
 export {monksFocus as 'monks-focus'} from './modern/classFeatures/monk/monksFocus.mjs';

@@ -224,6 +224,9 @@
             },
             "MartialArts": {
                 "ValidateWeaponType": "Validate Weapon Type:"
+            },
+            "DeflectAttacks": {
+                "UseAndTarget": "Spend 1 Focus Point to redirect the attack? Select a target within range."
             }
         },
         "Auras": {

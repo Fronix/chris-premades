@@ -150,7 +150,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Deflect Attacks | deflectAttacks | ⬜ |
+| Deflect Attacks | deflectAttacks | ✅ ported |
 | Deflect Energy | — | ✅ converted |
 | Disciplined Survivor | disciplinedSurvivor | ✅ ported |
 | Elemental Attunement *(Warrior of the Elements)* | elementalAttunement | ⬜ |
