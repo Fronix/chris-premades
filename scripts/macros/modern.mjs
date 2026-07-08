@@ -11,6 +11,7 @@ export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbar
 // Bard
 export {bardicInspiration as 'bardic-inspiration', bardicInspirationEffect as 'bardic-inspiration-effect'} from './modern/classFeatures/bard/bardicInspiration.mjs';
 export {combatInspiration as 'combat-inspiration', dazzlingFootwork as 'dazzling-footwork', leadingEvasion as 'leading-evasion'} from './modern/classFeatures/bard/danceFeatures.mjs';
+export {countercharm} from './modern/classFeatures/bard/countercharm.mjs';
 export {fontOfInspiration as 'font-of-inspiration', jackOfAllTrades as 'jack-of-all-trades', superiorInspiration as 'superior-inspiration', wordsOfCreation as 'words-of-creation'} from './modern/classFeatures/bard/coreFeatures.mjs';
 // Cleric
 export {blessedHealer as 'blessed-healer'} from './modern/classFeatures/cleric/blessedHealer.mjs';

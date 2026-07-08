@@ -65,7 +65,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Bardic Inspiration | bardicInspiration, bardicInspirationEffect | ✅ ported |
 | Beguiling Magic *(College of Glamour)* | beguilingMagic | ⬜ |
 | Combat Inspiration *(College of Valor)* | — | ✅ converted |
-| Countercharm | countercharm | ⬜ |
+| Countercharm | countercharm | ✅ ported |
 | Cutting Words *(College of Lore)* | cuttingWords | ⬜ |
 | Dazzling Footwork *(College of Dance)* | dazzlingFootwork | ✅ ported |
 | Font of Inspiration | fontOfInspiration | ✅ ported |

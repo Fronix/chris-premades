@@ -305,6 +305,10 @@
             "DazzlingFootwork": {
                 "AgileStrikes": "Make an Agile Strike against a nearby enemy?",
                 "DanceVirtuoso": "Dance Virtuoso"
+            },
+            "Countercharm": {
+                "Use": "You failed a save ({total}). Use {feature} to reroll with advantage?",
+                "AllyFail": "{name} failed a save ({total}). Use {feature} to let them reroll with advantage?"
             }
         },
         "Auras": {
