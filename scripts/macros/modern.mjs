@@ -50,6 +50,7 @@ export {bane} from './modern/spells/bane.mjs';
 export {banishingSmite as 'banishing-smite'} from './modern/spells/banishingSmite.mjs';
 export {beaconOfHope as 'beacon-of-hope', beaconOfHopeHopeful as 'beacon-of-hope-hopeful'} from './modern/spells/beaconOfHope.mjs';
 export {deathWard as 'death-ward', deathWardWarded as 'death-ward-warded'} from './modern/spells/deathWard.mjs';
+export {guardianOfFaith as 'guardian-of-faith', guardianOfFaithDamage as 'guardian-of-faith-damage'} from './modern/spells/guardianOfFaith.mjs';
 export {guidance} from './modern/spells/guidance.mjs';
 export {tollTheDead as 'toll-the-dead'} from './modern/spells/tollTheDead.mjs';
 export {blindingSmite as 'blinding-smite'} from './modern/spells/blindingSmite.mjs';

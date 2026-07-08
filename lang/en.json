@@ -228,6 +228,9 @@
             "Prompt": "Prompt",
             "Automatic": "Automatic",
             "SelectDamageType": "Select a Damage Type:"
+        },
+        "Summons": {
+            "CustomName": "Custom Name"
         }
     }
 }

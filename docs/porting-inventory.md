@@ -672,7 +672,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Gaseous Form | gaseousForm | ⬜ |
 | Globe of Invulnerability | globeOfInvulnerability | ⬜ |
 | Grease | grease | ⬜ |
-| Guardian of Faith | guardianOfFaith | ⬜ |
+| Guardian of Faith | guardianOfFaith | ✅ ported |
 | Guidance | guidance | ✅ ported |
 | Guiding Bolt | — | ✅ converted |
 | Gust of Wind | gustOfWind | ⬜ |
