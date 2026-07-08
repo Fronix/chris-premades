@@ -485,6 +485,12 @@
                 "Mode": "Resistance Handling:",
                 "IgnoreResistance": "Ignore Resistance",
                 "IgnoreResistanceImmunity": "Ignore Resistance and Immunity"
+            },
+            "Telekinetic": {
+                "Select": "Shove the target which way?"
+            },
+            "UnarmedFighting": {
+                "Select": "Damage which grappled creature?"
             }
         },
         "Auras": {
@@ -575,6 +581,10 @@
         },
         "Error": {
             "ActorNotFound": "Required actor not found in the world!"
+        },
+        "Direction": {
+            "Towards": "Towards you",
+            "Away": "Away from you"
         }
     }
 }
