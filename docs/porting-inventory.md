@@ -694,8 +694,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Misty Step | mistyStep | ✅ ported |
 | Moonbeam | moonbeam | ⬜ |
 | Pass without Trace | passWithoutTrace | ⬜ |
-| Power Word Heal | powerWordHeal | ⬜ |
-| Power Word Kill | powerWordKill | ⬜ |
+| Power Word Heal | powerWordHeal | ✅ ported |
+| Power Word Kill | powerWordKill | ✅ ported |
 | Protection from Evil and Good | protectionFromEvilAndGood | ✅ ported |
 | Resistance | resistance, resistanceEffect | ⬜ |
 | Sanctuary | sanctuary | ✅ ported |
@@ -703,7 +703,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Searing Smite | searingSmite | ✅ ported |
 | Shield | — | ✅ converted |
 | Shield of Faith | — | ✅ converted |
-| Shining Smite | shiningSmite | ⬜ |
+| Shining Smite | shiningSmite | ✅ ported |
 | Shocking Grasp | shockingGrasp | ⬜ |
 | Sleet Storm | sleetStorm | ⬜ |
 | Spellfire Flare | spellfireFlare | ⬜ |

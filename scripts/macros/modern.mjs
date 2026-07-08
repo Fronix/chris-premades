@@ -147,9 +147,11 @@ export {compelledDuel as 'compelled-duel', compelledDuelSource as 'compelled-due
 export {protectionFromEvilAndGood as 'protection-from-evil-and-good'} from './modern/spells/protectionFromEvilAndGood.mjs';
 export {sanctuary, sanctuarySafe as 'sanctuary-safe'} from './modern/spells/sanctuary.mjs';
 export {divineSmite as 'divine-smite'} from './modern/spells/divineSmite.mjs';
+export {powerWordHeal as 'power-word-heal', powerWordKill as 'power-word-kill'} from './modern/spells/powerWords.mjs';
 export {searingSmite as 'searing-smite'} from './modern/spells/searingSmite.mjs';
 export {spiritGuardians as 'spirit-guardians', spiritGuardiansDamage as 'spirit-guardians-damage'} from './modern/spells/spiritGuardians.mjs';
 export {spiritualWeapon as 'spiritual-weapon'} from './modern/spells/spiritualWeapon.mjs';
+export {shiningSmite as 'shining-smite'} from './modern/spells/shiningSmite.mjs';
 export {staggeringSmite as 'staggering-smite'} from './modern/spells/staggeringSmite.mjs';
 export {thunderousSmite as 'thunderous-smite'} from './modern/spells/thunderousSmite.mjs';
 export {wrathfulSmite as 'wrathful-smite'} from './modern/spells/wrathfulSmite.mjs';

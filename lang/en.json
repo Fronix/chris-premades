@@ -118,7 +118,8 @@
             "Max": "Max:",
             "SpellSchools": "Spell Schools:",
             "WeaponTypes": "Weapon Types:",
-            "IgnoredCreatureTypes": "Ignored Creature Types:"
+            "IgnoredCreatureTypes": "Ignored Creature Types:",
+            "HitPoints": "Hit Points:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -412,6 +413,9 @@
             },
             "BestowCurse": {
                 "AbilitySelect": "Curse which ability?"
+            },
+            "PowerWordHeal": {
+                "Prone": "Use your reaction to stand up?"
             }
         },
         "Auras": {
