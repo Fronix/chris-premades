@@ -519,13 +519,13 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Metamagic: Careful Spell *(Metamagic)* | carefulSpell | ✅ ported |
 | Metamagic: Distant Spell *(Metamagic)* | distantSpell | ✅ ported |
 | Metamagic: Empowered Spell *(Metamagic)* | empoweredSpell | ⬜ |
-| Metamagic: Extended Spell *(Metamagic)* | extendedSpell | ⬜ |
-| Metamagic: Heightened Spell *(Metamagic)* | heightenedSpell | ⬜ |
-| Metamagic: Quickened Spell *(Metamagic)* | quickenedSpell | ⬜ |
-| Metamagic: Seeking Spell *(Metamagic)* | seekingSpell | ⬜ |
-| Metamagic: Subtle Spell *(Metamagic)* | subtleSpell | ⬜ |
-| Metamagic: Transmuted Spell *(Metamagic)* | transmutedSpell | ⬜ |
-| Metamagic: Twinned Spell *(Metamagic)* | twinnedSpell | ⬜ |
+| Metamagic: Extended Spell *(Metamagic)* | extendedSpell | ✅ ported |
+| Metamagic: Heightened Spell *(Metamagic)* | heightenedSpell | ✅ ported |
+| Metamagic: Quickened Spell *(Metamagic)* | quickenedSpell | ✅ ported |
+| Metamagic: Seeking Spell *(Metamagic)* | seekingSpell | ✅ ported |
+| Metamagic: Subtle Spell *(Metamagic)* | subtleSpell | ✅ ported |
+| Metamagic: Transmuted Spell *(Metamagic)* | transmutedSpell | ✅ ported |
+| Metamagic: Twinned Spell *(Metamagic)* | twinnedSpell | ✅ ported |
 | Psionic Sorcery *(Aberrant Mind)* | psionicSorcery | ⬜ |
 | Psionic Spells *(Aberrant Mind)* | psionicSpells | ⬜ |
 | Psychic Defenses *(Aberrant Mind)* | — | ✅ converted |

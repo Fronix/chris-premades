@@ -287,7 +287,10 @@
                 "NoValid": "No applicable spells to cast!",
                 "Which": "Spend {cost} Sorcery Point{plural} and cast which spell?",
                 "CarefulWhich": "Which targets automatically save? (Max {max})",
-                "AllowEnemies": "Allow Enemies:"
+                "AllowEnemies": "Allow Enemies:",
+                "HeightenedWhich": "Which target has disadvantage on the save?",
+                "TransmutedFirst": "Replace which damage type?",
+                "TransmutedSecond": "Change it to which damage type?"
             },
             "AgonizingBlast": {
                 "Select": "Select which cantrips gain the damage bonus:"
