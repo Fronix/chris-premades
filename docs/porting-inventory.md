@@ -225,8 +225,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Infiltration Expertise *(Assassin)* | — | ✅ converted |
 | Mage Hand Legerdemain *(Arcane Trickster)* | mageHandLegerdemain | ⬜ |
 | Magical Ambush *(Arcane Trickster)* | magicalAmbush | ✅ ported |
-| Psionic Power *(Soulknife)* | psionicPower | ⬜ |
-| Psychic Blades *(Soulknife)* | psychicBlades | ⬜ |
+| Psionic Power *(Soulknife)* | psionicPower | ✅ ported |
+| Psychic Blades *(Soulknife)* | psychicBlades | ✅ ported |
 | Psychic Veil *(Soulknife)* | psychicVeil | ✅ ported |
 | Reliable Talent | — | ✅ converted |
 | Rend Mind *(Soulknife)* | rendMind | ✅ ported |

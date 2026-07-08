@@ -371,6 +371,9 @@
             },
             "BatteringRoots": {
                 "Mastery": "Apply which weapon mastery?"
+            },
+            "PsionicPower": {
+                "Confirm": "Did the check succeed? (Consumes the Psionic Energy use)"
             }
         },
         "Auras": {

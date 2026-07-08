@@ -88,6 +88,7 @@ export {cunningAction as 'cunning-action'} from './modern/classFeatures/rogue/cu
 export {cunningStrike as 'cunning-strike'} from './modern/classFeatures/rogue/cunningStrike.mjs';
 export {elusive} from './modern/classFeatures/rogue/elusive.mjs';
 export {envenomWeapons as 'envenom-weapons', envenomPoison as 'envenom-poison', magicalAmbush as 'magical-ambush'} from './modern/classFeatures/rogue/subclassFeatures.mjs';
+export {psionicPower as 'psionic-power', psychicBlades as 'psychic-blades'} from './modern/classFeatures/rogue/psionicPower.mjs';
 export {psychicVeil as 'psychic-veil', rendMind as 'rend-mind', soulBlades as 'soul-blades'} from './modern/classFeatures/rogue/soulknife.mjs';
 export {spellThief as 'spell-thief'} from './modern/classFeatures/rogue/spellThief.mjs';
 export {reliableTalent as 'reliable-talent'} from './modern/classFeatures/rogue/reliableTalent.mjs';
