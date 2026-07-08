@@ -189,6 +189,15 @@
     "cat": {
       "automation": {
         "version": "2.0.0"
+      },
+      "macros": {
+        "roll": [
+          {
+            "source": "chris-premades",
+            "rules": "2014",
+            "identifier": "metamagic-extended-spell"
+          }
+        ]
       }
     }
   },
