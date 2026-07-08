@@ -71,6 +71,8 @@ export {strokeOfLuck as 'stroke-of-luck'} from './modern/classFeatures/rogue/str
 export {uncannyDodge as 'uncanny-dodge'} from './modern/classFeatures/rogue/uncannyDodge.mjs';
 // Warlock
 export {agonizingBlast as 'eldritch-invocations-agonizing-blast'} from './modern/classFeatures/warlock/agonizingBlast.mjs';
+export {awakenedMind as 'awakened-mind'} from './modern/classFeatures/warlock/awakenedMind.mjs';
+export {stepsOfTheFey as 'steps-of-the-fey'} from './modern/classFeatures/warlock/stepsOfTheFey.mjs';
 export {thoughtShield as 'thought-shield'} from './modern/classFeatures/warlock/thoughtShield.mjs';
 // Wizard
 export {arcaneRecovery as 'arcane-recovery'} from './modern/classFeatures/wizard/arcaneRecovery.mjs';

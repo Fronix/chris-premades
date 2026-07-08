@@ -244,7 +244,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Awakened Mind *(Great Old One)* | awakenedMind | ⬜ |
+| Awakened Mind *(Great Old One)* | awakenedMind | ✅ ported |
 | Clairvoyant Combatant *(Great Old One)* | — | ✅ converted |
 | Create Thrall *(Great Old One)* | createThrall | ⬜ |
 | Eldritch Hex *(Great Old One)* | — | ✅ converted |
@@ -256,7 +256,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Eldritch Invocations: Pact of the Blade *(Invocations)* | pactOfTheBlade, pactOfTheBladeAttack | ⬜ |
 | Eldritch Invocations: Pact of the Chain *(Invocations)* | pactOfTheChain | ⬜ |
 | Psychic Spells *(Great Old One)* | psychicSpells | ⬜ |
-| Steps of the Fey *(Archfey)* | stepsOfTheFey | ⬜ |
+| Steps of the Fey *(Archfey)* | stepsOfTheFey | ✅ ported |
 | Thought Shield *(Great Old One)* | thoughtShield | ✅ ported |
 
 ### Wizard
