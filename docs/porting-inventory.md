@@ -987,10 +987,10 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Attack | attack | ✅ ported |
 | Check Cover | checkCover | ⬜ |
 | Circle Cast | circleCast, circleCastEffect | ⬜ |
-| Dash | dash | ⬜ |
-| Disengage | disengage | ⬜ |
+| Dash | dash | ✅ ported |
+| Disengage | disengage | ✅ ported |
 | Dodge | — | ✅ converted |
-| Fall | fall | ⬜ |
+| Fall | fall | ✅ ported |
 | Help | help | ✅ ported |
 | Hide | hide, hideEffect | ✅ ported |
 | Influence | influence | ⬜ |
@@ -1001,7 +1001,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Ready | — | ✅ converted |
 | Search | search | ✅ ported |
 | Squeeze | — | ✅ converted |
-| Stabilize | stabilize | ⬜ |
+| Stabilize | stabilize | ✅ ported |
 | Study | — | ✅ converted |
 | Suffocation | suffocation | ⬜ |
 | Underwater | underwater, underwaterEffect | ⬜ |

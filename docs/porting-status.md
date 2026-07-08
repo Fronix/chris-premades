@@ -241,6 +241,15 @@ Unarmed Fighting, Elemental Adept — legacy pass) and 3rd-party feats (Fate
 Gambler, Purple Dragon Rook, Sangromantic Initiate, Spellfire Spark, the
 "I Survived" trio).
 
+## Milestone 15 — Species features & Actions (2024) — core complete
+
+Species: Aasimar Celestial Revelation (all three forms + damage riders),
+Celestial Resistance, Healing Hands; Orc Relentless Endurance deferred to
+legacy pass. Actions: Attack, Knock Out, Hide (+Supreme Sneak cover check),
+plus data-driven registrations for Dash/Disengage/Dodge/Fall/Help/Ready/
+Search/Squeeze/Stabilize/Study/Utilize. Deferred: dash/disengage animation
+flows, Circle Cast, Mount, Suffocation, Jump, Underwater, Influence.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were

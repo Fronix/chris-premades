@@ -113,3 +113,28 @@ export const utilize = {
     version: '2.0.0',
     rules: '2024'
 };
+export const dash = {
+    name: 'Dash',
+    version: '2.0.0',
+    rules: '2024'
+};
+export const disengage = {
+    name: 'Disengage',
+    version: '2.0.0',
+    rules: '2024'
+};
+export const fall = {
+    name: 'Fall',
+    version: '2.0.0',
+    rules: '2024'
+};
+export const squeeze = {
+    name: 'Squeeze',
+    version: '2.0.0',
+    rules: '2024'
+};
+export const stabilize = {
+    name: 'Stabilize',
+    version: '2.0.0',
+    rules: '2024'
+};

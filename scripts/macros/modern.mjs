@@ -1,5 +1,5 @@
 // Actions
-export {attack, dodge, help, knockOut as 'knock-out', knockOutEffect as 'knock-out-effect', ready, search, study, utilize} from './modern/actions/actionBatch1.mjs';
+export {attack, dash, disengage, dodge, fall, help, knockOut as 'knock-out', knockOutEffect as 'knock-out-effect', ready, search, squeeze, stabilize, study, utilize} from './modern/actions/actionBatch1.mjs';
 export {hide, hideEffect as 'hide-effect'} from './modern/actions/hide.mjs';
 // Barbarian
 export {brutalStrike as 'brutal-strike', sunderingBlow as 'sundering-blow'} from './modern/classFeatures/barbarian/brutalStrike.mjs';
