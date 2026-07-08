@@ -490,7 +490,15 @@
                 "CelestialSpiritDefender": "Celestial Spirit (Defender)",
                 "ConstructSpiritClay": "Construct Spirit (Clay)",
                 "ConstructSpiritMetal": "Construct Spirit (Metal)",
-                "ConstructSpiritStone": "Construct Spirit (Stone)"
+                "ConstructSpiritStone": "Construct Spirit (Stone)",
+                "DraconicSpirit": "Draconic Spirit",
+                "ElementalSpiritAir": "Elemental Spirit (Air)",
+                "ElementalSpiritEarth": "Elemental Spirit (Earth)",
+                "ElementalSpiritFire": "Elemental Spirit (Fire)",
+                "ElementalSpiritWater": "Elemental Spirit (Water)",
+                "FiendishSpiritDemon": "Fiendish Spirit (Demon)",
+                "FiendishSpiritDevil": "Fiendish Spirit (Devil)",
+                "FiendishSpiritYugoloth": "Fiendish Spirit (Yugoloth)"
             }
         },
         "Alignment": {

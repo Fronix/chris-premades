@@ -716,10 +716,10 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Summon Beast | summonBeast | ✅ ported |
 | Summon Celestial | summonCelestial | ✅ ported |
 | Summon Construct | summonConstruct | ✅ ported |
-| Summon Dragon | summonDragon | ⬜ |
-| Summon Elemental | summonElemental | ⬜ |
+| Summon Dragon | summonDragon | ✅ ported |
+| Summon Elemental | summonElemental | ✅ ported |
 | Summon Fey | summonFey | ✅ ported |
-| Summon Fiend | summonFiend | ⬜ |
+| Summon Fiend | summonFiend | ✅ ported |
 | Summon Undead | summonUndead | ✅ ported |
 | Synaptic Static | synapticStatic | ✅ ported |
 | Teleport | teleport | ⬜ |

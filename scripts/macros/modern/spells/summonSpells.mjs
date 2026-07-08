@@ -513,3 +513,214 @@ export const summonConstruct = {
         }
     }
 };
+async function dragonUse({workflow}) {
+    if (documentUtils.getIdentifier(workflow.activity)?.startsWith('summon-dragon') !== true) return;
+    const spellLevel = getCastLevel(workflow) ?? 5;
+    const featuresPack = 'chris-premades.CPRSummonFeatures2024';
+    const multiattack = await getPackEntry(featuresPack, 'Multiattack (Draconic Spirit)');
+    const rend = await getPackEntry(featuresPack, 'Rend (Draconic Spirit)');
+    const breathWeapon = await getPackEntry(featuresPack, 'Breath Weapon');
+    const sharedResistances = await getPackEntry(featuresPack, 'Shared Resistances');
+    if (!multiattack || !rend || !breathWeapon) return;
+    const items = [
+        {uuid: multiattack.uuid},
+        {uuid: rend.uuid, matchAttack: true},
+        {uuid: breathWeapon.uuid, matchDC: true}
+    ];
+    if (sharedResistances) items.push({uuid: sharedResistances.uuid});
+    let name = automationUtils.getConfigValue(workflow.item, 'name');
+    if (!name?.length) name = _loc('CHRISPREMADES.Summons.CreatureNames.DraconicSpirit');
+    const hpFormula = 50 + (spellLevel - 5) * 10;
+    const summon = await summonSpirit(workflow, {
+        sourceActorName: 'CPR - Draconic Spirit',
+        name,
+        hpFormula,
+        acFlat: 14 + spellLevel,
+        items
+    });
+    if (!summon) return;
+    await applyDamageBonus(summon, 'Rend (Draconic Spirit)', {damageBonus: spellLevel});
+}
+export const summonDragon = {
+    name: 'Summon Dragon',
+    version: '2.0.0',
+    rules: '2024',
+    roll: [
+        {
+            pass: 'itemRollFinished',
+            macro: dragonUse,
+            priority: 50
+        }
+    ],
+    config: {
+        name: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        }
+    }
+};
+async function elementalUse({workflow}) {
+    const activityIdentifier = documentUtils.getIdentifier(workflow.activity);
+    const creatureType = {
+        'summon-elemental-air': 'air',
+        'summon-elemental-earth': 'earth',
+        'summon-elemental-fire': 'fire',
+        'summon-elemental-water': 'water'
+    }[activityIdentifier];
+    if (!creatureType) return;
+    const spellLevel = getCastLevel(workflow) ?? 4;
+    const featuresPack = 'chris-premades.CPRSummonFeatures2024';
+    const multiattack = await getPackEntry(featuresPack, 'Multiattack (Elemental Spirit)');
+    const slam = await getPackEntry(featuresPack, 'Slam (Elemental Spirit)');
+    if (!multiattack || !slam) return;
+    const items = [{uuid: multiattack.uuid}, {uuid: slam.uuid, matchAttack: true}];
+    const updates = {};
+    if (creatureType === 'earth') {
+        foundry.utils.setProperty(updates, 'system.attributes.movement.burrow', 40);
+    } else {
+        const amorphous = await getPackEntry(featuresPack, 'Amorphous Form (Air, Fire, and Water Only)');
+        if (amorphous) items.push({uuid: amorphous.uuid});
+        if (creatureType === 'air') foundry.utils.setProperty(updates, 'system.attributes.movement', {fly: 40, hover: true});
+        if (creatureType === 'water') foundry.utils.setProperty(updates, 'system.attributes.movement.swim', 40);
+    }
+    let name = automationUtils.getConfigValue(workflow.item, creatureType + 'Name');
+    if (!name?.length) name = _loc('CHRISPREMADES.Summons.CreatureNames.ElementalSpirit' + creatureType.charAt(0).toUpperCase() + creatureType.slice(1));
+    const hpFormula = 50 + (spellLevel - 4) * 10;
+    const summon = await summonSpirit(workflow, {
+        sourceActorName: 'CPR - Elemental Spirit',
+        name,
+        hpFormula,
+        acFlat: 11 + spellLevel,
+        items,
+        updates
+    });
+    if (!summon) return;
+    await applyDamageBonus(summon, 'Slam (Elemental Spirit)', {damageBonus: spellLevel});
+}
+export const summonElemental = {
+    name: 'Summon Elemental',
+    version: '2.0.0',
+    rules: '2024',
+    roll: [
+        {
+            pass: 'itemRollFinished',
+            macro: elementalUse,
+            priority: 50
+        }
+    ],
+    config: {
+        airName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        earthName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        fireName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        waterName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        }
+    }
+};
+async function fiendUse({workflow}) {
+    const activityIdentifier = documentUtils.getIdentifier(workflow.activity);
+    const creatureType = {
+        'summon-fiend-demon': 'demon',
+        'summon-fiend-devil': 'devil',
+        'summon-fiend-yugoloth': 'yugoloth'
+    }[activityIdentifier];
+    if (!creatureType) return;
+    const spellLevel = getCastLevel(workflow) ?? 6;
+    const featuresPack = 'chris-premades.CPRSummonFeatures2024';
+    const multiattack = await getPackEntry(featuresPack, 'Multiattack (Fiendish Spirit)');
+    const magicResistance = await getPackEntry(featuresPack, 'Magic Resistance (Fiendish Spirit)');
+    if (!multiattack) return;
+    const items = [{uuid: multiattack.uuid}];
+    if (magicResistance) items.push({uuid: magicResistance.uuid});
+    let hpFormula = (spellLevel - 6) * 15;
+    const updates = {};
+    const bonusNames = [];
+    if (creatureType === 'demon') {
+        hpFormula += 50;
+        const deathThroes = await getPackEntry(featuresPack, 'Death Throes (Demon Only)');
+        const bite = await getPackEntry(featuresPack, 'Bite (Demon Only)');
+        if (deathThroes) items.push({uuid: deathThroes.uuid, matchDC: true});
+        if (bite) items.push({uuid: bite.uuid, matchAttack: true});
+        bonusNames.push('Death Throes (Demon Only)', 'Bite (Demon Only)');
+        foundry.utils.setProperty(updates, 'system.attributes.movement.climb', 40);
+    } else if (creatureType === 'devil') {
+        hpFormula += 40;
+        const fieryStrike = await getPackEntry(featuresPack, 'Fiery Strike (Devil Only)');
+        const devilsSight = await getPackEntry(featuresPack, 'Devil\'s Sight (Devil Only)');
+        if (fieryStrike) items.push({uuid: fieryStrike.uuid, matchAttack: true});
+        if (devilsSight) items.push({uuid: devilsSight.uuid});
+        bonusNames.push('Fiery Strike (Devil Only)');
+        foundry.utils.setProperty(updates, 'system.attributes.movement.fly', 60);
+    } else {
+        hpFormula += 60;
+        const claws = await getPackEntry(featuresPack, 'Claws (Yugoloth Only)');
+        if (claws) items.push({uuid: claws.uuid, matchAttack: true});
+        bonusNames.push('Claws (Yugoloth Only)');
+    }
+    let name = automationUtils.getConfigValue(workflow.item, creatureType + 'Name');
+    if (!name?.length) name = _loc('CHRISPREMADES.Summons.CreatureNames.FiendishSpirit' + creatureType.charAt(0).toUpperCase() + creatureType.slice(1));
+    const summon = await summonSpirit(workflow, {
+        sourceActorName: 'CPR - Fiendish Spirit',
+        name,
+        hpFormula,
+        acFlat: 12 + spellLevel,
+        items,
+        updates
+    });
+    if (!summon) return;
+    for (const itemName of bonusNames) {
+        await applyDamageBonus(summon, itemName, {damageBonus: spellLevel});
+    }
+}
+export const summonFiend = {
+    name: 'Summon Fiend',
+    version: '2.0.0',
+    rules: '2024',
+    roll: [
+        {
+            pass: 'itemRollFinished',
+            macro: fiendUse,
+            priority: 50
+        }
+    ],
+    config: {
+        demonName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        devilName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        yugolothName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        }
+    }
+};
