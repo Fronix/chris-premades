@@ -112,17 +112,17 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Aquatic Affinity *(Circle of Sea)* | — | ✅ converted |
-| Archdruid | archdruid | ⬜ |
+| Archdruid | archdruid | ✅ ported |
 | Beast Spells | — | ✅ converted |
-| Circle Forms *(Circle of Moon)* | circleForms | ⬜ |
+| Circle Forms *(Circle of Moon)* | circleForms | ✅ ported |
 | Circle of the Land Spells *(Circle of Land)* | circleOfTheLandSpells | ⬜ |
 | Cosmic Omen *(Circle of Stars)* | cosmicOmen | ⬜ |
-| Elemental Fury: Potent Spellcasting | elementalFuryPotentSpellcasting | ⬜ |
+| Elemental Fury: Potent Spellcasting | elementalFuryPotentSpellcasting | ✅ ported |
 | Elemental Fury: Primal Strike | elementalFuryPrimalStrike | ⬜ |
 | Full of Stars *(Circle of Stars)* | — | ✅ converted |
 | Improved Circle Forms *(Circle of Moon)* | — | ✅ converted |
 | Land's Aid *(Circle of Land)* | landsAid | ⬜ |
-| Lunar Form *(Circle of Moon)* | lunarForm | ⬜ |
+| Lunar Form *(Circle of Moon)* | lunarForm | ✅ ported |
 | Moonlight Step *(Circle of Moon)* | moonlightStep | ⬜ |
 | Nature's Sanctuary *(Circle of Land)* | naturesSanctuary | ⬜ |
 | Nature's Ward *(Circle of Land)* | — | ✅ converted |
@@ -130,7 +130,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Starry Form *(Circle of Stars)* | starryForm | ⬜ |
 | Stormborn *(Circle of Sea)* | — | ✅ converted |
 | Twinkling Constellations *(Circle of Stars)* | — | ✅ converted |
-| Wild Companion | wildCompanion | ⬜ |
+| Wild Companion | wildCompanion | ✅ ported |
 | Wild Resurgence | wildResurgence | ⬜ |
 | Wild Shape | wildShape | ⬜ |
 | Wrath of the Sea *(Circle of Sea)* | wrathOfTheSea | ⬜ |

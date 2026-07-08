@@ -24,6 +24,11 @@ export {divineStrike as 'blessed-strikes-divine-strike'} from './modern/classFea
 export {greaterDivineIntervention as 'greater-divine-intervention', greaterDivineInterventionRest as 'greater-divine-intervention-rest'} from './modern/classFeatures/cleric/greaterDivineIntervention.mjs';
 export {improvedBlessedStrikes as 'improved-blessed-strikes'} from './modern/classFeatures/cleric/improvedBlessedStrikes.mjs';
 export {potentSpellcasting as 'blessed-strikes-potent-spellcasting'} from './modern/classFeatures/cleric/potentSpellcasting.mjs';
+// Druid
+export {archdruid} from './modern/classFeatures/druid/archdruid.mjs';
+export {circleForms as 'circle-forms', lunarForm as 'lunar-form'} from './modern/classFeatures/druid/circleForms.mjs';
+export {elementalFuryPotentSpellcasting as 'elemental-fury-potent-spellcasting'} from './modern/classFeatures/druid/elementalFury.mjs';
+export {wildCompanion as 'wild-companion'} from './modern/classFeatures/druid/wildCompanion.mjs';
 // Fighter
 export {groupRecovery as 'group-recovery'} from './modern/classFeatures/fighter/groupRecovery.mjs';
 export {heroicWarrior as 'heroic-warrior'} from './modern/classFeatures/fighter/heroicWarrior.mjs';
