@@ -614,11 +614,11 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Aura of Life | auraOfLife | ⬜ |
 | Aura of Purity | auraOfPurity | ⬜ |
 | Aura of Vitality | auraOfVitality | ✅ ported |
-| Bane | bane | ⬜ |
+| Bane | bane | ✅ ported |
 | Banishing Smite | banishingSmite | ✅ ported |
 | Banishment | banishment | ⬜ |
 | Barkskin | — | ✅ converted |
-| Beacon of Hope | beaconOfHope | ⬜ |
+| Beacon of Hope | beaconOfHope | ✅ ported |
 | Bestow Curse | bestowCurse | ⬜ |
 | Blade Ward | — | ✅ converted |
 | Bless | bless | ✅ ported |
@@ -650,7 +650,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Crusader's Mantle | crusadersMantle | ✅ ported |
 | Darkness | darkness | ⬜ |
 | Death Armor | deathArmor | ⬜ |
-| Death Ward | deathWard | ⬜ |
+| Death Ward | deathWard | ✅ ported |
 | Destructive Wave | destructiveWave | ⬜ |
 | Detect Magic | detectMagic | ⬜ |
 | Disintegrate | disintegrate | ⬜ |
@@ -673,7 +673,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Globe of Invulnerability | globeOfInvulnerability | ⬜ |
 | Grease | grease | ⬜ |
 | Guardian of Faith | guardianOfFaith | ⬜ |
-| Guidance | guidance | ⬜ |
+| Guidance | guidance | ✅ ported |
 | Guiding Bolt | — | ✅ converted |
 | Gust of Wind | gustOfWind | ⬜ |
 | Heat Metal | heatMetal | ⬜ |
@@ -727,7 +727,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Thunderous Smite | proneOnFail, thunderousSmite | ✅ ported |
 | Thunderwave | thunderwave | ⬜ |
 | Time Stop | timeStop, timeStopEffect | ⬜ |
-| Toll the Dead | tollTheDead | ⬜ |
+| Toll the Dead | tollTheDead | ✅ ported |
 | True Strike | trueStrike | ⬜ |
 | Vampiric Touch | vampiricTouch | ⬜ |
 | Vitriolic Sphere | vitriolicSphere | ⬜ |

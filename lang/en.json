@@ -108,7 +108,8 @@
             "MaxLevel": "Max Level:",
             "DamageTypes": "Damage Types:",
             "BaseHealing": "Base Healing:",
-            "AttackBonus": "Attack Bonus:"
+            "AttackBonus": "Attack Bonus:",
+            "PromptToUse": "Prompt to Use:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -217,7 +218,11 @@
             "SelectSpell": "Select a Spell:",
             "UseItem": "Use {item}?",
             "SelectAWeapon": "Select a Weapon:",
-            "SelectATarget": "Select a Target:"
+            "SelectATarget": "Select a Target:",
+            "SelectASkill": "Select a Skill:",
+            "Never": "Never",
+            "Prompt": "Prompt",
+            "Automatic": "Automatic"
         }
     }
 }

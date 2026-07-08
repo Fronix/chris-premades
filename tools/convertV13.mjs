@@ -103,7 +103,15 @@ function convertItem(item, {rules, embedded = false}, report) {
     const cpr = converted.flags?.['chris-premades'];
     if (cpr) {
         if (cpr.macros) report.itemMacros = cpr.macros;
-        const other = Object.keys(cpr).filter(k => !['macros', 'info'].includes(k));
+        // v13 tracked activity identifiers in a flag; V14 activities have a native identifier field
+        if (cpr.activityIdentifiers && converted.system?.activities) {
+            converted.system = {...converted.system, activities: {...converted.system.activities}};
+            for (const [identifier, activityId] of Object.entries(cpr.activityIdentifiers)) {
+                const activity = converted.system.activities[activityId];
+                if (activity) converted.system.activities[activityId] = {...activity, identifier: kebab(identifier)};
+            }
+        }
+        const other = Object.keys(cpr).filter(k => !['macros', 'info', 'activityIdentifiers'].includes(k));
         if (other.length) notes.push('unmapped item flags.chris-premades keys: ' + other.join(', '));
         converted.flags = {...converted.flags};
         delete converted.flags['chris-premades'];
