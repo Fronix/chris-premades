@@ -127,7 +127,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Nature's Sanctuary *(Circle of Land)* | naturesSanctuary | ⬜ |
 | Nature's Ward *(Circle of Land)* | — | ✅ converted |
 | Oceanic Gift *(Circle of Sea)* | — | ✅ converted |
-| Starry Form *(Circle of Stars)* | starryForm | ⬜ |
+| Starry Form *(Circle of Stars)* | starryForm | ✅ ported |
 | Stormborn *(Circle of Sea)* | — | ✅ converted |
 | Twinkling Constellations *(Circle of Stars)* | — | ✅ converted |
 | Wild Companion | wildCompanion | ✅ ported |

@@ -257,6 +257,10 @@
                 "Choose": "Who gains the emanation?",
                 "Target": "Select a target for the initial burst:",
                 "Ongoing": "Wrath of the Sea: Ongoing"
+            },
+            "StarryForm": {
+                "Change": "Change starry form?",
+                "Heal": "Choose who to heal:"
             }
         },
         "Auras": {
@@ -274,7 +278,8 @@
             "Automatic": "Automatic",
             "SelectDamageType": "Select a Damage Type:",
             "SelectRemoveCondition": "Select a condition to remove:",
-            "PromptForTargets": "Prompt for Targets:"
+            "PromptForTargets": "Prompt for Targets:",
+            "No": "No"
         },
         "Summons": {
             "CustomName": "Custom Name"
