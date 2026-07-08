@@ -204,7 +204,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Primal Companion *(Beast Master)* | primalCompanion | ⬜ |
 | Relentless Hunter | relentlessHunter | ✅ ported |
 | Shadowy Dodge *(Gloom Stalker)* | shadowyDodge | ✅ ported |
-| Share Spells *(Beast Master)* | shareSpells | ⬜ |
+| Share Spells *(Beast Master)* | shareSpells | ✅ ported |
 | Stalker's Flurry *(Gloom Stalker)* | — | ✅ converted |
 | Tireless | tireless | ✅ ported |
 | Umbral Sight *(Gloom Stalker)* | umbralSight | ⬜ |

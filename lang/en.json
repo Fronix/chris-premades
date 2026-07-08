@@ -334,6 +334,9 @@
             },
             "ShadowyDodge": {
                 "Use": "Use {item} to impose disadvantage on the attack?"
+            },
+            "ShareSpells": {
+                "Confirm": "Also target {name} with {spell}?"
             }
         },
         "Auras": {
