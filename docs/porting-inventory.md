@@ -649,7 +649,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Crown of Madness | — | ✅ converted |
 | Crusader's Mantle | crusadersMantle | ✅ ported |
 | Darkness | darkness | ⬜ |
-| Death Armor | deathArmor | ⬜ |
+| Death Armor | deathArmor | ✅ ported |
 | Death Ward | deathWard | ✅ ported |
 | Destructive Wave | destructiveWave | ⬜ |
 | Detect Magic | detectMagic | ⬜ |

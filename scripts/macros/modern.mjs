@@ -131,6 +131,7 @@ export {blink, blinkBlinking as 'blink-blinking', blinkBlinkedAway as 'blink-bli
 export {burningHands as 'burning-hands', chillTouch as 'chill-touch', chromaticOrb as 'chromatic-orb'} from './modern/spells/chromaticOrb.mjs';
 export {chainLightning as 'chain-lightning'} from './modern/spells/chainLightning.mjs';
 export {circleOfPower as 'circle-of-power', circleOfPowerActive as 'circle-of-power-active'} from './modern/spells/circleOfPower.mjs';
+export {deathArmor as 'death-armor', deathArmorEffect as 'death-armor-effect'} from './modern/spells/deathArmor.mjs';
 export {dragonsBreath as 'dragons-breath'} from './modern/spells/dragonsBreath.mjs';
 export {eldritchBlast as 'eldritch-blast'} from './modern/spells/eldritchBlast.mjs';
 export {hex, hexAttack as 'hex-attack'} from './modern/spells/hex.mjs';
