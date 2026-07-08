@@ -217,11 +217,18 @@ Mind).
 
 Ported so far: Hex (+attack), Hunter's Mark (+source), Eldritch Blast, Misty
 Step, Shield, Armor of Agathys, Arcane Vigor, Blindness/Deafness, Charm
-Monster/Person, Blur, Banishment, Chromatic Orb, Chill Touch/Burning Hands
-(data), Blink, Blight, Calm Emotions, Dragon's Breath, Arms of Hadar, Animal
-Friendship/Messenger, Aura of Life/Purity (first CAT aura ports), Alter Self.
-Earlier milestones already carried the Paladin/Cleric spell staples and
-summon spells. Remaining: see docs/porting-inventory.md Spells section.
+Monster/Person, Blur, Banishment, Chromatic Orb, Chill Touch/Burning Hands,
+Blink, Blight, Calm Emotions, Dragon's Breath, Arms of Hadar, Animal
+Friendship/Messenger, Aura of Life/Purity (CAT aura pattern), Alter Self,
+Antilife Shell (move passes), Circle of Power, Chain Lightning, Bestow Curse,
+Death Armor, Destructive Wave, Power Word Kill/Heal, Shining Smite config,
+True Strike, Shocking Grasp, Warding Bond, Resistance, Thorn Whip, Synaptic
+Static, Thunderwave, Vampiric Touch, Scorching Ray, and the COMPLETE Summon X
+family (Aberration/Beast/Celestial/Construct/Dragon/Elemental/Fey/Fiend/
+Undead via the shared summonSpirit helper, with Create Thrall integration).
+Deferred: region/template spells (Darkness, Cloudkill, Sleet Storm, Spike
+Growth, Wall of Fire, Zone of Truth), Teleport, Time Stop, Wish, Steel Wind
+Strike, Vitriolic Sphere, Animate Dead/Objects, plus legacy re-reads.
 
 ## Roadmap: class-by-class, 2024 first
 
