@@ -380,3 +380,136 @@ export const summonUndead = {
         }
     }
 };
+async function celestialUse({workflow}) {
+    const activityIdentifier = documentUtils.getIdentifier(workflow.activity);
+    const creatureType = {
+        'summon-celestial-avenger': 'avenger',
+        'summon-celestial-defender': 'defender'
+    }[activityIdentifier];
+    if (!creatureType) return;
+    const spellLevel = getCastLevel(workflow) ?? 5;
+    const featuresPack = 'chris-premades.CPRSummonFeatures2024';
+    const multiattack = await getPackEntry(featuresPack, 'Multiattack (Celestial Spirit)');
+    const healingTouch = await getPackEntry(featuresPack, 'Healing Touch (Celestial Spirit)');
+    if (!multiattack || !healingTouch) return;
+    const items = [{uuid: multiattack.uuid}, {uuid: healingTouch.uuid}];
+    const bonusNames = ['Healing Touch (Celestial Spirit)'];
+    if (creatureType === 'avenger') {
+        const radiantBow = await getPackEntry(featuresPack, 'Radiant Bow (Avenger Only)');
+        if (radiantBow) items.push({uuid: radiantBow.uuid, matchAttack: true});
+        bonusNames.push('Radiant Bow (Avenger Only)');
+    } else {
+        const radiantMace = await getPackEntry(featuresPack, 'Radiant Mace (Defender Only)');
+        if (radiantMace) items.push({uuid: radiantMace.uuid, matchAttack: true});
+        bonusNames.push('Radiant Mace (Defender Only)');
+    }
+    let name = automationUtils.getConfigValue(workflow.item, creatureType + 'Name');
+    if (!name?.length) name = _loc('CHRISPREMADES.Summons.CreatureNames.CelestialSpirit' + creatureType.charAt(0).toUpperCase() + creatureType.slice(1));
+    const hpFormula = 40 + (spellLevel - 5) * 10;
+    const summon = await summonSpirit(workflow, {
+        sourceActorName: 'CPR - Celestial Spirit',
+        name,
+        hpFormula,
+        acFlat: 11 + spellLevel + (creatureType === 'defender' ? 2 : 0),
+        items
+    });
+    if (!summon) return;
+    for (const itemName of bonusNames) {
+        await applyDamageBonus(summon, itemName, {damageBonus: spellLevel});
+    }
+}
+export const summonCelestial = {
+    name: 'Summon Celestial',
+    version: '2.0.0',
+    rules: '2024',
+    roll: [
+        {
+            pass: 'itemRollFinished',
+            macro: celestialUse,
+            priority: 50
+        }
+    ],
+    config: {
+        avengerName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        defenderName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        }
+    }
+};
+async function constructUse({workflow}) {
+    const activityIdentifier = documentUtils.getIdentifier(workflow.activity);
+    const creatureType = {
+        'summon-construct-clay': 'clay',
+        'summon-construct-metal': 'metal',
+        'summon-construct-stone': 'stone'
+    }[activityIdentifier];
+    if (!creatureType) return;
+    const spellLevel = getCastLevel(workflow) ?? 4;
+    const featuresPack = 'chris-premades.CPRSummonFeatures2024';
+    const multiattack = await getPackEntry(featuresPack, 'Multiattack (Construct Spirit)');
+    const slam = await getPackEntry(featuresPack, 'Slam (Construct Spirit)');
+    if (!multiattack || !slam) return;
+    const items = [{uuid: multiattack.uuid}, {uuid: slam.uuid, matchAttack: true}];
+    if (creatureType === 'clay') {
+        const berserk = await getPackEntry(featuresPack, 'Berserk Lashing (Clay Only)');
+        if (berserk) items.push({uuid: berserk.uuid});
+    } else if (creatureType === 'metal') {
+        const heatedBody = await getPackEntry(featuresPack, 'Heated Body (Metal Only)');
+        if (heatedBody) items.push({uuid: heatedBody.uuid});
+    } else {
+        const lethargy = await getPackEntry(featuresPack, 'Stone Lethargy (Stone Only)');
+        if (lethargy) items.push({uuid: lethargy.uuid, matchDC: true});
+    }
+    let name = automationUtils.getConfigValue(workflow.item, creatureType + 'Name');
+    if (!name?.length) name = _loc('CHRISPREMADES.Summons.CreatureNames.ConstructSpirit' + creatureType.charAt(0).toUpperCase() + creatureType.slice(1));
+    const hpFormula = 40 + (spellLevel - 4) * 15;
+    const summon = await summonSpirit(workflow, {
+        sourceActorName: 'CPR - Construct Spirit',
+        name,
+        hpFormula,
+        acFlat: 13 + spellLevel,
+        items
+    });
+    if (!summon) return;
+    await applyDamageBonus(summon, 'Slam (Construct Spirit)', {damageBonus: spellLevel});
+}
+export const summonConstruct = {
+    name: 'Summon Construct',
+    version: '2.0.0',
+    rules: '2024',
+    roll: [
+        {
+            pass: 'itemRollFinished',
+            macro: constructUse,
+            priority: 50
+        }
+    ],
+    config: {
+        clayName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        metalName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        stoneName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        }
+    }
+};

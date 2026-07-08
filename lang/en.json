@@ -485,7 +485,12 @@
                 "BestialSpiritWater": "Bestial Spirit (Water)",
                 "UndeadSpiritGhostly": "Undead Spirit (Ghostly)",
                 "UndeadSpiritPutrid": "Undead Spirit (Putrid)",
-                "UndeadSpiritSkeletal": "Undead Spirit (Skeletal)"
+                "UndeadSpiritSkeletal": "Undead Spirit (Skeletal)",
+                "CelestialSpiritAvenger": "Celestial Spirit (Avenger)",
+                "CelestialSpiritDefender": "Celestial Spirit (Defender)",
+                "ConstructSpiritClay": "Construct Spirit (Clay)",
+                "ConstructSpiritMetal": "Construct Spirit (Metal)",
+                "ConstructSpiritStone": "Construct Spirit (Stone)"
             }
         },
         "Alignment": {

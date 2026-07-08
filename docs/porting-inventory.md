@@ -714,8 +714,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Steel Wind Strike | steelWindStrike | ⬜ |
 | Summon Aberration | summonAberration | ✅ ported |
 | Summon Beast | summonBeast | ✅ ported |
-| Summon Celestial | summonCelestial | ⬜ |
-| Summon Construct | summonConstruct | ⬜ |
+| Summon Celestial | summonCelestial | ✅ ported |
+| Summon Construct | summonConstruct | ✅ ported |
 | Summon Dragon | summonDragon | ⬜ |
 | Summon Elemental | summonElemental | ⬜ |
 | Summon Fey | summonFey | ✅ ported |
