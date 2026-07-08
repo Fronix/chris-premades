@@ -123,7 +123,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Improved Circle Forms *(Circle of Moon)* | — | ✅ converted |
 | Land's Aid *(Circle of Land)* | landsAid | ⬜ |
 | Lunar Form *(Circle of Moon)* | lunarForm | ✅ ported |
-| Moonlight Step *(Circle of Moon)* | moonlightStep | ⬜ |
+| Moonlight Step *(Circle of Moon)* | moonlightStep | ✅ ported |
 | Nature's Sanctuary *(Circle of Land)* | naturesSanctuary | ⬜ |
 | Nature's Ward *(Circle of Land)* | — | ✅ converted |
 | Oceanic Gift *(Circle of Sea)* | — | ✅ converted |
@@ -131,7 +131,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Stormborn *(Circle of Sea)* | — | ✅ converted |
 | Twinkling Constellations *(Circle of Stars)* | — | ✅ converted |
 | Wild Companion | wildCompanion | ✅ ported |
-| Wild Resurgence | wildResurgence | ⬜ |
+| Wild Resurgence | wildResurgence | ✅ ported |
 | Wild Shape | wildShape | ⬜ |
 | Wrath of the Sea *(Circle of Sea)* | wrathOfTheSea | ⬜ |
 

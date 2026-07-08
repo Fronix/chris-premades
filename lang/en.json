@@ -227,6 +227,12 @@
             },
             "DeflectAttacks": {
                 "UseAndTarget": "Spend 1 Focus Point to redirect the attack? Select a target within range."
+            },
+            "WildResurgence": {
+                "WildShapeUses": "You must have 0 uses of Wild Shape in order to use this!"
+            },
+            "MoonlightStep": {
+                "TeleportFriend": "Teleport a willing ally?"
             }
         },
         "Auras": {
