@@ -1847,8 +1847,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Force Gauntlet | forceGauntlet | ⬜ |
-| Mask of Monstrous Forms | maskOfMonstrousForms | ⬜ |
+| Force Gauntlet | forceGauntlet | ✅ ported |
+| Mask of Monstrous Forms | maskOfMonstrousForms | ✅ ported |
 
 ## 3rd party items — 2014 — 41 items
 

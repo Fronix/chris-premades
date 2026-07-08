@@ -638,6 +638,9 @@
         },
         "Units": {
             "Miles": "Miles"
+        },
+        "GenericEffects": {
+            "InvalidTarget": "Invalid Target"
         }
     }
 }

@@ -70,6 +70,7 @@ export {studiedAttacks as 'studied-attacks'} from './modern/classFeatures/fighte
 export {tacticalMind as 'tactical-mind'} from './modern/classFeatures/fighter/tacticalMind.mjs';
 // Items
 export {healersKit as 'healers-kit'} from './modern/items/healersKit.mjs';
+export {forceGauntlet as 'force-gauntlet', maskOfMonstrousForms as 'mask-of-monstrous-forms'} from './modern/items/thirdPartyItems.mjs';
 // Monster Features
 export {ghoulClaw as 'ghoul-claw', goblinBossRedirectAttack as 'goblin-boss-redirect-attack', vampireBite as 'vampire-bite', vampireMistyEscape as 'vampire-misty-escape'} from './modern/monsterFeatures/monsterBatch1.mjs';
 // Monk
