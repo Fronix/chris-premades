@@ -34,7 +34,7 @@ export const commandTurnStart = {
     rules: command.rules,
     combat: [
         {
-            pass: 'turnStart',
+            pass: 'actorTurnStart',
             macro: turnStart,
             priority: 50
         }
@@ -46,7 +46,7 @@ export const commandGrovel = {
     rules: command.rules,
     combat: [
         {
-            pass: 'turnStart',
+            pass: 'actorTurnStart',
             macro: grovel,
             priority: 49
         }

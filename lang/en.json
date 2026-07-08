@@ -103,7 +103,8 @@
             "DamageType": "Damage Type:",
             "DiceSize": "Dice Size:",
             "BaseDiceNumber": "Base Dice Number:",
-            "Distance": "Distance:"
+            "Distance": "Distance:",
+            "SubclassIdentifier": "Subclass Identifier:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -187,10 +188,16 @@
                 "Source": "Compelled Duel: Source",
                 "Target": "Compelled Duel: Target",
                 "EndEffect": "Caster has ended their turn more than 30 feet away from their target. Remove effect?"
+            },
+            "TacticalMind": {
+                "Confirm": "Did the check succeed?"
             }
         },
         "Auras": {
             "Source": "{auraName}: Source"
+        },
+        "Generic": {
+            "SelectALanguage": "Select a language:"
         }
     }
 }

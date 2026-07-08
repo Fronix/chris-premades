@@ -99,6 +99,19 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 Runtime caveats to verify at the table: upcast target selection reads `workflow.castData.castLevel`
 (midi-qol), aura value staleness is resolved on the next aura update after a CHA change.
 
+## Milestone 3 — Fighter (2024) — complete
+
+| Item | Status | Notes |
+| --- | --- | --- |
+| Second Wind | ✅ | scale + Banneret Group Recovery follow-up prompt |
+| Tactical Mind | ✅ | bonus/post passes on checks/skills/tools; 1d10 + fighter level, refund on failure |
+| Studied Attacks | ✅ | on miss: advantage-vs-attacker effect stamped on the target |
+| Heroic Warrior | ✅ | use grants Heroic Inspiration; turn-start auto-use while uninspired |
+| Group Recovery (Banneret) | ✅ | target cap = CHA mod; subclass scale (30/60 ft) |
+| Knightly Envoy (Banneret) | ✅ | language picker writing into the item effect |
+| Fighting Spirit / Great Stature / Runic Juggernaut | ✅ | data-only (Phase 1 batch) |
+| Battle Master maneuvers / Rune Knight runes | ⬜ | v13 only shipped 2014 versions — ported with the legacy pass |
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
@@ -109,9 +122,9 @@ regenerate rather than hand-editing its tables).
 Working order (per user priority; each slice = features + subclasses + that class's
 staple spells, committed and releasable on its own):
 
-1. **Paladin** ← current slice
-2. Fighter
-3. Cleric
+1. ~~Paladin~~ ✅
+2. ~~Fighter~~ ✅
+3. **Cleric** ← current slice
 4. Monk
 5. Druid
 6. Wizard

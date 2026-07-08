@@ -8,6 +8,13 @@ export {persistentRage as 'persistent-rage'} from './modern/classFeatures/barbar
 export {primalKnowledge as 'primal-knowledge'} from './modern/classFeatures/barbarian/primalKnowledge.mjs';
 export {recklessAttack as 'reckless-attack'} from './modern/classFeatures/barbarian/recklessAttack.mjs';
 export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbarian/relentlessRage.mjs';
+// Fighter
+export {groupRecovery as 'group-recovery'} from './modern/classFeatures/fighter/groupRecovery.mjs';
+export {heroicWarrior as 'heroic-warrior'} from './modern/classFeatures/fighter/heroicWarrior.mjs';
+export {knightlyEnvoy as 'knightly-envoy'} from './modern/classFeatures/fighter/knightlyEnvoy.mjs';
+export {secondWind as 'second-wind'} from './modern/classFeatures/fighter/secondWind.mjs';
+export {studiedAttacks as 'studied-attacks'} from './modern/classFeatures/fighter/studiedAttacks.mjs';
+export {tacticalMind as 'tactical-mind'} from './modern/classFeatures/fighter/tacticalMind.mjs';
 // Paladin
 export {auraOfCourage as 'aura-of-courage'} from './modern/classFeatures/paladin/auraOfCourage.mjs';
 export {auraOfProtection as 'aura-of-protection'} from './modern/classFeatures/paladin/auraOfProtection.mjs';

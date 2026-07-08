@@ -139,12 +139,12 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Group Recovery *(Banneret)* | groupRecovery | ⬜ |
-| Heroic Warrior | heroicWarrior | ⬜ |
-| Knightly Envoy *(Banneret)* | knightlyEnvoy | ⬜ |
-| Second Wind | secondWind | ⬜ |
-| Studied Attacks | studiedAttacks | ⬜ |
-| Tactical Mind | tacticalMind | ⬜ |
+| Group Recovery *(Banneret)* | groupRecovery | ✅ ported |
+| Heroic Warrior | heroicWarrior | ✅ ported |
+| Knightly Envoy *(Banneret)* | knightlyEnvoy | ✅ ported |
+| Second Wind | secondWind | ✅ ported |
+| Studied Attacks | studiedAttacks | ✅ ported |
+| Tactical Mind | tacticalMind | ✅ ported |
 
 ### Monk
 

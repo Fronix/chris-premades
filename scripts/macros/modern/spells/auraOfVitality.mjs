@@ -76,7 +76,7 @@ export const auraOfVitalityEffect = {
     rules: auraOfVitality.rules,
     combat: [
         {
-            pass: 'turnStart',
+            pass: 'actorTurnStart',
             macro: turnStart,
             priority: 50
         }

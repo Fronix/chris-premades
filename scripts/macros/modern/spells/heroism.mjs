@@ -80,7 +80,7 @@ export const heroismHeroic = {
     rules: heroism.rules,
     combat: [
         {
-            pass: 'turnStart',
+            pass: 'actorTurnStart',
             macro: turnStart,
             priority: 50
         }

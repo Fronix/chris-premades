@@ -132,7 +132,7 @@ export const compelledDuelSource = {
     ],
     combat: [
         {
-            pass: 'turnEnd',
+            pass: 'actorTurnEnd',
             macro: turnEnd,
             priority: 50
         }
