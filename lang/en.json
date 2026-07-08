@@ -339,6 +339,9 @@
             },
             "ShareSpells": {
                 "Confirm": "Also target {name} with {spell}?"
+            },
+            "BrutalStrike": {
+                "Choose": "Forgo advantage and use {item}?"
             }
         },
         "Auras": {

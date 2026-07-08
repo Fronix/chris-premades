@@ -31,7 +31,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Aspect of the Wilds *(Path of the Wild Heart)* | aspectOfTheWilds | ⬜ |
 | Battering Roots *(Path of the World Tree)* | batteringRoots | ⬜ |
 | Branches of the Tree *(Path of the World Tree)* | branchesOfTheTree | ⬜ |
-| Brutal Strike | brutalStrike, sunderingBlow | ⬜ |
+| Brutal Strike | brutalStrike, sunderingBlow | ✅ ported |
 | Danger Sense | dangerSense | ✅ ported |
 | Divine Fury *(Path of the Zealot)* | divineFury | ⬜ |
 | Fanatical Focus *(Path of the Zealot)* | fanaticalFocus | ⬜ |

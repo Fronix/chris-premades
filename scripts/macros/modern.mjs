@@ -1,4 +1,5 @@
 // Barbarian
+export {brutalStrike as 'brutal-strike', sunderingBlow as 'sundering-blow'} from './modern/classFeatures/barbarian/brutalStrike.mjs';
 export {dangerSense as 'danger-sense'} from './modern/classFeatures/barbarian/dangerSense.mjs';
 export {extendRage, keepRage} from './modern/classFeatures/barbarian/rage.mjs';
 export {fastMovement as 'fast-movement'} from './modern/classFeatures/barbarian/fastMovement.mjs';
