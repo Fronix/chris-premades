@@ -115,7 +115,8 @@
             "Conditions": "Conditions:",
             "Attacks": "Attacks:",
             "EnablePrompt": "Enable Prompt:",
-            "Max": "Max:"
+            "Max": "Max:",
+            "SpellSchools": "Spell Schools:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -286,6 +287,9 @@
             },
             "PactOfTheChain": {
                 "Attack": "Which attack?"
+            },
+            "AwakenedSpellbook": {
+                "Select": "Change damage type?"
             }
         },
         "Auras": {

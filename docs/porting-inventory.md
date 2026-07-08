@@ -255,7 +255,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Eldritch Invocations: One with Shadows *(Invocations)* | oneWithShadows | ✅ ported |
 | Eldritch Invocations: Pact of the Blade *(Invocations)* | pactOfTheBlade, pactOfTheBladeAttack | ⬜ |
 | Eldritch Invocations: Pact of the Chain *(Invocations)* | pactOfTheChain | ✅ ported |
-| Psychic Spells *(Great Old One)* | psychicSpells | ⬜ |
+| Psychic Spells *(Great Old One)* | psychicSpells | ✅ ported |
 | Steps of the Fey *(Archfey)* | stepsOfTheFey | ✅ ported |
 | Thought Shield *(Great Old One)* | thoughtShield | ✅ ported |
 
