@@ -611,8 +611,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Arcane Vigor | arcaneVigor | ✅ ported |
 | Armor of Agathys | armorOfAgathys | ✅ ported |
 | Arms of Hadar | armsOfHadar | ✅ ported |
-| Aura of Life | auraOfLife | ⬜ |
-| Aura of Purity | auraOfPurity | ⬜ |
+| Aura of Life | auraOfLife | ✅ ported |
+| Aura of Purity | auraOfPurity | ✅ ported |
 | Aura of Vitality | auraOfVitality | ✅ ported |
 | Bane | bane | ✅ ported |
 | Banishing Smite | banishingSmite | ✅ ported |
