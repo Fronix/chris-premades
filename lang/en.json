@@ -106,7 +106,9 @@
             "Distance": "Distance:",
             "SubclassIdentifier": "Subclass Identifier:",
             "MaxLevel": "Max Level:",
-            "DamageTypes": "Damage Types:"
+            "DamageTypes": "Damage Types:",
+            "BaseHealing": "Base Healing:",
+            "AttackBonus": "Attack Bonus:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -199,6 +201,12 @@
             },
             "ImprovedPotentSpellcasting": {
                 "Target": "Select an ally to give temporary hit points to:"
+            },
+            "PreserveLife": {
+                "Select": "Distribute HP (Amount to Distribute: {maxAmount}. Targets cannot be healed above half health.)"
+            },
+            "GuidedStrike": {
+                "Attack": "Use {item}? Attack Roll: {attackRoll}"
             }
         },
         "Auras": {
@@ -207,7 +215,9 @@
         "Generic": {
             "SelectALanguage": "Select a language:",
             "SelectSpell": "Select a Spell:",
-            "UseItem": "Use {item}?"
+            "UseItem": "Use {item}?",
+            "SelectAWeapon": "Select a Weapon:",
+            "SelectATarget": "Select a Target:"
         }
     }
 }

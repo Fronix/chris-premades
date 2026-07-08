@@ -84,27 +84,27 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Avatar of Battle *(War Domain)* | — | ✅ converted |
-| Blessed Healer *(Life Domain)* | blessedHealer | ⬜ |
+| Blessed Healer *(Life Domain)* | blessedHealer | ✅ ported |
 | Blessed Strikes: Divine Strike | divineStrike | ✅ ported |
 | Blessed Strikes: Potent Spellcasting | potentSpellcasting | ✅ ported |
 | Blessing of the Trickster *(Trickery Domain)* | blessingOfTheTrickster | ⬜ |
 | Channel Divinity (Cleric) | channelDivinity | ✅ ported |
 | Corona of Light *(Light Domain)* | coronaOfLight, coronaOfLightEffect | ⬜ |
-| Disciple of Life *(Life Domain)* | discipleOfLife | ⬜ |
+| Disciple of Life *(Life Domain)* | discipleOfLife | ✅ ported |
 | Divine Intervention | divineIntervention | ✅ ported |
 | Divine Order: Thaumaturge | — | ✅ converted |
 | Greater Divine Intervention | greaterDivineIntervention, greaterDivineInterventionRest | ✅ ported |
-| Guided Strike *(War Domain)* | guidedStrike | ⬜ |
+| Guided Strike *(War Domain)* | guidedStrike | ✅ ported |
 | Improved Blessed Strikes | improvedBlessedStrikes | ✅ ported |
 | Improved Duplicity *(Trickery Domain)* | improvedDuplicity | ⬜ |
 | Improved Warding Flare *(Light Domain)* | improvedWardingFlare | ⬜ |
 | Invoke Duplicity *(Trickery Domain)* | invokeDuplicity | ⬜ |
-| Preserve Life *(Life Domain)* | preserveLife | ⬜ |
+| Preserve Life *(Life Domain)* | preserveLife | ✅ ported |
 | Radiance of the Dawn *(Light Domain)* | radianceOfTheDawn | ⬜ |
 | Sear Undead | — | ✅ converted |
 | Trickster's Transposition *(Trickery Domain)* | trickstersTransposition | ⬜ |
 | War God's Blessing *(War Domain)* | warGodsBlessing | ⬜ |
-| War Priest *(War Domain)* | warPriest | ⬜ |
+| War Priest *(War Domain)* | warPriest | ✅ ported |
 | Warding Flare *(Light Domain)* | wardingFlare | ⬜ |
 
 ### Druid
