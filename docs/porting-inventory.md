@@ -44,7 +44,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Intimidating Presence *(Path of the Berserker)* | intimidatingPresence | ⬜ |
 | Mindless Rage *(Path of the Berserker)* | — | ✅ converted |
 | Persistent Rage | persistentRage | ✅ ported |
-| Power of the Wilds *(Path of the Wild Heart)* | powerOfTheWilds | ⬜ |
+| Power of the Wilds *(Path of the Wild Heart)* | powerOfTheWilds | ✅ ported |
 | Primal Knowledge | primalKnowledge | ✅ ported |
 | Rage | rage | ✅ ported |
 | Rage of the Gods *(Path of the Zealot)* | rageOfTheGods, rageOfTheGodsEffect | ⬜ |
@@ -55,7 +55,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Travel along the Tree *(Path of the World Tree)* | travelAlongTheTree | ⬜ |
 | Unarmored Defense (Barbarian) | unarmoredDefenseBarbarian | ✅ ported |
 | Vitality of the Tree *(Path of the World Tree)* | vitalityOfTheTree | ⬜ |
-| Warrior of the Gods *(Path of the Zealot)* | warriorOfTheGods | ⬜ |
+| Warrior of the Gods *(Path of the Zealot)* | warriorOfTheGods | ✅ ported |
 | Zealous Presence *(Path of the Zealot)* | zealousPresence | ⬜ |
 
 ### Bard

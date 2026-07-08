@@ -37,15 +37,7 @@
           "override": false,
           "value": "10"
         },
-        "effects": [
-          {
-            "_id": "sL6Qn1ntvxrhFaYD",
-            "level": {
-              "min": null,
-              "max": null
-            }
-          }
-        ],
+        "effects": [],
         "flags": {
           "cat": {
             "macros": {
@@ -175,7 +167,8 @@
         },
         "otherActivityId": "none",
         "otherActivityAsParentType": true,
-        "name": "Enter Rage"
+        "name": "Enter Rage",
+        "identifier": "rage"
       },
       "4luJcCDT4CubVbuB": {
         "type": "utility",
@@ -332,7 +325,8 @@
           "animationIntensity": 5
         },
         "otherActivityId": "none",
-        "otherActivityAsParentType": true
+        "otherActivityAsParentType": true,
+        "identifier": "rage-continue"
       }
     },
     "uses": {

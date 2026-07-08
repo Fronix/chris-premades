@@ -342,6 +342,24 @@
             },
             "BrutalStrike": {
                 "Choose": "Forgo advantage and use {item}?"
+            },
+            "PowerOfTheWilds": {
+                "RamProne": "Knock the target prone?",
+                "Falcon": "Falcon",
+                "Lion": "Lion",
+                "Ram": "Ram"
+            },
+            "RageOfTheWilds": {
+                "Bear": "Bear",
+                "Eagle": "Eagle",
+                "Use": "Select a primal animal power:",
+                "Wolf": "Wolf"
+            },
+            "Rage": {
+                "AllowConcentration": "Allow Concentration:",
+                "AllowHeavyArmor": "Allow Heavy Armor:",
+                "AllowSpellcasting": "Allow Spellcasting:",
+                "HeavyArmor": "You are wearing heavy armor and can not rage!"
             }
         },
         "Auras": {

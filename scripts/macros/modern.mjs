@@ -10,7 +10,9 @@ export {persistentRage as 'persistent-rage'} from './modern/classFeatures/barbar
 export {primalKnowledge as 'primal-knowledge'} from './modern/classFeatures/barbarian/primalKnowledge.mjs';
 export {recklessAttack as 'reckless-attack'} from './modern/classFeatures/barbarian/recklessAttack.mjs';
 export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbarian/relentlessRage.mjs';
+export {powerOfTheWilds as 'power-of-the-wilds', powerOfTheWildsLion as 'power-of-the-wilds-lion', powerOfTheWildsRam as 'power-of-the-wilds-ram'} from './modern/classFeatures/barbarian/wildHeart.mjs';
 export {unarmoredDefenseBarbarian as 'unarmored-defense-barbarian'} from './modern/classFeatures/barbarian/unarmoredDefense.mjs';
+export {warriorOfTheGods as 'warrior-of-the-gods'} from './modern/classFeatures/barbarian/warriorOfTheGods.mjs';
 // Bard
 export {bardicInspiration as 'bardic-inspiration', bardicInspirationEffect as 'bardic-inspiration-effect'} from './modern/classFeatures/bard/bardicInspiration.mjs';
 export {combatInspiration as 'combat-inspiration', dazzlingFootwork as 'dazzling-footwork', leadingEvasion as 'leading-evasion'} from './modern/classFeatures/bard/danceFeatures.mjs';
