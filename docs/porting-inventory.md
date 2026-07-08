@@ -725,11 +725,11 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Teleport | teleport | ⬜ |
 | Thorn Whip | thornWhip | ✅ ported |
 | Thunderous Smite | proneOnFail, thunderousSmite | ✅ ported |
-| Thunderwave | thunderwave | ⬜ |
+| Thunderwave | thunderwave | ✅ ported |
 | Time Stop | timeStop, timeStopEffect | ⬜ |
 | Toll the Dead | tollTheDead | ✅ ported |
 | True Strike | trueStrike | ✅ ported |
-| Vampiric Touch | vampiricTouch | ⬜ |
+| Vampiric Touch | vampiricTouch | ✅ ported |
 | Vitriolic Sphere | vitriolicSphere | ⬜ |
 | Wall of Fire | wallOfFire | ⬜ |
 | Warding Bond | wardingBond | ✅ ported |

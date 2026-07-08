@@ -431,6 +431,9 @@
             },
             "ThornWhip": {
                 "Pull": "Pull the target how far?"
+            },
+            "VampiricTouch": {
+                "HealingModifier": "Healing Modifier:"
             }
         },
         "Auras": {
@@ -459,7 +462,8 @@
             "Disabled": "Disabled",
             "Advantage": "Advantage",
             "Immune": "Immune",
-            "SelectTargetEffect": "Which effect?"
+            "SelectTargetEffect": "Which effect?",
+            "Distance": "Distance:"
         },
         "Summons": {
             "CustomName": "Custom Name",
