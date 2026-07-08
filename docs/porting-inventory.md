@@ -713,12 +713,12 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Staggering Smite | staggeringSmite | ✅ ported |
 | Steel Wind Strike | steelWindStrike | ⬜ |
 | Summon Aberration | summonAberration | ✅ ported |
-| Summon Beast | summonBeast | ⬜ |
+| Summon Beast | summonBeast | ✅ ported |
 | Summon Celestial | summonCelestial | ⬜ |
 | Summon Construct | summonConstruct | ⬜ |
 | Summon Dragon | summonDragon | ⬜ |
 | Summon Elemental | summonElemental | ⬜ |
-| Summon Fey | summonFey | ⬜ |
+| Summon Fey | summonFey | ✅ ported |
 | Summon Fiend | summonFiend | ⬜ |
 | Summon Undead | summonUndead | ⬜ |
 | Synaptic Static | synapticStatic | ✅ ported |

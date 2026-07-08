@@ -146,3 +146,151 @@ export const summonAberration = {
         }
     }
 };
+async function feyUse({workflow}) {
+    const activityIdentifier = documentUtils.getIdentifier(workflow.activity);
+    const creatureType = {
+        'summon-fey-fuming': 'fuming',
+        'summon-fey-mirthful': 'mirthful',
+        'summon-fey-tricksy': 'tricksy'
+    }[activityIdentifier];
+    if (!creatureType) return;
+    const spellLevel = getCastLevel(workflow) ?? 3;
+    const featuresPack = 'chris-premades.CPRSummonFeatures2024';
+    const multiattack = await getPackEntry(featuresPack, 'Multiattack (Fey Spirit)');
+    const feyBlade = await getPackEntry(featuresPack, 'Fey Blade (Fey Spirit)');
+    const feyStep = await getPackEntry(featuresPack, 'Fey Step (Fey Spirit)');
+    const moodName = creatureType.charAt(0).toUpperCase() + creatureType.slice(1);
+    const mood = await getPackEntry(featuresPack, moodName);
+    if (!multiattack || !feyBlade || !feyStep || !mood) return;
+    const items = [
+        {uuid: multiattack.uuid},
+        {uuid: feyBlade.uuid, matchAttack: true},
+        {uuid: feyStep.uuid},
+        {uuid: mood.uuid, matchDC: creatureType === 'mirthful'}
+    ];
+    let name = automationUtils.getConfigValue(workflow.item, creatureType + 'Name');
+    if (!name?.length) name = _loc('CHRISPREMADES.Summons.CreatureNames.FeySpirit' + moodName);
+    const hpFormula = 30 + (spellLevel - 3) * 10;
+    const summon = await summonSpirit(workflow, {
+        sourceActorName: 'CPR - Fey Spirit',
+        name,
+        hpFormula,
+        acFlat: 12 + spellLevel,
+        items
+    });
+    if (!summon) return;
+    await applyDamageBonus(summon, 'Fey Blade (Fey Spirit)', {damageBonus: spellLevel});
+}
+export const summonFey = {
+    name: 'Summon Fey',
+    version: '2.0.0',
+    rules: '2024',
+    roll: [
+        {
+            pass: 'itemRollFinished',
+            macro: feyUse,
+            priority: 50
+        }
+    ],
+    config: {
+        fumingName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        mirthfulName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        tricksyName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        }
+    }
+};
+async function beastUse({workflow}) {
+    const activityIdentifier = documentUtils.getIdentifier(workflow.activity);
+    const creatureType = {
+        'summon-beast-air': 'air',
+        'summon-beast-land': 'land',
+        'summon-beast-water': 'water'
+    }[activityIdentifier];
+    if (!creatureType) return;
+    const spellLevel = getCastLevel(workflow) ?? 2;
+    const featuresPack = 'chris-premades.CPRSummonFeatures2024';
+    const multiattack = await getPackEntry(featuresPack, 'Multiattack (Bestial Spirit)');
+    const rend = await getPackEntry(featuresPack, 'Rend (Bestial Spirit)');
+    if (!multiattack || !rend) return;
+    const items = [
+        {uuid: multiattack.uuid},
+        {uuid: rend.uuid, matchAttack: true}
+    ];
+    let hpFormula = 20;
+    const movement = {walk: 30};
+    if (creatureType === 'air') {
+        const flyby = await getPackEntry(featuresPack, 'Flyby (Air Only)');
+        if (flyby) items.push({uuid: flyby.uuid});
+        movement.fly = 60;
+    } else {
+        const packTactics = await getPackEntry(featuresPack, 'Pack Tactics (Land and Water Only)');
+        if (packTactics) items.push({uuid: packTactics.uuid});
+        hpFormula += 10;
+        if (creatureType === 'land') {
+            movement.climb = 30;
+        } else {
+            movement.swim = 30;
+            const waterBreathing = await getPackEntry(featuresPack, 'Water Breathing (Water Only)');
+            if (waterBreathing) items.push({uuid: waterBreathing.uuid});
+        }
+    }
+    hpFormula += (spellLevel - 2) * 5;
+    let name = automationUtils.getConfigValue(workflow.item, creatureType + 'Name');
+    if (!name?.length) name = _loc('CHRISPREMADES.Summons.CreatureNames.BestialSpirit' + creatureType.charAt(0).toUpperCase() + creatureType.slice(1));
+    const summon = await summonSpirit(workflow, {
+        sourceActorName: 'CPR - Bestial Spirit',
+        name,
+        hpFormula,
+        acFlat: 11 + spellLevel,
+        items,
+        updates: {system: {attributes: {movement}}}
+    });
+    if (!summon) return;
+    await applyDamageBonus(summon, 'Rend (Bestial Spirit)', {damageBonus: spellLevel});
+}
+export const summonBeast = {
+    name: 'Summon Beast',
+    version: '2.0.0',
+    rules: '2024',
+    roll: [
+        {
+            pass: 'itemRollFinished',
+            macro: beastUse,
+            priority: 50
+        }
+    ],
+    config: {
+        airName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        landName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        waterName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        }
+    }
+};

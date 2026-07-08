@@ -476,7 +476,13 @@
                 "BeastOfTheSky": "Beast of the Sky",
                 "AberrantSpiritBeholderkin": "Aberrant Spirit (Beholderkin)",
                 "AberrantSpiritSlaad": "Aberrant Spirit (Slaad)",
-                "AberrantSpiritMindFlayer": "Aberrant Spirit (Mind Flayer)"
+                "AberrantSpiritMindFlayer": "Aberrant Spirit (Mind Flayer)",
+                "FeySpiritFuming": "Fey Spirit (Fuming)",
+                "FeySpiritMirthful": "Fey Spirit (Mirthful)",
+                "FeySpiritTricksy": "Fey Spirit (Tricksy)",
+                "BestialSpiritAir": "Bestial Spirit (Air)",
+                "BestialSpiritLand": "Bestial Spirit (Land)",
+                "BestialSpiritWater": "Bestial Spirit (Water)"
             }
         },
         "Alignment": {
