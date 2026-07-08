@@ -8,6 +8,8 @@ export {persistentRage as 'persistent-rage'} from './modern/classFeatures/barbar
 export {primalKnowledge as 'primal-knowledge'} from './modern/classFeatures/barbarian/primalKnowledge.mjs';
 export {recklessAttack as 'reckless-attack'} from './modern/classFeatures/barbarian/recklessAttack.mjs';
 export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbarian/relentlessRage.mjs';
+// Bard
+export {fontOfInspiration as 'font-of-inspiration', jackOfAllTrades as 'jack-of-all-trades', superiorInspiration as 'superior-inspiration', wordsOfCreation as 'words-of-creation'} from './modern/classFeatures/bard/coreFeatures.mjs';
 // Cleric
 export {blessedHealer as 'blessed-healer'} from './modern/classFeatures/cleric/blessedHealer.mjs';
 export {channelDivinity as 'channel-divinity-cleric'} from './modern/classFeatures/cleric/channelDivinity.mjs';

@@ -297,6 +297,9 @@
                 "Conjure": "Conjure which weapon?",
                 "Name": "Pact Weapon",
                 "ReplaceDamage": "Replace the damage type?"
+            },
+            "WordsOfCreation": {
+                "Target": "Select an additional target:"
             }
         },
         "Auras": {
