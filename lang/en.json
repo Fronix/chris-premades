@@ -123,7 +123,8 @@
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
             "UseRollTotal": "Use {itemName}? (Roll Total: {rollTotal})",
             "UseWeaponDamageExtra": "Use {itemName} for an extra {bonusFormula}?",
-            "UseAttack": "Use {itemName}? (Attack Total: {attackTotal})"
+            "UseAttack": "Use {itemName}? (Attack Total: {attackTotal})",
+            "DamageType": "Which damage type?"
         },
         "Macros": {
             "All": {
@@ -363,7 +364,12 @@
             "Select": "Select:"
         },
         "Summons": {
-            "CustomName": "Custom Name"
+            "CustomName": "Custom Name",
+            "CreatureNames": {
+                "BeastOfTheLand": "Beast of the Land",
+                "BeastOfTheSea": "Beast of the Sea",
+                "BeastOfTheSky": "Beast of the Sky"
+            }
         },
         "Alignment": {
             "Good": "Good",

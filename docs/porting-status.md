@@ -188,6 +188,17 @@ Peerless Skill, Dazzling Footwork, Leading Evasion, Inspiring Movement, Tandem
 Footwork, Beguiling Magic, Mantle of Inspiration, Mantle of Majesty (+Command
 grant), Unbreakable Majesty (attacker save-or-abort).
 
+## Milestone 11 — Ranger (2024) — complete (core + Gloom Stalker + Beast Master)
+
+Ported: Tireless, Relentless Hunter, Foe Slayer, Favored Enemy (scale), Dread
+Ambusher, Stalker's Flurry (identifier normalized from v13 typo), Shadowy
+Dodge, Share Spells, Primal Companion (CAT summon: per-form stats/HP/AC/CR,
+Exceptional Training bonus actions + force type, damage-type picker, Bestial
+Fury strike rider via Hunter's Mark flags, command unhide), plus metadata for
+Nature's Veil, Precise Hunter, Exceptional Training, Otherworldly Glamour.
+Deferred to legacy pass: Beguiling Twist, Dreadful Strikes, Umbral Sight
+(legacy re-exports); Fey Reinforcements / Misty Wanderer are data-only links.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
@@ -207,7 +218,7 @@ staple spells, committed and releasable on its own):
 7. ~~Sorcerer~~ (no 2024 content; legacy metamagic started)
 8. ~~Warlock~~ ✅
 9. ~~Bard~~ ✅
-10. **Ranger** ← current slice
+10. ~~Ranger~~ ✅
 11. Barbarian + Rogue subclass completion
 12. Artificer / 3rd-party
 13. Remaining categories: spell long tail, feats, species features, actions,

@@ -201,7 +201,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Nature's Veil | — | ✅ converted |
 | Otherworldly Glamour *(Fey Wanderer)* | — | ✅ converted |
 | Precise Hunter | — | ✅ converted |
-| Primal Companion *(Beast Master)* | primalCompanion | ⬜ |
+| Primal Companion *(Beast Master)* | primalCompanion | ✅ ported |
 | Relentless Hunter | relentlessHunter | ✅ ported |
 | Shadowy Dodge *(Gloom Stalker)* | shadowyDodge | ✅ ported |
 | Share Spells *(Beast Master)* | shareSpells | ✅ ported |
