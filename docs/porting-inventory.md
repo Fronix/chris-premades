@@ -637,7 +637,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Chill Touch | chillTouch | ✅ ported |
 | Chromatic Orb | chromaticOrb | ✅ ported |
 | Circle of Death | — | ✅ converted |
-| Circle of Power | circleOfPower | ⬜ |
+| Circle of Power | circleOfPower | ✅ ported |
 | Cloudkill | cloudkill | ⬜ |
 | Command | command, commandGrovel, commandTurnStart | ✅ ported |
 | Compelled Duel | compelledDuel | ✅ ported |
