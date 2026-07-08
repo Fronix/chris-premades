@@ -124,9 +124,10 @@ the Trickster. Data-only: Avatar of Battle, Divine Order: Thaumaturge, Sear Unde
 Also ported: Channel Divinity (Cleric) with Divine Spark/Turn Undead + scale,
 Guidance, Bane, Toll the Dead, Death Ward, Beacon of Hope, Sanctuary.
 
-Deferred to the summons/regions batch: Spirit Guardians, Spiritual Weapon,
-Guardian of Faith, War God's Blessing, Invoke Duplicity, Improved Duplicity,
-Trickster's Transposition.
+Also ported (summons batch): Guardian of Faith, Spiritual Weapon, Spirit
+Guardians (approximated own-move sweep as end-position proximity; JB2A pickers
+dropped for now). Still deferred: War God's Blessing, Invoke Duplicity,
+Improved Duplicity, Trickster's Transposition.
 
 ## Roadmap: class-by-class, 2024 first
 

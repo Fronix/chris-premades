@@ -708,7 +708,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Sleet Storm | sleetStorm | ⬜ |
 | Spellfire Flare | spellfireFlare | ⬜ |
 | Spike Growth | spikeGrowth | ⬜ |
-| Spirit Guardians | spiritGuardians | ⬜ |
+| Spirit Guardians | spiritGuardians | ✅ ported |
 | Spiritual Weapon | spiritualWeapon | ✅ ported |
 | Staggering Smite | staggeringSmite | ✅ ported |
 | Steel Wind Strike | steelWindStrike | ⬜ |

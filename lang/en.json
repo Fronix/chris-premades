@@ -212,6 +212,9 @@
             },
             "Sanctuary": {
                 "Failed": "The attacker failed their save and their action is wasted!"
+            },
+            "SpiritGuardians": {
+                "Alignment": "What is your alignment?"
             }
         },
         "Auras": {
@@ -231,6 +234,10 @@
         },
         "Summons": {
             "CustomName": "Custom Name"
+        },
+        "Alignment": {
+            "Good": "Good",
+            "Evil": "Evil"
         }
     }
 }
