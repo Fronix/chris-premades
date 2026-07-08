@@ -71,6 +71,8 @@ export {uncannyMetabolism as 'uncanny-metabolism'} from './modern/classFeatures/
 export {auraOfCourage as 'aura-of-courage'} from './modern/classFeatures/paladin/auraOfCourage.mjs';
 export {auraOfProtection as 'aura-of-protection'} from './modern/classFeatures/paladin/auraOfProtection.mjs';
 export {layOnHands as 'lay-on-hands'} from './modern/classFeatures/paladin/layOnHands.mjs';
+// Ranger
+export {favoredEnemy as 'favored-enemy', foeSlayer as 'foe-slayer', relentlessHunter as 'relentless-hunter', tireless} from './modern/classFeatures/ranger/coreFeatures.mjs';
 // Rogue
 export {elusive} from './modern/classFeatures/rogue/elusive.mjs';
 export {reliableTalent as 'reliable-talent'} from './modern/classFeatures/rogue/reliableTalent.mjs';

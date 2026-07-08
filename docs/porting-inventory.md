@@ -194,7 +194,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Dread Ambusher *(Gloom Stalker)* | dreadAmbusher | ⬜ |
 | Dreadful Strikes *(Fey Wanderer)* | dreadfulStrikes | ⬜ |
 | Exceptional Training *(Beast Master)* | — | ✅ converted |
-| Favored Enemy | favoredEnemy | ⬜ |
+| Favored Enemy | favoredEnemy | ✅ ported |
 | Fey Reinforcements *(Fey Wanderer)* | feyReinforcements | ⬜ |
 | Foe Slayer | — | ✅ converted |
 | Misty Wanderer *(Fey Wanderer)* | mistyWanderer | ⬜ |
@@ -202,11 +202,11 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Otherworldly Glamour *(Fey Wanderer)* | — | ✅ converted |
 | Precise Hunter | — | ✅ converted |
 | Primal Companion *(Beast Master)* | primalCompanion | ⬜ |
-| Relentless Hunter | relentlessHunter | ⬜ |
+| Relentless Hunter | relentlessHunter | ✅ ported |
 | Shadowy Dodge *(Gloom Stalker)* | shadowyDodge | ⬜ |
 | Share Spells *(Beast Master)* | shareSpells | ⬜ |
 | Stalker's Flurry *(Gloom Stalker)* | — | ✅ converted |
-| Tireless | tireless | ⬜ |
+| Tireless | tireless | ✅ ported |
 | Umbral Sight *(Gloom Stalker)* | umbralSight | ⬜ |
 
 ### Rogue

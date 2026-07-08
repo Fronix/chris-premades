@@ -1,0 +1,65 @@
+{
+  "folder": "5iJGkqFTSnNLAyCc",
+  "name": "Relentless Hunter",
+  "type": "feat",
+  "_id": "b53xzS1mNuCZBGzF",
+  "img": "icons/skills/wounds/injury-pain-body-orange.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "relentless-hunter",
+    "source": {
+      "revision": null,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "PHB 2024",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    },
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      },
+      "macros": {
+        "save": [
+          {
+            "source": "chris-premades",
+            "rules": "2024",
+            "identifier": "relentless-hunter"
+          }
+        ]
+      }
+    }
+  },
+  "_key": "!items!b53xzS1mNuCZBGzF"
+}
