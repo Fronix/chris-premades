@@ -38,6 +38,7 @@ export {wardingFlare as 'warding-flare', improvedWardingFlare as 'improved-wardi
 export {discipleOfLife as 'disciple-of-life'} from './modern/classFeatures/cleric/discipleOfLife.mjs';
 export {divineIntervention as 'divine-intervention'} from './modern/classFeatures/cleric/divineIntervention.mjs';
 export {guidedStrike as 'guided-strike'} from './modern/classFeatures/cleric/guidedStrike.mjs';
+export {invokeDuplicity as 'invoke-duplicity', invokeDuplicityActive as 'invoke-duplicity-active', improvedDuplicity as 'improved-duplicity', trickstersTransposition as 'tricksters-transposition'} from './modern/classFeatures/cleric/invokeDuplicity.mjs';
 export {preserveLife as 'preserve-life'} from './modern/classFeatures/cleric/preserveLife.mjs';
 export {warGodsBlessing as 'war-gods-blessing', thaumaturge, searUndead as 'sear-undead', avatarOfBattle as 'avatar-of-battle'} from './modern/classFeatures/cleric/warGodsBlessing.mjs';
 export {warPriest as 'war-priest'} from './modern/classFeatures/cleric/warPriest.mjs';

@@ -96,13 +96,13 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Greater Divine Intervention | greaterDivineIntervention, greaterDivineInterventionRest | ✅ ported |
 | Guided Strike *(War Domain)* | guidedStrike | ✅ ported |
 | Improved Blessed Strikes | improvedBlessedStrikes | ✅ ported |
-| Improved Duplicity *(Trickery Domain)* | improvedDuplicity | ⬜ |
+| Improved Duplicity *(Trickery Domain)* | improvedDuplicity | ✅ ported |
 | Improved Warding Flare *(Light Domain)* | improvedWardingFlare | ✅ ported |
-| Invoke Duplicity *(Trickery Domain)* | invokeDuplicity | ⬜ |
+| Invoke Duplicity *(Trickery Domain)* | invokeDuplicity | ✅ ported |
 | Preserve Life *(Life Domain)* | preserveLife | ✅ ported |
 | Radiance of the Dawn *(Light Domain)* | radianceOfTheDawn | ✅ ported |
 | Sear Undead | — | ✅ converted |
-| Trickster's Transposition *(Trickery Domain)* | trickstersTransposition | ⬜ |
+| Trickster's Transposition *(Trickery Domain)* | trickstersTransposition | ✅ ported |
 | War God's Blessing *(War Domain)* | warGodsBlessing | ✅ ported |
 | War Priest *(War Domain)* | warPriest | ✅ ported |
 | Warding Flare *(Light Domain)* | wardingFlare | ✅ ported |
