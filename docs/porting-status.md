@@ -286,6 +286,21 @@ Elemental Adept (326-line legacy), Telekinetic, Unarmed Fighting, regions
 batch, Teleport/Wish/Animate Objects, 3rd-party content, animation passes,
 2014 variants.
 
+## Milestone 18 — Regions wave 1 + final deferred returns
+
+Region-spell pattern established and applied: Zone of Truth, Sleet Storm,
+Cloudkill (drifting cloud + once-per-turn damage). Umbral Sight ported using
+new CAT tokenUtils.getLightLevel/canSense (requires the next CAT release).
+Elemental Adept (all five), Telekinetic Shove, Fighting Style: Unarmed
+Fighting, Beguiling Twist, Relentless Endurance, Dreadful Strikes complete.
+
+Remaining work requires new machinery or is long-tail:
+- Spike Growth / Wall of Fire need per-token movement paths in CAT region
+  triggers; Darkness needs the light/dispel system
+- Teleport, Wish, Animate Objects, Empowered Spell need bespoke dialog UIs
+- 3rd-party content and the 2014 legacy tree
+- Animation passes (Sequencer/JB2A flows)
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
