@@ -401,6 +401,10 @@
             },
             "Blink": {
                 "Away": "Blinked Away"
+            },
+            "CalmEmotions": {
+                "ConditionImmunity": "Suppress charm/fear",
+                "Indifference": "Indifference"
             }
         },
         "Auras": {
@@ -428,7 +432,8 @@
             "Used": "Used",
             "Disabled": "Disabled",
             "Advantage": "Advantage",
-            "Immune": "Immune"
+            "Immune": "Immune",
+            "SelectTargetEffect": "Which effect?"
         },
         "Summons": {
             "CustomName": "Custom Name",

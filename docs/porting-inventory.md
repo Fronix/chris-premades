@@ -622,7 +622,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Bestow Curse | bestowCurse | ⬜ |
 | Blade Ward | — | ✅ converted |
 | Bless | bless | ✅ ported |
-| Blight | blight | ⬜ |
+| Blight | blight | ✅ ported |
 | Blinding Smite | blindingSmite | ✅ ported |
 | Blindness/Deafness | blindnessDeafness | ✅ ported |
 | Blink | blink | ✅ ported |
@@ -630,7 +630,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Burning Hands | burningHands | ✅ ported |
 | Cacophonic Shield | cacophonicShield, cacophonicShieldSourceEffect | ⬜ |
 | Call Lightning | callLightning | ⬜ |
-| Calm Emotions | calmEmotions | ⬜ |
+| Calm Emotions | calmEmotions | ✅ ported |
 | Chain Lightning | chainLightning | ⬜ |
 | Charm Monster | charmMonster | ✅ ported |
 | Charm Person | charmPerson | ✅ ported |
