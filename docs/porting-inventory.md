@@ -711,7 +711,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Spirit Guardians | spiritGuardians | ✅ ported |
 | Spiritual Weapon | spiritualWeapon | ✅ ported |
 | Staggering Smite | staggeringSmite | ✅ ported |
-| Steel Wind Strike | steelWindStrike | ⬜ |
+| Steel Wind Strike | steelWindStrike | ✅ ported |
 | Summon Aberration | summonAberration | ✅ ported |
 | Summon Beast | summonBeast | ✅ ported |
 | Summon Celestial | summonCelestial | ✅ ported |
