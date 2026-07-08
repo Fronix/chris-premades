@@ -3,7 +3,19 @@ const smiteIdentifiers = ['divine-smite', 'searing-smite', 'thunderous-smite', '
 async function hit({workflow}) {
     if (!workflow.hitTargets.size || workflowUtils.getActionType(workflow) !== 'mwak') return;
     if (game.combat && game.combat.combatant?.tokenId !== workflow.token?.id) return;
-    const spells = actorUtils.getCastableSpells(workflow.actor).filter(spell => smiteIdentifiers.includes(documentUtils.getIdentifier(spell))).sort((a, b) => a.system.level - b.system.level);
+    const smiteSpells = actorUtils.getCastableSpells(workflow.actor).filter(spell => smiteIdentifiers.includes(documentUtils.getIdentifier(spell))).sort((a, b) => a.system.level - b.system.level);
+    // Collapse duplicate copies of the same smite (e.g. an always-prepared grant plus an
+    // innate/prepared copy) so the chooser offers each distinct smite once. Prefer a
+    // slot-consuming prepared copy over an innate/at-will one when both exist.
+    const byIdentifier = new Map();
+    for (const spell of smiteSpells) {
+        const id = documentUtils.getIdentifier(spell);
+        const existing = byIdentifier.get(id);
+        if (!existing || (['atwill', 'innate'].includes(existing.system.method) && !['atwill', 'innate'].includes(spell.system.method))) {
+            byIdentifier.set(id, spell);
+        }
+    }
+    const spells = Array.from(byIdentifier.values());
     if (!spells.length) return;
     const selection = await dialogUtils.selectDocumentDialog(workflow.item.name, _loc('CHRISPREMADES.Macros.DivineSmite.Context'), spells, {addNoneDocument: true, showSpellLevel: true});
     if (!selection) return;
