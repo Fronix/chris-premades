@@ -109,7 +109,8 @@
             "DamageTypes": "Damage Types:",
             "BaseHealing": "Base Healing:",
             "AttackBonus": "Attack Bonus:",
-            "PromptToUse": "Prompt to Use:"
+            "PromptToUse": "Prompt to Use:",
+            "CreatureTypes": "Creature Types:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -208,6 +209,9 @@
             },
             "GuidedStrike": {
                 "Attack": "Use {item}? Attack Roll: {attackRoll}"
+            },
+            "Sanctuary": {
+                "Failed": "The attacker failed their save and their action is wasted!"
             }
         },
         "Auras": {
@@ -222,7 +226,8 @@
             "SelectASkill": "Select a Skill:",
             "Never": "Never",
             "Prompt": "Prompt",
-            "Automatic": "Automatic"
+            "Automatic": "Automatic",
+            "SelectDamageType": "Select a Damage Type:"
         }
     }
 }

@@ -698,7 +698,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Power Word Kill | powerWordKill | ⬜ |
 | Protection from Evil and Good | protectionFromEvilAndGood | ✅ ported |
 | Resistance | resistance, resistanceEffect | ⬜ |
-| Sanctuary | sanctuary | ⬜ |
+| Sanctuary | sanctuary | ✅ ported |
 | Scorching Ray | scorchingRay | ⬜ |
 | Searing Smite | searingSmite | ✅ ported |
 | Shield | — | ✅ converted |

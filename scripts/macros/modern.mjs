@@ -10,6 +10,7 @@ export {recklessAttack as 'reckless-attack'} from './modern/classFeatures/barbar
 export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbarian/relentlessRage.mjs';
 // Cleric
 export {blessedHealer as 'blessed-healer'} from './modern/classFeatures/cleric/blessedHealer.mjs';
+export {channelDivinity as 'channel-divinity-cleric'} from './modern/classFeatures/cleric/channelDivinity.mjs';
 export {blessingOfTheTrickster as 'blessing-of-the-trickster'} from './modern/classFeatures/cleric/blessingOfTheTrickster.mjs';
 export {coronaOfLight as 'corona-of-light', coronaOfLightEffect as 'corona-of-light-effect'} from './modern/classFeatures/cleric/coronaOfLight.mjs';
 export {radianceOfTheDawn as 'radiance-of-the-dawn'} from './modern/classFeatures/cleric/radianceOfTheDawn.mjs';
@@ -56,6 +57,7 @@ export {bless} from './modern/spells/bless.mjs';
 export {command, commandTurnStart as 'command-turn-start', commandGrovel as 'command-grovel'} from './modern/spells/command.mjs';
 export {compelledDuel as 'compelled-duel', compelledDuelSource as 'compelled-duel-source', compelledDuelTarget as 'compelled-duel-target'} from './modern/spells/compelledDuel.mjs';
 export {protectionFromEvilAndGood as 'protection-from-evil-and-good'} from './modern/spells/protectionFromEvilAndGood.mjs';
+export {sanctuary, sanctuarySafe as 'sanctuary-safe'} from './modern/spells/sanctuary.mjs';
 export {divineSmite as 'divine-smite'} from './modern/spells/divineSmite.mjs';
 export {searingSmite as 'searing-smite'} from './modern/spells/searingSmite.mjs';
 export {staggeringSmite as 'staggering-smite'} from './modern/spells/staggeringSmite.mjs';
