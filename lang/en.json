@@ -482,7 +482,10 @@
                 "FeySpiritTricksy": "Fey Spirit (Tricksy)",
                 "BestialSpiritAir": "Bestial Spirit (Air)",
                 "BestialSpiritLand": "Bestial Spirit (Land)",
-                "BestialSpiritWater": "Bestial Spirit (Water)"
+                "BestialSpiritWater": "Bestial Spirit (Water)",
+                "UndeadSpiritGhostly": "Undead Spirit (Ghostly)",
+                "UndeadSpiritPutrid": "Undead Spirit (Putrid)",
+                "UndeadSpiritSkeletal": "Undead Spirit (Skeletal)"
             }
         },
         "Alignment": {

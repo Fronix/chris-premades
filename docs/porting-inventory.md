@@ -720,7 +720,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Summon Elemental | summonElemental | ⬜ |
 | Summon Fey | summonFey | ✅ ported |
 | Summon Fiend | summonFiend | ⬜ |
-| Summon Undead | summonUndead | ⬜ |
+| Summon Undead | summonUndead | ✅ ported |
 | Synaptic Static | synapticStatic | ✅ ported |
 | Teleport | teleport | ⬜ |
 | Thorn Whip | thornWhip | ✅ ported |
@@ -1309,7 +1309,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Deathly Touch (Ghostly Only) | — | ✅ converted |
 | Devil's Sight (Devil Only) | — | ✅ converted |
 | Eye Ray (Beholderkin Only) | — | ✅ converted |
-| Festering Aura (Putrid Only) | summonUndeadPutrid | ⬜ |
+| Festering Aura (Putrid Only) | summonUndeadPutrid | ✅ ported |
 | Fey Blade (Fey Spirit) | — | ✅ converted |
 | Fey Step (Fey Spirit) | summonFeyFeyStep | ⬜ |
 | Fiery Strike (Devil Only) | — | ✅ converted |
@@ -1339,7 +1339,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Regeneration (Slaad Only) | regeneration | ⬜ |
 | Rend (Bestial Spirit) | — | ✅ converted |
 | Rend (Draconic Spirit) | — | ✅ converted |
-| Rotting Claw (Putrid Only) | summonUndeadPutrid | ⬜ |
+| Rotting Claw (Putrid Only) | summonUndeadPutrid | ✅ ported |
 | Rotting Claw (Putrid Only): Paralyze | — | ✅ converted |
 | Shared Resistances | — | ✅ converted |
 | Slam (Animated Object) | — | ✅ converted |

@@ -294,3 +294,89 @@ export const summonBeast = {
         }
     }
 };
+async function undeadUse({workflow}) {
+    const activityIdentifier = documentUtils.getIdentifier(workflow.activity);
+    const creatureType = {
+        'summon-undead-ghostly': 'ghostly',
+        'summon-undead-putrid': 'putrid',
+        'summon-undead-skeletal': 'skeletal'
+    }[activityIdentifier];
+    if (!creatureType) return;
+    const spellLevel = getCastLevel(workflow) ?? 3;
+    const featuresPack = 'chris-premades.CPRSummonFeatures2024';
+    const multiattack = await getPackEntry(featuresPack, 'Multiattack (Undead Spirit)');
+    if (!multiattack) return;
+    const items = [{uuid: multiattack.uuid}];
+    const bonusNames = [];
+    let hpFormula = (spellLevel - 3) * 10;
+    const updates = {};
+    if (creatureType === 'ghostly') {
+        hpFormula += 30;
+        const incorporeal = await getPackEntry(featuresPack, 'Incorporeal Passage (Ghostly Only)');
+        const deathlyTouch = await getPackEntry(featuresPack, 'Deathly Touch (Ghostly Only)');
+        if (incorporeal) items.push({uuid: incorporeal.uuid});
+        if (deathlyTouch) items.push({uuid: deathlyTouch.uuid, matchAttack: true});
+        bonusNames.push('Deathly Touch (Ghostly Only)');
+        foundry.utils.setProperty(updates, 'system.attributes.movement', {fly: 40, hover: true});
+    } else if (creatureType === 'skeletal') {
+        hpFormula += 20;
+        const graveBolt = await getPackEntry(featuresPack, 'Grave Bolt (Skeletal Only)');
+        if (graveBolt) items.push({uuid: graveBolt.uuid, matchAttack: true});
+        bonusNames.push('Grave Bolt (Skeletal Only)');
+    } else {
+        hpFormula += 30;
+        const festeringAura = await getPackEntry(featuresPack, 'Festering Aura (Putrid Only)');
+        const rottingClaw = await getPackEntry(featuresPack, 'Rotting Claw (Putrid Only)');
+        const paralyze = await getPackEntry(featuresPack, 'Rotting Claw (Putrid Only): Paralyze');
+        if (festeringAura) items.push({uuid: festeringAura.uuid, matchDC: true});
+        if (rottingClaw) items.push({uuid: rottingClaw.uuid, matchAttack: true});
+        if (paralyze) items.push({uuid: paralyze.uuid});
+        bonusNames.push('Rotting Claw (Putrid Only)');
+    }
+    let name = automationUtils.getConfigValue(workflow.item, creatureType + 'Name');
+    if (!name?.length) name = _loc('CHRISPREMADES.Summons.CreatureNames.UndeadSpirit' + creatureType.charAt(0).toUpperCase() + creatureType.slice(1));
+    const summon = await summonSpirit(workflow, {
+        sourceActorName: 'CPR - Undead Spirit',
+        name,
+        hpFormula,
+        acFlat: 11 + spellLevel,
+        items,
+        updates
+    });
+    if (!summon) return;
+    for (const itemName of bonusNames) {
+        await applyDamageBonus(summon, itemName, {damageBonus: spellLevel});
+    }
+}
+export const summonUndead = {
+    name: 'Summon Undead',
+    version: '2.0.0',
+    rules: '2024',
+    roll: [
+        {
+            pass: 'itemRollFinished',
+            macro: undeadUse,
+            priority: 50
+        }
+    ],
+    config: {
+        ghostlyName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        putridName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        skeletalName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        }
+    }
+};
