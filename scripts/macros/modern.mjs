@@ -61,6 +61,7 @@ export {protectionFromEvilAndGood as 'protection-from-evil-and-good'} from './mo
 export {sanctuary, sanctuarySafe as 'sanctuary-safe'} from './modern/spells/sanctuary.mjs';
 export {divineSmite as 'divine-smite'} from './modern/spells/divineSmite.mjs';
 export {searingSmite as 'searing-smite'} from './modern/spells/searingSmite.mjs';
+export {spiritualWeapon as 'spiritual-weapon'} from './modern/spells/spiritualWeapon.mjs';
 export {staggeringSmite as 'staggering-smite'} from './modern/spells/staggeringSmite.mjs';
 export {thunderousSmite as 'thunderous-smite'} from './modern/spells/thunderousSmite.mjs';
 export {wrathfulSmite as 'wrathful-smite'} from './modern/spells/wrathfulSmite.mjs';

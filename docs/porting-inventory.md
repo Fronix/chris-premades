@@ -709,7 +709,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Spellfire Flare | spellfireFlare | ⬜ |
 | Spike Growth | spikeGrowth | ⬜ |
 | Spirit Guardians | spiritGuardians | ⬜ |
-| Spiritual Weapon | spiritualWeapon | ⬜ |
+| Spiritual Weapon | spiritualWeapon | ✅ ported |
 | Staggering Smite | staggeringSmite | ✅ ported |
 | Steel Wind Strike | steelWindStrike | ⬜ |
 | Summon Aberration | summonAberration | ⬜ |
