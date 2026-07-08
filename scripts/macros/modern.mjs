@@ -53,6 +53,7 @@ export {elementalFuryPotentSpellcasting as 'elemental-fury-potent-spellcasting'}
 export {landsAid as 'lands-aid'} from './modern/classFeatures/druid/landsAid.mjs';
 export {elementalFuryPrimalStrike as 'elemental-fury-primal-strike'} from './modern/classFeatures/druid/primalStrike.mjs';
 export {moonlightStep as 'moonlight-step'} from './modern/classFeatures/druid/moonlightStep.mjs';
+export {naturesSanctuary as 'natures-sanctuary', naturesSanctuaryTemplate as 'natures-sanctuary-template'} from './modern/classFeatures/druid/naturesSanctuary.mjs';
 export {starryForm as 'starry-form', starryFormActive as 'starry-form-active'} from './modern/classFeatures/druid/starryForm.mjs';
 export {wildCompanion as 'wild-companion'} from './modern/classFeatures/druid/wildCompanion.mjs';
 export {wildResurgence as 'wild-resurgence'} from './modern/classFeatures/druid/wildResurgence.mjs';

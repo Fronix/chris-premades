@@ -124,7 +124,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Land's Aid *(Circle of Land)* | landsAid | ✅ ported |
 | Lunar Form *(Circle of Moon)* | lunarForm | ✅ ported |
 | Moonlight Step *(Circle of Moon)* | moonlightStep | ✅ ported |
-| Nature's Sanctuary *(Circle of Land)* | naturesSanctuary | ⬜ |
+| Nature's Sanctuary *(Circle of Land)* | naturesSanctuary | ✅ ported |
 | Nature's Ward *(Circle of Land)* | — | ✅ converted |
 | Oceanic Gift *(Circle of Sea)* | — | ✅ converted |
 | Starry Form *(Circle of Stars)* | starryForm | ✅ ported |
