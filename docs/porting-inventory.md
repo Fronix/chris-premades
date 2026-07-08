@@ -191,7 +191,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | --- | --- | --- |
 | Beguiling Twist *(Fey Wanderer)* | beguilingTwist | ⬜ |
 | Bestial Fury *(Beast Master)* | bestialFury | ⬜ |
-| Dread Ambusher *(Gloom Stalker)* | dreadAmbusher | ⬜ |
+| Dread Ambusher *(Gloom Stalker)* | dreadAmbusher | ✅ ported |
 | Dreadful Strikes *(Fey Wanderer)* | dreadfulStrikes | ⬜ |
 | Exceptional Training *(Beast Master)* | — | ✅ converted |
 | Favored Enemy | favoredEnemy | ✅ ported |
@@ -203,7 +203,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Precise Hunter | — | ✅ converted |
 | Primal Companion *(Beast Master)* | primalCompanion | ⬜ |
 | Relentless Hunter | relentlessHunter | ✅ ported |
-| Shadowy Dodge *(Gloom Stalker)* | shadowyDodge | ⬜ |
+| Shadowy Dodge *(Gloom Stalker)* | shadowyDodge | ✅ ported |
 | Share Spells *(Beast Master)* | shareSpells | ⬜ |
 | Stalker's Flurry *(Gloom Stalker)* | — | ✅ converted |
 | Tireless | tireless | ✅ ported |

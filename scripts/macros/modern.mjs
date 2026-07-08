@@ -72,6 +72,7 @@ export {auraOfCourage as 'aura-of-courage'} from './modern/classFeatures/paladin
 export {auraOfProtection as 'aura-of-protection'} from './modern/classFeatures/paladin/auraOfProtection.mjs';
 export {layOnHands as 'lay-on-hands'} from './modern/classFeatures/paladin/layOnHands.mjs';
 // Ranger
+export {dreadAmbusher as 'dread-ambusher', shadowyDodge as 'shadowy-dodge', stalkersFlurry as 'stalkers-flurry'} from './modern/classFeatures/ranger/gloomStalker.mjs';
 export {favoredEnemy as 'favored-enemy', foeSlayer as 'foe-slayer', relentlessHunter as 'relentless-hunter', tireless} from './modern/classFeatures/ranger/coreFeatures.mjs';
 // Rogue
 export {elusive} from './modern/classFeatures/rogue/elusive.mjs';

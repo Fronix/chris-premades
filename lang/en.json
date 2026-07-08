@@ -325,6 +325,15 @@
             "MantleOfInspiration": {
                 "Targets": "Select up to {maxTargets} targets:",
                 "Reaction": "Use your reaction to move without provoking opportunity attacks?"
+            },
+            "StalkersFlurry": {
+                "Use": "Use {item}?",
+                "SuddenStrike": "Sudden Strike",
+                "MassFear": "Mass Fear",
+                "IncludeSelf": "Include Self:"
+            },
+            "ShadowyDodge": {
+                "Use": "Use {item} to impose disadvantage on the attack?"
             }
         },
         "Auras": {
@@ -346,7 +355,9 @@
             "No": "No",
             "ConsumeItemToUse": "Out of uses! Consume a use of {item} instead?",
             "ConsumeSpellSlotToUse": "Out of uses! Consume a spell slot (level 3+) instead?",
-            "AutoFail": "Auto Fail"
+            "AutoFail": "Auto Fail",
+            "Target": "Target:",
+            "Select": "Select:"
         },
         "Summons": {
             "CustomName": "Custom Name"
