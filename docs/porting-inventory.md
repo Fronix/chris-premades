@@ -608,7 +608,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Animate Dead | animateDead | ⬜ |
 | Animate Objects | animateObjects | ⬜ |
 | Antilife Shell | antilifeShell | ⬜ |
-| Arcane Vigor | arcaneVigor | ⬜ |
+| Arcane Vigor | arcaneVigor | ✅ ported |
 | Armor of Agathys | armorOfAgathys | ✅ ported |
 | Arms of Hadar | armsOfHadar | ⬜ |
 | Aura of Life | auraOfLife | ⬜ |
@@ -624,7 +624,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Bless | bless | ✅ ported |
 | Blight | blight | ⬜ |
 | Blinding Smite | blindingSmite | ✅ ported |
-| Blindness/Deafness | blindnessDeafness | ⬜ |
+| Blindness/Deafness | blindnessDeafness | ✅ ported |
 | Blink | blink | ⬜ |
 | Blur | blur | ⬜ |
 | Burning Hands | burningHands | ⬜ |
@@ -632,8 +632,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Call Lightning | callLightning | ⬜ |
 | Calm Emotions | calmEmotions | ⬜ |
 | Chain Lightning | chainLightning | ⬜ |
-| Charm Monster | charmMonster | ⬜ |
-| Charm Person | charmPerson | ⬜ |
+| Charm Monster | charmMonster | ✅ ported |
+| Charm Person | charmPerson | ✅ ported |
 | Chill Touch | chillTouch | ⬜ |
 | Chromatic Orb | chromaticOrb | ⬜ |
 | Circle of Death | — | ✅ converted |

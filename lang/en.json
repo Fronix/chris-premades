@@ -389,6 +389,9 @@
             },
             "MistyWanderer": {
                 "TeleportFriend": "Bring a willing creature along?"
+            },
+            "ArcaneVigor": {
+                "Choose": "Spend which hit dice?"
             }
         },
         "Auras": {
@@ -414,7 +417,9 @@
             "Target": "Target:",
             "Select": "Select:",
             "Used": "Used",
-            "Disabled": "Disabled"
+            "Disabled": "Disabled",
+            "Advantage": "Advantage",
+            "Immune": "Immune"
         },
         "Summons": {
             "CustomName": "Custom Name",
