@@ -1,274 +1,274 @@
 {
- "name": "Reckless Attack",
- "type": "feat",
- "effects": [
-  {
-   "name": "Reckless Attack",
-   "img": "icons/skills/melee/strike-axe-blood-red.webp",
-   "origin": null,
-   "transfer": false,
-   "_id": "UEUkyjdLp0wXs9kF",
-   "type": "base",
-   "system": {
-    "changes": [
-     {
-      "key": "flags.midi-qol.advantage.attack.str",
-      "type": "custom",
-      "value": true,
-      "phase": "initial",
-      "priority": null
-     },
-     {
-      "key": "flags.midi-qol.grants.advantage.attack.all",
-      "type": "custom",
-      "value": true,
-      "phase": "initial",
-      "priority": null
-     }
-    ]
-   },
-   "disabled": false,
-   "start": null,
-   "duration": {
-    "value": 1,
-    "units": "rounds",
-    "expiry": "turnStart",
-    "expired": false
-   },
-   "description": "",
-   "tint": "#ffffff",
-   "statuses": [],
-   "showIcon": 1,
-   "folder": null,
-   "sort": 0,
-   "flags": {
-    "dnd5e": {
-     "riders": {
-      "statuses": []
-     }
-    },
-    "dae": {
-     "enableCondition": "",
-     "disableCondition": "",
-     "stackable": "multi",
-     "expiryMode": "default",
-     "durationExpression": "",
-     "macroRepeat": "none",
-     "disableIncapacitated": false,
-     "selfTarget": false,
-     "selfTargetAlways": false,
-     "dontApply": false,
-     "specialDuration": []
-    },
-    "core": {
-     "overlay": false
-    },
-    "cat": {
-     "identifier": "reckless-attack"
-    }
-   },
-   "_key": "!items.effects!kKSsEJDU6ipWeXqU.UEUkyjdLp0wXs9kF"
-  }
- ],
- "system": {
-  "activities": {
-   "iCsYIaXPehXdBj3i": {
-    "type": "utility",
-    "_id": "iCsYIaXPehXdBj3i",
-    "img": "",
-    "sort": 0,
-    "activation": {
-     "type": "special",
-     "override": false,
-     "condition": ""
-    },
-    "consumption": {
-     "scaling": {
-      "allowed": false
-     },
-     "spellSlot": true,
-     "targets": []
-    },
-    "description": {
-     "chatFlavor": ""
-    },
-    "duration": {
-     "units": "round",
-     "concentration": false,
-     "override": false,
-     "value": "1"
-    },
-    "effects": [
-     {
+  "name": "Reckless Attack",
+  "type": "feat",
+  "effects": [
+    {
+      "name": "Reckless Attack",
+      "img": "icons/skills/melee/strike-axe-blood-red.webp",
+      "origin": null,
+      "transfer": false,
       "_id": "UEUkyjdLp0wXs9kF",
-      "level": {
-       "min": null,
-       "max": null
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "flags.midi-qol.advantage.attack.str",
+            "type": "custom",
+            "value": true,
+            "phase": "initial",
+            "priority": null
+          },
+          {
+            "key": "flags.midi-qol.grants.advantage.attack.all",
+            "type": "custom",
+            "value": true,
+            "phase": "initial",
+            "priority": null
+          }
+        ]
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": 1,
+        "units": "rounds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "multi",
+          "expiryMode": "default",
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "cat": {
+          "identifier": "reckless-attack-effect"
+        }
+      },
+      "_key": "!items.effects!kKSsEJDU6ipWeXqU.UEUkyjdLp0wXs9kF"
+    }
+  ],
+  "system": {
+    "activities": {
+      "iCsYIaXPehXdBj3i": {
+        "type": "utility",
+        "_id": "iCsYIaXPehXdBj3i",
+        "img": "",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "round",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "UEUkyjdLp0wXs9kF",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "flags": {},
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "stationary": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false,
+          "idm": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "triggeredActivityConsume": true,
+          "triggeredActivityConfigure": true,
+          "autoConsume": false,
+          "forceConsumeDialog": "default",
+          "forceRollDialog": "default",
+          "forceDamageDialog": "default",
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": false,
+          "otherActivityAsParentType": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false,
+          "removeChatButtons": "default",
+          "magicEffect": false,
+          "magicDamage": false,
+          "noConcentrationCheck": false,
+          "skipConcentrationCheck": false,
+          "autoCEEffects": "default"
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "rollAs": "target",
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "regionBehavior": {
+          "enabled": false,
+          "dispositionFilter": -1,
+          "excludeSource": true,
+          "oncePerTurn": true,
+          "wallRestriction": "none",
+          "regionVisibility": 2,
+          "attachToken": "default",
+          "rules": []
+        },
+        "regionLight": {
+          "enabled": false,
+          "dim": 0,
+          "bright": 0,
+          "color": null,
+          "alpha": 0.5,
+          "luminosity": 0.5,
+          "animationType": "",
+          "animationSpeed": 5,
+          "animationIntensity": 5
+        },
+        "otherActivityId": "none",
+        "otherActivityAsParentType": true,
+        "name": "Reckless Attack"
       }
-     }
-    ],
-    "flags": {},
-    "range": {
-     "units": "self",
-     "override": false,
-     "special": ""
-    },
-    "target": {
-     "template": {
-      "contiguous": false,
-      "stationary": false,
-      "units": "ft",
-      "type": ""
-     },
-     "affects": {
-      "choice": false,
-      "type": "self",
-      "special": ""
-     },
-     "override": false,
-     "prompt": true
     },
     "uses": {
-     "spent": 0,
-     "recovery": [],
-     "max": ""
+      "spent": 0,
+      "recovery": [],
+      "max": ""
     },
-    "visibility": {
-     "level": {
-      "min": null,
-      "max": null
-     },
-     "requireAttunement": false,
-     "requireIdentification": false,
-     "requireMagic": false,
-     "identifier": ""
+    "advancement": {},
+    "description": {
+      "value": ""
     },
-    "roll": {
-     "prompt": false,
-     "visible": false,
-     "name": "",
-     "formula": ""
+    "identifier": "reckless-attack",
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "custom": "",
+      "rules": "2024",
+      "revision": 1
     },
-    "useConditionText": "",
-    "useConditionReason": "",
-    "effectConditionText": "",
-    "macroData": {
-     "name": "",
-     "command": ""
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "level": 2,
+      "repeatable": false
     },
-    "ignoreTraits": {
-     "idi": false,
-     "idr": false,
-     "idv": false,
-     "ida": false,
-     "idm": false
-    },
-    "midiProperties": {
-     "ignoreTraits": [],
-     "triggeredActivityId": "none",
-     "triggeredActivityConditionText": "",
-     "triggeredActivityTargets": "targets",
-     "triggeredActivityRollAs": "self",
-     "triggeredActivityConsume": true,
-     "triggeredActivityConfigure": true,
-     "autoConsume": false,
-     "forceConsumeDialog": "default",
-     "forceRollDialog": "default",
-     "forceDamageDialog": "default",
-     "confirmTargets": "default",
-     "autoTargetType": "any",
-     "autoTargetAction": "default",
-     "automationOnly": false,
-     "otherActivityCompatible": false,
-     "otherActivityAsParentType": true,
-     "identifier": "",
-     "displayActivityName": false,
-     "rollMode": "default",
-     "chooseEffects": false,
-     "toggleEffect": false,
-     "ignoreFullCover": false,
-     "removeChatButtons": "default",
-     "magicEffect": false,
-     "magicDamage": false,
-     "noConcentrationCheck": false,
-     "skipConcentrationCheck": false,
-     "autoCEEffects": "default"
-    },
-    "isOverTimeFlag": false,
-    "overTimeProperties": {
-     "saveRemoves": true,
-     "rollAs": "target",
-     "preRemoveConditionText": "",
-     "postRemoveConditionText": ""
-    },
-    "regionBehavior": {
-     "enabled": false,
-     "dispositionFilter": -1,
-     "excludeSource": true,
-     "oncePerTurn": true,
-     "wallRestriction": "none",
-     "regionVisibility": 2,
-     "attachToken": "default",
-     "rules": []
-    },
-    "regionLight": {
-     "enabled": false,
-     "dim": 0,
-     "bright": 0,
-     "color": null,
-     "alpha": 0.5,
-     "luminosity": 0.5,
-     "animationType": "",
-     "animationSpeed": 5,
-     "animationIntensity": 5
-    },
-    "otherActivityId": "none",
-    "otherActivityAsParentType": true,
-    "name": "Reckless Attack"
-   }
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
   },
-  "uses": {
-   "spent": 0,
-   "recovery": [],
-   "max": ""
+  "flags": {
+    "dnd5e": {},
+    "cat": {
+      "automation": {
+        "version": "2.0.0"
+      }
+    }
   },
-  "advancement": {},
-  "description": {
-   "value": ""
-  },
-  "identifier": "reckless-attack",
-  "source": {
-   "book": "",
-   "page": "",
-   "license": "",
-   "custom": "",
-   "rules": "2024",
-   "revision": 1
-  },
-  "crewed": false,
-  "enchant": {},
-  "prerequisites": {
-   "items": [],
-   "level": 2,
-   "repeatable": false
-  },
-  "properties": [],
-  "requirements": "",
-  "type": {
-   "value": "class",
-   "subtype": ""
-  }
- },
- "flags": {
-  "dnd5e": {},
-  "cat": {
-   "automation": {
-    "version": "2.0.0"
-   }
-  }
- },
- "img": "icons/skills/melee/strike-axe-blood-red.webp",
- "folder": "4PGqzrAwrWeQeINX",
- "_id": "kKSsEJDU6ipWeXqU",
- "_key": "!items!kKSsEJDU6ipWeXqU"
+  "img": "icons/skills/melee/strike-axe-blood-red.webp",
+  "folder": "4PGqzrAwrWeQeINX",
+  "_id": "kKSsEJDU6ipWeXqU",
+  "_key": "!items!kKSsEJDU6ipWeXqU"
 }
