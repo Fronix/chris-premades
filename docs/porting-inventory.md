@@ -1129,21 +1129,21 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Beguile | — | ✅ converted |
 | Bite | grappleAttackAdvantage | ✅ ported |
 | Bite | — | ✅ converted |
-| Bite (Bat or Vampire Form Only) | lifesteal, vampireBite | ⬜ |
+| Bite (Bat or Vampire Form Only) | lifesteal, vampireBite | ✅ ported |
 | Burst of Ingenuity | burstOfIngenuity | ⬜ |
 | Charm | — | ✅ converted |
-| Claw | autoProne | ⬜ |
-| Claw | ghoulClaw | ⬜ |
+| Claw | autoProne | ✅ ported |
+| Claw | ghoulClaw | ✅ ported |
 | Eldritch Overload | autoProne | ⬜ |
 | Grave Strike (Vampire Form Only) | escape | ⬜ |
 | Knock Down | autoProne | ⬜ |
-| Misty Escape | vampireMistyEscape | ⬜ |
+| Misty Escape | vampireMistyEscape | ✅ ported |
 | Nightmare Haunting | nightmareHaunting | ⬜ |
 | Nimble Escape | goblinWarriorNimbleEscape, hideEffect | ⬜ |
 | Nimble Escape | goblinWarriorNimbleEscape, hideEffect | ⬜ |
 | Paralyzing Tentacles | — | ✅ converted |
 | Pseudopod | escape, mimicPseudopod | ⬜ |
-| Redirect Attack | goblinBossRedirectAttack | ⬜ |
+| Redirect Attack | goblinBossRedirectAttack | ✅ ported |
 | Scimitar | advantageDamageBonus | ⬜ |
 | Scimitar | advantageDamageBonus | ⬜ |
 | Searing Swipe | — | ✅ converted |

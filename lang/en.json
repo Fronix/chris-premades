@@ -465,6 +465,9 @@
             },
             "SupremeSneak": {
                 "TurnEnd": "Did you end your turn behind cover (staying hidden)?"
+            },
+            "VampireBite": {
+                "Invalid": "The target must be willing, grappled, incapacitated or restrained!"
             }
         },
         "Auras": {

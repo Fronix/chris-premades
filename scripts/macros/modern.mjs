@@ -67,6 +67,8 @@ export {studiedAttacks as 'studied-attacks'} from './modern/classFeatures/fighte
 export {tacticalMind as 'tactical-mind'} from './modern/classFeatures/fighter/tacticalMind.mjs';
 // Items
 export {healersKit as 'healers-kit'} from './modern/items/healersKit.mjs';
+// Monster Features
+export {ghoulClaw as 'ghoul-claw', goblinBossRedirectAttack as 'goblin-boss-redirect-attack', vampireBite as 'vampire-bite', vampireMistyEscape as 'vampire-misty-escape'} from './modern/monsterFeatures/monsterBatch1.mjs';
 // Monk
 export {heightenedFocus as 'heightened-focus', perfectFocus as 'perfect-focus', disciplinedSurvivor as 'disciplined-survivor', superiorDefense as 'superior-defense'} from './modern/classFeatures/monk/focusFeatures.mjs';
 export {deflectAttacks as 'deflect-attacks'} from './modern/classFeatures/monk/deflectAttacks.mjs';
