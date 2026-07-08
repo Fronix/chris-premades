@@ -129,6 +129,17 @@ Guardians (approximated own-move sweep as end-position proximity; JB2A pickers
 dropped for now). Still deferred: War God's Blessing, Invoke Duplicity,
 Improved Duplicity, Trickster's Transposition.
 
+## Milestone 5 — Monk (2024) — core complete
+
+Ported: Monk's Focus (Flurry chains + Patient Defense heal via Heightened Focus),
+Martial Arts (die upgrade + best-ability swap, grapple/shove DC), Stunning Strike,
+Deflect Attacks (reduce + redirect), Empowered Strikes, Self-Restoration, Slow Fall,
+Disciplined Survivor, Perfect Focus, Superior Defense, Uncanny Metabolism,
+Unarmored Defense (Monk), Unarmored Movement, Heightened Focus (config).
+Data-only: Deflect Energy, Stride of the Elements. Deferred: Warrior of the
+Elements subclass (Elemental Attunement/Burst/Epitome — 571 lines, subclass sweep),
+Step of the Wind animation flow (native activities work; animation pass later).
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
@@ -141,9 +152,9 @@ staple spells, committed and releasable on its own):
 
 1. ~~Paladin~~ ✅
 2. ~~Fighter~~ ✅
-3. **Cleric** ← current slice
-4. Monk
-5. Druid
+3. ~~Cleric~~ ✅ (core)
+4. ~~Monk~~ ✅ (core)
+5. **Druid** ← current slice
 6. Wizard
 7. Sorcerer
 8. Warlock
