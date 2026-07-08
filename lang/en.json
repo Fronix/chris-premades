@@ -530,6 +530,14 @@
             },
             "ForestGuard": {
                 "NoShrub": "No shrub is within 10 feet of the target!"
+            },
+            "GreenFlameBlade": {
+                "NoWeapons": "No equipped melee weapons found!",
+                "SelectWeapon": "Attack with which weapon?",
+                "Leap": "Leap flames to which nearby creature?"
+            },
+            "BoomingBlade": {
+                "WillingMove": "Did {actorName} move willingly?"
             }
         },
         "Auras": {

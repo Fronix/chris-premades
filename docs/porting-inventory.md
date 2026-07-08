@@ -759,7 +759,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Blight | blight | ✅ ported |
 | Blinding Smite | blindingSmite | ✅ ported |
 | Blink | blink | ✅ ported |
-| Booming Blade | boomingBlade | ⬜ |
+| Booming Blade | boomingBlade | ✅ ported |
 | Borrowed Knowledge | borrowedKnowledge | ⬜ |
 | Branding Smite | brandingSmite | ⬜ |
 | Burning Hands | burningHands | ⬜ |
@@ -811,7 +811,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Gaseous Form | gaseousForm | ⬜ |
 | Globe of Invulnerability | globeOfInvulnerability | ⬜ |
 | Grease | grease | ⬜ |
-| Green-Flame Blade | greenFlameBlade | ⬜ |
+| Green-Flame Blade | greenFlameBlade | ✅ ported |
 | Guardian of Faith | guardianOfFaith | ✅ ported |
 | Guardian of Nature | guardianOfNature | ⬜ |
 | Guiding Bolt | — | ✅ converted |
