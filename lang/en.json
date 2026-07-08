@@ -318,6 +318,9 @@
                 "DamageRollsEnabled": "Enable for Damage Rolls:",
                 "AttackRollsEnabled": "Enable for Attack Rolls:",
                 "AbilityChecksEnabled": "Enable for Ability Checks:"
+            },
+            "PeerlessSkill": {
+                "Confirm": "Did the roll succeed? (Consumes the Bardic Inspiration use)"
             }
         },
         "Auras": {

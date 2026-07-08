@@ -74,7 +74,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Leading Evasion *(College of Dance)* | leadingEvasion | ✅ ported |
 | Mantle of Inspiration *(College of Glamour)* | mantleOfInspiration | ⬜ |
 | Mantle of Majesty *(College of Glamour)* | mantleOfMajesty | ⬜ |
-| Peerless Skill *(College of Lore)* | peerlessSkill | ⬜ |
+| Peerless Skill *(College of Lore)* | peerlessSkill | ✅ ported |
 | Superior Inspiration | superiorInspiration | ✅ ported |
 | Tandem Footwork *(College of Dance)* | tandemFootwork | ⬜ |
 | Unbreakable Majesty *(College of Glamour)* | unbreakableMajesty | ⬜ |
