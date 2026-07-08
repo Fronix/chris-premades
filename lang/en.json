@@ -444,6 +444,12 @@
             "AnimateDead": {
                 "ZombieName": "Zombie Actor Name:",
                 "SkeletonName": "Skeleton Actor Name:"
+            },
+            "Interception": {
+                "Damage": "Use {item} to reduce the damage {name} takes?"
+            },
+            "Grappler": {
+                "Grapple": "Attempt to grapple {tokenName}?"
             }
         },
         "Auras": {

@@ -911,11 +911,11 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Elemental Adept (Fire) | elementalAdeptF | ⬜ |
 | Elemental Adept (Lightning) | elementalAdeptL | ⬜ |
 | Elemental Adept (Thunder) | elementalAdeptT | ⬜ |
-| Grappler | grappler | ⬜ |
+| Grappler | grappler | ✅ ported |
 | Great Weapon Fighting | greatWeaponFighting | ✅ ported |
 | Healer | healer | ⬜ |
 | Heavy Armor Master | — | ✅ converted |
-| Interception | interception | ⬜ |
+| Interception | interception | ✅ ported |
 | Piercer | piercer | ⬜ |
 | Protection | protection | ⬜ |
 | Purple Dragon Rook | purpleDragonRook | ⬜ |
