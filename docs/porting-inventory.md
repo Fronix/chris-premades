@@ -602,7 +602,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | --- | --- | --- |
 | Acid Splash | — | ✅ converted |
 | Aid | aid | ✅ ported |
-| Alter Self | alterSelf | ⬜ |
+| Alter Self | alterSelf | ✅ ported |
 | Animal Friendship | animalFriendship | ✅ ported |
 | Animal Messenger | animalMessenger | ✅ ported |
 | Animate Dead | animateDead | ⬜ |

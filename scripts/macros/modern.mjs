@@ -118,6 +118,7 @@ export {banishingSmite as 'banishing-smite'} from './modern/spells/banishingSmit
 export {beaconOfHope as 'beacon-of-hope', beaconOfHopeHopeful as 'beacon-of-hope-hopeful'} from './modern/spells/beaconOfHope.mjs';
 export {deathWard as 'death-ward', deathWardWarded as 'death-ward-warded'} from './modern/spells/deathWard.mjs';
 export {guardianOfFaith as 'guardian-of-faith', guardianOfFaithDamage as 'guardian-of-faith-damage'} from './modern/spells/guardianOfFaith.mjs';
+export {alterSelf as 'alter-self'} from './modern/spells/alterSelf.mjs';
 export {animalFriendship as 'animal-friendship', animalMessenger as 'animal-messenger', armsOfHadar as 'arms-of-hadar'} from './modern/spells/spellBatch4.mjs';
 export {armorOfAgathys as 'armor-of-agathys', armorOfAgathysArmor as 'armor-of-agathys-armor'} from './modern/spells/armorOfAgathys.mjs';
 export {auraOfLife as 'aura-of-life', auraOfLifeAura as 'aura-of-life-aura', auraOfPurity as 'aura-of-purity', auraOfPurityAura as 'aura-of-purity-aura'} from './modern/spells/auraSpells.mjs';

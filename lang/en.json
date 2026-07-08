@@ -454,6 +454,14 @@
             "Topple": {
                 "Name": "Topple"
             }
+        },
+        "AlterSelf": {
+            "NaturalWeapons": {
+                "Select": "Which natural weapons?",
+                "Claws": "Claws (Slashing)",
+                "Fangs": "Fangs (Piercing)",
+                "Hooves": "Hooves (Bludgeoning)"
+            }
         }
     }
 }
