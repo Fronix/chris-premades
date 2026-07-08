@@ -11,7 +11,9 @@ export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbar
 // Bard
 export {bardicInspiration as 'bardic-inspiration', bardicInspirationEffect as 'bardic-inspiration-effect'} from './modern/classFeatures/bard/bardicInspiration.mjs';
 export {combatInspiration as 'combat-inspiration', dazzlingFootwork as 'dazzling-footwork', leadingEvasion as 'leading-evasion'} from './modern/classFeatures/bard/danceFeatures.mjs';
+export {beguilingMagic as 'beguiling-magic', mantleOfInspiration as 'mantle-of-inspiration'} from './modern/classFeatures/bard/glamourFeatures.mjs';
 export {countercharm} from './modern/classFeatures/bard/countercharm.mjs';
+export {mantleOfMajesty as 'mantle-of-majesty', mantleOfMajestyCommand as 'mantle-of-majesty-command', unbreakableMajesty as 'unbreakable-majesty', unbreakableMajestyEffect as 'unbreakable-majesty-effect'} from './modern/classFeatures/bard/majestyFeatures.mjs';
 export {inspiringMovement as 'inspiring-movement', tandemFootwork as 'tandem-footwork'} from './modern/classFeatures/bard/danceReactions.mjs';
 export {cuttingWords as 'cutting-words'} from './modern/classFeatures/bard/cuttingWords.mjs';
 export {peerlessSkill as 'peerless-skill'} from './modern/classFeatures/bard/peerlessSkill.mjs';

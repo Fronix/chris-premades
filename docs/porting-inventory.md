@@ -63,7 +63,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
 | Bardic Inspiration | bardicInspiration, bardicInspirationEffect | ✅ ported |
-| Beguiling Magic *(College of Glamour)* | beguilingMagic | ⬜ |
+| Beguiling Magic *(College of Glamour)* | beguilingMagic | ✅ ported |
 | Combat Inspiration *(College of Valor)* | — | ✅ converted |
 | Countercharm | countercharm | ✅ ported |
 | Cutting Words *(College of Lore)* | cuttingWords | ✅ ported |
@@ -72,12 +72,12 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Inspiring Movement *(College of Dance)* | inspiringMovement | ✅ ported |
 | Jack of All Trades | — | ✅ converted |
 | Leading Evasion *(College of Dance)* | leadingEvasion | ✅ ported |
-| Mantle of Inspiration *(College of Glamour)* | mantleOfInspiration | ⬜ |
-| Mantle of Majesty *(College of Glamour)* | mantleOfMajesty | ⬜ |
+| Mantle of Inspiration *(College of Glamour)* | mantleOfInspiration | ✅ ported |
+| Mantle of Majesty *(College of Glamour)* | mantleOfMajesty | ✅ ported |
 | Peerless Skill *(College of Lore)* | peerlessSkill | ✅ ported |
 | Superior Inspiration | superiorInspiration | ✅ ported |
 | Tandem Footwork *(College of Dance)* | tandemFootwork | ✅ ported |
-| Unbreakable Majesty *(College of Glamour)* | unbreakableMajesty | ⬜ |
+| Unbreakable Majesty *(College of Glamour)* | unbreakableMajesty | ✅ ported |
 
 ### Cleric
 

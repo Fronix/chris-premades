@@ -178,6 +178,16 @@ exported for the Summon Aberration spell port), Magical Cunning and One with
 Shadows metadata. Data-only: Devil's Sight, Fiendish Vigor, Eldritch Hex,
 Sorcery-free invocations.
 
+## Milestone 10 — Bard (2024) — complete
+
+Ported: Bardic Inspiration (+effect prompts on failed rolls/missed attacks,
+Combat Inspiration merge, Dazzling Footwork chain), Font of Inspiration,
+Superior Inspiration, Jack of All Trades, Words of Creation (no v13 pack item —
+medkit-only), Countercharm (self + ally reroll reactions), Cutting Words,
+Peerless Skill, Dazzling Footwork, Leading Evasion, Inspiring Movement, Tandem
+Footwork, Beguiling Magic, Mantle of Inspiration, Mantle of Majesty (+Command
+grant), Unbreakable Majesty (attacker save-or-abort).
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
@@ -196,8 +206,8 @@ staple spells, committed and releasable on its own):
 6. ~~Wizard~~ ✅
 7. ~~Sorcerer~~ (no 2024 content; legacy metamagic started)
 8. ~~Warlock~~ ✅
-9. **Bard** ← current slice
-10. Ranger
+9. ~~Bard~~ ✅
+10. **Ranger** ← current slice
 11. Barbarian + Rogue subclass completion
 12. Artificer / 3rd-party
 13. Remaining categories: spell long tail, feats, species features, actions,

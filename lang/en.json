@@ -321,6 +321,10 @@
             },
             "PeerlessSkill": {
                 "Confirm": "Did the roll succeed? (Consumes the Bardic Inspiration use)"
+            },
+            "MantleOfInspiration": {
+                "Targets": "Select up to {maxTargets} targets:",
+                "Reaction": "Use your reaction to move without provoking opportunity attacks?"
             }
         },
         "Auras": {
@@ -339,7 +343,10 @@
             "SelectDamageType": "Select a Damage Type:",
             "SelectRemoveCondition": "Select a condition to remove:",
             "PromptForTargets": "Prompt for Targets:",
-            "No": "No"
+            "No": "No",
+            "ConsumeItemToUse": "Out of uses! Consume a use of {item} instead?",
+            "ConsumeSpellSlotToUse": "Out of uses! Consume a spell slot (level 3+) instead?",
+            "AutoFail": "Auto Fail"
         },
         "Summons": {
             "CustomName": "Custom Name"
