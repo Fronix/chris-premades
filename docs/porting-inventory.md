@@ -925,7 +925,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Speedy | — | ✅ converted |
 | Spellfire Spark | — | ✅ converted |
 | Tavern Brawler: Constitution Score | tavernBrawler | ⬜ |
-| Tavern Brawler: Strength Score | tavernBrawler | ⬜ |
+| Tavern Brawler: Strength Score | tavernBrawler | ✅ ported |
 | Telekinetic: Shove | telekineticShove | ⬜ |
 | Thrown Weapon Fighting | thrownWeaponFighting | ✅ ported |
 | Unarmed Fighting | unarmedFighting | ⬜ |
