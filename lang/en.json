@@ -383,6 +383,12 @@
             "HuntersMark": {
                 "Marked": "Marked",
                 "Select": "Move the mark from which target?"
+            },
+            "EldritchBlast": {
+                "Target": "Distribute the beams among your targets:"
+            },
+            "MistyWanderer": {
+                "TeleportFriend": "Bring a willing creature along?"
             }
         },
         "Auras": {

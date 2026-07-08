@@ -657,7 +657,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Divine Smite | divineSmite | ✅ ported |
 | Dragon's Breath | dragonsBreath | ⬜ |
 | Dream | — | ✅ converted |
-| Eldritch Blast | eldritchBlast | ⬜ |
+| Eldritch Blast | eldritchBlast | ✅ ported |
 | Elemental Weapon | elementalWeapon | ⬜ |
 | Enlarge/Reduce | enlargeReduce | ⬜ |
 | Faerie Fire | faerieFire | ⬜ |
@@ -691,7 +691,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Melf's Acid Arrow | acidArrow | ⬜ |
 | Mind Sliver | — | ✅ converted |
 | Mirror Image | mirrorImage | ⬜ |
-| Misty Step | mistyStep | ⬜ |
+| Misty Step | mistyStep | ✅ ported |
 | Moonbeam | moonbeam | ⬜ |
 | Pass without Trace | passWithoutTrace | ⬜ |
 | Power Word Heal | powerWordHeal | ⬜ |

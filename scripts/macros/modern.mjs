@@ -118,7 +118,9 @@ export {banishingSmite as 'banishing-smite'} from './modern/spells/banishingSmit
 export {beaconOfHope as 'beacon-of-hope', beaconOfHopeHopeful as 'beacon-of-hope-hopeful'} from './modern/spells/beaconOfHope.mjs';
 export {deathWard as 'death-ward', deathWardWarded as 'death-ward-warded'} from './modern/spells/deathWard.mjs';
 export {guardianOfFaith as 'guardian-of-faith', guardianOfFaithDamage as 'guardian-of-faith-damage'} from './modern/spells/guardianOfFaith.mjs';
+export {eldritchBlast as 'eldritch-blast'} from './modern/spells/eldritchBlast.mjs';
 export {hex, hexAttack as 'hex-attack'} from './modern/spells/hex.mjs';
+export {mistyStep as 'misty-step', shield} from './modern/spells/mistyStep.mjs';
 export {huntersMark as 'hunters-mark', huntersMarkSource as 'hunters-mark-source'} from './modern/spells/huntersMark.mjs';
 export {guidance} from './modern/spells/guidance.mjs';
 export {tollTheDead as 'toll-the-dead'} from './modern/spells/tollTheDead.mjs';
