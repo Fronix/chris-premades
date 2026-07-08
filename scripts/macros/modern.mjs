@@ -37,6 +37,8 @@ export {empoweredStrikes as 'empowered-strikes'} from './modern/classFeatures/mo
 export {selfRestoration as 'self-restoration'} from './modern/classFeatures/monk/selfRestoration.mjs';
 export {slowFall as 'slow-fall'} from './modern/classFeatures/monk/slowFall.mjs';
 export {stunningStrike as 'stunning-strike'} from './modern/classFeatures/monk/stunningStrike.mjs';
+export {unarmoredDefenseMonk as 'unarmored-defense-monk'} from './modern/classFeatures/monk/unarmoredDefense.mjs';
+export {uncannyMetabolism as 'uncanny-metabolism'} from './modern/classFeatures/monk/uncannyMetabolism.mjs';
 // Paladin
 export {auraOfCourage as 'aura-of-courage'} from './modern/classFeatures/paladin/auraOfCourage.mjs';
 export {auraOfProtection as 'aura-of-protection'} from './modern/classFeatures/paladin/auraOfProtection.mjs';

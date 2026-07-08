@@ -166,9 +166,9 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Stride of the Elements *(Warrior of the Elements)* | — | ✅ converted |
 | Stunning Strike | stunningStrike | ✅ ported |
 | Superior Defense | superiorDefense | ✅ ported |
-| Unarmored Defense (Monk) | unarmoredDefenseMonk | ⬜ |
+| Unarmored Defense (Monk) | unarmoredDefenseMonk | ✅ ported |
 | Unarmored Movement | unarmoredMovement | ⬜ |
-| Uncanny Metabolism | uncannyMetabolism | ⬜ |
+| Uncanny Metabolism | uncannyMetabolism | ✅ ported |
 
 ### Multiple
 
