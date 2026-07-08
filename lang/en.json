@@ -477,6 +477,9 @@
             },
             "Piercer": {
                 "Reroll": "Reroll the lowest damage die ({value})?"
+            },
+            "BeguilingTwist": {
+                "Select": "Charm or frighten the target?"
             }
         },
         "Auras": {

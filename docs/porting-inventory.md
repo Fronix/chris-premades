@@ -189,7 +189,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Beguiling Twist *(Fey Wanderer)* | beguilingTwist | ⬜ |
+| Beguiling Twist *(Fey Wanderer)* | beguilingTwist | ✅ ported |
 | Bestial Fury *(Beast Master)* | bestialFury | ⬜ |
 | Dread Ambusher *(Gloom Stalker)* | dreadAmbusher | ✅ ported |
 | Dreadful Strikes *(Fey Wanderer)* | dreadfulStrikes | ✅ ported |
