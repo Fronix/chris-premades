@@ -234,6 +234,13 @@
             },
             "MoonlightStep": {
                 "TeleportFriend": "Teleport a willing ally?"
+            },
+            "CircleOfTheLandSpells": {
+                "Arid": "Arid Land",
+                "ChooseLand": "Which Land?",
+                "Polar": "Polar Land",
+                "Temperate": "Temperate Land",
+                "Tropical": "Tropical Land"
             }
         },
         "Auras": {

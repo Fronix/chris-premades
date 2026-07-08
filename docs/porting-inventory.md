@@ -115,7 +115,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Archdruid | archdruid | ✅ ported |
 | Beast Spells | — | ✅ converted |
 | Circle Forms *(Circle of Moon)* | circleForms | ✅ ported |
-| Circle of the Land Spells *(Circle of Land)* | circleOfTheLandSpells | ⬜ |
+| Circle of the Land Spells *(Circle of Land)* | circleOfTheLandSpells | ✅ ported |
 | Cosmic Omen *(Circle of Stars)* | cosmicOmen | ⬜ |
 | Elemental Fury: Potent Spellcasting | elementalFuryPotentSpellcasting | ✅ ported |
 | Elemental Fury: Primal Strike | elementalFuryPrimalStrike | ✅ ported |
