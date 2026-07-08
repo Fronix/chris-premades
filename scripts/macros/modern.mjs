@@ -39,6 +39,7 @@ export {discipleOfLife as 'disciple-of-life'} from './modern/classFeatures/cleri
 export {divineIntervention as 'divine-intervention'} from './modern/classFeatures/cleric/divineIntervention.mjs';
 export {guidedStrike as 'guided-strike'} from './modern/classFeatures/cleric/guidedStrike.mjs';
 export {preserveLife as 'preserve-life'} from './modern/classFeatures/cleric/preserveLife.mjs';
+export {warGodsBlessing as 'war-gods-blessing', thaumaturge, searUndead as 'sear-undead', avatarOfBattle as 'avatar-of-battle'} from './modern/classFeatures/cleric/warGodsBlessing.mjs';
 export {warPriest as 'war-priest'} from './modern/classFeatures/cleric/warPriest.mjs';
 export {divineStrike as 'blessed-strikes-divine-strike'} from './modern/classFeatures/cleric/divineStrike.mjs';
 export {greaterDivineIntervention as 'greater-divine-intervention', greaterDivineInterventionRest as 'greater-divine-intervention-rest'} from './modern/classFeatures/cleric/greaterDivineIntervention.mjs';

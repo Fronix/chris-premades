@@ -103,7 +103,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Radiance of the Dawn *(Light Domain)* | radianceOfTheDawn | ✅ ported |
 | Sear Undead | — | ✅ converted |
 | Trickster's Transposition *(Trickery Domain)* | trickstersTransposition | ⬜ |
-| War God's Blessing *(War Domain)* | warGodsBlessing | ⬜ |
+| War God's Blessing *(War Domain)* | warGodsBlessing | ✅ ported |
 | War Priest *(War Domain)* | warPriest | ✅ ported |
 | Warding Flare *(Light Domain)* | wardingFlare | ✅ ported |
 

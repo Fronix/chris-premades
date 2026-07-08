@@ -545,7 +545,8 @@
             "Advantage": "Advantage",
             "Immune": "Immune",
             "SelectTargetEffect": "Which effect?",
-            "Distance": "Distance:"
+            "Distance": "Distance:",
+            "ChooseASpell": "Choose a spell:"
         },
         "Summons": {
             "CustomName": "Custom Name",

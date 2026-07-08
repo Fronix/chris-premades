@@ -164,7 +164,8 @@
     "cat": {
       "automation": {
         "version": "2.0.0"
-      }
+      },
+      "macros": {}
     }
   },
   "img": "icons/magic/fire/flame-burning-skeleton-explosion.webp",
