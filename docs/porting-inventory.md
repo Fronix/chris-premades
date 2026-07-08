@@ -207,7 +207,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Share Spells *(Beast Master)* | shareSpells | ✅ ported |
 | Stalker's Flurry *(Gloom Stalker)* | — | ✅ converted |
 | Tireless | tireless | ✅ ported |
-| Umbral Sight *(Gloom Stalker)* | umbralSight | ⬜ |
+| Umbral Sight *(Gloom Stalker)* | umbralSight | ✅ ported |
 
 ### Rogue
 

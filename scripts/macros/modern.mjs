@@ -91,6 +91,7 @@ export {dreadAmbusher as 'dread-ambusher', shadowyDodge as 'shadowy-dodge', stal
 export {exceptionalTraining as 'exceptional-training', naturesVeil as 'natures-veil', otherworldlyGlamour as 'otherworldly-glamour', preciseHunter as 'precise-hunter', shareSpells as 'share-spells'} from './modern/classFeatures/ranger/miscFeatures.mjs';
 export {favoredEnemy as 'favored-enemy', foeSlayer as 'foe-slayer', relentlessHunter as 'relentless-hunter', tireless} from './modern/classFeatures/ranger/coreFeatures.mjs';
 export {primalCompanion as 'primal-companion', primalCompanionStrike as 'primal-companion-strike'} from './modern/classFeatures/ranger/primalCompanion.mjs';
+export {umbralSight as 'umbral-sight'} from './modern/classFeatures/ranger/umbralSight.mjs';
 // Rogue
 export {cunningAction as 'cunning-action'} from './modern/classFeatures/rogue/cunningAction.mjs';
 export {cunningStrike as 'cunning-strike'} from './modern/classFeatures/rogue/cunningStrike.mjs';
