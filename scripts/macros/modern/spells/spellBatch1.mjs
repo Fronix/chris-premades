@@ -1,4 +1,4 @@
-import {activityUtils, dialogUtils, documentUtils, effectUtils, rollUtils, workflowUtils} from '../../../proxy.mjs';
+import {activityUtils, dialogUtils, documentUtils, effectUtils} from '../../../proxy.mjs';
 import {getCastLevel, upcastTargets} from '../../lib/spellUtils.mjs';
 function advantageEffectData() {
     return {
@@ -90,7 +90,8 @@ async function arcaneVigorDamage({workflow}) {
     }
     if (!formula.length) return;
     formula += ' + @mod';
-    const roll = await rollUtils.damageRoll(formula, workflow.activity, workflow.damageRolls[0].options);
+    const options = workflow.damageRolls[0].options;
+    const roll = await new CONFIG.Dice.DamageRoll(formula, workflow.activity.getRollData(), options).evaluate();
     await workflow.setDamageRolls([roll]);
 }
 export const arcaneVigor = {
