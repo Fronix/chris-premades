@@ -398,6 +398,9 @@
                 "BaseMaxJumps": "Base Max Jumps:",
                 "TargetDamageSelection": "Choose damage type per target:",
                 "AlwaysBounce": "Always Bounce:"
+            },
+            "Blink": {
+                "Away": "Blinked Away"
             }
         },
         "Auras": {

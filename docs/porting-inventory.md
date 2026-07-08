@@ -625,7 +625,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Blight | blight | ⬜ |
 | Blinding Smite | blindingSmite | ✅ ported |
 | Blindness/Deafness | blindnessDeafness | ✅ ported |
-| Blink | blink | ⬜ |
+| Blink | blink | ✅ ported |
 | Blur | blur | ✅ ported |
 | Burning Hands | burningHands | ✅ ported |
 | Cacophonic Shield | cacophonicShield, cacophonicShieldSourceEffect | ⬜ |
