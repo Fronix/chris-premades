@@ -250,6 +250,31 @@ plus data-driven registrations for Dash/Disengage/Dodge/Fall/Help/Ready/
 Search/Squeeze/Stabilize/Study/Utilize. Deferred: dash/disengage animation
 flows, Circle Cast, Mount, Suffocation, Jump, Underwater, Influence.
 
+## Milestone 16 — Items & Monster features (2024) — core complete; 2024 SWEEP COMPLETE
+
+Items: Healer's Kit. Monster features: Ghoul Claw, Vampire Bite/Misty Escape,
+Goblin Boss Redirect Attack, with the remaining ~15 features data-driven.
+
+With this, every 2024-rules category from the roadmap has core automation:
+classes (Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger,
+Rogue, Warlock, Wizard + subclasses), the spell tail (incl. all nine Summon X
+spells), feats, species features, actions, items and monster features.
+
+Outstanding (tracked for later passes):
+- Regions batch: template/region spells (Darkness, Cloudkill, Sleet Storm,
+  Spike Growth, Wall of Fire, Zone of Truth, Nature's Sanctuary, Radiance of
+  the Dawn dispel)
+- Heavy dialog spells: Teleport, Wish, Animate Objects
+- Legacy re-export returns (Crusher/Piercer/Slasher, Elemental Adept,
+  Telekinetic, Unarmed Fighting, Umbral Sight, Dreadful Strikes, Beguiling
+  Twist, Relentless Endurance, remaining Metamagics)
+- 3rd-party content (Muscle Wizard, Fate Gambler, Spellfire, "I Survived"
+  trio, Purple Dragon Rook, Sangromantic Initiate, Eldritch Eddy...)
+- Deferred class features: War God's Blessing, Invoke Duplicity trio,
+  Nature's Wrath (blocked upstream), Warrior of the Elements
+- Animation passes (JB2A/Sequencer flows dropped during porting)
+- 2014 variants (the legacy tree)
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
