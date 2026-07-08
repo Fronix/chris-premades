@@ -85,17 +85,17 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | --- | --- | --- |
 | Avatar of Battle *(War Domain)* | — | ✅ converted |
 | Blessed Healer *(Life Domain)* | blessedHealer | ⬜ |
-| Blessed Strikes: Divine Strike | divineStrike | ⬜ |
-| Blessed Strikes: Potent Spellcasting | potentSpellcasting | ⬜ |
+| Blessed Strikes: Divine Strike | divineStrike | ✅ ported |
+| Blessed Strikes: Potent Spellcasting | potentSpellcasting | ✅ ported |
 | Blessing of the Trickster *(Trickery Domain)* | blessingOfTheTrickster | ⬜ |
 | Channel Divinity (Cleric) | channelDivinity | ✅ ported |
 | Corona of Light *(Light Domain)* | coronaOfLight, coronaOfLightEffect | ⬜ |
 | Disciple of Life *(Life Domain)* | discipleOfLife | ⬜ |
-| Divine Intervention | divineIntervention | ⬜ |
+| Divine Intervention | divineIntervention | ✅ ported |
 | Divine Order: Thaumaturge | — | ✅ converted |
-| Greater Divine Intervention | greaterDivineIntervention, greaterDivineInterventionRest | ⬜ |
+| Greater Divine Intervention | greaterDivineIntervention, greaterDivineInterventionRest | ✅ ported |
 | Guided Strike *(War Domain)* | guidedStrike | ⬜ |
-| Improved Blessed Strikes | improvedBlessedStrikes | ⬜ |
+| Improved Blessed Strikes | improvedBlessedStrikes | ✅ ported |
 | Improved Duplicity *(Trickery Domain)* | improvedDuplicity | ⬜ |
 | Improved Warding Flare *(Light Domain)* | improvedWardingFlare | ⬜ |
 | Invoke Duplicity *(Trickery Domain)* | invokeDuplicity | ⬜ |

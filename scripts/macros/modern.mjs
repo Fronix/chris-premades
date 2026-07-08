@@ -8,6 +8,12 @@ export {persistentRage as 'persistent-rage'} from './modern/classFeatures/barbar
 export {primalKnowledge as 'primal-knowledge'} from './modern/classFeatures/barbarian/primalKnowledge.mjs';
 export {recklessAttack as 'reckless-attack'} from './modern/classFeatures/barbarian/recklessAttack.mjs';
 export {relentlessRage as 'relentless-rage'} from './modern/classFeatures/barbarian/relentlessRage.mjs';
+// Cleric
+export {divineIntervention as 'divine-intervention'} from './modern/classFeatures/cleric/divineIntervention.mjs';
+export {divineStrike as 'blessed-strikes-divine-strike'} from './modern/classFeatures/cleric/divineStrike.mjs';
+export {greaterDivineIntervention as 'greater-divine-intervention', greaterDivineInterventionRest as 'greater-divine-intervention-rest'} from './modern/classFeatures/cleric/greaterDivineIntervention.mjs';
+export {improvedBlessedStrikes as 'improved-blessed-strikes'} from './modern/classFeatures/cleric/improvedBlessedStrikes.mjs';
+export {potentSpellcasting as 'blessed-strikes-potent-spellcasting'} from './modern/classFeatures/cleric/potentSpellcasting.mjs';
 // Fighter
 export {groupRecovery as 'group-recovery'} from './modern/classFeatures/fighter/groupRecovery.mjs';
 export {heroicWarrior as 'heroic-warrior'} from './modern/classFeatures/fighter/heroicWarrior.mjs';

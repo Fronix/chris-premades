@@ -104,7 +104,9 @@
             "DiceSize": "Dice Size:",
             "BaseDiceNumber": "Base Dice Number:",
             "Distance": "Distance:",
-            "SubclassIdentifier": "Subclass Identifier:"
+            "SubclassIdentifier": "Subclass Identifier:",
+            "MaxLevel": "Max Level:",
+            "DamageTypes": "Damage Types:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -191,13 +193,21 @@
             },
             "TacticalMind": {
                 "Confirm": "Did the check succeed?"
+            },
+            "GreaterDivineIntervention": {
+                "RestFormula": "Rest Formula:"
+            },
+            "ImprovedPotentSpellcasting": {
+                "Target": "Select an ally to give temporary hit points to:"
             }
         },
         "Auras": {
             "Source": "{auraName}: Source"
         },
         "Generic": {
-            "SelectALanguage": "Select a language:"
+            "SelectALanguage": "Select a language:",
+            "SelectSpell": "Select a Spell:",
+            "UseItem": "Use {item}?"
         }
     }
 }

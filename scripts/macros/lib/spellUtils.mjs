@@ -13,4 +13,11 @@ async function capTargets(workflow, maxTargets) {
 async function upcastTargets(workflow, baseTargets) {
     await capTargets(workflow, getCastLevel(workflow) - workflow.item.system.level + baseTargets);
 }
-export {getCastLevel, capTargets, upcastTargets};
+async function getClassSpells(classIdentifier, {maxLevel = 9} = {}) {
+    const list = dnd5e.registry.spellLists.forType('class', classIdentifier);
+    if (!list) return [];
+    const uuids = Array.from(list.uuids);
+    const spells = await Promise.all(uuids.map(uuid => fromUuid(uuid)));
+    return spells.filter(spell => spell && spell.system.level <= maxLevel);
+}
+export {getCastLevel, capTargets, upcastTargets, getClassSpells};
