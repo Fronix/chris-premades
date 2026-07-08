@@ -735,7 +735,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Warding Bond | wardingBond | ✅ ported |
 | Wish | wish, wishImmunity, wishStress | ⬜ |
 | Wrathful Smite | wrathfulSmite | ✅ ported |
-| Zone of Truth | zoneOfTruth | ⬜ |
+| Zone of Truth | zoneOfTruth | ✅ ported |
 
 ## Spells — 2014 — 155 items
 

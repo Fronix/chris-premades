@@ -184,6 +184,7 @@ export {summonAberration as 'summon-aberration', summonBeast as 'summon-beast', 
 export {thunderwave, vampiricTouch as 'vampiric-touch'} from './modern/spells/thunderwave.mjs';
 export {timeStop as 'time-stop', timeStopEffect as 'time-stop-effect'} from './modern/spells/timeStop.mjs';
 export {trueStrike as 'true-strike', shockingGrasp as 'shocking-grasp'} from './modern/spells/trueStrike.mjs';
+export {zoneOfTruth as 'zone-of-truth'} from './modern/spells/zoneOfTruth.mjs';
 export {wardingBond as 'warding-bond', wardingBondSource as 'warding-bond-source', wardingBondTarget as 'warding-bond-target'} from './modern/spells/wardingBond.mjs';
 export {wrathfulSmite as 'wrathful-smite'} from './modern/spells/wrathfulSmite.mjs';
 export {crusadersMantle as 'crusaders-mantle', crusadersMantleAura as 'crusaders-mantle-aura'} from './modern/spells/crusadersMantle.mjs';
