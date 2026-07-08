@@ -516,8 +516,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Favored by the Gods *(Divine Soul)* | — | ✅ converted |
 | Heart of the Storm *(Storm Sorcery)* | heartOfTheStorm | ⬜ |
 | Hound of Ill Omen *(Shadow Magic)* | houndOfIllOmen | ⬜ |
-| Metamagic: Careful Spell *(Metamagic)* | carefulSpell | ⬜ |
-| Metamagic: Distant Spell *(Metamagic)* | distantSpell | ⬜ |
+| Metamagic: Careful Spell *(Metamagic)* | carefulSpell | ✅ ported |
+| Metamagic: Distant Spell *(Metamagic)* | distantSpell | ✅ ported |
 | Metamagic: Empowered Spell *(Metamagic)* | empoweredSpell | ⬜ |
 | Metamagic: Extended Spell *(Metamagic)* | extendedSpell | ⬜ |
 | Metamagic: Heightened Spell *(Metamagic)* | heightenedSpell | ⬜ |

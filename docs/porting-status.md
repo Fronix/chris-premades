@@ -156,6 +156,16 @@ Ported: Arcane Recovery (slot-by-slot recovery picker honoring Arcane Grimoire
 bonuses), Memorize Spell (prepare/unprepare swap). The wizard's table impact
 lives in the spell long tail, which accumulates through every class slice.
 
+## Milestone 8 — Sorcerer — no 2024 content in v13
+
+v13 never shipped 2024 Sorcerer items (no Sorcerer folder in the 2024 pack);
+its Sorcerer content is all 2014-rules (Metamagic set, Shadow Magic, Aberrant
+Mind, Storm Sorcery). Started the legacy Metamagic sub-slice early since it is
+high table value: Careful Spell and Distant Spell ported (2014 rules);
+remaining metamagics (Empowered, Extended, Heightened, Quickened, Seeking,
+Subtle, Transmuted, Twinned) queue with the legacy pass. Sorcery Points and
+Favored by the Gods were data-only conversions.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
@@ -172,8 +182,8 @@ staple spells, committed and releasable on its own):
 4. ~~Monk~~ ✅ (core)
 5. ~~Druid~~ ✅
 6. ~~Wizard~~ ✅
-7. **Sorcerer** ← current slice
-8. Warlock
+7. ~~Sorcerer~~ (no 2024 content; legacy metamagic started)
+8. **Warlock** ← current slice
 9. Bard
 10. Ranger
 11. Barbarian + Rogue subclass completion

@@ -272,6 +272,13 @@
             "MemorizeSpell": {
                 "Prepare": "Select a spell to prepare:",
                 "Unprepare": "Select a spell to unprepare:"
+            },
+            "Metamagic": {
+                "NotEnough": "Not enough sorcery points!",
+                "NoValid": "No applicable spells to cast!",
+                "Which": "Spend {cost} Sorcery Point{plural} and cast which spell?",
+                "CarefulWhich": "Which targets automatically save? (Max {max})",
+                "AllowEnemies": "Allow Enemies:"
             }
         },
         "Auras": {
