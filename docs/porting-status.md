@@ -199,6 +199,20 @@ Nature's Veil, Precise Hunter, Exceptional Training, Otherworldly Glamour.
 Deferred to legacy pass: Beguiling Twist, Dreadful Strikes, Umbral Sight
 (legacy re-exports); Fey Reinforcements / Misty Wanderer are data-only links.
 
+## Milestone 12 — Barbarian & Rogue subclass completion — complete
+
+Barbarian: Brutal Strike (+Sundering Blow), Unarmored Defense, rage effect
+builder with subclass riders (Mindless Rage, Rage/Power of the Wilds choices,
+Vitality of the Tree, Instinctive Pounce, Rage of the Gods), Frenzy, Divine
+Fury, Fanatical Focus, Warrior of the Gods scale, World Tree quartet
+(Vitality/Life-Giving Force, Branches, Travel, Battering Roots with inline
+push/topple masteries), Rage of the Gods protection. Deferred: Muscle Wizard
+(3rd party).
+Rogue: Cunning Action metadata, Cunning Strike (trip + Versatile Trickster),
+Magical Ambush, Spell Thief, Envenom Weapons (+ongoing poison), Soulknife
+complete (Psionic Power, Psychic Blades, Soul Blades, Psychic Veil, Rend
+Mind).
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
