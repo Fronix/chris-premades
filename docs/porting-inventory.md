@@ -693,7 +693,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Mirror Image | mirrorImage | ⬜ |
 | Misty Step | mistyStep | ✅ ported |
 | Moonbeam | moonbeam | ⬜ |
-| Pass without Trace | passWithoutTrace | ⬜ |
+| Pass without Trace | passWithoutTrace | ✅ ported |
 | Power Word Heal | powerWordHeal | ✅ ported |
 | Power Word Kill | powerWordKill | ✅ ported |
 | Protection from Evil and Good | protectionFromEvilAndGood | ✅ ported |

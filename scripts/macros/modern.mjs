@@ -147,6 +147,7 @@ export {compelledDuel as 'compelled-duel', compelledDuelSource as 'compelled-due
 export {protectionFromEvilAndGood as 'protection-from-evil-and-good'} from './modern/spells/protectionFromEvilAndGood.mjs';
 export {sanctuary, sanctuarySafe as 'sanctuary-safe'} from './modern/spells/sanctuary.mjs';
 export {divineSmite as 'divine-smite'} from './modern/spells/divineSmite.mjs';
+export {passWithoutTrace as 'pass-without-trace', passWithoutTraceAura as 'pass-without-trace-aura'} from './modern/spells/passWithoutTrace.mjs';
 export {powerWordHeal as 'power-word-heal', powerWordKill as 'power-word-kill'} from './modern/spells/powerWords.mjs';
 export {resistance, resistanceEffect as 'resistance-effect', synapticStatic as 'synaptic-static', thornWhip as 'thorn-whip'} from './modern/spells/resistance.mjs';
 export {scorchingRay as 'scorching-ray'} from './modern/spells/scorchingRay.mjs';
