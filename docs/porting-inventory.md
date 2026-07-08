@@ -159,7 +159,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Empowered Strikes | empoweredStrikes | ✅ ported |
 | Heightened Focus | — | ✅ converted |
 | Martial Arts | martialArts | ⬜ |
-| Monk's Focus | monksFocus | ⬜ |
+| Monk's Focus | monksFocus | ✅ ported |
 | Perfect Focus | perfectFocus | ✅ ported |
 | Self-Restoration | selfRestoration | ✅ ported |
 | Slow Fall | slowFall | ✅ ported |

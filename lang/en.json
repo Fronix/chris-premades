@@ -112,7 +112,8 @@
             "PromptToUse": "Prompt to Use:",
             "CreatureTypes": "Creature Types:",
             "AutoApply": "Auto Apply:",
-            "Conditions": "Conditions:"
+            "Conditions": "Conditions:",
+            "Attacks": "Attacks:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -236,7 +237,8 @@
             "Prompt": "Prompt",
             "Automatic": "Automatic",
             "SelectDamageType": "Select a Damage Type:",
-            "SelectRemoveCondition": "Select a condition to remove:"
+            "SelectRemoveCondition": "Select a condition to remove:",
+            "PromptForTargets": "Prompt for Targets:"
         },
         "Summons": {
             "CustomName": "Custom Name"

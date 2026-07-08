@@ -3,7 +3,15 @@ import {correctActivityItemConsumption} from '../../../lib/spellUtils.mjs';
 export const heightenedFocus = {
     name: 'Heightened Focus',
     version: '2.0.0',
-    rules: '2024'
+    rules: '2024',
+    config: {
+        attacks: {
+            default: 1,
+            type: 'text',
+            label: 'CHRISPREMADES.Config.Attacks',
+            category: 'tuning'
+        }
+    }
 };
 async function perfectFocusUse({workflow}) {
     const monksFocus = actorUtils.getItemByIdentifier(workflow.actor, 'monks-focus');

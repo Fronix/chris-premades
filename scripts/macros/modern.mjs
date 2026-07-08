@@ -34,6 +34,7 @@ export {tacticalMind as 'tactical-mind'} from './modern/classFeatures/fighter/ta
 // Monk
 export {heightenedFocus as 'heightened-focus', perfectFocus as 'perfect-focus', disciplinedSurvivor as 'disciplined-survivor', superiorDefense as 'superior-defense'} from './modern/classFeatures/monk/focusFeatures.mjs';
 export {empoweredStrikes as 'empowered-strikes'} from './modern/classFeatures/monk/empoweredStrikes.mjs';
+export {monksFocus as 'monks-focus'} from './modern/classFeatures/monk/monksFocus.mjs';
 export {selfRestoration as 'self-restoration'} from './modern/classFeatures/monk/selfRestoration.mjs';
 export {slowFall as 'slow-fall'} from './modern/classFeatures/monk/slowFall.mjs';
 export {stunningStrike as 'stunning-strike'} from './modern/classFeatures/monk/stunningStrike.mjs';
