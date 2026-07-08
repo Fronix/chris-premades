@@ -615,7 +615,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Aura of Purity | auraOfPurity | ⬜ |
 | Aura of Vitality | auraOfVitality | ⬜ |
 | Bane | bane | ⬜ |
-| Banishing Smite | banishingSmite | ⬜ |
+| Banishing Smite | banishingSmite | ✅ ported |
 | Banishment | banishment | ⬜ |
 | Barkskin | — | ✅ converted |
 | Beacon of Hope | beaconOfHope | ⬜ |
@@ -623,7 +623,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Blade Ward | — | ✅ converted |
 | Bless | bless | ✅ ported |
 | Blight | blight | ⬜ |
-| Blinding Smite | blindingSmite | ⬜ |
+| Blinding Smite | blindingSmite | ✅ ported |
 | Blindness/Deafness | blindnessDeafness | ⬜ |
 | Blink | blink | ⬜ |
 | Blur | blur | ⬜ |
@@ -654,7 +654,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Destructive Wave | destructiveWave | ⬜ |
 | Detect Magic | detectMagic | ⬜ |
 | Disintegrate | disintegrate | ⬜ |
-| Divine Smite | divineSmite | ⬜ |
+| Divine Smite | divineSmite | ✅ ported |
 | Dragon's Breath | dragonsBreath | ⬜ |
 | Dream | — | ✅ converted |
 | Eldritch Blast | eldritchBlast | ⬜ |
@@ -700,7 +700,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Resistance | resistance, resistanceEffect | ⬜ |
 | Sanctuary | sanctuary | ⬜ |
 | Scorching Ray | scorchingRay | ⬜ |
-| Searing Smite | searingSmite | ⬜ |
+| Searing Smite | searingSmite | ✅ ported |
 | Shield | — | ✅ converted |
 | Shield of Faith | — | ✅ converted |
 | Shining Smite | shiningSmite | ⬜ |
@@ -710,7 +710,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Spike Growth | spikeGrowth | ⬜ |
 | Spirit Guardians | spiritGuardians | ⬜ |
 | Spiritual Weapon | spiritualWeapon | ⬜ |
-| Staggering Smite | staggeringSmite | ⬜ |
+| Staggering Smite | staggeringSmite | ✅ ported |
 | Steel Wind Strike | steelWindStrike | ⬜ |
 | Summon Aberration | summonAberration | ⬜ |
 | Summon Beast | summonBeast | ⬜ |
@@ -724,7 +724,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Synaptic Static | synapticStatic | ⬜ |
 | Teleport | teleport | ⬜ |
 | Thorn Whip | thornWhip | ⬜ |
-| Thunderous Smite | proneOnFail, thunderousSmite | ⬜ |
+| Thunderous Smite | proneOnFail, thunderousSmite | ✅ ported |
 | Thunderwave | thunderwave | ⬜ |
 | Time Stop | timeStop, timeStopEffect | ⬜ |
 | Toll the Dead | tollTheDead | ⬜ |
@@ -734,7 +734,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Wall of Fire | wallOfFire | ⬜ |
 | Warding Bond | wardingBond | ⬜ |
 | Wish | wish, wishImmunity, wishStress | ⬜ |
-| Wrathful Smite | wrathfulSmite | ⬜ |
+| Wrathful Smite | wrathfulSmite | ✅ ported |
 | Zone of Truth | zoneOfTruth | ⬜ |
 
 ## Spells — 2014 — 155 items

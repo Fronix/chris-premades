@@ -84,7 +84,13 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Crusader's Mantle | ✅ | caster source effect + runtime-bound aura macro (30 ft, allies, 1d4 radiant) |
 | Shield of Faith | ✅ | data-only (converted in Phase 1 batch) |
 | Nature's Wrath (Ancients) | ⬜ | v13 2024 macro file is empty (upstream WIP) |
-| Divine Smite + Searing/Thunderous/Wrathful/Blinding/Staggering/Banishing Smite | ⬜ | next batch — actor-pass reaction machinery |
+| Divine Smite (smite hub) | ✅ | on melee hit: pick a castable smite spell, cast it at the target, add config-driven bonus damage (actor passes, `unique`-deduped) |
+| Searing Smite | ✅ | OverTime burn effect (con save ends, start of turn) |
+| Thunderous Smite | ✅ | failed saves pushed via CAT `tokenUtils.slideToken` |
+| Wrathful Smite | ✅ | frightened + save-to-end OverTime |
+| Blinding Smite | ✅ | blinded + save-to-end OverTime, configurable ability |
+| Staggering Smite | ✅ | hub binding + item effect data |
+| Banishing Smite | ✅ | tracker effect at damage; banish activity fires at ≤ configured HP |
 | Compelled Duel | ⬜ | next batch — multi-effect source/target tracking |
 | Command | ⬜ | next batch — 5 effect macros |
 | Protection from Evil and Good | ⬜ | next batch — effect macro |

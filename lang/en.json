@@ -99,7 +99,11 @@
             "SpawnActivity": "Spawn Activity",
             "Summons": "Summons",
             "UtilityRollAsDamage": "Utility Roll As Damage",
-            "Radius": "Radius (Feet)"
+            "Radius": "Radius (Feet)",
+            "DamageType": "Damage Type:",
+            "DiceSize": "Dice Size:",
+            "BaseDiceNumber": "Base Dice Number:",
+            "Distance": "Distance:"
         },
         "Dialog": {
             "Missed": "Attack roll ({attackTotal}) missed. Use {itemName}?",
@@ -157,6 +161,13 @@
             },
             "UpcastTargets": {
                 "Select": "Too many targets selected! Please select up to {maxTargets} targets."
+            },
+            "DivineSmite": {
+                "Context": "Smite Target?",
+                "CreatureTypes": "Extra Damage Creature Types:"
+            },
+            "BanishingSmite": {
+                "Hp": "Required HP:"
             }
         },
         "Auras": {

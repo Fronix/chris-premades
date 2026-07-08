@@ -22,6 +22,13 @@ export {strokeOfLuck as 'stroke-of-luck'} from './modern/classFeatures/rogue/str
 export {uncannyDodge as 'uncanny-dodge'} from './modern/classFeatures/rogue/uncannyDodge.mjs';
 // Spells
 export {aid} from './modern/spells/aid.mjs';
+export {banishingSmite as 'banishing-smite'} from './modern/spells/banishingSmite.mjs';
+export {blindingSmite as 'blinding-smite'} from './modern/spells/blindingSmite.mjs';
 export {bless} from './modern/spells/bless.mjs';
+export {divineSmite as 'divine-smite'} from './modern/spells/divineSmite.mjs';
+export {searingSmite as 'searing-smite'} from './modern/spells/searingSmite.mjs';
+export {staggeringSmite as 'staggering-smite'} from './modern/spells/staggeringSmite.mjs';
+export {thunderousSmite as 'thunderous-smite'} from './modern/spells/thunderousSmite.mjs';
+export {wrathfulSmite as 'wrathful-smite'} from './modern/spells/wrathfulSmite.mjs';
 export {crusadersMantle as 'crusaders-mantle', crusadersMantleAura as 'crusaders-mantle-aura'} from './modern/spells/crusadersMantle.mjs';
 export {heroism, heroismHeroic as 'heroism-heroic'} from './modern/spells/heroism.mjs';
