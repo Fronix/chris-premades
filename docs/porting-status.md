@@ -213,6 +213,16 @@ Magical Ambush, Spell Thief, Envenom Weapons (+ongoing poison), Soulknife
 complete (Psionic Power, Psychic Blades, Soul Blades, Psychic Veil, Rend
 Mind).
 
+## Milestone 13 — 2024 spell long tail — in progress
+
+Ported so far: Hex (+attack), Hunter's Mark (+source), Eldritch Blast, Misty
+Step, Shield, Armor of Agathys, Arcane Vigor, Blindness/Deafness, Charm
+Monster/Person, Blur, Banishment, Chromatic Orb, Chill Touch/Burning Hands
+(data), Blink, Blight, Calm Emotions, Dragon's Breath, Arms of Hadar, Animal
+Friendship/Messenger, Aura of Life/Purity (first CAT aura ports), Alter Self.
+Earlier milestones already carried the Paladin/Cleric spell staples and
+summon spells. Remaining: see docs/porting-inventory.md Spells section.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
