@@ -1,14 +1,14 @@
 {
-  "name": "Arcane Bolt",
+  "name": "Eldritch Overload",
   "type": "feat",
   "system": {
     "activities": {
-      "attackArBoaction": {
-        "type": "attack",
-        "_id": "attackArBoaction",
+      "saveElOvreaction": {
+        "type": "save",
+        "_id": "saveElOvreaction",
         "sort": 0,
         "activation": {
-          "type": "action",
+          "type": "reaction",
           "value": 1,
           "condition": "",
           "override": false
@@ -21,7 +21,9 @@
           },
           "spellSlot": true
         },
-        "description": {},
+        "description": {
+          "chatFlavor": ""
+        },
         "duration": {
           "value": "",
           "units": "inst",
@@ -31,23 +33,23 @@
         "effects": [],
         "flags": {},
         "range": {
-          "value": "120",
-          "units": "ft",
-          "override": false
+          "units": "self",
+          "override": false,
+          "special": ""
         },
         "target": {
           "template": {
             "count": "",
             "contiguous": false,
-            "type": "",
-            "size": "",
+            "type": "emanationNoTemplate",
+            "size": "5",
             "width": "",
             "height": "",
             "units": "ft"
           },
           "affects": {
             "count": "",
-            "type": "",
+            "type": "enemy",
             "choice": false,
             "special": ""
           },
@@ -56,46 +58,50 @@
         },
         "uses": {
           "spent": 0,
-          "recovery": []
+          "recovery": [],
+          "max": ""
         },
         "visibility": {
-          "level": {},
+          "level": {
+            "min": null,
+            "max": null
+          },
           "requireAttunement": false,
           "requireIdentification": false,
-          "requireMagic": false
-        },
-        "attack": {
-          "ability": "cha",
-          "bonus": "",
-          "critical": {},
-          "flat": false,
-          "type": {
-            "value": "ranged",
-            "classification": "weapon"
-          }
+          "requireMagic": false,
+          "identifier": ""
         },
         "damage": {
-          "critical": {},
-          "includeBase": false,
+          "critical": {
+            "allow": false
+          },
+          "onSave": "none",
           "parts": [
             {
-              "number": 2,
-              "denomination": 10,
-              "bonus": "@mod",
-              "types": [
-                "force"
-              ],
               "custom": {
                 "enabled": false,
                 "formula": ""
               },
+              "number": 2,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "force"
+              ],
               "scaling": {
-                "mode": "",
-                "number": null,
-                "formula": ""
+                "number": 1
               }
             }
           ]
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "14"
+          }
         },
         "useConditionText": "",
         "useConditionReason": "",
@@ -148,11 +154,8 @@
         },
         "otherActivityId": "none",
         "otherActivityAsParentType": true,
-        "attackMode": "oneHanded",
-        "ammunition": "",
-        "otherActivityUuid": "",
-        "attackRollPerTarget": "default",
-        "fumbleThreshold": 1
+        "friendlySave": "default",
+        "name": ""
       }
     },
     "uses": {
@@ -164,7 +167,7 @@
       "value": "",
       "chat": ""
     },
-    "identifier": "arcane-bolt",
+    "identifier": "eldritch-overload",
     "source": {
       "revision": 1,
       "rules": "2024"
@@ -185,7 +188,13 @@
   "effects": [],
   "flags": {
     "midiProperties": {
-      "otherSaveDamage": "halfdam"
+      "saveDamage": "halfdam",
+      "fulldam": true,
+      "confirmTargets": "default"
+    },
+    "midi-qol": {
+      "removeAttackDamageButtons": "default",
+      "forceCEOff": true
     },
     "dnd5e": {
       "riders": {
@@ -199,8 +208,8 @@
       "macros": {}
     }
   },
-  "img": "icons/magic/lightning/bolt-beam-strike-blue.webp",
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
   "folder": "t06EmqNSQszTz3Sj",
-  "_id": "y5nI8YS4zTDcu9jG",
-  "_key": "!items!y5nI8YS4zTDcu9jG"
+  "_id": "2gppoXlsbpTvKQZp",
+  "_key": "!items!2gppoXlsbpTvKQZp"
 }

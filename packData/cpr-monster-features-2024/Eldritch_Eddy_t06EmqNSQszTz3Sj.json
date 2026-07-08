@@ -6,6 +6,10 @@
   "sorting": "a",
   "_id": "t06EmqNSQszTz3Sj",
   "description": "",
-  "flags": {},
+  "flags": {
+    "cat": {
+      "macros": {}
+    }
+  },
   "_key": "!folders!t06EmqNSQszTz3Sj"
 }

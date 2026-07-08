@@ -1,111 +1,64 @@
 {
-  "name": "Searing Swipe",
-  "type": "feat",
+  "type": "spell",
   "system": {
     "activities": {
-      "attackSeSwaction": {
-        "type": "attack",
-        "_id": "attackSeSwaction",
+      "MJwIUHcHw8mV1X0F": {
+        "type": "utility",
+        "_id": "MJwIUHcHw8mV1X0F",
         "sort": 0,
         "activation": {
           "type": "action",
-          "value": 1,
-          "condition": "",
           "override": false
         },
         "consumption": {
-          "targets": [],
           "scaling": {
-            "allowed": false,
-            "max": ""
+            "allowed": false
           },
-          "spellSlot": true
+          "spellSlot": true,
+          "targets": []
         },
         "description": {
           "chatFlavor": ""
         },
         "duration": {
-          "value": "",
           "units": "inst",
           "concentration": false,
           "override": false
         },
-        "effects": [],
-        "flags": {},
+        "effects": [
+          {
+            "_id": "P9NY1EHjm9bPAmD7"
+          }
+        ],
         "range": {
-          "value": "10",
-          "units": "ft",
-          "override": false,
-          "special": ""
+          "units": "self",
+          "override": false
         },
         "target": {
           "template": {
-            "count": "",
             "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": "ft"
+            "units": "ft",
+            "type": ""
           },
           "affects": {
-            "count": "1",
-            "type": "creature",
             "choice": false,
+            "type": "creature",
+            "count": "",
             "special": ""
           },
-          "prompt": true,
-          "override": false
+          "override": false,
+          "prompt": true
         },
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
-        "visibility": {
-          "level": {
-            "min": null,
-            "max": null
-          },
-          "requireAttunement": false,
-          "requireIdentification": false,
-          "requireMagic": false,
-          "identifier": ""
-        },
-        "attack": {
-          "ability": "cha",
-          "bonus": "",
-          "critical": {
-            "threshold": null
-          },
-          "flat": false,
-          "type": {
-            "value": "melee",
-            "classification": "weapon"
-          }
-        },
-        "damage": {
-          "critical": {
-            "bonus": ""
-          },
-          "includeBase": false,
-          "parts": [
-            {
-              "custom": {
-                "enabled": false,
-                "formula": ""
-              },
-              "number": 3,
-              "denomination": 6,
-              "bonus": "@mod",
-              "types": [
-                "fire"
-              ],
-              "scaling": {
-                "number": 1
-              }
-            }
-          ]
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
         },
         "useConditionText": "",
         "useConditionReason": "",
@@ -127,18 +80,18 @@
           "triggeredActivityConditionText": "",
           "triggeredActivityTargets": "targets",
           "triggeredActivityRollAs": "self",
-          "confirmTargets": "default",
-          "automationOnly": false,
-          "identifier": "",
           "autoConsume": false,
           "forceConsumeDialog": "default",
           "forceRollDialog": "default",
           "forceDamageDialog": "default",
+          "confirmTargets": "default",
           "autoTargetType": "any",
           "autoTargetAction": "default",
-          "otherActivityCompatible": true,
+          "automationOnly": false,
+          "otherActivityCompatible": false,
           "otherActivityAsParentType": true,
-          "displayActivityName": true,
+          "identifier": "",
+          "displayActivityName": false,
           "rollMode": "default",
           "chooseEffects": false,
           "toggleEffect": false,
@@ -147,8 +100,7 @@
           "magicEffect": false,
           "magicDamage": false,
           "noConcentrationCheck": false,
-          "skipConcentrationCheck": false,
-          "autoCEEffects": "default"
+          "autoCEEffects": "none"
         },
         "isOverTimeFlag": false,
         "overTimeProperties": {
@@ -158,112 +110,89 @@
         },
         "otherActivityId": "none",
         "otherActivityAsParentType": true,
-        "attackMode": "",
-        "ammunition": "",
-        "otherActivityUuid": "",
-        "attackRollPerTarget": "default",
-        "fumbleThreshold": 1,
-        "name": "Fire"
+        "name": "",
+        "identifier": "use"
       },
-      "9wQDPtaCiSYh8BEH": {
+      "iN3QbdwY3TnpdSIO": {
         "type": "attack",
+        "_id": "iN3QbdwY3TnpdSIO",
         "sort": 0,
         "activation": {
-          "type": "action",
-          "value": 1,
-          "condition": "",
-          "override": false
+          "type": "special",
+          "override": true,
+          "condition": ""
         },
         "consumption": {
-          "targets": [],
           "scaling": {
-            "allowed": false,
-            "max": ""
+            "allowed": false
           },
-          "spellSlot": true
+          "spellSlot": false,
+          "targets": []
         },
         "description": {
           "chatFlavor": ""
         },
         "duration": {
-          "value": "",
           "units": "inst",
           "concentration": false,
           "override": false
         },
         "effects": [],
-        "flags": {},
         "range": {
-          "value": "10",
-          "units": "ft",
-          "override": false,
-          "special": ""
+          "units": "self",
+          "override": false
         },
         "target": {
           "template": {
-            "count": "",
             "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": "ft"
+            "units": "ft",
+            "type": ""
           },
           "affects": {
-            "count": "1",
-            "type": "creature",
             "choice": false,
+            "type": "creature",
+            "count": "1",
             "special": ""
           },
-          "prompt": true,
-          "override": false
+          "override": true,
+          "prompt": true
         },
         "uses": {
           "spent": 0,
           "recovery": [],
           "max": ""
         },
-        "visibility": {
-          "level": {
-            "min": null,
-            "max": null
-          },
-          "requireAttunement": false,
-          "requireIdentification": false,
-          "requireMagic": false,
-          "identifier": ""
-        },
         "attack": {
-          "ability": "cha",
-          "bonus": "",
           "critical": {
             "threshold": null
           },
           "flat": false,
           "type": {
-            "value": "melee",
-            "classification": "weapon"
-          }
+            "value": "",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
         },
         "damage": {
           "critical": {
             "bonus": ""
           },
-          "includeBase": false,
+          "includeBase": true,
           "parts": [
             {
               "custom": {
                 "enabled": false,
                 "formula": ""
               },
-              "number": 3,
-              "denomination": 6,
-              "bonus": "@mod",
+              "number": 2,
+              "denomination": 10,
+              "bonus": "",
               "types": [
-                "lightning"
+                "radiant"
               ],
               "scaling": {
-                "number": 1
+                "mode": ""
               }
             }
           ]
@@ -288,18 +217,18 @@
           "triggeredActivityConditionText": "",
           "triggeredActivityTargets": "targets",
           "triggeredActivityRollAs": "self",
-          "confirmTargets": "default",
-          "automationOnly": false,
-          "identifier": "",
           "autoConsume": false,
           "forceConsumeDialog": "default",
           "forceRollDialog": "default",
           "forceDamageDialog": "default",
+          "confirmTargets": "never",
           "autoTargetType": "any",
           "autoTargetAction": "default",
+          "automationOnly": false,
           "otherActivityCompatible": true,
           "otherActivityAsParentType": true,
-          "displayActivityName": true,
+          "identifier": "",
+          "displayActivityName": false,
           "rollMode": "default",
           "chooseEffects": false,
           "toggleEffect": false,
@@ -308,8 +237,7 @@
           "magicEffect": false,
           "magicDamage": false,
           "noConcentrationCheck": false,
-          "skipConcentrationCheck": false,
-          "autoCEEffects": "default"
+          "autoCEEffects": "none"
         },
         "isOverTimeFlag": false,
         "overTimeProperties": {
@@ -317,63 +245,167 @@
           "preRemoveConditionText": "",
           "postRemoveConditionText": ""
         },
-        "otherActivityId": "none",
+        "otherActivityId": "",
         "otherActivityAsParentType": true,
         "attackMode": "",
         "ammunition": "",
         "otherActivityUuid": "",
         "attackRollPerTarget": "default",
         "fumbleThreshold": 1,
-        "name": "Lightning",
-        "_id": "9wQDPtaCiSYh8BEH"
+        "name": "",
+        "img": "",
+        "appliedEffects": [],
+        "identifier": "blast"
       }
     },
     "uses": {
       "spent": null,
+      "max": "",
       "recovery": []
     },
-    "advancement": [],
     "description": {
       "value": "",
       "chat": ""
     },
-    "identifier": "searing-swipe",
+    "identifier": "spellfire-flare",
     "source": {
-      "revision": 1,
-      "rules": "2024"
+      "book": "FRHoF",
+      "page": "",
+      "license": "",
+      "custom": "",
+      "rules": "2024",
+      "revision": 1
     },
-    "crewed": false,
-    "enchant": {},
-    "prerequisites": {
-      "items": [],
-      "repeatable": false
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
     },
-    "properties": [],
-    "requirements": "",
-    "type": {
-      "value": "monster",
-      "subtype": ""
+    "duration": {
+      "value": "0",
+      "units": "inst"
+    },
+    "level": 1,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "method": "spell",
+    "prepared": 1,
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "value": "60",
+      "units": "ft"
+    },
+    "school": "evo",
+    "sourceClass": "",
+    "target": {
+      "affects": {
+        "count": "",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": "ft"
+      }
     }
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Spellfire Flare",
+      "img": "icons/magic/light/projectile-smoke-pink.webp",
+      "origin": "Actor.OLjMQ9anz9G199WK.Item.SpellfirFlare1II",
+      "transfer": false,
+      "_id": "P9NY1EHjm9bPAmD7",
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": true,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_key": "!items.effects!nY8v7uVD3GM2qgWG.P9NY1EHjm9bPAmD7"
+    }
+  ],
+  "name": "Spellfire Flare",
   "flags": {
+    "midi-qol": {
+      "removeAttackDamageButtons": "default"
+    },
     "midiProperties": {
-      "otherSaveDamage": "halfdam"
+      "confirmTargets": "default",
+      "magicdam": true,
+      "magiceffect": true
     },
     "dnd5e": {
       "riders": {
-        "activity": []
+        "activity": [
+          "iN3QbdwY3TnpdSIO"
+        ]
       }
     },
     "cat": {
       "automation": {
         "version": "2.0.0"
       },
-      "macros": {}
+      "macros": {
+        "roll": [
+          {
+            "source": "chris-premades",
+            "rules": "2024",
+            "identifier": "spellfire-flare"
+          }
+        ]
+      }
     }
   },
-  "img": "icons/magic/fire/projectiles-salvo-trio-orange.webp",
-  "folder": "t06EmqNSQszTz3Sj",
-  "_id": "yJYcVorjfJN5QzHn",
-  "_key": "!items!yJYcVorjfJN5QzHn"
+  "img": "icons/magic/light/projectile-smoke-pink.webp",
+  "folder": null,
+  "_id": "nY8v7uVD3GM2qgWG",
+  "_key": "!items!nY8v7uVD3GM2qgWG"
 }

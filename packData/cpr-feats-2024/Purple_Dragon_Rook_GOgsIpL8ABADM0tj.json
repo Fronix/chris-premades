@@ -1,41 +1,59 @@
 {
-  "name": "Arcane Bolt",
+  "name": "Purple Dragon Rook",
   "type": "feat",
+  "effects": [],
   "system": {
     "activities": {
-      "attackArBoaction": {
-        "type": "attack",
-        "_id": "attackArBoaction",
+      "utilityRalCrfNe0": {
+        "name": "",
+        "type": "utility",
+        "_id": "utilityRalCrfNe0",
         "sort": 0,
         "activation": {
-          "type": "action",
+          "type": "encounter",
           "value": 1,
           "condition": "",
           "override": false
         },
         "consumption": {
-          "targets": [],
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ],
           "scaling": {
             "allowed": false,
             "max": ""
           },
           "spellSlot": true
         },
-        "description": {},
+        "description": {
+          "chatFlavor": ""
+        },
         "duration": {
-          "value": "",
           "units": "inst",
+          "special": "",
           "concentration": false,
           "override": false
         },
         "effects": [],
-        "flags": {},
         "range": {
-          "value": "120",
+          "value": "30",
           "units": "ft",
+          "special": "",
           "override": false
         },
         "target": {
+          "prompt": true,
+          "affects": {
+            "count": "@prof",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          },
           "template": {
             "count": "",
             "contiguous": false,
@@ -45,57 +63,18 @@
             "height": "",
             "units": "ft"
           },
-          "affects": {
-            "count": "",
-            "type": "",
-            "choice": false,
-            "special": ""
-          },
-          "prompt": true,
           "override": false
         },
         "uses": {
           "spent": 0,
-          "recovery": []
+          "recovery": [],
+          "max": ""
         },
-        "visibility": {
-          "level": {},
-          "requireAttunement": false,
-          "requireIdentification": false,
-          "requireMagic": false
-        },
-        "attack": {
-          "ability": "cha",
-          "bonus": "",
-          "critical": {},
-          "flat": false,
-          "type": {
-            "value": "ranged",
-            "classification": "weapon"
-          }
-        },
-        "damage": {
-          "critical": {},
-          "includeBase": false,
-          "parts": [
-            {
-              "number": 2,
-              "denomination": 10,
-              "bonus": "@mod",
-              "types": [
-                "force"
-              ],
-              "custom": {
-                "enabled": false,
-                "formula": ""
-              },
-              "scaling": {
-                "mode": "",
-                "number": null,
-                "formula": ""
-              }
-            }
-          ]
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
         },
         "useConditionText": "",
         "useConditionReason": "",
@@ -126,7 +105,7 @@
           "forceDamageDialog": "default",
           "autoTargetType": "any",
           "autoTargetAction": "default",
-          "otherActivityCompatible": true,
+          "otherActivityCompatible": false,
           "otherActivityAsParentType": true,
           "displayActivityName": false,
           "rollMode": "default",
@@ -137,8 +116,7 @@
           "magicEffect": false,
           "magicDamage": false,
           "noConcentrationCheck": false,
-          "skipConcentrationCheck": false,
-          "autoCEEffects": "default"
+          "autoCEEffects": "none"
         },
         "isOverTimeFlag": false,
         "overTimeProperties": {
@@ -147,27 +125,32 @@
           "postRemoveConditionText": ""
         },
         "otherActivityId": "none",
-        "otherActivityAsParentType": true,
-        "attackMode": "oneHanded",
-        "ammunition": "",
-        "otherActivityUuid": "",
-        "attackRollPerTarget": "default",
-        "fumbleThreshold": 1
+        "otherActivityAsParentType": true
       }
     },
     "uses": {
-      "spent": null,
-      "recovery": []
+      "spent": 0,
+      "max": "1",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
     },
     "advancement": [],
     "description": {
       "value": "",
       "chat": ""
     },
-    "identifier": "arcane-bolt",
+    "identifier": "purple-dragon-rook",
     "source": {
-      "revision": 1,
-      "rules": "2024"
+      "book": "FRHoF",
+      "page": "",
+      "license": "",
+      "custom": "",
+      "rules": "2024",
+      "revision": 1
     },
     "crewed": false,
     "enchant": {},
@@ -178,15 +161,11 @@
     "properties": [],
     "requirements": "",
     "type": {
-      "value": "monster",
-      "subtype": ""
+      "value": "feat",
+      "subtype": "origin"
     }
   },
-  "effects": [],
   "flags": {
-    "midiProperties": {
-      "otherSaveDamage": "halfdam"
-    },
     "dnd5e": {
       "riders": {
         "activity": []
@@ -196,11 +175,19 @@
       "automation": {
         "version": "2.0.0"
       },
-      "macros": {}
+      "macros": {
+        "roll": [
+          {
+            "source": "chris-premades",
+            "rules": "2024",
+            "identifier": "purple-dragon-rook"
+          }
+        ]
+      }
     }
   },
-  "img": "icons/magic/lightning/bolt-beam-strike-blue.webp",
-  "folder": "t06EmqNSQszTz3Sj",
-  "_id": "y5nI8YS4zTDcu9jG",
-  "_key": "!items!y5nI8YS4zTDcu9jG"
+  "img": "icons/sundries/gaming/chess-rook-gray.webp",
+  "folder": null,
+  "_id": "GOgsIpL8ABADM0tj",
+  "_key": "!items!GOgsIpL8ABADM0tj"
 }

@@ -706,7 +706,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Shining Smite | shiningSmite | ✅ ported |
 | Shocking Grasp | shockingGrasp | ✅ ported |
 | Sleet Storm | sleetStorm | ✅ ported |
-| Spellfire Flare | spellfireFlare | ⬜ |
+| Spellfire Flare | spellfireFlare | ✅ ported |
 | Spike Growth | spikeGrowth | ✅ ported |
 | Spirit Guardians | spiritGuardians | ✅ ported |
 | Spiritual Weapon | spiritualWeapon | ✅ ported |
@@ -918,7 +918,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Interception | interception | ✅ ported |
 | Piercer | piercer | ✅ ported |
 | Protection | protection | ✅ ported |
-| Purple Dragon Rook | purpleDragonRook | ⬜ |
+| Purple Dragon Rook | purpleDragonRook | ✅ ported |
 | Savage Attacker | savageAttacker | ✅ ported |
 | Sharpshooter | sharpshooter | ✅ ported |
 | Slasher | slasher | ✅ ported |
@@ -1134,7 +1134,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Charm | — | ✅ converted |
 | Claw | autoProne | ✅ ported |
 | Claw | ghoulClaw | ✅ ported |
-| Eldritch Overload | autoProne | ⬜ |
+| Eldritch Overload | autoProne | ✅ ported |
 | Grave Strike (Vampire Form Only) | escape | ⬜ |
 | Knock Down | autoProne | ⬜ |
 | Misty Escape | vampireMistyEscape | ✅ ported |
