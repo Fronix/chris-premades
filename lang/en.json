@@ -392,6 +392,12 @@
             },
             "ArcaneVigor": {
                 "Choose": "Spend which hit dice?"
+            },
+            "ChromaticOrb": {
+                "Bounce": "The orb leaps! Select the next target:",
+                "BaseMaxJumps": "Base Max Jumps:",
+                "TargetDamageSelection": "Choose damage type per target:",
+                "AlwaysBounce": "Always Bounce:"
             }
         },
         "Auras": {

@@ -627,15 +627,15 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Blindness/Deafness | blindnessDeafness | ✅ ported |
 | Blink | blink | ⬜ |
 | Blur | blur | ✅ ported |
-| Burning Hands | burningHands | ⬜ |
+| Burning Hands | burningHands | ✅ ported |
 | Cacophonic Shield | cacophonicShield, cacophonicShieldSourceEffect | ⬜ |
 | Call Lightning | callLightning | ⬜ |
 | Calm Emotions | calmEmotions | ⬜ |
 | Chain Lightning | chainLightning | ⬜ |
 | Charm Monster | charmMonster | ✅ ported |
 | Charm Person | charmPerson | ✅ ported |
-| Chill Touch | chillTouch | ⬜ |
-| Chromatic Orb | chromaticOrb | ⬜ |
+| Chill Touch | chillTouch | ✅ ported |
+| Chromatic Orb | chromaticOrb | ✅ ported |
 | Circle of Death | — | ✅ converted |
 | Circle of Power | circleOfPower | ⬜ |
 | Cloudkill | cloudkill | ⬜ |
