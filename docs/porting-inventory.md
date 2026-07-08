@@ -518,7 +518,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Hound of Ill Omen *(Shadow Magic)* | houndOfIllOmen | ⬜ |
 | Metamagic: Careful Spell *(Metamagic)* | carefulSpell | ✅ ported |
 | Metamagic: Distant Spell *(Metamagic)* | distantSpell | ✅ ported |
-| Metamagic: Empowered Spell *(Metamagic)* | empoweredSpell | ⬜ |
+| Metamagic: Empowered Spell *(Metamagic)* | empoweredSpell | ✅ ported |
 | Metamagic: Extended Spell *(Metamagic)* | extendedSpell | ✅ ported |
 | Metamagic: Heightened Spell *(Metamagic)* | heightenedSpell | ✅ ported |
 | Metamagic: Quickened Spell *(Metamagic)* | quickenedSpell | ✅ ported |

@@ -405,3 +405,53 @@ export const twinnedSpell = {
         }
     ]
 };
+// Empowered Spell: reroll up to CHA mod damage dice (lowest first)
+async function damageEmpowered({document: item, workflow}) {
+    if (!workflow.hitTargets.size || workflow.item.type !== 'spell' || !workflow.damageRolls) return;
+    const sorcPoints = actorUtils.getItemByIdentifier(workflow.actor, 'sorcery-points');
+    if (!sorcPoints?.system.uses.value) return;
+    const max = Math.max(1, workflow.actor.system.abilities.cha.mod);
+    const diceResults = [];
+    workflow.damageRolls.forEach((roll, rollIndex) => {
+        roll.terms.forEach((term, termIndex) => {
+            if (term.isDeterministic !== false || !term.results) return;
+            term.results.forEach((result, resultIndex) => {
+                if (!result.active) return;
+                diceResults.push({value: result.result, faces: term.faces, rollIndex, termIndex, resultIndex});
+            });
+        });
+    });
+    if (!diceResults.length) return;
+    const buttons = [];
+    for (let i = 1; i <= Math.min(max, diceResults.length); i++) buttons.push([String(i), i]);
+    buttons.push(['CHRISPREMADES.Generic.No', false]);
+    const selection = await dialogUtils.buttonDialog(item.name, _loc('CHRISPREMADES.Macros.Metamagic.Empowered', {max}), buttons);
+    if (!selection) return;
+    await spendPoints(sorcPoints);
+    const count = Number(selection);
+    diceResults.sort((a, b) => a.value - b.value);
+    const toReroll = diceResults.slice(0, count);
+    for (const die of toReroll) {
+        const reroll = await new Roll('1d' + die.faces).evaluate();
+        const roll = workflow.damageRolls[die.rollIndex];
+        const term = roll.terms[die.termIndex];
+        const oldResult = term.results[die.resultIndex];
+        oldResult.active = false;
+        oldResult.rerolled = true;
+        term.results.push({result: reroll.total, active: true});
+    }
+    workflow.damageRolls.forEach(roll => roll._total = roll._evaluateTotal());
+    await workflow.setDamageRolls(workflow.damageRolls);
+}
+export const empoweredSpell = {
+    name: 'Metamagic: Empowered Spell',
+    version: '2.0.0',
+    rules: '2014',
+    roll: [
+        {
+            pass: 'actorDamageRollComplete',
+            macro: damageEmpowered,
+            priority: 100
+        }
+    ]
+};
