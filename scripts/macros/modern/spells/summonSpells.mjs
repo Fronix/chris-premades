@@ -1,0 +1,148 @@
+import {activityUtils, automationUtils, documentUtils, effectUtils, summonUtils} from '../../../proxy.mjs';
+import {getCastLevel} from '../../lib/spellUtils.mjs';
+import {addThrallBonuses} from '../classFeatures/warlock/createThrall.mjs';
+export async function getPackEntry(packId, name) {
+    const pack = game.packs.get(packId);
+    if (!pack) return;
+    const index = await pack.getIndex();
+    return index.find(entry => entry.name === name);
+}
+export function getCRFromProf(prof) {
+    return Math.max(1, prof >= 6 ? (prof - 2) * 4 : (prof - 1) * 4 - 3);
+}
+export async function summonSpirit(workflow, {sourceActorName, name, hpFormula, acFlat, items, updates = {}, range = 90, concentration = true, extraUpdatesTransform}) {
+    const concentrationEffect = concentration ? effectUtils.getConcentrationEffect(workflow.actor, workflow.item) : undefined;
+    const abort = async () => {
+        if (concentrationEffect) await documentUtils.deleteDocument(concentrationEffect);
+    };
+    const sourceEntry = await getPackEntry('chris-premades.CPRSummons2024', sourceActorName);
+    if (!sourceEntry) return abort();
+    const sourceActor = await fromUuid(sourceEntry.uuid);
+    if (!sourceActor || !workflow.token) return abort();
+    let summonUpdates = foundry.utils.mergeObject({
+        name,
+        system: {
+            details: {cr: getCRFromProf(workflow.actor.system.attributes.prof)},
+            attributes: {
+                hp: {formula: String(hpFormula), max: hpFormula, value: hpFormula},
+                ...(acFlat ? {ac: {flat: acFlat}} : {})
+            }
+        },
+        prototypeToken: {name, disposition: workflow.token.document.disposition},
+        items: []
+    }, updates);
+    if (workflow.workflowOptions?.['chris-premades']?.createThrall) {
+        const wrapped = {actor: summonUpdates};
+        addThrallBonuses(wrapped, workflow);
+        summonUpdates = wrapped.actor;
+    }
+    if (extraUpdatesTransform) summonUpdates = extraUpdatesTransform(summonUpdates) ?? summonUpdates;
+    const existing = summonUtils.getSummonBySource(workflow.item);
+    if (existing?.length) for (const summonToken of existing) await summonUtils.deleteSummon(summonToken.actor ?? summonToken);
+    const duration = activityUtils.getEffectDuration(workflow.activity)?.seconds || 3600;
+    const summon = await summonUtils.createSummon(workflow.actor, sourceActor, {
+        name,
+        duration,
+        sourceDocument: workflow.item,
+        initiative: 'follows',
+        items,
+        updates: summonUpdates
+    });
+    if (!summon) return abort();
+    await summonUtils.placeSummon(summon, range, {token: workflow.token});
+    return summon;
+}
+export async function applyDamageBonus(summon, itemName, {damageBonus, types} = {}) {
+    const item = summon.items.find(i => i.name === itemName);
+    if (!item) return;
+    const itemUpdates = {};
+    for (const activity of item.system.activities) {
+        if (!activity.damage?.parts?.length) continue;
+        const parts = activity.toObject().damage.parts;
+        if (damageBonus) parts.forEach(part => part.bonus = String(part.bonus?.length ? part.bonus + ' + ' + damageBonus : damageBonus));
+        if (types) parts.forEach(part => part.types = types);
+        itemUpdates['system.activities.' + activity.id + '.damage.parts'] = parts;
+    }
+    if (Object.keys(itemUpdates).length) await documentUtils.update(item, itemUpdates);
+}
+async function aberrationUse({workflow}) {
+    const activityIdentifier = documentUtils.getIdentifier(workflow.activity);
+    const creatureType = {
+        'summon-aberration-beholderkin': 'beholderkin',
+        'summon-aberration-slaad': 'slaad',
+        'summon-aberration-mind-flayer': 'mindFlayer'
+    }[activityIdentifier];
+    if (!creatureType) return;
+    const spellLevel = getCastLevel(workflow) ?? 4;
+    const featuresPack = 'chris-premades.CPRSummonFeatures2024';
+    const multiattack = await getPackEntry(featuresPack, 'Multiattack (Aberrant Spirit)');
+    if (!multiattack) return;
+    const items = [{uuid: multiattack.uuid}];
+    const extraNames = [];
+    if (creatureType === 'beholderkin') {
+        const eyeRay = await getPackEntry(featuresPack, 'Eye Ray (Beholderkin Only)');
+        if (eyeRay) items.push({uuid: eyeRay.uuid, matchAttack: true});
+        extraNames.push('Eye Ray (Beholderkin Only)');
+    } else if (creatureType === 'slaad') {
+        const claws = await getPackEntry(featuresPack, 'Claws (Slaad Only)');
+        const regeneration = await getPackEntry(featuresPack, 'Regeneration (Slaad Only)');
+        if (claws) items.push({uuid: claws.uuid, matchAttack: true});
+        if (regeneration) items.push({uuid: regeneration.uuid});
+        extraNames.push('Claws (Slaad Only)');
+    } else {
+        const psychicSlam = await getPackEntry(featuresPack, 'Psychic Slam (Mind Flayer Only)');
+        const whisperingAura = await getPackEntry(featuresPack, 'Whispering Aura (Mind Flayer Only)');
+        if (psychicSlam) items.push({uuid: psychicSlam.uuid, matchAttack: true});
+        if (whisperingAura) items.push({uuid: whisperingAura.uuid, matchDC: true});
+        extraNames.push('Psychic Slam (Mind Flayer Only)');
+    }
+    let name = automationUtils.getConfigValue(workflow.item, creatureType + 'Name');
+    if (!name?.length) name = _loc('CHRISPREMADES.Summons.CreatureNames.AberrantSpirit' + creatureType.charAt(0).toUpperCase() + creatureType.slice(1));
+    const hpFormula = 40 + (spellLevel - 4) * 10;
+    const updates = {};
+    if (creatureType === 'beholderkin') foundry.utils.setProperty(updates, 'system.attributes.movement', {fly: 30, hover: true});
+    const summon = await summonSpirit(workflow, {
+        sourceActorName: 'CPR - Aberrant Spirit',
+        name,
+        hpFormula,
+        acFlat: 11 + spellLevel,
+        items,
+        updates
+    });
+    if (!summon) return;
+    for (const itemName of extraNames) {
+        await applyDamageBonus(summon, itemName, {damageBonus: spellLevel});
+    }
+}
+export const summonAberration = {
+    name: 'Summon Aberration',
+    version: '2.0.0',
+    rules: '2024',
+    roll: [
+        {
+            pass: 'itemRollFinished',
+            macro: aberrationUse,
+            priority: 50
+        }
+    ],
+    config: {
+        beholderkinName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        slaadName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        },
+        mindFlayerName: {
+            default: '',
+            type: 'text',
+            label: 'CHRISPREMADES.Summons.CustomName',
+            category: 'visuals'
+        }
+    }
+};

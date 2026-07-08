@@ -712,7 +712,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Spiritual Weapon | spiritualWeapon | ✅ ported |
 | Staggering Smite | staggeringSmite | ✅ ported |
 | Steel Wind Strike | steelWindStrike | ⬜ |
-| Summon Aberration | summonAberration | ⬜ |
+| Summon Aberration | summonAberration | ✅ ported |
 | Summon Beast | summonBeast | ⬜ |
 | Summon Celestial | summonCelestial | ⬜ |
 | Summon Construct | summonConstruct | ⬜ |

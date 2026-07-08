@@ -473,7 +473,10 @@
             "CreatureNames": {
                 "BeastOfTheLand": "Beast of the Land",
                 "BeastOfTheSea": "Beast of the Sea",
-                "BeastOfTheSky": "Beast of the Sky"
+                "BeastOfTheSky": "Beast of the Sky",
+                "AberrantSpiritBeholderkin": "Aberrant Spirit (Beholderkin)",
+                "AberrantSpiritSlaad": "Aberrant Spirit (Slaad)",
+                "AberrantSpiritMindFlayer": "Aberrant Spirit (Mind Flayer)"
             }
         },
         "Alignment": {
