@@ -263,8 +263,8 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 
 | Item | Macros (v13) | Status |
 | --- | --- | --- |
-| Arcane Recovery | arcaneRecovery | ⬜ |
-| Memorize Spell | memorizeSpell | ⬜ |
+| Arcane Recovery | arcaneRecovery | ✅ ported |
+| Memorize Spell | memorizeSpell | ✅ ported |
 
 ## Class features — 2014
 

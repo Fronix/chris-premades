@@ -264,6 +264,14 @@
             },
             "WildShape": {
                 "Equipment": "Select equipment to keep wearing (unselected items merge into the form):"
+            },
+            "ArcaneRecovery": {
+                "Slot": "Level {slot} Slot",
+                "Context": "Recover spell slots (worth {totalSlots} more levels):"
+            },
+            "MemorizeSpell": {
+                "Prepare": "Select a spell to prepare:",
+                "Unprepare": "Select a spell to unprepare:"
             }
         },
         "Auras": {

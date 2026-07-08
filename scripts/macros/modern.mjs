@@ -69,6 +69,9 @@ export {sneakAttack as 'sneak-attack'} from './modern/classFeatures/rogue/sneak-
 export {steadyAim as 'steady-aim'} from './modern/classFeatures/rogue/steadyAim.mjs';
 export {strokeOfLuck as 'stroke-of-luck'} from './modern/classFeatures/rogue/strokeOfLuck.mjs';
 export {uncannyDodge as 'uncanny-dodge'} from './modern/classFeatures/rogue/uncannyDodge.mjs';
+// Wizard
+export {arcaneRecovery as 'arcane-recovery'} from './modern/classFeatures/wizard/arcaneRecovery.mjs';
+export {memorizeSpell as 'memorize-spell'} from './modern/classFeatures/wizard/memorizeSpell.mjs';
 // Spells
 export {aid} from './modern/spells/aid.mjs';
 export {auraOfVitality as 'aura-of-vitality', auraOfVitalityEffect as 'aura-of-vitality-effect'} from './modern/spells/auraOfVitality.mjs';

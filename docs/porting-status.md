@@ -150,6 +150,12 @@ Spells, Cosmic Omen, Land's Aid, Wrath of the Sea (+ CPR Feature Items (2024)
 support pack), Starry Form (+ Twinkling swap, Chalice heals). Nature's
 Sanctuary deferred to regions batch. Milestone complete otherwise.
 
+## Milestone 7 — Wizard (2024) — complete
+
+Ported: Arcane Recovery (slot-by-slot recovery picker honoring Arcane Grimoire
+bonuses), Memorize Spell (prepare/unprepare swap). The wizard's table impact
+lives in the spell long tail, which accumulates through every class slice.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
@@ -165,8 +171,8 @@ staple spells, committed and releasable on its own):
 3. ~~Cleric~~ ✅ (core)
 4. ~~Monk~~ ✅ (core)
 5. ~~Druid~~ ✅
-6. **Wizard** ← current slice
-7. Sorcerer
+6. ~~Wizard~~ ✅
+7. **Sorcerer** ← current slice
 8. Warlock
 9. Bard
 10. Ranger
