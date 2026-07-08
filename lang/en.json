@@ -416,6 +416,11 @@
             },
             "PowerWordHeal": {
                 "Prone": "Use your reaction to stand up?"
+            },
+            "TrueStrike": {
+                "NoWeapons": "No valid equipped weapons found!",
+                "SelectWeapon": "Attack with which weapon?",
+                "ReplaceDamage": "Replace the weapon damage type with {type}?"
             }
         },
         "Auras": {

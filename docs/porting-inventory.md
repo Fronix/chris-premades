@@ -704,7 +704,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Shield | — | ✅ converted |
 | Shield of Faith | — | ✅ converted |
 | Shining Smite | shiningSmite | ✅ ported |
-| Shocking Grasp | shockingGrasp | ⬜ |
+| Shocking Grasp | shockingGrasp | ✅ ported |
 | Sleet Storm | sleetStorm | ⬜ |
 | Spellfire Flare | spellfireFlare | ⬜ |
 | Spike Growth | spikeGrowth | ⬜ |
@@ -728,7 +728,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Thunderwave | thunderwave | ⬜ |
 | Time Stop | timeStop, timeStopEffect | ⬜ |
 | Toll the Dead | tollTheDead | ✅ ported |
-| True Strike | trueStrike | ⬜ |
+| True Strike | trueStrike | ✅ ported |
 | Vampiric Touch | vampiricTouch | ⬜ |
 | Vitriolic Sphere | vitriolicSphere | ⬜ |
 | Wall of Fire | wallOfFire | ⬜ |

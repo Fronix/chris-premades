@@ -154,6 +154,7 @@ export {spiritualWeapon as 'spiritual-weapon'} from './modern/spells/spiritualWe
 export {shiningSmite as 'shining-smite'} from './modern/spells/shiningSmite.mjs';
 export {staggeringSmite as 'staggering-smite'} from './modern/spells/staggeringSmite.mjs';
 export {thunderousSmite as 'thunderous-smite'} from './modern/spells/thunderousSmite.mjs';
+export {trueStrike as 'true-strike', shockingGrasp as 'shocking-grasp'} from './modern/spells/trueStrike.mjs';
 export {wrathfulSmite as 'wrathful-smite'} from './modern/spells/wrathfulSmite.mjs';
 export {crusadersMantle as 'crusaders-mantle', crusadersMantleAura as 'crusaders-mantle-aura'} from './modern/spells/crusadersMantle.mjs';
 export {heroism, heroismHeroic as 'heroism-heroic'} from './modern/spells/heroism.mjs';
