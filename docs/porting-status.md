@@ -315,6 +315,20 @@ Rook, Eldritch Eddy. Radiance of the Dawn dispels Darkness regions.
 The ENTIRE 2024 tree (core + 3rd-party) is ported. Remaining frontiers:
 the 2014 legacy tree and animation passes.
 
+## Milestone 20 — 2014 legacy tree underway
+
+Wave 1: 55 legacy spells bound to shared 2024 macros (smites, auras,
+summons, region spells, Hex, Hunter's Mark, Eldritch Blast...).
+Wave 2: 88 items across nine legacy packs (34 macro-bound via shared
+automations, 54 data-only: summon features, experimental elixirs).
+Wave 3: SCAG blade cantrips (Booming Blade with movement detonation,
+Green-Flame Blade with flame leap).
+
+Remaining 2014 macro ports (~440 items): ~86 spells (find familiar,
+conjure-X family, crown of madness, call lightning...), 234 class
+features, 66 items, 27 feats, 26 monster features, 25 race features.
+Strategy + donor map in scratchpad legacy-plan.json / notes.
+
 ## Roadmap: class-by-class, 2024 first
 
 The full v13 catalog (1,586 pack items; ~1,100 need macro rewrites, the rest were
