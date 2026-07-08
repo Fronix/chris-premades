@@ -120,6 +120,7 @@ export {deathWard as 'death-ward', deathWardWarded as 'death-ward-warded'} from 
 export {guardianOfFaith as 'guardian-of-faith', guardianOfFaithDamage as 'guardian-of-faith-damage'} from './modern/spells/guardianOfFaith.mjs';
 export {armorOfAgathys as 'armor-of-agathys', armorOfAgathysArmor as 'armor-of-agathys-armor'} from './modern/spells/armorOfAgathys.mjs';
 export {arcaneVigor as 'arcane-vigor', blindnessDeafness as 'blindness-deafness', charmMonster as 'charm-monster', charmPerson as 'charm-person'} from './modern/spells/spellBatch1.mjs';
+export {banishment, banishmentBanished as 'banishment-banished', blur, blurEffect as 'blur-effect'} from './modern/spells/spellBatch2.mjs';
 export {eldritchBlast as 'eldritch-blast'} from './modern/spells/eldritchBlast.mjs';
 export {hex, hexAttack as 'hex-attack'} from './modern/spells/hex.mjs';
 export {mistyStep as 'misty-step', shield} from './modern/spells/mistyStep.mjs';

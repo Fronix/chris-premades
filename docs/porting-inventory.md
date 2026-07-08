@@ -616,7 +616,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Aura of Vitality | auraOfVitality | ✅ ported |
 | Bane | bane | ✅ ported |
 | Banishing Smite | banishingSmite | ✅ ported |
-| Banishment | banishment | ⬜ |
+| Banishment | banishment | ✅ ported |
 | Barkskin | — | ✅ converted |
 | Beacon of Hope | beaconOfHope | ✅ ported |
 | Bestow Curse | bestowCurse | ⬜ |
@@ -626,7 +626,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Blinding Smite | blindingSmite | ✅ ported |
 | Blindness/Deafness | blindnessDeafness | ✅ ported |
 | Blink | blink | ⬜ |
-| Blur | blur | ⬜ |
+| Blur | blur | ✅ ported |
 | Burning Hands | burningHands | ⬜ |
 | Cacophonic Shield | cacophonicShield, cacophonicShieldSourceEffect | ⬜ |
 | Call Lightning | callLightning | ⬜ |
