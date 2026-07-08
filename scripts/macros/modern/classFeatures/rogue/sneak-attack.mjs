@@ -24,7 +24,7 @@ async function damage({document, workflow}) {
     const inCombat = workflow.token.document.inCombat;
     if (inCombat) {
         if (workflow.token.document.combatant.combat.round === 1) {
-            if (actorUtils.getItemByIdentifier(workflow.actor, 'deathStrike')) workflowUtils.setWorkflowProperty(workflow, 'deathStrike', true);
+            if (actorUtils.getItemByIdentifier(workflow.actor, 'death-strike')) workflowUtils.setWorkflowProperty(workflow, 'deathStrike', true);
             const assassinate = actorUtils.getItemByIdentifier(workflow.actor, 'assassinate');
             if (assassinate) {
                 const classIdentifier = itemUtils.getSourceClassIdentifier(document);
@@ -57,7 +57,7 @@ async function damage({document, workflow}) {
             const selection = await dialogUtils.selectDocumentDialog(document.name, text, availableActivities, {max: 1, sort: 'alphabetical', addNoneDocument: true});
             if (!selection) break;
             const activityIdentifier = documentUtils.getIdentifier(selection);
-            if (activityIdentifier === 'stealthAttack') workflowUtils.setWorkflowProperty(workflow, 'supremeSneak.used', true);
+            if (activityIdentifier === 'stealth-attack') workflowUtils.setWorkflowProperty(workflow, 'supremeSneak.used', true);
             usedActivities.push(selection);
             number -= selection.uses.max;
         }
@@ -76,16 +76,16 @@ async function damage({document, workflow}) {
     }
     await workflowUtils.bonusDamage(workflow, formula);
     await workflowUtils.completeItemUse(document, workflow.targets, {fast: true, consumeResources: inCombat, consumeUsage: inCombat});
-    const rendMind = actorUtils.getItemByIdentifier(workflow.actor, 'rendMind');
-    if (rendMind && identifier === 'psychicBlades') {
-        const psionicPower = actorUtils.getItemByIdentifier(workflow.actor, 'psionicPower');
+    const rendMind = actorUtils.getItemByIdentifier(workflow.actor, 'rend-mind');
+    if (rendMind && identifier === 'psychic-blades') {
+        const psionicPower = actorUtils.getItemByIdentifier(workflow.actor, 'psionic-power');
         let selection;
         if (psionicPower?.system?.uses?.value >= 3 && !rendMind.system.uses.value) {
             selection = await dialogUtils.confirm(rendMind.name, _loc('CHRISPREMADES.Macros.Modern.RendMind.RestoreAndUse', {item: rendMind.name}));
             if (selection) {
                 await documentUtils.update(psionicPower, {'system.uses.spent': psionicPower.system.uses.spent + 3});
                 await documentUtils.update(rendMind, {'system.uses.spent': 0});
-                const effect = documentUtils.getEffectByIdentifier(workflow.actor, 'rendMindRestoreEffect');
+                const effect = documentUtils.getEffectByIdentifier(workflow.actor, 'rend-mind-restore-effect');
                 if (effect) await documentUtils.deleteDocument(effect);
             }
         } else if (rendMind.system.uses.value) {
@@ -94,9 +94,7 @@ async function damage({document, workflow}) {
         if (selection) workflowUtils.setWorkflowProperty(workflow, 'rendMind.use', true);
     }
     const animationSetting = automationUtils.getConfigValue(document, 'animation');
-    console.log(animationSetting);
     const animation = animationUtils.getAnimation(animationSetting);
-    console.log(animation);
     if (!animation) return;
     const attackType = workflow.rangeDetails.range > 5 ? 'ranged' : workflow.defaultDamageType;
     await animation.macros.attack(workflow.token.document, targetToken, attackType);
