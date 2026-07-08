@@ -603,14 +603,14 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Acid Splash | — | ✅ converted |
 | Aid | aid | ✅ ported |
 | Alter Self | alterSelf | ⬜ |
-| Animal Friendship | animalFriendship | ⬜ |
-| Animal Messenger | animalMessenger | ⬜ |
+| Animal Friendship | animalFriendship | ✅ ported |
+| Animal Messenger | animalMessenger | ✅ ported |
 | Animate Dead | animateDead | ⬜ |
 | Animate Objects | animateObjects | ⬜ |
 | Antilife Shell | antilifeShell | ⬜ |
 | Arcane Vigor | arcaneVigor | ✅ ported |
 | Armor of Agathys | armorOfAgathys | ✅ ported |
-| Arms of Hadar | armsOfHadar | ⬜ |
+| Arms of Hadar | armsOfHadar | ✅ ported |
 | Aura of Life | auraOfLife | ⬜ |
 | Aura of Purity | auraOfPurity | ⬜ |
 | Aura of Vitality | auraOfVitality | ✅ ported |
