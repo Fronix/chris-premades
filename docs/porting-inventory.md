@@ -678,7 +678,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Gust of Wind | gustOfWind | ⬜ |
 | Heat Metal | heatMetal | ⬜ |
 | Heroism | heroism | ✅ ported |
-| Hex | hex | ⬜ |
+| Hex | hex | ✅ ported |
 | Hold Person | holdPerson | ⬜ |
 | Hunger of Hadar | hungerOfHadar | ⬜ |
 | Hunter's Mark | huntersMark | ⬜ |

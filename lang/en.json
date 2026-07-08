@@ -374,6 +374,11 @@
             },
             "PsionicPower": {
                 "Confirm": "Did the check succeed? (Consumes the Psionic Energy use)"
+            },
+            "Hex": {
+                "SelectAbility": "Which ability is hexed?",
+                "Hexed": "Hexed",
+                "Multiple": "Move the hex from which target?"
             }
         },
         "Auras": {
