@@ -30,6 +30,7 @@ export {circleForms as 'circle-forms', lunarForm as 'lunar-form'} from './modern
 export {circleOfTheLandSpells as 'circle-of-the-land-spells'} from './modern/classFeatures/druid/circleOfTheLandSpells.mjs';
 export {cosmicOmen as 'cosmic-omen', cosmicOmenActive as 'cosmic-omen-active'} from './modern/classFeatures/druid/cosmicOmen.mjs';
 export {elementalFuryPotentSpellcasting as 'elemental-fury-potent-spellcasting'} from './modern/classFeatures/druid/elementalFury.mjs';
+export {landsAid as 'lands-aid'} from './modern/classFeatures/druid/landsAid.mjs';
 export {elementalFuryPrimalStrike as 'elemental-fury-primal-strike'} from './modern/classFeatures/druid/primalStrike.mjs';
 export {moonlightStep as 'moonlight-step'} from './modern/classFeatures/druid/moonlightStep.mjs';
 export {wildCompanion as 'wild-companion'} from './modern/classFeatures/druid/wildCompanion.mjs';

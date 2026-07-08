@@ -246,6 +246,9 @@
             "CosmicOmen": {
                 "Weal": "Use {itemName} to help {tokenName}?",
                 "Woe": "Use {itemName} to hinder {tokenName}?"
+            },
+            "LandsAid": {
+                "Select": "Select an ally to heal:"
             }
         },
         "Auras": {

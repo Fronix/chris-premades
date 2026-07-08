@@ -121,7 +121,7 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Elemental Fury: Primal Strike | elementalFuryPrimalStrike | ✅ ported |
 | Full of Stars *(Circle of Stars)* | — | ✅ converted |
 | Improved Circle Forms *(Circle of Moon)* | — | ✅ converted |
-| Land's Aid *(Circle of Land)* | landsAid | ⬜ |
+| Land's Aid *(Circle of Land)* | landsAid | ✅ ported |
 | Lunar Form *(Circle of Moon)* | lunarForm | ✅ ported |
 | Moonlight Step *(Circle of Moon)* | moonlightStep | ✅ ported |
 | Nature's Sanctuary *(Circle of Land)* | naturesSanctuary | ⬜ |
