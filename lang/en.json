@@ -451,6 +451,14 @@
             },
             "Grappler": {
                 "Grapple": "Attempt to grapple {tokenName}?"
+            },
+            "Healer": {
+                "SelectHitDie": "Spend a hit die:",
+                "SpellOnly": "Spells Only:"
+            },
+            "Protection": {
+                "Protect": "Use your reaction to protect {tokenName}?",
+                "Protected": "Protected"
             }
         },
         "Auras": {

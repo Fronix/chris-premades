@@ -913,11 +913,11 @@ Legend: ✅ converted (data-only, via tools/convertV13.mjs) · ✅ ported (hand-
 | Elemental Adept (Thunder) | elementalAdeptT | ⬜ |
 | Grappler | grappler | ✅ ported |
 | Great Weapon Fighting | greatWeaponFighting | ✅ ported |
-| Healer | healer | ⬜ |
+| Healer | healer | ✅ ported |
 | Heavy Armor Master | — | ✅ converted |
 | Interception | interception | ✅ ported |
 | Piercer | piercer | ⬜ |
-| Protection | protection | ⬜ |
+| Protection | protection | ✅ ported |
 | Purple Dragon Rook | purpleDragonRook | ⬜ |
 | Savage Attacker | savageAttacker | ✅ ported |
 | Sharpshooter | sharpshooter | ✅ ported |
