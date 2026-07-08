@@ -309,6 +309,15 @@
             "Countercharm": {
                 "Use": "You failed a save ({total}). Use {feature} to reroll with advantage?",
                 "AllyFail": "{name} failed a save ({total}). Use {feature} to let them reroll with advantage?"
+            },
+            "CuttingWords": {
+                "Damage": "Use {item} to reduce the damage {name} dealt?",
+                "Attack": "Use {item} to reduce the attack roll ({attack})?",
+                "SkillCheck": "Use {item} to reduce the skill check ({total})?",
+                "AbilityCheck": "Use {item} to reduce the ability check ({total})?",
+                "DamageRollsEnabled": "Enable for Damage Rolls:",
+                "AttackRollsEnabled": "Enable for Attack Rolls:",
+                "AbilityChecksEnabled": "Enable for Ability Checks:"
             }
         },
         "Auras": {
