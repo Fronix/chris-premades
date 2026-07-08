@@ -492,6 +492,15 @@
             },
             "UnarmedFighting": {
                 "Select": "Damage which grappled creature?"
+            },
+            "Wish": {
+                "BlockedWarn": "You can never cast Wish again!",
+                "Blocked": "The stress of the wish takes its toll — Wish is lost forever!",
+                "Rest": "Reduce the Wish stress duration by one day?",
+                "StressDuration": "Stress Duration Formula (days):",
+                "ChanceFormula": "Never-Again Chance Formula:",
+                "ChanceNumber": "Never-Again Threshold:",
+                "MaxLevel": "Max Duplicated Spell Level:"
             }
         },
         "Auras": {
