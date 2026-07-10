@@ -45,7 +45,7 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Feature | 2014 | 2024 | Notes |
 | --- | --- | --- | --- |
 | Sneak Attack | ⬜ | ✅ `modern` | 2014 variant still to port |
-| Cunning Action | ⬜ | 🚧 `modern` | macro file exists but is empty (upstream WIP) |
+| Cunning Action | ⬜ | 🚧 `modern` | macro file exists but is empty in the v13 source (nothing to port) |
 | Cunning Strike / Improved Cunning Strike | ➖ | ⬜ | 2024 only |
 | Devious Strikes | ➖ | ⬜ | 2024 only |
 | Steady Aim | ➖ | ✅ `modern` | activity + move pass spends use on own-turn movement |
@@ -69,7 +69,7 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Swashbuckler | rakishAudacity | ⬜ | ➖ |
 | Thief | fastHands, secondStoryWork, supremeSneak, useMagicDevice | ➖ | ⬜ |
 
-## Milestone 2 — Paladin (2024) — complete (Nature's Wrath blocked on upstream)
+## Milestone 2 — Paladin (2024) — complete (Nature's Wrath has no v13 source)
 
 | Item | Status | Notes |
 | --- | --- | --- |
@@ -83,7 +83,7 @@ Legend: ✅ ported · 🚧 in progress · ⬜ not started · ➖ not applicable 
 | Aid | ✅ | `activityDamageRollComplete` temp max HP by cast level |
 | Crusader's Mantle | ✅ | caster source effect + runtime-bound aura macro (30 ft, allies, 1d4 radiant) |
 | Shield of Faith | ✅ | data-only (converted in Phase 1 batch) |
-| Nature's Wrath (Ancients) | ⬜ | v13 2024 macro file is empty (upstream WIP) |
+| Nature's Wrath (Ancients) | ⬜ | v13 2024 macro file is empty (no source to port) |
 | Divine Smite (smite hub) | ✅ | on melee hit: pick a castable smite spell, cast it at the target, add config-driven bonus damage (actor passes, `unique`-deduped) |
 | Searing Smite | ✅ | OverTime burn effect (con save ends, start of turn) |
 | Thunderous Smite | ✅ | failed saves pushed via CAT `tokenUtils.slideToken` |
@@ -271,7 +271,7 @@ Outstanding (tracked for later passes):
 - 3rd-party content (Muscle Wizard, Fate Gambler, Spellfire, "I Survived"
   trio, Purple Dragon Rook, Sangromantic Initiate, Eldritch Eddy...)
 - Deferred class features: War God's Blessing, Invoke Duplicity trio,
-  Nature's Wrath (blocked upstream), Warrior of the Elements
+  Nature's Wrath (no v13 source), Warrior of the Elements
 - Animation passes (JB2A/Sequencer flows dropped during porting)
 - 2014 variants (the legacy tree)
 
@@ -477,10 +477,10 @@ both consult it, so "data-only" is trustworthy.
 
 ## CAT dependency notes
 
-The CAT dev checkout lives at `~/git/covens-automation-toolkit` (with `~/git/cat`
-symlinked to it so the `jsconfig.json` `cat/*` path mapping resolves). Some ported
-features require CAT fixes carried on its `fix/latent-bugs` branch (upstream PR
-candidates):
+The CAT dev checkout lives at `~/git/covens-automation-toolkit` (my CAT fork, with
+`~/git/cat` symlinked to it so the `jsconfig.json` `cat/*` path mapping resolves).
+Some ported features require CAT fixes carried on its `fix/latent-bugs` branch. These
+are maintained in my CAT fork for this fork's use only (no upstream contribution):
 - Fast Movement: `item` fn-macro type support (equipped/unequipped passes).
 - Indomitable Might / Stroke of Luck: bonus passes must honor a returned
   replacement Roll; `rollUtils.replaceD20` helper.
