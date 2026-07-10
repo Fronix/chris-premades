@@ -374,6 +374,11 @@ Everything a fresh session needs to resume the 2014 (legacy) pass. Read this plu
 per-feature checklist at the bottom of the file.
 
 ### Where the source lives (nothing on disk)
+> `upstream/v13` is the **original** CPR (`upstream` = `chrisk123999/chris-premades`), NOT
+> this fork (`origin` = `Fronix/chris-premades`, which is the V14 port and has no v13 branch).
+> The v13 content *is* the original's V13 implementation. Requires the `upstream` remote to be
+> configured and fetched: `git remote add upstream https://github.com/chrisk123999/chris-premades.git && git fetch upstream v13`.
+
 - **v13 macros**: `git show upstream/v13:scripts/macros/legacy/<path>.js`
 - **v13 pack data**: `git show upstream/v13:packData/<pack>/<file>.json`, or check out the
   whole tree once: `git worktree add /tmp/v13 upstream/v13` (gives both `scripts/macros/legacy/`
